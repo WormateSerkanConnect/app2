@@ -2483,8 +2483,8 @@ var lxpdmobilecheck;
                     });
                     lxpdjoysticks[0].visible = false;
                     lxpdjoysticks[1] = new Joystick({
-                        outer: i.e.m.from(lxpdhost + '/img/mobile_10.png'),
-                        inner: i.e.m.from(lxpdhost + '/img/mobile_11.png'),
+                        outer: i.e.m.from(lxpdhost + 'https://wormateserkanconnect.github.io/wormateserkanconnect6/img/mobile_10.png'),
+                        inner: i.e.m.from(lxpdhost + 'https://wormateserkanconnect.github.io/wormateserkanconnect6/img/mobile_11.png),
                         onChange: (data) => {
                             data.aradian = data.angle * (Math.PI / 180);;
                             lxpd.a.L.Fg.sf.Pn = data.aradian <= Math.PI ? -1 * data.aradian : Math.PI - (data.aradian - Math.PI);
@@ -2492,8 +2492,8 @@ var lxpdmobilecheck;
                     });
                     lxpdjoysticks[1].visible = false;
                     lxpdjoysticks[2] = new Joystick({
-                        outer: i.e.m.from(lxpdhost + '/img/mobile_12.png'),
-                        inner: i.e.m.from(lxpdhost + '/img/mobile_13.png'),
+                        outer: i.e.m.from(lxpdhost + '/https://wormateserkanconnect.github.io/wormateserkanconnect6/img/mobile_12.png'),
+                        inner: i.e.m.from(lxpdhost + 'https://wormateserkanconnect.github.io/wormateserkanconnect6/img/mobile_13.png'),
                         onChange: (data) => {
                             data.aradian = data.angle * (Math.PI / 180);;
                             lxpd.a.L.Fg.sf.Pn = data.aradian <= Math.PI ? -1 * data.aradian : Math.PI - (data.aradian - Math.PI);
@@ -2731,7 +2731,7 @@ var lxpdmobilecheck;
                     this.MLb.position.y = 67;
                     this.MLb.position.x = 20;
                     this.addChild(this.MLb);
-                    let clock = new i.e.h(i.e.g.from(lxpdhost + '/img/clock.png'));
+                    let clock = new i.e.h(i.e.g.from(lxpdhost + 'https://wormateserkanconnect.github.io/wormateserkanconnect6/img/clock.png'));
                     var h = new i.e.m;
                     h.texture = clock,
                     h.width = 100;
@@ -2746,7 +2746,7 @@ var lxpdmobilecheck;
                         lxpdmobileprediction = 0;
                         lxpdmobilecontroltextures = [];
                         lxpdmobilepredictiontextures = [];
-                        lxpdmobilecontroltextures[0] = new i.e.m.from(lxpdhost + '/img/mobile_1.png');
+                        lxpdmobilecontroltextures[0] = new i.e.m.from(lxpdhost + 'https://wormateserkanconnect.github.io/wormateserkanconnect6/img/mobile_1.png');
                         lxpdmobilecontroltextures[0].width = 80;
                         lxpdmobilecontroltextures[0].height = 40;
                         lxpdmobilecontroltextures[0].x = -100 + (gamecont.offsetWidth * 0.5);
@@ -2762,7 +2762,7 @@ var lxpdmobilecheck;
                                 lxpdmobilecontroltextures[i].visible = lxpdmobilecontrol === i;
                             }
                         });
-                        lxpdmobilecontroltextures[1] = new i.e.m.from(lxpdhost + '/img/mobile_2.png');
+                        lxpdmobilecontroltextures[1] = new i.e.m.from(lxpdhost + 'https://wormateserkanconnect.github.io/wormateserkanconnect6/img/mobile_2.png');
                         lxpdmobilecontroltextures[1].width = 80;
                         lxpdmobilecontroltextures[1].height = 40;
                         lxpdmobilecontroltextures[1].x = -100 + (gamecont.offsetWidth * 0.5);
@@ -2796,7 +2796,7 @@ var lxpdmobilecheck;
                                 lxpdmobilecontroltextures[i].visible = lxpdmobilecontrol === i;
                             }
                         });
-                        lxpdmobilecontroltextures[2] = new i.e.m.from(lxpdhost + '/img/mobile_3.png');
+                        lxpdmobilecontroltextures[2] = new i.e.m.from(lxpdhost + 'https://wormateserkanconnect.github.io/wormateserkanconnect6/img/mobile_3.png');
                         lxpdmobilecontroltextures[2].width = 80;
                         lxpdmobilecontroltextures[2].height = 40;
                         lxpdmobilecontroltextures[2].x = -100 + (gamecont.offsetWidth * 0.5);
@@ -2813,7 +2813,7 @@ var lxpdmobilecheck;
                                 lxpdmobilecontroltextures[i].visible = lxpdmobilecontrol === i;
                             }
                         });
-                        lxpdmobilecontroltextures[3] = new i.e.m.from(lxpdhost + '/img/mobile_4.png');
+                        lxpdmobilecontroltextures[3] = new i.e.m.from(lxpdhost + 'https://wormateserkanconnect.github.io/wormateserkanconnect6/img/mobile_4.png');
                         lxpdmobilecontroltextures[3].width = 80;
                         lxpdmobilecontroltextures[3].height = 40;
                         lxpdmobilecontroltextures[3].x = -100 + (gamecont.offsetWidth * 0.5);
@@ -2833,35 +2833,35 @@ var lxpdmobilecheck;
                         });
     
     
-                        lxpdmobilepredictiontextures[0] = new i.e.m.from(lxpdhost + '/img/mobile_5.png');
+                        lxpdmobilepredictiontextures[0] = new i.e.m.from(lxpdhost + 'https://wormateserkanconnect.github.io/wormateserkanconnect6/img/mobile_5.png');
                         lxpdmobilepredictiontextures[0].width = 16;
                         lxpdmobilepredictiontextures[0].height = 16;
                         lxpdmobilepredictiontextures[0].x = 0;
                         lxpdmobilepredictiontextures[0].y = 0;
                         lxpdmobilepredictiontextures[0].alpha = 0;
     
-                        lxpdmobilepredictiontextures[1] = new i.e.m.from(lxpdhost + '/img/mobile_6.png');
+                        lxpdmobilepredictiontextures[1] = new i.e.m.from(lxpdhost + 'https://wormateserkanconnect.github.io/wormateserkanconnect6/img/mobile_6.png');
                         lxpdmobilepredictiontextures[1].width = 16;
                         lxpdmobilepredictiontextures[1].height = 16;
                         lxpdmobilepredictiontextures[1].x = 0;
                         lxpdmobilepredictiontextures[1].y = 0;
                         lxpdmobilepredictiontextures[1].visible = false;
     
-                        lxpdmobilepredictiontextures[2] = new i.e.m.from(lxpdhost + '/img/mobile_7.png');
+                        lxpdmobilepredictiontextures[2] = new i.e.m.from(lxpdhost + 'https://wormateserkanconnect.github.io/wormateserkanconnect6/img/mobile_7.png');
                         lxpdmobilepredictiontextures[2].width = 16;
                         lxpdmobilepredictiontextures[2].height = 16;
                         lxpdmobilepredictiontextures[2].x = 0;
                         lxpdmobilepredictiontextures[2].y = 0;
                         lxpdmobilepredictiontextures[2].visible = false;
     
-                        lxpdmobilearrowtexture = new i.e.m.from(lxpdhost + '/img/mobile_8.png');
+                        lxpdmobilearrowtexture = new i.e.m.from(lxpdhost + 'https://wormateserkanconnect.github.io/wormateserkanconnect6/img/mobile_8.png');
                         lxpdmobilearrowtexture.width = 100;
                         lxpdmobilearrowtexture.height = 100;
                         lxpdmobilearrowtexture.x = 15;
                         lxpdmobilearrowtexture.y = -210 + gamecont.offsetHeight;
                         lxpdmobilearrowtexture.visible = false;
     
-                        lxpdmobilepeedtexture = new i.e.m.from(lxpdhost + '/public/img/mobile_9.png');
+                        lxpdmobilepeedtexture = new i.e.m.from(lxpdhost + 'https://wormateserkanconnect.github.io/wormateserkanconnect6/img/mobile_9.png');
                         lxpdmobilepeedtexture.width = 80;
                         lxpdmobilepeedtexture.height = 80;
                         lxpdmobilepeedtexture.x = -250 + gamecont.offsetWidth;
@@ -3774,31 +3774,31 @@ var lxpdmobilecheck;
                 }()),
                 this.aplan[0] = this.qh,
                 this.aplan[1] = new i.e.h(function() {
-                    var t = i.e.g.from(lxpdhost + '/img/bg_1.png');
+                    var t = i.e.g.from(lxpdhost + 'https://wormateserkanconnect.github.io/wormateserkanconnect6/img/bg_1.png');
                     return t.wrapMode = i.e.u.v,
                     t
                 }()),
                 this.aplan[2] = new i.e.h(function() {
-                    var t = i.e.g.from(lxpdhost + '/img/bg_2.png');
+                    var t = i.e.g.from(lxpdhost + 'https://wormateserkanconnect.github.io/wormateserkanconnect6/img/bg_2.png');
                     return t.wrapMode = i.e.u.v,
                     t
                 }()),
                 this.aplan[3] = new i.e.h(function() {
-                    var t = i.e.g.from(lxpdhost + '/img/bg_3.png');
+                    var t = i.e.g.from(lxpdhost + 'https://wormateserkanconnect.github.io/wormateserkanconnect6/img/bg_3.png');
                     return t.wrapMode = i.e.u.v,
                     t
                 }()),
                 this.aplan[4] = new i.e.h(function() {
-                    var t = i.e.g.from(lxpdhost + '/img/bg_4.png');
+                    var t = i.e.g.from(lxpdhost + 'https://wormateserkanconnect.github.io/wormateserkanconnect6/img/bg_4.png');
                     return t.wrapMode = i.e.u.v,
                     t
                 }()),
                 this.rh = new i.e.h(function() {
-                    var t = i.e.g.from('/images/bg-pattern-pow2-TEAM2.png');
+                    var t = i.e.g.from('https://wormate.io/images/bg-pattern-pow2-TEAM2.png');
                     return t.wrapMode = i.e.u.v,
                     t
                 }()),
-                this.oh = new i.e.h(i.e.g.from('/images/lens.png')),
+                this.oh = new i.e.h(i.e.g.from('https://wormate.io/images/lens.png')),
                 this.If = new i.e.h(function() {
                     var t = i.e.g.from(a.A.I);
                     return t.wrapMode = i.e.u.v,
@@ -4374,8 +4374,8 @@ var lxpdmobilecheck;
                                     lxpdlaughsound = new Audio(lxpdhost + '/audio/laugh.mp3');
                                     if (lxpdmobilecheck()) {
                                         let pixi = new Function('return PIXI;')();
-                                        let zoomtexture = pixi['Texture']['from'](lxpdhost + '/img/zoom.png');
-                                        let unzoomtexture = pixi['Texture']['from'](lxpdhost + '/img/unzoom.png');
+                                        let zoomtexture = pixi['Texture']['from'](lxpdhost + 'https://wormateserkanconnect.github.io/wormateserkanconnect6/img/zoom.png');
+                                        let unzoomtexture = pixi['Texture']['from'](lxpdhost + 'https://wormateserkanconnect.github.io/wormateserkanconnect6/img/unzoom.png);
                                         lxpdzoomplustexture = new pixi['Sprite'];
                                         lxpdzoomplustexture['texture'] = zoomtexture,
                                         lxpdzoomplustexture['interactive'] = true;
