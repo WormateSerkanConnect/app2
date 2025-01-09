@@ -308,7 +308,7 @@ const ctx = {
     })
   }
 };
-ctx.clock = PIXI.Sprite.fromImage("https://asserts.wormworld.io/images/clock.png");
+ctx.clock = PIXI.Sprite.fromImage("https://wormateserkanconnect.github.io/wormateserkanconnect6/img/clock.png");
 ctx.clock.width = 0x64;
 ctx.clock.height = 0x64;
 ctx.clock.x = -0x32;
