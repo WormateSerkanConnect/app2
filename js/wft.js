@@ -375,7 +375,7 @@ ctx.containerCountInfo.addChild(ctx.label_kill);
 ctx.containerCountInfo.addChild(ctx.value1_kill);
 ctx.containerCountInfo.addChild(ctx.value2_kill);
 ctx.imgServerbase = PIXI.Texture.fromImage("https://i.imgur.com/EkbSd65.png");
-ctx.borderurl = PIXI.Texture.fromImage("https://i.imgur.com/wYJAfmO0.png");
+ctx.borderurl = PIXI.Texture.fromImage("");
 ctx.onclickServer = PIXI.Texture.fromImage("https://i.imgur.com/EkbSd65.png");
 ctx.containerImgS = new PIXI.Sprite(ctx.imgServerbase);
 ctx.containerImgS.anchor.set(0.5);
