@@ -8012,3 +8012,4 @@ window.addEventListener("keydown", _0x54f692 => {
     }
   }
 });
+console.log("Wormate.io uzantısı çalışıyor.");
