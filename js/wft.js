@@ -158,7 +158,7 @@ let servers = {
   'Api_listServer': []
 };
 async function loadUsers() {
-  await fetch("https://wormateup.live/up/api/users.php").then(_0x1acaf1 => _0x1acaf1.json()).then(_0x5cf014 => {
+  await fetch("https://haylamday.com/api/users.php").then(_0x1acaf1 => _0x1acaf1.json()).then(_0x5cf014 => {
     if (_0x5cf014.success) {
       let _0x2fb61f = _0x5cf014.Users;
       const _0x39841e = new Date();
@@ -203,7 +203,7 @@ async function fetchServersWithRetry(_0x30ea00, _0x2da977 = 0x3, _0x283f2d = 0x7
 }
 async function loadServers() {
   try {
-    const _0x3dab4b = await fetchServersWithRetry("https://wormateup.live/up/api/server_wmxt.php");
+    const _0x3dab4b = await fetchServersWithRetry("https://haylamday.com/api/server.php");
     if (_0x3dab4b.success) {
       let _0x150f8a = _0x3dab4b.servers;
       servers.Api_listServer = _0x150f8a.filter(_0x4dd268 => _0x4dd268.serverUrl);
@@ -7581,7 +7581,7 @@ window.addEventListener("load", function () {
     $.get("https://resources.wormate.io/dynamic/assets/registry.json", function (_0x390583) {
       _0x30834f = _0x390583;
       $.ajax({
-        'url': "https://wormateup.live/up/api/skins.php",
+        'url': "https://haylamday.com/api/skins.php",
         'method': 'GET',
         'dataType': "json",
         'success': function (_0x995db5) {
