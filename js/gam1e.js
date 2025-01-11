@@ -1,132 +1,132 @@
 var SITE_XTHOST = "https://wormateup.live";
-window.detectLog = null; // Global bir değişken tanımlanır, log verilerini tutmak için kullanılabilir.
+window.detectLog = null; // Global bir deÄŸiÅŸken tanÄ±mlanÄ±r, log verilerini tutmak iÃ§in kullanÄ±labilir.
 
 const _wormup = {
-  // BETAisSkinCustom fonksiyonu, parametre olarak gelen değerin bir string olup olmadığını ve içinde harf bulunup bulunmadığını kontrol eder.
+  // BETAisSkinCustom fonksiyonu, parametre olarak gelen deÄŸerin bir string olup olmadÄ±ÄŸÄ±nÄ± ve iÃ§inde harf bulunup bulunmadÄ±ÄŸÄ±nÄ± kontrol eder.
   'BETAisSkinCustom'(_0x2c6494) {
-    var _0x21e880 = /[a-zA-Z]/;  // A-Z, a-z arasında harfleri kontrol etmek için regex
-    return typeof _0x2c6494 === "string" && _0x21e880.test(_0x2c6494);  // Eğer parametre bir string ve harf içeriyorsa true döner
+    var _0x21e880 = /[a-zA-Z]/;  // A-Z, a-z arasÄ±nda harfleri kontrol etmek iÃ§in regex
+    return typeof _0x2c6494 === "string" && _0x21e880.test(_0x2c6494);  // EÄŸer parametre bir string ve harf iÃ§eriyorsa true dÃ¶ner
   },
 
-  // testSkinCustom fonksiyonu, parametreyi BETAisSkinCustom fonksiyonu ile test eder. Eğer geçerli bir skin (görünüm) ise özel bir değer döner, değilse parametreyi olduğu gibi döndürür.
+  // testSkinCustom fonksiyonu, parametreyi BETAisSkinCustom fonksiyonu ile test eder. EÄŸer geÃ§erli bir skin (gÃ¶rÃ¼nÃ¼m) ise Ã¶zel bir deÄŸer dÃ¶ner, deÄŸilse parametreyi olduÄŸu gibi dÃ¶ndÃ¼rÃ¼r.
   'testSkinCustom': function (_0x45c99a) {
-    return _wormup.BETAisSkinCustom(_0x45c99a) ? 0x22 || 0x21 : _0x45c99a;  // Eğer geçerli bir skinse, 0x22 veya 0x21 döner
+    return _wormup.BETAisSkinCustom(_0x45c99a) ? 0x22 || 0x21 : _0x45c99a;  // EÄŸer geÃ§erli bir skinse, 0x22 veya 0x21 dÃ¶ner
   },
 
-  // testSkinMod fonksiyonu, bir skin modunun geçerliliğini kontrol eder. 399 ile 999 arasında bir değere sahip olup olmadığını kontrol eder.
+  // testSkinMod fonksiyonu, bir skin modunun geÃ§erliliÄŸini kontrol eder. 399 ile 999 arasÄ±nda bir deÄŸere sahip olup olmadÄ±ÄŸÄ±nÄ± kontrol eder.
   'testSkinMod': function (_0x13a10b) {
-    return _0x13a10b >= 0x18f && _0x13a10b < 0x3e7;  // Eğer parametre 399 ile 999 arasında ise true döner
+    return _0x13a10b >= 0x18f && _0x13a10b < 0x3e7;  // EÄŸer parametre 399 ile 999 arasÄ±nda ise true dÃ¶ner
   },
 
-  // testWear fonksiyonu, bir "wear" (görünüm) modunun geçerliliğini kontrol eder. 399 ile 999 arasında olup olmadığını test eder.
+  // testWear fonksiyonu, bir "wear" (gÃ¶rÃ¼nÃ¼m) modunun geÃ§erliliÄŸini kontrol eder. 399 ile 999 arasÄ±nda olup olmadÄ±ÄŸÄ±nÄ± test eder.
   'testWear': function (_0x1e7457) {
-    return _0x1e7457 >= 0x18f && _0x1e7457 < 0x3e7;  // Eğer parametre 399 ile 999 arasında ise true döner
+    return _0x1e7457 >= 0x18f && _0x1e7457 < 0x3e7;  // EÄŸer parametre 399 ile 999 arasÄ±nda ise true dÃ¶ner
   },
 
-  // isNumberValid fonksiyonu, parametrenin boş, null, undefined olup olmadığını ve geçerli bir sayı olup olmadığını kontrol eder.
+  // isNumberValid fonksiyonu, parametrenin boÅŸ, null, undefined olup olmadÄ±ÄŸÄ±nÄ± ve geÃ§erli bir sayÄ± olup olmadÄ±ÄŸÄ±nÄ± kontrol eder.
   'isNumberValid': function (_0x1ef083) {
-    return _0x1ef083 !== '' && _0x1ef083 !== null && _0x1ef083 !== undefined && !isNaN(_0x1ef083);  // Geçerli bir sayı olup olmadığını kontrol eder
+    return _0x1ef083 !== '' && _0x1ef083 !== null && _0x1ef083 !== undefined && !isNaN(_0x1ef083);  // GeÃ§erli bir sayÄ± olup olmadÄ±ÄŸÄ±nÄ± kontrol eder
   },
 
-  // validInput fonksiyonu, parametreyi önce skin modları ile test eder. Eğer geçerli değilse, input'tan bir değer alır ve encode eder.
+  // validInput fonksiyonu, parametreyi Ã¶nce skin modlarÄ± ile test eder. EÄŸer geÃ§erli deÄŸilse, input'tan bir deÄŸer alÄ±r ve encode eder.
   'validInput': function (_0x78f033) {
     if (!_wormup.testSkinMod(_0x78f033) && !_wormup.BETAisSkinCustom(_0x78f033)) {
-      return _0x78f033;  // Eğer geçerli değilse parametreyi olduğu gibi döndürür
+      return _0x78f033;  // EÄŸer geÃ§erli deÄŸilse parametreyi olduÄŸu gibi dÃ¶ndÃ¼rÃ¼r
     }
     try {
-      let _0x2f3ba2 = $('#inputReplaceSkin').val();  // inputReplaceSkin ID'sine sahip input'un değerini alır
-      // Eğer bu değeri bir sayı olarak geçerli kabul ederse, encode eder; değilse 0x23 döndürür.
+      let _0x2f3ba2 = $('#inputReplaceSkin').val();  // inputReplaceSkin ID'sine sahip input'un deÄŸerini alÄ±r
+      // EÄŸer bu deÄŸeri bir sayÄ± olarak geÃ§erli kabul ederse, encode eder; deÄŸilse 0x23 dÃ¶ndÃ¼rÃ¼r.
       return encodeURI(_wormup.isNumberValid(_0x2f3ba2) ? _0x2f3ba2 : 0x23);
     } catch (_0x15fbeb) {
-      return encodeURI(0x23);  // Hata durumunda 0x23 değeri döndürülür
+      return encodeURI(0x23);  // Hata durumunda 0x23 deÄŸeri dÃ¶ndÃ¼rÃ¼lÃ¼r
     }
   },
 
-  'aload': false,  // Başlangıçta false olan bir boolean değer (yüklenmiş olup olmadığını kontrol etmek için kullanılabilir)
-  'aId': 0x0  // Başlangıçta 0 olan bir ID değeri
+  'aload': false,  // BaÅŸlangÄ±Ã§ta false olan bir boolean deÄŸer (yÃ¼klenmiÅŸ olup olmadÄ±ÄŸÄ±nÄ± kontrol etmek iÃ§in kullanÄ±labilir)
+  'aId': 0x0  // BaÅŸlangÄ±Ã§ta 0 olan bir ID deÄŸeri
 };
 
 
-// localStorage'dan "inputReplaceSkin" değerini alıyoruz.
+// localStorage'dan "inputReplaceSkin" deÄŸerini alÄ±yoruz.
 var inputReplaceSkin = localStorage.getItem("inputReplaceSkin");
 
-// Diğer değişkenler ve başlangıç değerleri.
-var hoisinhnhanh;  // Anlamı net olmayan değişken (muhtemelen bir fonksiyon veya özellik).
-var PilotoAutomatico = null;  // Otomatik pilot özelliği başlangıçta kapalı.
-var isPlaying = false;  // Oyunun başlangıç durumu (oyun oynanmıyor).
-var pwrups = {};  // Güçlendiriciler (power-ups) başlangıçta boş bir obje.
-window.keyMove = 0x51;  // Klavye ile hareket için varsayılan tuş kodu (0x51 = 'Q').
+// DiÄŸer deÄŸiÅŸkenler ve baÅŸlangÄ±Ã§ deÄŸerleri.
+var hoisinhnhanh;  // AnlamÄ± net olmayan deÄŸiÅŸken (muhtemelen bir fonksiyon veya Ã¶zellik).
+var PilotoAutomatico = null;  // Otomatik pilot Ã¶zelliÄŸi baÅŸlangÄ±Ã§ta kapalÄ±.
+var isPlaying = false;  // Oyunun baÅŸlangÄ±Ã§ durumu (oyun oynanmÄ±yor).
+var pwrups = {};  // GÃ¼Ã§lendiriciler (power-ups) baÅŸlangÄ±Ã§ta boÅŸ bir obje.
+window.keyMove = 0x51;  // Klavye ile hareket iÃ§in varsayÄ±lan tuÅŸ kodu (0x51 = 'Q').
 
 var theoEvents = {
-  'eventoPrincipal': null,  // Ana olay (şu anda tanımlı değil).
+  'eventoPrincipal': null,  // Ana olay (ÅŸu anda tanÄ±mlÄ± deÄŸil).
   
   // Joystick ile ilgili ayarlar:
   'joystick': {
     'positionMode': 'L',  // Joystick konum modu (solda).
-    'checked': true,  // Joystick kontrolü aktif.
+    'checked': true,  // Joystick kontrolÃ¼ aktif.
     'size': 0x5a,  // Joystick boyutu (90).
     'mode': "dynamic",  // Joystick modu (dinamik).
     'position': {
-      'left': "110px",  // Joystick'in sol tarafa yerleşimi.
-      'bottom': "110px"  // Joystick'in alt tarafa yerleşimi.
+      'left': "110px",  // Joystick'in sol tarafa yerleÅŸimi.
+      'bottom': "110px"  // Joystick'in alt tarafa yerleÅŸimi.
     },
-    'color': '#FF3B3B',  // Joystick'in rengi (kırmızı).
-    'pxy': 0x6e  // Joystick'in bir başka parametresi (110).
+    'color': '#FF3B3B',  // Joystick'in rengi (kÄ±rmÄ±zÄ±).
+    'pxy': 0x6e  // Joystick'in bir baÅŸka parametresi (110).
   }
 };
 
 var theoKzObjects = {
-  'FB_UserID': '',  // Facebook kullanıcı ID'si (şu an boş).
-  'smoothCamera': 0.5,  // Kamera geçiş hızı (0 ile 1 arasında).
-  'eat_animation': 0.0025,  // Yeme animasyonu hızı.
-  'flag': "https://i.imgur.com/EkbSd65.png",  // Bayrak görseli URL'si.
+  'FB_UserID': '',  // Facebook kullanÄ±cÄ± ID'si (ÅŸu an boÅŸ).
+  'smoothCamera': 0.5,  // Kamera geÃ§iÅŸ hÄ±zÄ± (0 ile 1 arasÄ±nda).
+  'eat_animation': 0.0025,  // Yeme animasyonu hÄ±zÄ±.
+  'flag': "https://i.imgur.com/EkbSd65.png",  // Bayrak gÃ¶rseli URL'si.
   
-  // Potenciador (güçlendirici) ayarları:
-  'PortionSize': localStorage.PotenciadorSize || 0x2,  // Güçlendirici boyutu (varsayılan: 2).
-  'PortionAura': localStorage.PotenciadorAura || 1.2,  // Güçlendirici etki alanı (varsayılan: 1.2).
-  'PortionTransparent': 0.8,  // Güçlendirici şeffaflık oranı.
+  // Potenciador (gÃ¼Ã§lendirici) ayarlarÄ±:
+  'PortionSize': localStorage.PotenciadorSize || 0x2,  // GÃ¼Ã§lendirici boyutu (varsayÄ±lan: 2).
+  'PortionAura': localStorage.PotenciadorAura || 1.2,  // GÃ¼Ã§lendirici etki alanÄ± (varsayÄ±lan: 1.2).
+  'PortionTransparent': 0.8,  // GÃ¼Ã§lendirici ÅŸeffaflÄ±k oranÄ±.
   
   // Yiyeceklerle ilgili ayarlar:
-  'FoodTransparent': 0.3,  // Yiyecek şeffaflık oranı.
+  'FoodTransparent': 0.3,  // Yiyecek ÅŸeffaflÄ±k oranÄ±.
   
-  // Mod ayarları:
-  'ModeStremer': false,  // Yayın modu (varsayılan: false).
-  'ModeStremerbatop': false,  // Yayın modu (toplanabilir şeyler).
-  'ModeStremeremoj': false,  // Yayın modu (emojiler).
-  'ModeStremerheadshot': false,  // Yayın modu (headshot'lar).
-  'ModeStremersaveheadshot': false,  // Yayın modu (headshot'ları kaydet).
+  // Mod ayarlarÄ±:
+  'ModeStremer': false,  // YayÄ±n modu (varsayÄ±lan: false).
+  'ModeStremerbatop': false,  // YayÄ±n modu (toplanabilir ÅŸeyler).
+  'ModeStremeremoj': false,  // YayÄ±n modu (emojiler).
+  'ModeStremerheadshot': false,  // YayÄ±n modu (headshot'lar).
+  'ModeStremersaveheadshot': false,  // YayÄ±n modu (headshot'larÄ± kaydet).
   
-  'arrow': false,  // Ok (şu an aktif değil).
+  'arrow': false,  // Ok (ÅŸu an aktif deÄŸil).
   
-  // Klavye kısayolları:
-  'KeyCodeRespawn': localStorage.KeyRespawn || 0x52,  // Yeniden doğma tuşu (varsayılan: 'R' tuşu).
-  'KeyCodeAutoMov': localStorage.KeyAutoMov || window.keyMove,  // Otomatik hareket tuşu (varsayılan: 'Q' tuşu).
+  // Klavye kÄ±sayollarÄ±:
+  'KeyCodeRespawn': localStorage.KeyRespawn || 0x52,  // Yeniden doÄŸma tuÅŸu (varsayÄ±lan: 'R' tuÅŸu).
+  'KeyCodeAutoMov': localStorage.KeyAutoMov || window.keyMove,  // Otomatik hareket tuÅŸu (varsayÄ±lan: 'Q' tuÅŸu).
   
-  'AbilityZ': false,  // Z tuşu için özel yetenek (şu an aktif değil).
+  'AbilityZ': false,  // Z tuÅŸu iÃ§in Ã¶zel yetenek (ÅŸu an aktif deÄŸil).
   
-  // Yiyeceklerle ilgili diğer ayarlar:
-  'FoodShadow': localStorage.ComidaShadow || 0x2,  // Yiyecek gölgesi (varsayılan: 2).
-  'FoodSize': localStorage.ComidaSize || 0x2,  // Yiyecek boyutu (varsayılan: 2).
+  // Yiyeceklerle ilgili diÄŸer ayarlar:
+  'FoodShadow': localStorage.ComidaShadow || 0x2,  // Yiyecek gÃ¶lgesi (varsayÄ±lan: 2).
+  'FoodSize': localStorage.ComidaSize || 0x2,  // Yiyecek boyutu (varsayÄ±lan: 2).
   
-  'headshot': 0x0,  // Baş vuruş sayısı (başlangıçta 0).
-  'visibleSkin': [],  // Görünür skinler (başlangıçta boş).
-  'pL': [],  // Diğer oyuncu verileri (başlangıçta boş).
+  'headshot': 0x0,  // BaÅŸ vuruÅŸ sayÄ±sÄ± (baÅŸlangÄ±Ã§ta 0).
+  'visibleSkin': [],  // GÃ¶rÃ¼nÃ¼r skinler (baÅŸlangÄ±Ã§ta boÅŸ).
+  'pL': [],  // DiÄŸer oyuncu verileri (baÅŸlangÄ±Ã§ta boÅŸ).
   
-  // Joystick ayarları
-  'gamePad': theoEvents.joystick,  // Joystick ayarları burada kullanılıyor.
-  'mobile': false,  // Mobil versiyon aktif değil.
+  // Joystick ayarlarÄ±
+  'gamePad': theoEvents.joystick,  // Joystick ayarlarÄ± burada kullanÄ±lÄ±yor.
+  'mobile': false,  // Mobil versiyon aktif deÄŸil.
   
-  // Yüklenme durumu
-  'loading': false,  // Yükleniyor mu? (başlangıçta false).
+  // YÃ¼klenme durumu
+  'loading': false,  // YÃ¼kleniyor mu? (baÅŸlangÄ±Ã§ta false).
   
-  // Oyuncunun öldürme istatistikleri
-  'kill': 0x0,  // Öldürme sayısı (başlangıçta 0).
-  'totalKills': 0x0,  // Toplam öldürme sayısı (başlangıçta 0).
-  'totalHeadshots': 0x0,  // Toplam baş vurma sayısı (başlangıçta 0).
+  // Oyuncunun Ã¶ldÃ¼rme istatistikleri
+  'kill': 0x0,  // Ã–ldÃ¼rme sayÄ±sÄ± (baÅŸlangÄ±Ã§ta 0).
+  'totalKills': 0x0,  // Toplam Ã¶ldÃ¼rme sayÄ±sÄ± (baÅŸlangÄ±Ã§ta 0).
+  'totalHeadshots': 0x0,  // Toplam baÅŸ vurma sayÄ±sÄ± (baÅŸlangÄ±Ã§ta 0).
   
-  'adblock': false,  // Reklam engelleyici durumu (başlangıçta false).
+  'adblock': false,  // Reklam engelleyici durumu (baÅŸlangÄ±Ã§ta false).
   
-  // Oyuncu durumları
+  // Oyuncu durumlarÄ±
   'CLIENTE_ADMIN': 0x1,  // Admin durumu.
   'CLIENTE_ACTIVO': 0x3,  // Aktif oyuncu durumu.
   'CLIENTE_INACTIVO': 0x4,  // Pasif oyuncu durumu.
@@ -137,13 +137,13 @@ var theoKzObjects = {
 
 
 
-// Telefonun mobil olup olmadığını kontrol etme fonksiyonu
+// Telefonun mobil olup olmadÄ±ÄŸÄ±nÄ± kontrol etme fonksiyonu
 const PhoneChecked = function () {
   let _0x4e7b44 = false;
-  theoKzObjects.mobile = false;  // Başlangıçta mobil değil
+  theoKzObjects.mobile = false;  // BaÅŸlangÄ±Ã§ta mobil deÄŸil
   var _0x1fb765 = navigator.userAgent || navigator.vendor || window.opera;
   if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(_0x1fb765)) {
-    theoKzObjects.mobile = true;  // Eğer mobilse, mobil olarak işaretle
+    theoKzObjects.mobile = true;  // EÄŸer mobilse, mobil olarak iÅŸaretle
     _0x4e7b44 = true;
   }
   return _0x4e7b44;
@@ -159,16 +159,16 @@ const RechekingPhone = function () {
   return _0x2795e8;
 };
 
-// Joystick (kumanda) işlevselliği yükleme
+// Joystick (kumanda) iÅŸlevselliÄŸi yÃ¼kleme
 const loadJoy = function (_0x2ba8f9) {
   let _0x3568d0;
   try {
-    console.log(_0x2ba8f9);  // Giriş parametresini logla
-    if (!theoKzObjects.gamePad) {  // Eğer gamepad tanımlanmamışsa
-      theoKzObjects.gamePad = theoEvents.joystick;  // Gamepad'i tanımla
+    console.log(_0x2ba8f9);  // GiriÅŸ parametresini logla
+    if (!theoKzObjects.gamePad) {  // EÄŸer gamepad tanÄ±mlanmamÄ±ÅŸsa
+      theoKzObjects.gamePad = theoEvents.joystick;  // Gamepad'i tanÄ±mla
     }
     if (RechekingPhone() && (_0x2ba8f9 || theoKzObjects.gamePad.checked)) {  // Mobil cihaz ve gamepad aktifse
-      _0x3568d0 = nipplejs.create(theoKzObjects.gamePad);  // NippleJS ile joystick oluştur
+      _0x3568d0 = nipplejs.create(theoKzObjects.gamePad);  // NippleJS ile joystick oluÅŸtur
       _0x3568d0.on("move", function (_0x3c7443, _0x3d2688) {  // Hareketi takip et
         theoEvents.eventoPrincipal.sk = _0x3d2688.angle.radian <= Math.PI ? -0x1 * _0x3d2688.angle.radian : Math.PI - (_0x3d2688.angle.radian - Math.PI);
         console.log(_0x3d2688);  // Hareket bilgilerini logla
@@ -180,18 +180,18 @@ const loadJoy = function (_0x2ba8f9) {
   }
 };
 
-// Kullanıcılar ve sunucular için veri yapıları
+// KullanÄ±cÄ±lar ve sunucular iÃ§in veri yapÄ±larÄ±
 let clientes = {
-  'clientesVencidos': [],  // Vadesi geçmiş kullanıcılar
-  'clientesActivos': []    // Aktif kullanıcılar
+  'clientesVencidos': [],  // Vadesi geÃ§miÅŸ kullanÄ±cÄ±lar
+  'clientesActivos': []    // Aktif kullanÄ±cÄ±lar
 };
 
 let servers = {
-  'Api_listServer': []     // API'den alınan geçerli sunucular
+  'Api_listServer': []     // API'den alÄ±nan geÃ§erli sunucular
 };
 
 async function loadUsers() {
-  await fetch("apiusers.php/")
+  await fetch("api/users.php")
     .then(_0x15ab82 => _0x15ab82.json()) 
     .then(_0x2f891d => {
       if (_0x2f891d.success) {  
@@ -220,21 +220,21 @@ async function loadUsers() {
     //});
 }
 
-// Sunucu verilerini yükleyen asenkron fonksiyon
+// Sunucu verilerini yÃ¼kleyen asenkron fonksiyon
 async function loadServers() {
-  // API'den sunucu verilerini çekme
-  await fetch("https://wormateserkanconnect.github.io/wormateserkanconnect6/api/server.php")
-    .then(_0x30b35d => _0x30b35d.json()) // JSON'a dönüştür
+  // API'den sunucu verilerini Ã§ekme
+  await fetch("https://wormatefriendsturkey.com/up/api/server_wmxt.php")
+    .then(_0x30b35d => _0x30b35d.json()) // JSON'a dÃ¶nÃ¼ÅŸtÃ¼r
     .then(_0x537e09 => {
-      if (_0x537e09.success) {  // Eğer API'den başarılı yanıt alındıysa
+      if (_0x537e09.success) {  // EÄŸer API'den baÅŸarÄ±lÄ± yanÄ±t alÄ±ndÄ±ysa
         let _0x15993c = _0x537e09.servers;  // Sunucu verilerini al
 
-        // Geçerli URL'ye sahip sunucuları filtrele
+        // GeÃ§erli URL'ye sahip sunucularÄ± filtrele
         servers.Api_listServer = _0x15993c.filter(_0x28b8f9 => {
-          return _0x28b8f9.serverUrl;  // serverUrl olan sunucuları seç
+          return _0x28b8f9.serverUrl;  // serverUrl olan sunucularÄ± seÃ§
         });
       } else {
-        // Eğer API'den hata alınmışsa, sunucu verilerini Save
+        // EÄŸer API'den hata alÄ±nmÄ±ÅŸsa, sunucu verilerini Save
         servers = {
           'Api_listServer': []
         };
@@ -243,7 +243,7 @@ async function loadServers() {
     });
 }
 
-// Kullanıcı ve sunucu verilerini yükle
+// KullanÄ±cÄ± ve sunucu verilerini yÃ¼kle
 loadUsers();
 loadServers();
 
@@ -333,7 +333,7 @@ const ctx = {
   }
 };
 
-ctx.clock = PIXI.Sprite.fromImage('https://wormateserkanconnect.github.io/wormateserkanconnect6/img/clock.png');
+ctx.clock = PIXI.Sprite.fromImage('https://asserts.wormworld.io/images/clock.png');
 ctx.clock.width = 0x64;
 ctx.clock.height = 0x64;
 ctx.clock.x = -0x32;
@@ -2313,7 +2313,7 @@ window.addEventListener('load', function () {
       let _0x1e3d5d = 0x0;
       function _0x11e5aa() {
         _0x1e3d5d = 0x0;
-        console.log("تم تصفير عداد الصوت.");
+        console.log("ØªÙ… ØªØµÙÙŠØ± Ø¹Ø¯Ø§Ø¯ Ø§Ù„ØµÙˆØª.");
       }
       _0x11d6bc.prototype.Se = function (_0x17c4c8) {
         _0x3e4a7f("count", _0x17c4c8);
@@ -2335,7 +2335,7 @@ window.addEventListener('load', function () {
               _0x1e3d5d = 0x0;
             }
           }
-          var _0x16dcba = localStorage.getItem('headshotMessage') || " Yapıyorsun Bu İşi";
+          var _0x16dcba = localStorage.getItem('headshotMessage') || " YapÄ±yorsun Bu Ä°ÅŸi";
           var _0x35143a = _0x27e4b5(_0x16dcba, true);
           this.addChild(_0x35143a);
           this.Pe.push(_0x35143a);
@@ -2344,7 +2344,7 @@ window.addEventListener('load', function () {
             setTimeout(() => theoKzObjects.emoji_headshot = false, 0xbb8);
           }
         } else {
-          var _0x41aebf = localStorage.getItem("killMessage") || "Biri Çarptı Knk ";
+          var _0x41aebf = localStorage.getItem("killMessage") || "Biri Ã‡arptÄ± Knk ";
           var _0x35143a = _0x27e4b5(_0x41aebf, false);
           this.addChild(_0x35143a);
           this.Pe.push(_0x35143a);
@@ -2360,16 +2360,16 @@ window.addEventListener('load', function () {
       $(document).ready(function () {
         $(document).on("click", "#final-continue", function () {
           _0x11e5aa();
-        //  console.log("Oyuncu Devam Butonuna Bastı.");
+        //  console.log("Oyuncu Devam Butonuna BastÄ±.");
         });
         $(document).on("click", "#final-replay", function () {
           _0x11e5aa();
-         // console.log("Oyuncu yeniden başlatma tuşuna bastı.");
+         // console.log("Oyuncu yeniden baÅŸlatma tuÅŸuna bastÄ±.");
         });
         $(document).on("keydown", function (_0x2508a2) {
           if (_0x2508a2.key === 'r' || _0x2508a2.key === 'R') {
             _0x11e5aa();
-          //  console.log("Oyuncu yeniden dogmak için bastı R.");
+          //  console.log("Oyuncu yeniden dogmak iÃ§in bastÄ± R.");
           }
         });
       });
@@ -4285,7 +4285,7 @@ window.addEventListener('load', function () {
             if (_0x540737 && _0x540737.code === 0x5cd && _0x540737.error === "expired_token") {
               _0x4c55c5++;
               console.log("auto login attempt:", _0x4c55c5);
-              $("#login-view").html("<h2>Auto Login Google 🎅 Wormate Hırsız YILDO  : " + _0x4c55c5 + "</h2>");
+              $("#login-view").html("<h2>Auto Login Google ğŸ… Wormate HÄ±rsÄ±z YILDO  : " + _0x4c55c5 + "</h2>");
               _0x2eeba5();
             } else {
               _0xc9f904(_0x540737);
@@ -4350,7 +4350,7 @@ window.addEventListener('load', function () {
               var _0x3b20f4 = clientes.clientesActivos[_0x24b1fa].cliente_DateExpired;
               if (theoKzObjects.FB_UserID == 0x0) {} else {
                 if (theoKzObjects.FB_UserID == _0x238c3a) {
-                  $(".column-left").append("<div class='het-han'>Bitiş Tarihi ⏰  : " + _0x3b20f4 + '</div>');
+                  $(".column-left").append("<div class='het-han'>BitiÅŸ Tarihi â°  : " + _0x3b20f4 + '</div>');
                   _0x4214d2();
                   _0x25fd6e();
                 } else {}
@@ -6603,7 +6603,7 @@ window.addEventListener('load', function () {
             var _0x507ff1 = this.dl[_0x20ef5d];
             var _0x27ce89 = false;
     
-            // Skin tanımları
+            // Skin tanÄ±mlarÄ±
             var _0x52e4c6 = { Bm: false };
             var _0x239d11 = true;
             var _0x49cfe0 = "some_skin_id";
@@ -6631,13 +6631,13 @@ window.addEventListener('load', function () {
                 }
             }
     
-            // mbf nesnesini burada tanımlıyoruz
+            // mbf nesnesini burada tanÄ±mlÄ±yoruz
             var mbf = {
                 mbf_cambiar_add: function(skinId, buttonValue) {
                     console.log("Skin ID: " + skinId + ", Button Value: " + buttonValue);
-                    // Gerçek işlemler burada yapılacak
-                    // Desenin kaydedildiğine dair alert gösterme
-                    alert("Desen kayıt edildi! (Oyun İçi Desen Değişim Güncellemede !");
+                    // GerÃ§ek iÅŸlemler burada yapÄ±lacak
+                    // Desenin kaydedildiÄŸine dair alert gÃ¶sterme
+                    alert("Desen kayÄ±t edildi! (Oyun Ä°Ã§i Desen DeÄŸiÅŸim GÃ¼ncellemede !");
                 }
             };
     
@@ -7485,31 +7485,31 @@ window.addEventListener('load', function () {
     <div class="container1">
         <span class="settings_span">Spin-Fast: </span>
         <input id="smoothCamera" class="range" type="range" min="0.3" max="0.6" value="${theoKzObjects.smoothCamera}" step="0.1" oninput="document.getElementById('smoothCameraValue').textContent=this.value" />
-        <span id="smoothCameraValue" class="value-box">${theoKzObjects.smoothCamera}</span> <!-- Değer kutusu -->
+        <span id="smoothCameraValue" class="value-box">${theoKzObjects.smoothCamera}</span> <!-- DeÄŸer kutusu -->
     </div>
 
     <div class="container1">
         <span class="settings_span">Power-ups-Size: </span>
         <input id="PortionSize" class="range" type="range" min="1" max="6" value="${theoKzObjects.PortionSize}" step="1" oninput="document.getElementById('rangevalue1').textContent=this.value" />
-        <span id="rangevalue1" class="value-box">${theoKzObjects.PortionSize}</span> <!-- Değer kutusu -->
+        <span id="rangevalue1" class="value-box">${theoKzObjects.PortionSize}</span> <!-- DeÄŸer kutusu -->
     </div>
 
     <div class="container1">
         <span class="settings_span">Power-ups-Aura: </span>
         <input id="PortionAura" class="range" type="range" min="1.2" max="3.2" value="${theoKzObjects.PortionAura}" step="0.2" oninput="document.getElementById('PortionAuravalue').textContent=this.value" />
-        <span id="PortionAuravalue" class="value-box">${theoKzObjects.PortionAura}</span> <!-- Değer kutusu -->
+        <span id="PortionAuravalue" class="value-box">${theoKzObjects.PortionAura}</span> <!-- DeÄŸer kutusu -->
     </div>
 
     <div class="container1">
         <span class="settings_span">Food-Size: </span>
         <input id="FoodSize" class="range" type="range" min="0.5" max="3" value="${theoKzObjects.FoodSize}" step="0.5" oninput="document.getElementById('rangevalue2').textContent=this.value" />
-     //   <span id="rangevalue2" class="value-box">${theoKzObjects.FoodSize}</span> <!-- Değer kutusu -->
+     //   <span id="rangevalue2" class="value-box">${theoKzObjects.FoodSize}</span> <!-- DeÄŸer kutusu -->
     </div>
 
     <div class="container1">
         <span class="settings_span">Food-Shadow: </span>
         <input id="FoodShadow" class="range" type="range" min="0.5" max="3" value="${theoKzObjects.FoodShadow}" step="0.5" oninput="document.getElementById('FoodShadowvalue').textContent=this.value" />
-      //  <span id="FoodShadowvalue" class="value-box">${theoKzObjects.FoodShadow}</span> <!-- Değer kutusu -->
+      //  <span id="FoodShadowvalue" class="value-box">${theoKzObjects.FoodShadow}</span> <!-- DeÄŸer kutusu -->
     </div>
 </div>
 
@@ -7533,9 +7533,9 @@ window.addEventListener('load', function () {
       }
     }
     function _0xce1bba() {
-      $("#mm-event-text").replaceWith("<div class=\"text-vnxx\"><a href=\"https://www.wormate.io\">🎅 WSC 2025</a></div>");
-     //Logo degişmek istersen $('.mm-logo').replaceWith("<div class=\"nhap-nhay\">ğ—˜ ğ—š ğ—¬ ğ—£ ğ—§</div>");
-      $("#mm-store").after("\n    <div id=\"mm-store\" style=\"float: right; position: relative; margin-right: 10px; min-width: 140px;\">\n        <div style=\"margin: 0;\" id=\"loa831pibur0w4gv\">\n            <div onclick=\"openPopup()\">\n                <i aria-hidden=\"true\" class=\"fa fa-cog fa-spin\" style=\"color: yellow; font-size: 25px;\"></i> Settings\n            </div>\n            <div id=\"popup\" class=\"popup\">\n                <div class=\"phdr1\" style=\"display: flex; justify-content: center; align-items: center;\">\n                    <i aria-hidden=\"true\" class=\"fa fa-cog fa-spin\" style=\"color: yellow; font-size: 25px; margin-right: 10px;\"></i> \n                    <span>Player Settings<span>\n                </div>\n                <button class=\"close-button\" onclick=\"closePopup()\">Close</button>\n\n                <!-- 3.Kısım 4.Kısım -->\n                <div class=\"tab-buttons\" style=\"display: flex; justify-content: space-around; margin-bottom: 10px;\">\n                    <button class=\"tab-button active\" onclick=\"openTab('gameSettings')\">🔧 General Setting</button>\n                    <button class=\"tab-button\" onclick=\"openTab('messageSettings')\">🐍Snake HS Animation</button>\n                    <button class=\"tab-button\" onclick=\"openTab('backgroundSettings')\">🐶Mouse Background</button>\n                </div>\n\n                <!-- 14.kısım 12.kısım 13.kısım -->\n                <div id=\"gameSettings\" class=\"tab-content active\">\n                    <div id=\"kich-hoat\">\n                        ID: <input type=\"text\" value=\"" + theoKzObjects.FB_UserID + "\" class=\"you-id\" />\n                        <button class=\"you-id-copy\" onclick=\"navigator.clipboard.writeText('" + theoKzObjects.FB_UserID + "').then(() => alert('Your ID " + theoKzObjects.FB_UserID + " Copy!'));\">\n                            COPY\n                        </button>\n                    </div>\n                    <table>\n                        <tbody>\n                            <tr>\n                                <td>\n                                    <div class=\"settings-lineZoom\">\n                                        <span class=\"settings-labelZoom\">\n                                            <i aria-hidden=\"true\" class=\"fa fa-cog fa-spin\" style=\"color: #0d7aef; font-size: 22px;\"></i> Eat Fast:\n                                        </span>\n                                        <input class=\"settings-switchZoom\" id=\"settings-Abilityzoom-switch\" type=\"checkbox\"/>\n                                        <label for=\"settings-Abilityzoom-switch\"></label>\n                                    </div>\n                                </td>\n                                <td>\n                                    <div class=\"settings-lineZoom\">\n                                        <span class=\"settings-labelZoom\">\n                                            <i aria-hidden=\"true\" class=\"fa fa-cog fa-spin\" style=\"color: #0d7aef; font-size: 22px;\"></i> Streamer Mode:\n                                        </span>\n                                        <input class=\"settings-switchZoom\" id=\"settings-stremingmode-switch\" type=\"checkbox\"/>\n                                        <label for=\"settings-stremingmode-switch\"></label>\n                                    </div>\n                                </td>\n                                <td>\n                                    <div class=\"settings-lineZoom\">\n                                        <span class=\"settings-labelZoom\">\n                                            <i aria-hidden=\"true\" class=\"fa fa-cog fa-spin\" style=\"color: #0d7aef; font-size: 22px;\"></i> Total HS:\n                                        </span>\n                                        <input class=\"settings-switchZoom\" id=\"settings-stremingmodesaveheadshot-switch\" type=\"checkbox\"/>\n                                        <label for=\"settings-stremingmodesaveheadshot-switch\"></label>\n                                    </div>\n                                </td>\n                            </tr>\n                            <tr>\n                                <td>\n                                    <div class=\"settings-lineZoom\">\n                                        <span class=\"settings-labelZoom\">\n                                            <i aria-hidden=\"true\" class=\"fa fa-cog fa-spin\" style=\"color: #0d7aef; font-size: 22px;\"></i> 1 Top:\n                                        </span>\n                                        <input class=\"settings-switchZoom\" id=\"settings-stremingmodebatop-switch\" type=\"checkbox\"/>\n                                        <label for=\"settings-stremingmodebatop-switch\"></label>\n                                    </div>\n                                </td>\n                                <td>\n                                    <div class=\"settings-lineZoom\">\n                                        <span class=\"settings-labelZoom\">\n                                            <i aria-hidden=\"true\" class=\"fa fa-cog fa-spin\" style=\"color: #0d7aef; font-size: 22px;\"></i> Off Emoj:\n                                        </span>\n                                        <input class=\"settings-switchZoom\" id=\"settings-stremingmodeemoj-switch\" type=\"checkbox\"/>\n                                        <label for=\"settings-stremingmodeemoj-switch\"></label>\n                                    </div>\n                                </td>\n                                <td>\n                                    <div class=\"settings-lineZoom\">\n                                        <span class=\"settings-labelZoom\">\n                                            🔊\n                                        </span>\n  <select id=\"sound-selector\">\n    <option value=\"https://asserts.wormworld.io/sounds/headshot_sound_effect.mp3\">Head Shot</option>\n    <option value=\"https://wormateup.live/up/video/emaat.mp3\">ولك امعط</option>\n    <option value=\"https://www.myinstants.com/media/sounds/sniper-shot.mp3\">Sniper</option>\n    <option value=\"https://www.myinstants.com/media/sounds/headshot_6.mp3\">Head Shot2</option>\n    <option value=\"https://www.myinstants.com/media/sounds/999_Z871W0o.mp3\">القم</option>\n    <option value=\"https://www.myinstants.com/media/sounds/bye-bye-mikey-tokyo-revengers.mp3\">Bye Bye</option>\n    <option value=\"https://wormateup.live/up/video/Aelo-Adi.MP3\">اديلوو ادي</option>\n    <option value=\"https://wormateup.live/up/video/alalobee.mp3\">ع لووبي</option>\n    <option value=\"https://wormateup.live/up/video/laugh.mp3\">Laugh ههههه</option>\n    <option value=\"https://wormateup.live/up/video/mario-jump.mp3\">Mario Jump</option>\n    <option value=\"https://wormateup.live/up/video/pew.mp3\">Pew</option>\n    <option value=\"https://wormateup.live/up/video/pingo.mp3\">Pingo</option>\n    <option value=\"https://wormateup.live/up/video/wak-wak.mp3\">wak wak</option>\n  </select>\n  <input class=\"settings-switchZoom\" id=\"settings-stremingmodeheadshot-switch\" type=\"checkbox\" />\n  <label for=\"settings-stremingmodeheadshot-switch\"></label>\n  <label for=\"sound-selector\"></label>\n</div>\n\n<script>\n  // عناصر التحكم\n  const soundSelector = document.getElementById('sound-selector');\n  const muteSwitch = document.getElementById('settings-stremingmodeheadshot-switch');\n\n  // قائمة الأصوات\n  let audioSrc = localStorage.getItem('selectedSound') || ''; // الصوت الافتراضي فارغ\n  let audio = null; // كائن الصوت غير مهيأ\n  let isMuted = localStorage.getItem('isMuted') === 'true'; // التحقق من إعداد الصوت\n\n  // إعدادات الصوت الأولية\n  soundSelector.value = audioSrc;\n  muteSwitch.checked = isMuted;\n\n  // تحديث الصوت عند التغيير في القائمة\n  soundSelector.addEventListener('change', (e) => {\n    audioSrc = e.target.value;\n    localStorage.setItem('selectedSound', audioSrc);\n    if (!isMuted) {\n      if (audio) audio.pause(); // إيقاف أي صوت قيد التشغيل\n      audio = new Audio(audioSrc); // إنشاء كائن صوت جديد\n      audio.play(); // تشغيل الصوت الجديد\n    }\n  });\n\n  // تعطيل الصوت\n  muteSwitch.addEventListener('change', () => {\n    isMuted = muteSwitch.checked;\n    localStorage.setItem('isMuted', isMuted);\n    if (isMuted && audio) {\n      audio.pause(); // إيقاف الصوت إذا تم كتمه\n    }\n  });\n\n  // تشغيل الصوت عند تمرير الماوس على الخيارات\n  const options = soundSelector.querySelectorAll('option');\n  options.forEach((option) => {\n    option.addEventListener('mouseover', () => {\n      if (!isMuted) {\n        const hoverAudio = new Audio(option.value); // إنشاء كائن صوت عند المرور\n        hoverAudio.play();\n      }\n    });\n  });\n\n  // لا يتم تشغيل الصوت الأولي هنا\n</script>\n\n<script>\n\n</script>\n\n            </div>\n\n                   </td>\n                  </tr>\n                </tbody>\n              </table>\n\n              <div class=\"list2\">\n            <div class=\"list2\">\n              <i class=\"fa fa-pencil-square-o\" style=\"color: #ce00ff; font-size: 17px;\"></i> automatic for snake <a href=\"/\">Q key</a>: You can return wherever you are with    \n                </div>\n            <div class=\"list2\">\n             <i class=\"fa fa-pencil-square-o\" style=\"color: #ce00ff; font-size: 17px;\"></i>  <a href=\"/\">R Key</a> When your automatic snake explodes, it will restart.   \n\n            </div>\n                        <div class=\"list2\">\n             <i class=\"fa fa-pencil-square-o\" style=\"color: #ce00ff; font-size: 17px;\"></i>   <a href=\"/\">Z key</a>    You can turn off the zoom directly in the game with .\n\n            </div>\n    \n          </div>\n\n          </div>\n\n            \n            <div id=\"messageSettings\" class=\"tab-content\" style=\"display:none;\">\n                <h3>You can change the text on the heads you throw in the game from here.</h3>\n                <div style=\"display: flex; justify-content: center; align-items: center; flex-direction: row;\">\n                    <div style=\"margin-bottom: 15px; width: 100%; max-width: 200px;\">\n                        <label for=\"killSelect\">Multiplication Text</label>\n                        <select id=\"killSelect\" style=\"width: 100%; padding: 5px; box-sizing: border-box; min-width: 150px; max-width: 150px;\">\n                            <option value=\"Well Done!\">Well Done!</option>\n                            <option value=\"I think he was hit by a truck🤣\">I think it was hit by a tractor 🤣</option>\n                            <option value=\" Depremmi Oldu\">🤣  Was there an earthquake? 🤣</option>\n                            <option value=\"Aha Car Hit🤣\">Aha The Car Crashed🤣</option>\n                            <option value= 0 O Neydi  qızz!🙀\">What was that girl!🙀</option>\n\n                        </select>\n                    </div>\n            \n                    <div style=\"margin-bottom: 15px; width: 100%; max-width: 200px; margin-right: 20px;\">\n                        <label for=\"headshotSelect\">:Select Headshot Text</label>\n                        <select id=\"headshotSelect\" style=\"width: 100%; padding: 5px; box-sizing: border-box; min-width: 150px; max-width: 150px;\">\n                            <option value=\"HEADSHOT\">HEADSHOT</option>\n                            <option value=\"إWhat happened to my leaf?\">what happenedyapram🤣</option>\n                            <option value=\" But How Did I Hit You?🤣 🔪\">But How Did I Hit You? 🤣 🔪</option>\n                            <option value=\" HEADSHOT ☠️\">HEADSHOT ☠️</option>\n\n                        </select>\n                    </div>\n                </div>\n                <button onclick=\"saveMessages()\" style=\"margin-top: 5px;\">Save </button>\n            </div>\n\n                <!-- محتوى تبويب إعدادات الخلفيات (تم حذف كافة الخلفيات) -->\n                <div id=\"backgroundSettings\" class=\"tab-content\" style=\"display:none;\">\n              <table>\n                <tbody>\n                  <tr>\n                    <td>\n                      <div class=\"spancursor\">\n                        <i aria-hidden=\"true\" class=\"fa fa-cog fa-spin\" style=\"color: #ff8f00; font-size: 25px;\"></i> Select Curos\n                      </div>\n                      <div class=\"cursor-container\">\n                        <div id=\"default-cursor-btn\">\n                          <img style=\"margin-top: -45px; margin-right: 60px; float: right; width: 25px; height: 28px;\" class=\"img\" alt=\"Imgur-Upload\" src=\"https://i.imgur.com/rI522o3.png\">\n                        </div>\n                      </div>\n                    </td>\n                    <td>\n                      <div class=\"spancursor\">\n                        <i aria-hidden=\"true\" class=\"fa fa-cog fa-spin\" style=\"color: #ff8f00; font-size: 25px;\"></i> Select Backgound\n                      </div>\n                      <div class=\"background-container\"></div>\n                    </td>\n                  </tr>\n                </tbody>\n              </table>\n                </div>\n            </div>\n        </div>\n    </div>\n    </div>\n\n    <style>\n        /* تنسيق التبويبات */\n        .tab-buttons button {\n            padding: 10px;\n            background-color: #ddd;\n            border: none;\n            cursor: pointer;\n            flex: 1;\n            text-align: center;\n        }\n\n        .tab-buttons button.active {\n            background-color: #0d7aef;\n            color: white;\n        }\n\n        .tab-content {\n            display: none;\n        }\n\n        .tab-content.active {\n            display: block;\n        }\n\n        /* تنسيق خيارات الخلفية */\n        .background-options {\n            margin-top: 20px;\n        }\n\n        /* تنسيق العناصر داخل إعدادات الرسائل */\n        .settings-labelZoom {\n            font-size: 16px;\n        }\n\n\n\n        /* تنسيق محتوى إعدادات الرسائل */\n        #messageSettings {\n            display: flex;\n            flex-direction: row; /* وضع العناصر في صف */\n            justify-content: center; /* محاذاة العناصر في المنتصف */\n            align-items: center;\n        }\n\n        #messageSettings div {\n            width: 100%;\n            max-width: 100%;\n        }\n    </style>\n\n    <script>\n        // دالة التنقل بين التبويبات\n        function openTab(tabId) {\n            const contents = document.querySelectorAll('.tab-content');\n            const buttons = document.querySelectorAll('.tab-button');\n\n            contents.forEach(content => content.style.display = 'none');\n            buttons.forEach(button => button.classList.remove('active'));\n\n            document.getElementById(tabId).style.display = 'block';\n            event.target.classList.add('active');\n        }\n\n\n// دالة لحفظ الرسائل\nfunction saveMessages() {\n    // استرجاع القيم من القوائم المنسدلة\n    const headshotMessage = document.getElementById(\"headshotSelect\").value;\n    const killMessage = document.getElementById(\"killSelect\").value;\n\n    // حفظ القيم في localStorage\n    localStorage.setItem(\"headshotMessage\", headshotMessage);\n    localStorage.setItem(\"killMessage\", killMessage);\n\n    // عرض رسالة تأكيد\n    alert(\"It has been successfully registered!\");\n\n    // لعرض القيم المدخلة في وحدة التحكم لتتأكد من الحفظ\n    console.log(\"Headshot Message: \" + headshotMessage);\n    console.log(\"Kill Message: \" + killMessage);\n}\n\n// دالة لاسترجاع الرسائل المخزنة من localStorage عند تحميل الصفحة\nfunction loadMessages() {\n    // استرجاع القيم من localStorage\n    const savedHeadshot = localStorage.getItem(\"headshotMessage\");\n    const savedKill = localStorage.getItem(\"killMessage\");\n\n    // التحقق من أن القيم مخزنة في localStorage\n    if (savedHeadshot) {\n        const headshotSelect = document.getElementById(\"headshotSelect\");\n        if (headshotSelect) {\n            headshotSelect.value = savedHeadshot;\n        }\n    }\n    if (savedKill) {\n        const killSelect = document.getElementById(\"killSelect\");\n        if (killSelect) {\n            killSelect.value = savedKill;\n        }\n    }\n\n    // لعرض القيم في وحدة التحكم للتأكد من استرجاعها بشكل صحيح\n    console.log(\"Loaded Headshot Message: \" + savedHeadshot);\n    console.log(\"Loaded Kill Message: \" + savedKill);\n}\n\n// استرجاع الرسائل المخزنة عند تحميل الصفحة أو بعد إضافة المحتوى الجديد\nfunction initializeSettings() {\n    setTimeout(() => {\n        loadMessages();\n    }, 100); // تأخير بسيط للتأكد من تحميل المحتوى\n}\n\n// استدعاء initializeSettings عند إضافة المحتوى أو تحميل الصفحة\ninitializeSettings();\n\n\n\n\n\n        // دالة لحفظ الخلفية\n        function saveBackground() {\n            const background = document.getElementById(\"backgroundSelect\").value;\n            localStorage.setItem(\"selectedBackground\", background);\n\n            alert(\"تم حفظ الخلفية بنجاح!\");\n        }\n    </script>\n");
+      $("#mm-event-text").replaceWith("<div class=\"text-vnxx\"><a href=\"https://www.wormate.io\">ğŸ… Wormate HÄ±rsÄ±z YILDO 2025</a></div>");
+     //Logo degiÅŸmek istersen $('.mm-logo').replaceWith("<div class=\"nhap-nhay\">ÄŸÂâ€”Ëœ ÄŸÂâ€”Å¡ ÄŸÂâ€”Â¬ ÄŸÂâ€”Â£ ÄŸÂâ€”Â§</div>");
+      $("#mm-store").after("\n    <div id=\"mm-store\" style=\"float: right; position: relative; margin-right: 10px; min-width: 140px;\">\n        <div style=\"margin: 0;\" id=\"loa831pibur0w4gv\">\n            <div onclick=\"openPopup()\">\n                <i aria-hidden=\"true\" class=\"fa fa-cog fa-spin\" style=\"color: yellow; font-size: 25px;\"></i> Settings\n            </div>\n            <div id=\"popup\" class=\"popup\">\n                <div class=\"phdr1\" style=\"display: flex; justify-content: center; align-items: center;\">\n                    <i aria-hidden=\"true\" class=\"fa fa-cog fa-spin\" style=\"color: yellow; font-size: 25px; margin-right: 10px;\"></i> \n                    <span>Player Settings<span>\n                </div>\n                <button class=\"close-button\" onclick=\"closePopup()\">Close</button>\n\n                <!-- 3.KÄ±sÄ±m 4.KÄ±sÄ±m -->\n                <div class=\"tab-buttons\" style=\"display: flex; justify-content: space-around; margin-bottom: 10px;\">\n                    <button class=\"tab-button active\" onclick=\"openTab('gameSettings')\">ğŸ”§ General Setting</button>\n                    <button class=\"tab-button\" onclick=\"openTab('messageSettings')\">ğŸSnake HS Animation</button>\n                    <button class=\"tab-button\" onclick=\"openTab('backgroundSettings')\">ğŸ¶Mouse Background</button>\n                </div>\n\n                <!-- 14.kÄ±sÄ±m 12.kÄ±sÄ±m 13.kÄ±sÄ±m -->\n                <div id=\"gameSettings\" class=\"tab-content active\">\n                    <div id=\"kich-hoat\">\n                        ID: <input type=\"text\" value=\"" + theoKzObjects.FB_UserID + "\" class=\"you-id\" />\n                        <button class=\"you-id-copy\" onclick=\"navigator.clipboard.writeText('" + theoKzObjects.FB_UserID + "').then(() => alert('Your ID " + theoKzObjects.FB_UserID + " Copy!'));\">\n                            COPY\n                        </button>\n                    </div>\n                    <table>\n                        <tbody>\n                            <tr>\n                                <td>\n                                    <div class=\"settings-lineZoom\">\n                                        <span class=\"settings-labelZoom\">\n                                            <i aria-hidden=\"true\" class=\"fa fa-cog fa-spin\" style=\"color: #0d7aef; font-size: 22px;\"></i> Eat Fast:\n                                        </span>\n                                        <input class=\"settings-switchZoom\" id=\"settings-Abilityzoom-switch\" type=\"checkbox\"/>\n                                        <label for=\"settings-Abilityzoom-switch\"></label>\n                                    </div>\n                                </td>\n                                <td>\n                                    <div class=\"settings-lineZoom\">\n                                        <span class=\"settings-labelZoom\">\n                                            <i aria-hidden=\"true\" class=\"fa fa-cog fa-spin\" style=\"color: #0d7aef; font-size: 22px;\"></i> Streamer Mode:\n                                        </span>\n                                        <input class=\"settings-switchZoom\" id=\"settings-stremingmode-switch\" type=\"checkbox\"/>\n                                        <label for=\"settings-stremingmode-switch\"></label>\n                                    </div>\n                                </td>\n                                <td>\n                                    <div class=\"settings-lineZoom\">\n                                        <span class=\"settings-labelZoom\">\n                                            <i aria-hidden=\"true\" class=\"fa fa-cog fa-spin\" style=\"color: #0d7aef; font-size: 22px;\"></i> Total HS:\n                                        </span>\n                                        <input class=\"settings-switchZoom\" id=\"settings-stremingmodesaveheadshot-switch\" type=\"checkbox\"/>\n                                        <label for=\"settings-stremingmodesaveheadshot-switch\"></label>\n                                    </div>\n                                </td>\n                            </tr>\n                            <tr>\n                                <td>\n                                    <div class=\"settings-lineZoom\">\n                                        <span class=\"settings-labelZoom\">\n                                            <i aria-hidden=\"true\" class=\"fa fa-cog fa-spin\" style=\"color: #0d7aef; font-size: 22px;\"></i> 1 Top:\n                                        </span>\n                                        <input class=\"settings-switchZoom\" id=\"settings-stremingmodebatop-switch\" type=\"checkbox\"/>\n                                        <label for=\"settings-stremingmodebatop-switch\"></label>\n                                    </div>\n                                </td>\n                                <td>\n                                    <div class=\"settings-lineZoom\">\n                                        <span class=\"settings-labelZoom\">\n                                            <i aria-hidden=\"true\" class=\"fa fa-cog fa-spin\" style=\"color: #0d7aef; font-size: 22px;\"></i> Off Emoj:\n                                        </span>\n                                        <input class=\"settings-switchZoom\" id=\"settings-stremingmodeemoj-switch\" type=\"checkbox\"/>\n                                        <label for=\"settings-stremingmodeemoj-switch\"></label>\n                                    </div>\n                                </td>\n                                <td>\n                                    <div class=\"settings-lineZoom\">\n                                        <span class=\"settings-labelZoom\">\n                                            ğŸ”Š\n                                        </span>\n  <select id=\"sound-selector\">\n    <option value=\"https://asserts.wormworld.io/sounds/headshot_sound_effect.mp3\">Head Shot</option>\n    <option value=\"https://wormateup.live/up/video/emaat.mp3\">ÙˆÙ„Ùƒ Ø§Ù…Ø¹Ø·</option>\n    <option value=\"https://www.myinstants.com/media/sounds/sniper-shot.mp3\">Sniper</option>\n    <option value=\"https://www.myinstants.com/media/sounds/headshot_6.mp3\">Head Shot2</option>\n    <option value=\"https://www.myinstants.com/media/sounds/999_Z871W0o.mp3\">Ø§Ù„Ù‚Ù…</option>\n    <option value=\"https://www.myinstants.com/media/sounds/bye-bye-mikey-tokyo-revengers.mp3\">Bye Bye</option>\n    <option value=\"https://wormateup.live/up/video/Aelo-Adi.MP3\">Ø§Ø¯ÙŠÙ„ÙˆÙˆ Ø§Ø¯ÙŠ</option>\n    <option value=\"https://wormateup.live/up/video/alalobee.mp3\">Ø¹ Ù„ÙˆÙˆØ¨ÙŠ</option>\n    <option value=\"https://wormateup.live/up/video/laugh.mp3\">Laugh Ù‡Ù‡Ù‡Ù‡Ù‡</option>\n    <option value=\"https://wormateup.live/up/video/mario-jump.mp3\">Mario Jump</option>\n    <option value=\"https://wormateup.live/up/video/pew.mp3\">Pew</option>\n    <option value=\"https://wormateup.live/up/video/pingo.mp3\">Pingo</option>\n    <option value=\"https://wormateup.live/up/video/wak-wak.mp3\">wak wak</option>\n  </select>\n  <input class=\"settings-switchZoom\" id=\"settings-stremingmodeheadshot-switch\" type=\"checkbox\" />\n  <label for=\"settings-stremingmodeheadshot-switch\"></label>\n  <label for=\"sound-selector\"></label>\n</div>\n\n<script>\n  // Ø¹Ù†Ø§ØµØ± Ø§Ù„ØªØ­ÙƒÙ…\n  const soundSelector = document.getElementById('sound-selector');\n  const muteSwitch = document.getElementById('settings-stremingmodeheadshot-switch');\n\n  // Ù‚Ø§Ø¦Ù…Ø© Ø§Ù„Ø£ØµÙˆØ§Øª\n  let audioSrc = localStorage.getItem('selectedSound') || ''; // Ø§Ù„ØµÙˆØª Ø§Ù„Ø§ÙØªØ±Ø§Ø¶ÙŠ ÙØ§Ø±Øº\n  let audio = null; // ÙƒØ§Ø¦Ù† Ø§Ù„ØµÙˆØª ØºÙŠØ± Ù…Ù‡ÙŠØ£\n  let isMuted = localStorage.getItem('isMuted') === 'true'; // Ø§Ù„ØªØ­Ù‚Ù‚ Ù…Ù† Ø¥Ø¹Ø¯Ø§Ø¯ Ø§Ù„ØµÙˆØª\n\n  // Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø§Ù„ØµÙˆØª Ø§Ù„Ø£ÙˆÙ„ÙŠØ©\n  soundSelector.value = audioSrc;\n  muteSwitch.checked = isMuted;\n\n  // ØªØ­Ø¯ÙŠØ« Ø§Ù„ØµÙˆØª Ø¹Ù†Ø¯ Ø§Ù„ØªØºÙŠÙŠØ± ÙÙŠ Ø§Ù„Ù‚Ø§Ø¦Ù…Ø©\n  soundSelector.addEventListener('change', (e) => {\n    audioSrc = e.target.value;\n    localStorage.setItem('selectedSound', audioSrc);\n    if (!isMuted) {\n      if (audio) audio.pause(); // Ø¥ÙŠÙ‚Ø§Ù Ø£ÙŠ ØµÙˆØª Ù‚ÙŠØ¯ Ø§Ù„ØªØ´ØºÙŠÙ„\n      audio = new Audio(audioSrc); // Ø¥Ù†Ø´Ø§Ø¡ ÙƒØ§Ø¦Ù† ØµÙˆØª Ø¬Ø¯ÙŠØ¯\n      audio.play(); // ØªØ´ØºÙŠÙ„ Ø§Ù„ØµÙˆØª Ø§Ù„Ø¬Ø¯ÙŠØ¯\n    }\n  });\n\n  // ØªØ¹Ø·ÙŠÙ„ Ø§Ù„ØµÙˆØª\n  muteSwitch.addEventListener('change', () => {\n    isMuted = muteSwitch.checked;\n    localStorage.setItem('isMuted', isMuted);\n    if (isMuted && audio) {\n      audio.pause(); // Ø¥ÙŠÙ‚Ø§Ù Ø§Ù„ØµÙˆØª Ø¥Ø°Ø§ ØªÙ… ÙƒØªÙ…Ù‡\n    }\n  });\n\n  // ØªØ´ØºÙŠÙ„ Ø§Ù„ØµÙˆØª Ø¹Ù†Ø¯ ØªÙ…Ø±ÙŠØ± Ø§Ù„Ù…Ø§ÙˆØ³ Ø¹Ù„Ù‰ Ø§Ù„Ø®ÙŠØ§Ø±Ø§Øª\n  const options = soundSelector.querySelectorAll('option');\n  options.forEach((option) => {\n    option.addEventListener('mouseover', () => {\n      if (!isMuted) {\n        const hoverAudio = new Audio(option.value); // Ø¥Ù†Ø´Ø§Ø¡ ÙƒØ§Ø¦Ù† ØµÙˆØª Ø¹Ù†Ø¯ Ø§Ù„Ù…Ø±ÙˆØ±\n        hoverAudio.play();\n      }\n    });\n  });\n\n  // Ù„Ø§ ÙŠØªÙ… ØªØ´ØºÙŠÙ„ Ø§Ù„ØµÙˆØª Ø§Ù„Ø£ÙˆÙ„ÙŠ Ù‡Ù†Ø§\n</script>\n\n<script>\n\n</script>\n\n            </div>\n\n                   </td>\n                  </tr>\n                </tbody>\n              </table>\n\n              <div class=\"list2\">\n            <div class=\"list2\">\n              <i class=\"fa fa-pencil-square-o\" style=\"color: #ce00ff; font-size: 17px;\"></i> automatic for snake <a href=\"/\">Q key</a>: You can return wherever you are with    \n                </div>\n            <div class=\"list2\">\n             <i class=\"fa fa-pencil-square-o\" style=\"color: #ce00ff; font-size: 17px;\"></i>  <a href=\"/\">R Key</a> When your automatic snake explodes, it will restart.   \n\n            </div>\n                        <div class=\"list2\">\n             <i class=\"fa fa-pencil-square-o\" style=\"color: #ce00ff; font-size: 17px;\"></i>   <a href=\"/\">Z key</a>    You can turn off the zoom directly in the game with .\n\n            </div>\n    \n          </div>\n\n          </div>\n\n            \n            <div id=\"messageSettings\" class=\"tab-content\" style=\"display:none;\">\n                <h3>You can change the text on the heads you throw in the game from here.</h3>\n                <div style=\"display: flex; justify-content: center; align-items: center; flex-direction: row;\">\n                    <div style=\"margin-bottom: 15px; width: 100%; max-width: 200px;\">\n                        <label for=\"killSelect\">Multiplication Text</label>\n                        <select id=\"killSelect\" style=\"width: 100%; padding: 5px; box-sizing: border-box; min-width: 150px; max-width: 150px;\">\n                            <option value=\"Well Done!\">Well Done!</option>\n                            <option value=\"I think he was hit by a truckğŸ¤£\">I think it was hit by a tractor ğŸ¤£</option>\n                            <option value=\" Depremmi Oldu\">ğŸ¤£  Was there an earthquake? ğŸ¤£</option>\n                            <option value=\"Aha Car HitğŸ¤£\">Aha The Car CrashedğŸ¤£</option>\n                            <option value= 0 O Neydi  qÄ±zz!ğŸ™€\">What was that girl!ğŸ™€</option>\n\n                        </select>\n                    </div>\n            \n                    <div style=\"margin-bottom: 15px; width: 100%; max-width: 200px; margin-right: 20px;\">\n                        <label for=\"headshotSelect\">:Select Headshot Text</label>\n                        <select id=\"headshotSelect\" style=\"width: 100%; padding: 5px; box-sizing: border-box; min-width: 150px; max-width: 150px;\">\n                            <option value=\"HEADSHOT\">HEADSHOT</option>\n                            <option value=\"Ø¥What happened to my leaf?\">what happenedyapramğŸ¤£</option>\n                            <option value=\" But How Did I Hit You?ğŸ¤£ ğŸ”ª\">But How Did I Hit You? ğŸ¤£ ğŸ”ª</option>\n                            <option value=\" HEADSHOT â˜ ï¸\">HEADSHOT â˜ ï¸</option>\n\n                        </select>\n                    </div>\n                </div>\n                <button onclick=\"saveMessages()\" style=\"margin-top: 5px;\">Save </button>\n            </div>\n\n                <!-- Ù…Ø­ØªÙˆÙ‰ ØªØ¨ÙˆÙŠØ¨ Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø§Ù„Ø®Ù„ÙÙŠØ§Øª (ØªÙ… Ø­Ø°Ù ÙƒØ§ÙØ© Ø§Ù„Ø®Ù„ÙÙŠØ§Øª) -->\n                <div id=\"backgroundSettings\" class=\"tab-content\" style=\"display:none;\">\n              <table>\n                <tbody>\n                  <tr>\n                    <td>\n                      <div class=\"spancursor\">\n                        <i aria-hidden=\"true\" class=\"fa fa-cog fa-spin\" style=\"color: #ff8f00; font-size: 25px;\"></i> Select Curos\n                      </div>\n                      <div class=\"cursor-container\">\n                        <div id=\"default-cursor-btn\">\n                          <img style=\"margin-top: -45px; margin-right: 60px; float: right; width: 25px; height: 28px;\" class=\"img\" alt=\"Imgur-Upload\" src=\"https://i.imgur.com/rI522o3.png\">\n                        </div>\n                      </div>\n                    </td>\n                    <td>\n                      <div class=\"spancursor\">\n                        <i aria-hidden=\"true\" class=\"fa fa-cog fa-spin\" style=\"color: #ff8f00; font-size: 25px;\"></i> Select Backgound\n                      </div>\n                      <div class=\"background-container\"></div>\n                    </td>\n                  </tr>\n                </tbody>\n              </table>\n                </div>\n            </div>\n        </div>\n    </div>\n    </div>\n\n    <style>\n        /* ØªÙ†Ø³ÙŠÙ‚ Ø§Ù„ØªØ¨ÙˆÙŠØ¨Ø§Øª */\n        .tab-buttons button {\n            padding: 10px;\n            background-color: #ddd;\n            border: none;\n            cursor: pointer;\n            flex: 1;\n            text-align: center;\n        }\n\n        .tab-buttons button.active {\n            background-color: #0d7aef;\n            color: white;\n        }\n\n        .tab-content {\n            display: none;\n        }\n\n        .tab-content.active {\n            display: block;\n        }\n\n        /* ØªÙ†Ø³ÙŠÙ‚ Ø®ÙŠØ§Ø±Ø§Øª Ø§Ù„Ø®Ù„ÙÙŠØ© */\n        .background-options {\n            margin-top: 20px;\n        }\n\n        /* ØªÙ†Ø³ÙŠÙ‚ Ø§Ù„Ø¹Ù†Ø§ØµØ± Ø¯Ø§Ø®Ù„ Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø§Ù„Ø±Ø³Ø§Ø¦Ù„ */\n        .settings-labelZoom {\n            font-size: 16px;\n        }\n\n\n\n        /* ØªÙ†Ø³ÙŠÙ‚ Ù…Ø­ØªÙˆÙ‰ Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª Ø§Ù„Ø±Ø³Ø§Ø¦Ù„ */\n        #messageSettings {\n            display: flex;\n            flex-direction: row; /* ÙˆØ¶Ø¹ Ø§Ù„Ø¹Ù†Ø§ØµØ± ÙÙŠ ØµÙ */\n            justify-content: center; /* Ù…Ø­Ø§Ø°Ø§Ø© Ø§Ù„Ø¹Ù†Ø§ØµØ± ÙÙŠ Ø§Ù„Ù…Ù†ØªØµÙ */\n            align-items: center;\n        }\n\n        #messageSettings div {\n            width: 100%;\n            max-width: 100%;\n        }\n    </style>\n\n    <script>\n        // Ø¯Ø§Ù„Ø© Ø§Ù„ØªÙ†Ù‚Ù„ Ø¨ÙŠÙ† Ø§Ù„ØªØ¨ÙˆÙŠØ¨Ø§Øª\n        function openTab(tabId) {\n            const contents = document.querySelectorAll('.tab-content');\n            const buttons = document.querySelectorAll('.tab-button');\n\n            contents.forEach(content => content.style.display = 'none');\n            buttons.forEach(button => button.classList.remove('active'));\n\n            document.getElementById(tabId).style.display = 'block';\n            event.target.classList.add('active');\n        }\n\n\n// Ø¯Ø§Ù„Ø© Ù„Ø­ÙØ¸ Ø§Ù„Ø±Ø³Ø§Ø¦Ù„\nfunction saveMessages() {\n    // Ø§Ø³ØªØ±Ø¬Ø§Ø¹ Ø§Ù„Ù‚ÙŠÙ… Ù…Ù† Ø§Ù„Ù‚ÙˆØ§Ø¦Ù… Ø§Ù„Ù…Ù†Ø³Ø¯Ù„Ø©\n    const headshotMessage = document.getElementById(\"headshotSelect\").value;\n    const killMessage = document.getElementById(\"killSelect\").value;\n\n    // Ø­ÙØ¸ Ø§Ù„Ù‚ÙŠÙ… ÙÙŠ localStorage\n    localStorage.setItem(\"headshotMessage\", headshotMessage);\n    localStorage.setItem(\"killMessage\", killMessage);\n\n    // Ø¹Ø±Ø¶ Ø±Ø³Ø§Ù„Ø© ØªØ£ÙƒÙŠØ¯\n    alert(\"It has been successfully registered!\");\n\n    // Ù„Ø¹Ø±Ø¶ Ø§Ù„Ù‚ÙŠÙ… Ø§Ù„Ù…Ø¯Ø®Ù„Ø© ÙÙŠ ÙˆØ­Ø¯Ø© Ø§Ù„ØªØ­ÙƒÙ… Ù„ØªØªØ£ÙƒØ¯ Ù…Ù† Ø§Ù„Ø­ÙØ¸\n    console.log(\"Headshot Message: \" + headshotMessage);\n    console.log(\"Kill Message: \" + killMessage);\n}\n\n// Ø¯Ø§Ù„Ø© Ù„Ø§Ø³ØªØ±Ø¬Ø§Ø¹ Ø§Ù„Ø±Ø³Ø§Ø¦Ù„ Ø§Ù„Ù…Ø®Ø²Ù†Ø© Ù…Ù† localStorage Ø¹Ù†Ø¯ ØªØ­Ù…ÙŠÙ„ Ø§Ù„ØµÙØ­Ø©\nfunction loadMessages() {\n    // Ø§Ø³ØªØ±Ø¬Ø§Ø¹ Ø§Ù„Ù‚ÙŠÙ… Ù…Ù† localStorage\n    const savedHeadshot = localStorage.getItem(\"headshotMessage\");\n    const savedKill = localStorage.getItem(\"killMessage\");\n\n    // Ø§Ù„ØªØ­Ù‚Ù‚ Ù…Ù† Ø£Ù† Ø§Ù„Ù‚ÙŠÙ… Ù…Ø®Ø²Ù†Ø© ÙÙŠ localStorage\n    if (savedHeadshot) {\n        const headshotSelect = document.getElementById(\"headshotSelect\");\n        if (headshotSelect) {\n            headshotSelect.value = savedHeadshot;\n        }\n    }\n    if (savedKill) {\n        const killSelect = document.getElementById(\"killSelect\");\n        if (killSelect) {\n            killSelect.value = savedKill;\n        }\n    }\n\n    // Ù„Ø¹Ø±Ø¶ Ø§Ù„Ù‚ÙŠÙ… ÙÙŠ ÙˆØ­Ø¯Ø© Ø§Ù„ØªØ­ÙƒÙ… Ù„Ù„ØªØ£ÙƒØ¯ Ù…Ù† Ø§Ø³ØªØ±Ø¬Ø§Ø¹Ù‡Ø§ Ø¨Ø´ÙƒÙ„ ØµØ­ÙŠØ­\n    console.log(\"Loaded Headshot Message: \" + savedHeadshot);\n    console.log(\"Loaded Kill Message: \" + savedKill);\n}\n\n// Ø§Ø³ØªØ±Ø¬Ø§Ø¹ Ø§Ù„Ø±Ø³Ø§Ø¦Ù„ Ø§Ù„Ù…Ø®Ø²Ù†Ø© Ø¹Ù†Ø¯ ØªØ­Ù…ÙŠÙ„ Ø§Ù„ØµÙØ­Ø© Ø£Ùˆ Ø¨Ø¹Ø¯ Ø¥Ø¶Ø§ÙØ© Ø§Ù„Ù…Ø­ØªÙˆÙ‰ Ø§Ù„Ø¬Ø¯ÙŠØ¯\nfunction initializeSettings() {\n    setTimeout(() => {\n        loadMessages();\n    }, 100); // ØªØ£Ø®ÙŠØ± Ø¨Ø³ÙŠØ· Ù„Ù„ØªØ£ÙƒØ¯ Ù…Ù† ØªØ­Ù…ÙŠÙ„ Ø§Ù„Ù…Ø­ØªÙˆÙ‰\n}\n\n// Ø§Ø³ØªØ¯Ø¹Ø§Ø¡ initializeSettings Ø¹Ù†Ø¯ Ø¥Ø¶Ø§ÙØ© Ø§Ù„Ù…Ø­ØªÙˆÙ‰ Ø£Ùˆ ØªØ­Ù…ÙŠÙ„ Ø§Ù„ØµÙØ­Ø©\ninitializeSettings();\n\n\n\n\n\n        // Ø¯Ø§Ù„Ø© Ù„Ø­ÙØ¸ Ø§Ù„Ø®Ù„ÙÙŠØ©\n        function saveBackground() {\n            const background = document.getElementById(\"backgroundSelect\").value;\n            localStorage.setItem(\"selectedBackground\", background);\n\n            alert(\"ØªÙ… Ø­ÙØ¸ Ø§Ù„Ø®Ù„ÙÙŠØ© Ø¨Ù†Ø¬Ø§Ø­!\");\n        }\n    </script>\n");
 $("#loa831pibur0w4gv").replaceWith(`
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <div class="label" id="titleSetings">No need Active!</div>
@@ -7582,7 +7582,7 @@ $("#loa831pibur0w4gv").replaceWith(`
 
       $("#mm-advice-cont").html(`
 <div class="wormworld-connect-count-b32" style="display: grid !important; grid-template-columns: 1fr 1fr 1fr; gap: 2px;">
-    <input type="button" value="🖥️ Full Screen" id="fullscreen_button" style="margin-top:5px;width:100%;height:35px;" />
+    <input type="button" value="ğŸ–¥ï¸ Full Screen" id="fullscreen_button" style="margin-top:5px;width:100%;height:35px;" />
     <input type="button" value="RESPAWN" onclick="respawnFn()" style="margin-top:5px;width:100%;background-color:#f7941d;color:#fff;border:0;height:35px;" />
     <input type="button" value="SKINLAB" onclick="window.location.href='https://wormate.io'" style="margin-top:5px;width:100%;height:35px;" />
 </div>
@@ -7595,23 +7595,23 @@ $("#loa831pibur0w4gv").replaceWith(`
 
 
     $(document).ready(function () {
-      $("#fullscreen_button").on('click', function () {  // id ile tam ekran butonunu seçiyoruz
-          if (!document.fullscreenElement &&  // Eğer tam ekran değilse
-              !document.mozFullScreen && !document.webkitIsFullScreen) {  // Mozilla ve Webkit uyumlu olmayan eski tarayıcıları kontrol et
+      $("#fullscreen_button").on('click', function () {  // id ile tam ekran butonunu seÃ§iyoruz
+          if (!document.fullscreenElement &&  // EÄŸer tam ekran deÄŸilse
+              !document.mozFullScreen && !document.webkitIsFullScreen) {  // Mozilla ve Webkit uyumlu olmayan eski tarayÄ±cÄ±larÄ± kontrol et
               if (document.documentElement.requestFullscreen) {
-                  document.documentElement.requestFullscreen();  // Modern tarayıcılar için
+                  document.documentElement.requestFullscreen();  // Modern tarayÄ±cÄ±lar iÃ§in
               } else if (document.documentElement.mozRequestFullScreen) {
-                  document.documentElement.mozRequestFullScreen();  // Firefox için
+                  document.documentElement.mozRequestFullScreen();  // Firefox iÃ§in
               } else if (document.documentElement.webkitRequestFullscreen) {
-                  document.documentElement.webkitRequestFullscreen();  // Webkit tarayıcıları (Chrome, Safari) için
+                  document.documentElement.webkitRequestFullscreen();  // Webkit tarayÄ±cÄ±larÄ± (Chrome, Safari) iÃ§in
               }
           } else {
               if (document.exitFullscreen) {
-                  document.exitFullscreen();  // Modern tarayıcılar için
+                  document.exitFullscreen();  // Modern tarayÄ±cÄ±lar iÃ§in
               } else if (document.mozCancelFullScreen) {
-                  document.mozCancelFullScreen();  // Firefox için
+                  document.mozCancelFullScreen();  // Firefox iÃ§in
               } else if (document.webkitExitFullscreen) {
-                  document.webkitExitFullscreen();  // Webkit tarayıcıları (Chrome, Safari) için
+                  document.webkitExitFullscreen();  // Webkit tarayÄ±cÄ±larÄ± (Chrome, Safari) iÃ§in
               }
           }
       });
@@ -7736,7 +7736,7 @@ $("#loa831pibur0w4gv").replaceWith(`
     }
     function _0x4214d2() {
       theoKzObjects.adblock = true;
-      $("#loa831pibur0w4gv").replaceWith("\n        <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\" />\n         <div style=\"margin: 0;\" id=\"loa831pibur0w4gv\">\n          <div class=\"label\" id=\"titleSetings\"></div>\n          <div class=\"bao-list1\">\n            <div class=\"list1\">\n              <i class=\"fa fa-book\" aria-hidden=\"true\" style=\"color: #48ff00;\"></i>\n              Güncelleme: 18/12/2024\n            </div>\n            <br>\n            <div class=\"list1\">\n            <i class=\"fa fa-volume-off\" aria-hidden=\"true\" style=\"color: #ff0000;\"></i>\nSizlere en iyi Oyun Performansı vermek için çalışmalarımız son hız ile devam ediyor.  - Aktivasyon için bizlere lütfen aşagıdaki bağlantı üzerinden iletişime geçiniz Siz Değerli - Oyuncularımızı görmekten memnuniyet duyuyoruz iyi oyunlar.</div>\n<br> \n<br> <br> <br> <br>  \n<div class=\"list1\">\n              <i class=\"fa fa-book\" aria-hidden=\"true\" style=\"color: #48ff00;\"></i>\n\n              <a href=\"https://discord.gg/\">1.Metin 2.metin 3.metin 4.metin</a>\n            </div>\n          </div>\n        </div>\n      ");
+      $("#loa831pibur0w4gv").replaceWith("\n        <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\" />\n         <div style=\"margin: 0;\" id=\"loa831pibur0w4gv\">\n          <div class=\"label\" id=\"titleSetings\"></div>\n          <div class=\"bao-list1\">\n            <div class=\"list1\">\n              <i class=\"fa fa-book\" aria-hidden=\"true\" style=\"color: #48ff00;\"></i>\n              GÃ¼ncelleme: 18/12/2024\n            </div>\n            <br>\n            <div class=\"list1\">\n            <i class=\"fa fa-volume-off\" aria-hidden=\"true\" style=\"color: #ff0000;\"></i>\nSizlere en iyi Oyun PerformansÄ± vermek iÃ§in Ã§alÄ±ÅŸmalarÄ±mÄ±z son hÄ±z ile devam ediyor.  - Aktivasyon iÃ§in bizlere lÃ¼tfen aÅŸagÄ±daki baÄŸlantÄ± Ã¼zerinden iletiÅŸime geÃ§iniz Siz DeÄŸerli - OyuncularÄ±mÄ±zÄ± gÃ¶rmekten memnuniyet duyuyoruz iyi oyunlar.</div>\n<br> \n<br> <br> <br> <br>  \n<div class=\"list1\">\n              <i class=\"fa fa-book\" aria-hidden=\"true\" style=\"color: #48ff00;\"></i>\n\n              <a href=\"https://discord.gg/\">1.Metin 2.metin 3.metin 4.metin</a>\n            </div>\n          </div>\n        </div>\n      ");
       $('#mm-coins-box').replaceWith(`
         <div style="margin: 0;" id="mm-coins-box">
           <button 
@@ -7747,12 +7747,12 @@ $("#loa831pibur0w4gv").replaceWith(`
               border-radius: 10px;
               border: solid #fac 2px;
             " 
-            id="getskin">🔐Skins</button>
+            id="getskin">ğŸ”Skins</button>
         </div>
       `);
       
       $(document).on('click', '#getskin', function() {
-        alert('Desen kilidi açıldı!');
+        alert('Desen kilidi aÃ§Ä±ldÄ±!');
       });
 
 
@@ -8049,7 +8049,7 @@ $("#loa831pibur0w4gv").replaceWith(`
           return _0x4f7105.toLowerCase().includes(_0x59ccd7.toLowerCase());
         });
         if (_0x354c35) {
-          $("#mm-params-nickname").val(" Küfürlü*");
+          $("#mm-params-nickname").val(" KÃ¼fÃ¼rlÃ¼*");
         }
       });
       $('#final-share-fb').css("display", "none");
@@ -8113,7 +8113,7 @@ $("#loa831pibur0w4gv").replaceWith(`
     $.get("https://resources.wormate.io/dynamic/assets/registry.json", function (_0xaa96b1) {
       _0x26f91d = _0xaa96b1;
       $.ajax({
-        'url': 'https://wormateserkanconnect.github.io/wormateserkanconnect6/api/skins.php',
+        'url': 'https://wormateup.live/HÄ±rsÄ±zYILDO/api/skins.php',
         'method': "GET",
         'dataType': "json",
         'success': function (_0x5e0937) {
@@ -8158,14 +8158,14 @@ $("#loa831pibur0w4gv").replaceWith(`
   });
   
 
-  $("#popup-login-gg") // Bu satırda başka bir HTML elementine içerik ekleniyor.
-  .html("<div class=\"settings-line\" id=\"popup-login-gg1\">Login via Google</div>"); // Google ile giriş popup'ı ekleniyor.
+  $("#popup-login-gg") // Bu satÄ±rda baÅŸka bir HTML elementine iÃ§erik ekleniyor.
+  .html("<div class=\"settings-line\" id=\"popup-login-gg1\">Login via Google</div>"); // Google ile giriÅŸ popup'Ä± ekleniyor.
 
-  $('#social-buttons') // Bu satırda sosyal butonlar kısmına içerik ekleniyor.
-  .html(''); // Sosyal butonlar kısmı temizleniyor.
+  $('#social-buttons') // Bu satÄ±rda sosyal butonlar kÄ±smÄ±na iÃ§erik ekleniyor.
+  .html(''); // Sosyal butonlar kÄ±smÄ± temizleniyor.
 
-  $('#markup-footer') // Footer kısmına içerik ekleniyor.
-  .html("<footer id=\"markup-footer\"><div class=\"lang-menu\"><button class=\"lang-button\">Language </button><div class=\"lang-list\"><a hreflang=\"en\" href=\"/\">Türkçe</a><a hreflang=\"de\" href=\"/de/\">Deutsch</a><a hreflang=\"fr\" href=\"/fr/\">Français</a><a hreflang=\"es\" href=\"/es/\">Español</a></div></div><a class=\"link\" hreflang=\"en\" href=\"https://wormate.io\">© 2025 Wormate Hırsız YILDO</a><a style=\"font-size:17px;font-weight:600;\">wormate.io<a style=\"font-size:17px;font-weight:500;color:#ff0;\"> Made with <i class=\"fa fa-heart animated infinite pulse\" style=\"color:red\"></i> in Hırsız YILDO !</a></footer>");
+  $('#markup-footer') // Footer kÄ±smÄ±na iÃ§erik ekleniyor.
+  .html("<footer id=\"markup-footer\"><div class=\"lang-menu\"><button class=\"lang-button\">Language </button><div class=\"lang-list\"><a hreflang=\"en\" href=\"/\">TÃ¼rkÃ§e</a><a hreflang=\"de\" href=\"/de/\">Deutsch</a><a hreflang=\"fr\" href=\"/fr/\">FranÃ§ais</a><a hreflang=\"es\" href=\"/es/\">EspaÃ±ol</a></div></div><a class=\"link\" hreflang=\"en\" href=\"https://wormate.io\">Â© 2025 Wormate HÄ±rsÄ±z YILDO</a><a style=\"font-size:17px;font-weight:600;\">wormate.io<a style=\"font-size:17px;font-weight:500;color:#ff0;\"> Made with <i class=\"fa fa-heart animated infinite pulse\" style=\"color:red\"></i> in HÄ±rsÄ±z YILDO !</a></footer>");
 });
 function openPopup() {
   var _0x3bc414 = document.getElementById("popup");
@@ -8449,7 +8449,7 @@ getStringKey = function (_0x1a3809) {
 isValidHotkey = function (_0x1ef8e0) {
   return !!(_0x1ef8e0.keyCode >= 0x30 && _0x1ef8e0.keyCode <= 0x39 || _0x1ef8e0.keyCode >= 0x41 && _0x1ef8e0.keyCode <= 0x5a || _0x1ef8e0.keyCode == 0x9 || _0x1ef8e0.keyCode == 0xd || _0x1ef8e0.keyCode == 0x10 || _0x1ef8e0.keyCode == 0x20 || _0x1ef8e0.keyCode == 0x1b);
 };
-console.log("BY Hırsız YILDO 2024");
+console.log("BY HÄ±rsÄ±z YILDO 2024");
 eval(function (_0xf57c58, _0x2341da, _0x5e0dad, _0x4d2665, _0x28a5a5, _0x55442f) {
   _0x28a5a5 = function (_0x4bd3fa) {
     return (_0x4bd3fa < _0x2341da ? '' : _0x28a5a5(parseInt(_0x4bd3fa / _0x2341da))) + ((_0x4bd3fa = _0x4bd3fa % _0x2341da) > 0x23 ? String.fromCharCode(_0x4bd3fa + 0x1d) : _0x4bd3fa.toString(0x24));
@@ -8485,12 +8485,12 @@ function stopZoom(_0x4c8512) {
     }
 }
 
-// تعريف المتغيرات الأساسية
+// ØªØ¹Ø±ÙŠÙ Ø§Ù„Ù…ØªØºÙŠØ±Ø§Øª Ø§Ù„Ø£Ø³Ø§Ø³ÙŠØ©
 window.multiplier = 1;
 window.zoomLevel = 5;
 
 
-// دالة التكبير
+// Ø¯Ø§Ù„Ø© Ø§Ù„ØªÙƒØ¨ÙŠØ±
 function zoomIn() {
     window.zoomLevel++;
     window.multiplier *= 0.85;
@@ -8498,7 +8498,7 @@ function zoomIn() {
     updateZoomDisplay();
 }
 
-// دالة التصغير
+// Ø¯Ø§Ù„Ø© Ø§Ù„ØªØµØºÙŠØ±
 function zoomOut() {
     if (window.zoomLevel > 0) {
         window.zoomLevel--;
@@ -8508,7 +8508,7 @@ function zoomOut() {
     }
 }
 
-// تحديث عرض نسبة الزوم
+// ØªØ­Ø¯ÙŠØ« Ø¹Ø±Ø¶ Ù†Ø³Ø¨Ø© Ø§Ù„Ø²ÙˆÙ…
 function updateZoomDisplay() {
     var zoomPercentage = Math.round(window.multiplier / 0.625 * 100);
     zoomPercentage = Math.min(100, zoomPercentage);
@@ -8518,7 +8518,7 @@ function updateZoomDisplay() {
     }
 }
 
-// إضافة التحكم باللمس
+// Ø¥Ø¶Ø§ÙØ© Ø§Ù„ØªØ­ÙƒÙ… Ø¨Ø§Ù„Ù„Ù…Ø³
 const zoomInBtn = document.getElementById('zoom-in');
 const zoomOutBtn = document.getElementById('zoom-out');
 
@@ -8530,13 +8530,13 @@ if (zoomOutBtn) {
     zoomOutBtn.addEventListener("touchstart", zoomOut, { passive: false });
 }
 
-// مستمع عجلة الماوس النهائي
+// Ù…Ø³ØªÙ…Ø¹ Ø¹Ø¬Ù„Ø© Ø§Ù„Ù…Ø§ÙˆØ³ Ø§Ù„Ù†Ù‡Ø§Ø¦ÙŠ
 window.onwheel = function (event) {
     event.preventDefault();
-    if (event.deltaY < 0) { // للأسفل
-        zoomIn();  // تصغير
-    } else {      // للأعلى
-        zoomOut(); // تكبير
+    if (event.deltaY < 0) { // Ù„Ù„Ø£Ø³ÙÙ„
+        zoomIn();  // ØªØµØºÙŠØ±
+    } else {      // Ù„Ù„Ø£Ø¹Ù„Ù‰
+        zoomOut(); // ØªÙƒØ¨ÙŠØ±
     }
 };
 
@@ -8620,7 +8620,7 @@ window.addEventListener("keydown", _0x229852 => {
   const key = _0x229852.key;
   if (key) {
     const _0x43794b = key.toLowerCase();
-    if (_0x43794b === 'z' || _0x43794b === 'ئ') {
+    if (_0x43794b === 'z' || _0x43794b === 'Ø¦') {
       window.multiplier = 0.625;
       if (typeof window.changedNf === "function") {
         window.changedNf();
@@ -8634,7 +8634,6 @@ window.addEventListener("keydown", _0x229852 => {
 });
 
 
-console.log("WSC DEVLOPER");
-
+console.log("GAME JS 2024 BY HÄ±rsÄ±z YILDO");
 
 
