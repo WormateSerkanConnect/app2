@@ -1,12 +1,19 @@
-{
-         "id":  353,
-         "cliente_NOMBRE":  "WSC DEVLOPER",
+     {
+         "id":  2,
+         "cliente_NOMBRE":  "Seko",
          "cliente_ID":  "gg_106263452150533879793",
-         "Client_VisibleSkin":  "4790",
-         "Client_VisibleSkin1":  "4793",
-         "Client_VisibleSkin2":  "4797",
-         "Client_VisibleSkin3":  "4812",
          "Client_KeyAccecs":  "XTPRIVATESKIN",
-         "cliente_DateExpired":  "2024-11-10",
-         "status":  1
+         "cliente_DateExpired":  "2028-12-31",
+         "status":  1,
+         "Client_VisibleSkin":  "0000",
+         "Client_VisibleSkin1":  "0000",
+         "Client_VisibleSkin2":  "0000",
+         "Client_VisibleSkin3":  "0000",
+         "Client_VisibleSkin4":  "0000",
+         "Client_VisibleSkin5":  "0000",
+         "Client_VisibleSkin6":  "0000",
+         "Client_VisibleSkin7":  "0000",
+         "Client_VisibleSkin8":  "0000",
+         "Client_VisibleSkin9":  "0000",
+         "Client_VisibleSkin10":  "0000"
     },
