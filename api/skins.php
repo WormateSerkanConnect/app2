@@ -24316,8 +24316,8 @@
     },
     {
       "isCustom": true,
-      "id": "WSC",
-      "img": "60-WSC.png",
+      "id": "VNXX GAMING",
+      "img": "vnxx.png",
       "name": {
         "en": "VNXX GAMING"
       },
