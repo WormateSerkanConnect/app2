@@ -1,4 +1,4 @@
-var SITE_XTHOST = "https://wormateserkanconnect.github.io";
+var SITE_XTHOST = "https://wormateup.live";
 window.detectLog = null; // Global bir deÄŸiÅŸken tanÄ±mlanÄ±r, log verilerini tutmak iÃ§in kullanÄ±labilir.
 
 const _wormup = {
