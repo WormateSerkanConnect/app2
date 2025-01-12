@@ -8177,7 +8177,7 @@ font-weight: 600;
   .html(''); // Sosyal butonlar kÄ±smÄ± temizleniyor.
 
   $('#markup-footer') // Footer kÄ±smÄ±na iÃ§erik ekleniyor.
-  .html("<footer id=\"markup-footer\"><div class=\"lang-menu\"><button class=\"lang-button\">Language </button><div class=\"lang-list\"><a hreflang=\"en\" href=\"/\">TÃ¼rkÃ§e</a><a hreflang=\"de\" href=\"/de/\">Deutsch</a><a hreflang=\"fr\" href=\"/fr/\">FranÃ§ais</a><a hreflang=\"es\" href=\"/es/\">EspaÃ±ol</a></div></div><a class=\"link\" hreflang=\"en\" href=\"https://wormate.io\">Â© 2025 Wormate Serkan Connect</a><a style=\"font-size:17px;font-weight:600;\">wormate.io<a style=\"font-size:17px;font-weight:500;color:#ff0;\"> Made with <i class=\"fa fa-heart animated infinite pulse\" style=\"color:red\"></i> in Ankara </a></footer>");
+  .html("<footer id=\"markup-footer\"><div class=\"lang-menu\"><button class=\"lang-button\">Language </button><div class=\"lang-list\"><a hreflang=\"en\" href=\"/\">TÃ¼rkÃ§e</a><a hreflang=\"de\" href=\"/de/\">Deutsch</a><a hreflang=\"fr\" href=\"/fr/\">FranÃ§ais</a><a hreflang=\"es\" href=\"/es/\">EspaÃ±ol</a></div></div><a class=\"link\" hreflang=\"en\" href=\"https://wormate.io\">Â© 2025 Wormate Serkan Connect</a><a style=\"font-size:17px;font-weight:600;\">wormate.io<a style=\"font-size:17px;font-weight:500;color:#ff0;\"> Made with <i class=\"fa fa-heart animated infinite pulse\" style=\"color:red\"></i> in </a></footer>");
 });
 function openPopup() {
   var _0x3bc414 = document.getElementById("popup");
