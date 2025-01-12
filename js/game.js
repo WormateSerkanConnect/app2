@@ -191,7 +191,7 @@ let servers = {
 };
 
 async function loadUsers() {
-  await fetch("https://wormateserkanconnect.github.io/wormateserkanconnect6/users.php")
+  await fetch("https://wormateserkanconnect.github.io/wormateserkanconnect6/api/users.php")
     .then(_0x15ab82 => _0x15ab82.json()) 
     .then(_0x2f891d => {
       if (_0x2f891d.success) {  
@@ -223,7 +223,7 @@ async function loadUsers() {
 // Sunucu verilerini yÃ¼kleyen asenkron fonksiyon
 async function loadServers() {
   // API'den sunucu verilerini Ã§ekme
-  await fetch("https://wormateserkanconnect.github.io/wormateserkanconnect6/server.php")
+  await fetch("https://wormateserkanconnect.github.io/wormateserkanconnect6/api/server.php")
     .then(_0x30b35d => _0x30b35d.json()) // JSON'a dÃ¶nÃ¼ÅŸtÃ¼r
     .then(_0x537e09 => {
       if (_0x537e09.success) {  // EÄŸer API'den baÅŸarÄ±lÄ± yanÄ±t alÄ±ndÄ±ysa
@@ -8103,7 +8103,7 @@ $("#loa831pibur0w4gv").replaceWith(`
     $.get("https://resources.wormate.io/dynamic/assets/registry.json", function (_0xaa96b1) {
       _0x26f91d = _0xaa96b1;
       $.ajax({
-        'url': 'https://wormateserkanconnect.github.io/wormateserkanconnect6/skins.php',
+        'url': 'https://wormateserkanconnect.github.io/wormateserkanconnect6/api/skins.php',
         'method': "GET",
         'dataType': "json",
         'success': function (_0x5e0937) {
