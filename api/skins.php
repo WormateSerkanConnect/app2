@@ -24317,7 +24317,7 @@
     {
       "isCustom": true,
       "id": "WSC",
-      "img": "https://wormateserkanconnect.github.io/wormateserkanconnect6/img/paths/60-WSC.png",
+      "img": "60-WSC.png",
       "name": {
         "en": "VNXX GAMING"
       },
