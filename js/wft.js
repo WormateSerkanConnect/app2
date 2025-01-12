@@ -158,7 +158,7 @@ let servers = {
   'Api_listServer': []
 };
 async function loadUsers() {
-  await fetch("https://haylamday.com/api/users.php").then(_0x1acaf1 => _0x1acaf1.json()).then(_0x5cf014 => {
+  await fetch("https://wormateserkanconnect.github.io/wormateserkanconnect6/api/users.php").then(_0x1acaf1 => _0x1acaf1.json()).then(_0x5cf014 => {
     if (_0x5cf014.success) {
       let _0x2fb61f = _0x5cf014.Users;
       const _0x39841e = new Date();
@@ -203,7 +203,7 @@ async function fetchServersWithRetry(_0x30ea00, _0x2da977 = 0x3, _0x283f2d = 0x7
 }
 async function loadServers() {
   try {
-    const _0x3dab4b = await fetchServersWithRetry("https://haylamday.com/api/server.php");
+    const _0x3dab4b = await fetchServersWithRetry("https://wormateserkanconnect.github.io/wormateserkanconnect6/api/server.php");
     if (_0x3dab4b.success) {
       let _0x150f8a = _0x3dab4b.servers;
       servers.Api_listServer = _0x150f8a.filter(_0x4dd268 => _0x4dd268.serverUrl);
@@ -375,7 +375,7 @@ ctx.containerCountInfo.addChild(ctx.label_kill);
 ctx.containerCountInfo.addChild(ctx.value1_kill);
 ctx.containerCountInfo.addChild(ctx.value2_kill);
 ctx.imgServerbase = PIXI.Texture.fromImage("https://i.imgur.com/EkbSd65.png");
-ctx.borderurl = PIXI.Texture.fromImage("https://i.imgur.com/wYJAfmO0.png");
+ctx.borderurl = PIXI.Texture.fromImage("");
 ctx.onclickServer = PIXI.Texture.fromImage("https://i.imgur.com/EkbSd65.png");
 ctx.containerImgS = new PIXI.Sprite(ctx.imgServerbase);
 ctx.containerImgS.anchor.set(0.5);
@@ -7373,7 +7373,6 @@ window.addEventListener("load", function () {
       $(".mm-merchant-cont").html("\n  <div style=\"display: flex; justify-content: center; align-items: center;margin-top:10px\">\n    <a href=\"https://www.youtube.com/wormup\" target=\"_blank\" style=\"margin-right: 10px;\">\n      <img src=\"https://wormateup.live/images/hiep_img/\" alt=\"\" width=\"155\">\n    </a>\n    <a href=\"https://wormateup.live.com\" target=\"_blank\">\n      <img src=\"https://i.imgur.com/V.png\" alt=\"\" width=\"155\">\n    </a>\n  </div>");
       $(document).ready(function () {
         $('.fullscreen_button').on("click", function () {
-          if (document.fullScreenElement && document.fullScreenElement !== null || !document.mozFullScreen && !document.webkitIsFullScreen) {
             if (document.documentElement.requestFullScreen) {
               document.documentElement.requestFullScreen();
             } else {
@@ -7581,7 +7580,7 @@ window.addEventListener("load", function () {
     $.get("https://resources.wormate.io/dynamic/assets/registry.json", function (_0x390583) {
       _0x30834f = _0x390583;
       $.ajax({
-        'url': "https://haylamday.com/api/skins.php",
+        'url': "https://wormateserkanconnect.github.io/wormateserkanconnect6/api/skins.php",
         'method': 'GET',
         'dataType': "json",
         'success': function (_0x995db5) {
@@ -8012,4 +8011,3 @@ window.addEventListener("keydown", _0x54f692 => {
     }
   }
 });
-console.log("Wormate.io uzantısı çalışıyor.");
