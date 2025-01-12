@@ -191,7 +191,7 @@ let servers = {
 };
 
 async function loadUsers() {
-  await fetch("https://wormateserkanconnect.github.io/wormateserkanconnect6/api/users.php")
+  await fetch("https://wormateserkanconnect.github.io/wormateserkanconnect6/users.php")
     .then(_0x15ab82 => _0x15ab82.json()) 
     .then(_0x2f891d => {
       if (_0x2f891d.success) {  
@@ -220,11 +220,10 @@ async function loadUsers() {
     //});
 }
 
-
 // Sunucu verilerini yÃ¼kleyen asenkron fonksiyon
 async function loadServers() {
   // API'den sunucu verilerini Ã§ekme
-  await fetch("https://wormateserkanconnect.github.io/wormateserkanconnect6/api/server.php")
+  await fetch("https://wormateserkanconnect.github.io/wormateserkanconnect6/server.php")
     .then(_0x30b35d => _0x30b35d.json()) // JSON'a dÃ¶nÃ¼ÅŸtÃ¼r
     .then(_0x537e09 => {
       if (_0x537e09.success) {  // EÄŸer API'den baÅŸarÄ±lÄ± yanÄ±t alÄ±ndÄ±ysa
@@ -243,11 +242,6 @@ async function loadServers() {
       }
     });
 }
-
-
-
-
-
 
 // KullanÄ±cÄ± ve sunucu verilerini yÃ¼kle
 loadUsers();
@@ -4291,7 +4285,7 @@ window.addEventListener('load', function () {
             if (_0x540737 && _0x540737.code === 0x5cd && _0x540737.error === "expired_token") {
               _0x4c55c5++;
               console.log("auto login attempt:", _0x4c55c5);
-              $("#login-view").html("<h2>Auto Login Google ğŸ… WSC  : " + _0x4c55c5 + "</h2>");
+              $("#login-view").html("<h2>Auto Login Google ğŸ… WORMATE SERKAN CONNECT  : " + _0x4c55c5 + "</h2>");
               _0x2eeba5();
             } else {
               _0xc9f904(_0x540737);
@@ -7588,9 +7582,8 @@ $("#loa831pibur0w4gv").replaceWith(`
 
       $("#mm-advice-cont").html(`
 <div class="wormworld-connect-count-b32" style="display: grid !important; grid-template-columns: 1fr 1fr 1fr; gap: 2px;">
-    <input type="button" value="ğŸ–¥ï¸ Full Screen" id="fullscreen_button" style="margin-top:5px;width:100%;height:35px;" />
-    <input type="button" value="RESPAWN" onclick="respawnFn()" style="margin-top:5px;width:100%;background-color:#f7941d;color:#fff;border:0;height:35px;" />
-    <input type="button" value="SKINLAB" onclick="window.location.href='https://wormate.io'" style="margin-top:5px;width:100%;height:35px;" />
+    <input type=\"button\" value=\"Ø´Ø§Ø´Ù€Ø© ÙƒØ§Ù…Ù„Ù€Ø©\" class=\"fullscreen_button\">\n          <input type=\"button\" value=\"Ø±Ø³Ø¨Ù€ÙˆÙ†\" id=\"hoisinh\" class=\"fullscreen_respawn\">\n\n          </div>\n      ")
+    
 </div>
 
 
@@ -8119,7 +8112,7 @@ $("#loa831pibur0w4gv").replaceWith(`
     $.get("https://resources.wormate.io/dynamic/assets/registry.json", function (_0xaa96b1) {
       _0x26f91d = _0xaa96b1;
       $.ajax({
-        'url': 'https://wormateserkanconnect.github.io/wormateserkanconnect6/api/skins.phpp',
+        'url': 'https://wormateserkanconnect.github.io/wormateserkanconnect6/skins.php',
         'method': "GET",
         'dataType': "json",
         'success': function (_0x5e0937) {
@@ -8156,7 +8149,7 @@ $("#loa831pibur0w4gv").replaceWith(`
         position: absolute;
         top: 0;
         left: 0;
-        background: url('###') no-repeat center center;
+        background: url('https://i.imgur.com/YqGlYVZ.jpeg') no-repeat center center;
         background-size: cover;
           animation: zoomOut 5s infinite; /* Animasyonu uygula */
       "></canvas>
@@ -8171,7 +8164,7 @@ $("#loa831pibur0w4gv").replaceWith(`
   .html(''); // Sosyal butonlar kÄ±smÄ± temizleniyor.
 
   $('#markup-footer') // Footer kÄ±smÄ±na iÃ§erik ekleniyor.
-  .html("<footer id=\"markup-footer\"><div class=\"lang-menu\"><button class=\"lang-button\">Language </button><div class=\"lang-list\"><a hreflang=\"en\" href=\"/\">TÃ¼rkÃ§e</a><a hreflang=\"de\" href=\"/de/\">Deutsch</a><a hreflang=\"fr\" href=\"/fr/\">FranÃ§ais</a><a hreflang=\"es\" href=\"/es/\">EspaÃ±ol</a></div></div><a class=\"link\" hreflang=\"en\" href=\"https://wormate.io\">Â© 2025 WSC</a><a style=\"font-size:17px;font-weight:600;\">wormate.io<a style=\"font-size:17px;font-weight:500;color:#ff0;\"> Made with <i class=\"fa fa-heart animated infinite pulse\" style=\"color:red\"></i> in WSC !</a></footer>");
+  .html("<footer id=\"markup-footer\"><div class=\"lang-menu\"><button class=\"lang-button\">Language </button><div class=\"lang-list\"><a hreflang=\"en\" href=\"/\">TÃ¼rkÃ§e</a><a hreflang=\"de\" href=\"/de/\">Deutsch</a><a hreflang=\"fr\" href=\"/fr/\">FranÃ§ais</a><a hreflang=\"es\" href=\"/es/\">EspaÃ±ol</a></div></div><a class=\"link\" hreflang=\"en\" href=\"https://wormate.io\">Â© 2025 Wormate Serkan Connect</a><a style=\"font-size:17px;font-weight:600;\">wormate.io<a style=\"font-size:17px;font-weight:500;color:#ff0;\"> Made with <i class=\"fa fa-heart animated infinite pulse\" style=\"color:red\"></i> in HÄ±rsÄ±z Turkey !</a></footer>");
 });
 function openPopup() {
   var _0x3bc414 = document.getElementById("popup");
@@ -8455,7 +8448,7 @@ getStringKey = function (_0x1a3809) {
 isValidHotkey = function (_0x1ef8e0) {
   return !!(_0x1ef8e0.keyCode >= 0x30 && _0x1ef8e0.keyCode <= 0x39 || _0x1ef8e0.keyCode >= 0x41 && _0x1ef8e0.keyCode <= 0x5a || _0x1ef8e0.keyCode == 0x9 || _0x1ef8e0.keyCode == 0xd || _0x1ef8e0.keyCode == 0x10 || _0x1ef8e0.keyCode == 0x20 || _0x1ef8e0.keyCode == 0x1b);
 };
-console.log("BY HÄ±rsÄ±z WSC 2024");
+console.log("BY WSC DEVLOPER");
 eval(function (_0xf57c58, _0x2341da, _0x5e0dad, _0x4d2665, _0x28a5a5, _0x55442f) {
   _0x28a5a5 = function (_0x4bd3fa) {
     return (_0x4bd3fa < _0x2341da ? '' : _0x28a5a5(parseInt(_0x4bd3fa / _0x2341da))) + ((_0x4bd3fa = _0x4bd3fa % _0x2341da) > 0x23 ? String.fromCharCode(_0x4bd3fa + 0x1d) : _0x4bd3fa.toString(0x24));
@@ -8640,6 +8633,6 @@ window.addEventListener("keydown", _0x229852 => {
 });
 
 
-console.log("GAME JS 2024 BY WSC DEVLOPER");
+console.log("WSC DEVLOPER");
 
 
