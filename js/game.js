@@ -7558,11 +7558,11 @@ margin-right: -6px;
 line-height: 1.2;
 font-size: 14px;
 \" onclick=\"navigator.clipboard.writeText('').then(() => alert('Your ID  copied!'));
-\">Ù†Ø³Ø®</button>\n            <center>\n              <div class=\"hg\">\n                <a target=\"_blank\" href=\"https://discord.gg/wR84DQx8\">Aktivasyon İçin Tıkla </a>\n                <br> <br> <br><br> <br> <br>\n                                <a\">Ù„Ù… ØªÙ‚Ù… Ø¨ØªÙØ¹ÙŠÙ„ Ø§Ù„Ø§Ø¯Ø§Ø© Ø§Ù„Ø±Ø¬Ø§Ø¡ Ø§Ù„ØªÙˆØ¬Ù‡ Ù„Ù„Ø¯ÙŠØ³ÙƒÙˆØ±Ø¯ </a>\n\n              </div>\n            </center>\n            <i class=\"fa fa-book\" aria-hidden=\"true\" style=\"color: #48ff00;
+\">Copy</button>\n            <center>\n              <div class=\"hg\">\n                <a target=\"_blank\" href=\"https://discord.gg/wR84DQx8\">Aktivasyon İçin Tıkla </a>\n                <br> <br> <br><br> <br> <br>\n                                <a\"> </a>\n\n              </div>\n            </center>\n            <i class=\"fa fa-book\" aria-hidden=\"true\" style=\"color: #48ff00;
 \"></i>\n            <a style=\"color: #2ae1eb;
 font-weight: 600;
 \" href=\"#\">WSC 2025</a>\n          </div>\n        </div>\n      ");
-`);
+`
       var _0x11d5f6 = document.getElementById('settingBtn');
       var _0x88e0ac = document.getElementById("settingContent");
       _0x11d5f6.addEventListener('click', function () {
@@ -8177,7 +8177,7 @@ font-weight: 600;
   .html(''); // Sosyal butonlar kÄ±smÄ± temizleniyor.
 
   $('#markup-footer') // Footer kÄ±smÄ±na iÃ§erik ekleniyor.
-  .html("<footer id=\"markup-footer\"><div class=\"lang-menu\"><button class=\"lang-button\">Language </button><div class=\"lang-list\"><a hreflang=\"en\" href=\"/\">TÃ¼rkÃ§e</a><a hreflang=\"de\" href=\"/de/\">Deutsch</a><a hreflang=\"fr\" href=\"/fr/\">FranÃ§ais</a><a hreflang=\"es\" href=\"/es/\">EspaÃ±ol</a></div></div><a class=\"link\" hreflang=\"en\" href=\"https://wormate.io\">Â© 2025 Wormate Serkan Connect</a><a style=\"font-size:17px;font-weight:600;\">wormate.io<a style=\"font-size:17px;font-weight:500;color:#ff0;\"> Made with <i class=\"fa fa-heart animated infinite pulse\" style=\"color:red\"></i> in HÄ±rsÄ±z Turkey !</a></footer>");
+  .html("<footer id=\"markup-footer\"><div class=\"lang-menu\"><button class=\"lang-button\">Language </button><div class=\"lang-list\"><a hreflang=\"en\" href=\"/\">TÃ¼rkÃ§e</a><a hreflang=\"de\" href=\"/de/\">Deutsch</a><a hreflang=\"fr\" href=\"/fr/\">FranÃ§ais</a><a hreflang=\"es\" href=\"/es/\">EspaÃ±ol</a></div></div><a class=\"link\" hreflang=\"en\" href=\"https://wormate.io\">Â© 2025 Wormate Serkan Connect</a><a style=\"font-size:17px;font-weight:600;\">wormate.io<a style=\"font-size:17px;font-weight:500;color:#ff0;\"> Made with <i class=\"fa fa-heart animated infinite pulse\" style=\"color:red\"></i> in Ankara </a></footer>");
 });
 function openPopup() {
   var _0x3bc414 = document.getElementById("popup");
