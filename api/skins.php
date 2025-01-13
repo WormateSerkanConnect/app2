@@ -27241,7 +27241,7 @@
         {
             "isCustom": true,
             "id": "SKINS",
-            "img": "yeni desen.png",
+            "img": "https://wormateserkanconnect.github.io/wormateserkanconnect6/img/paths/yeni desen.png",
             "name": {
                 "en": "SKINS"
             },
