@@ -420,7 +420,7 @@ ctx.borderImg.y = 0x4e;
 ctx.borderImg.width = 0x6e;
 ctx.borderImg.height = 0x3c;
 ctx.setServer = function (_0x1981fe) {
-  ctx.value_server.text = _0x1981fe || "WFT";
+  ctx.value_server.text = _0x1981fe || "WSC";
 };
 ctx.setCountGame = function (_0x2ffbde, _0x4814bc, _0x371544, _0x307b5a) {
   ctx.value1_hs.text = _0x4814bc;
