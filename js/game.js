@@ -8164,7 +8164,7 @@ font-weight: 600;
         position: absolute;
         top: 0;
         left: 0;
-        background: url('###') no-repeat center center;
+        background: url('https://image-0.uhdpaper.com/wallpaper/sports-car-mountains-retrowave-synthwave-4k-wallpaper-uhdpaper.com-233@0@k.jpg') no-repeat center center;
         background-size: cover;
           animation: zoomOut 5s infinite; /* Animasyonu uygula */
       "></canvas>
