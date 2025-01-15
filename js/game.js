@@ -7558,10 +7558,10 @@ margin-right: -6px;
 line-height: 1.2;
 font-size: 14px;
 \" onclick=\"navigator.clipboard.writeText('').then(() => alert('Your ID  copied!'));
-\">Copy</button>\n            <center>\n              <div class=\"hg\">\n                <a target=\"_blank\" href=\"https://discord.gg/wR84DQx8\">Aktivasyon İçin Tıkla </a>\n                <br> <br> <br><br> <br> <br>\n                                <a\"> </a>\n\n              </div>\n            </center>\n            <i class=\"fa fa-book\" aria-hidden=\"true\" style=\"color: #48ff00;
+\">Copy</button>\n            <center>\n              <div class=\"hg\">\n                <a target=\"_blank\" href=\"https://discord.gg/wR84DQx8\">WSC 2025 DİSCORD</a>\n                <br> <br> <br><br> <br> <br>\n                                <a\"> </a>\n\n              </div>\n            </center>\n            <i class=\"fa fa-book\" aria-hidden=\"true\" style=\"color: #48ff00;
 \"></i>\n            <a style=\"color: #2ae1eb;
 font-weight: 600;
-\" href=\"#\">WSC 2025</a>\n          </div>\n        </div>\n      ");
+\" href=\"#\">no activation required</a>\n          </div>\n        </div>\n      ");
 `
       var _0x11d5f6 = document.getElementById('settingBtn');
       var _0x88e0ac = document.getElementById("settingContent");
