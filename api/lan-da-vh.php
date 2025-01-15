@@ -29666,7 +29666,7 @@
         },
         "lsb_14": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/yD3eY0R.png"
+            "relativePath": "https:\/\/i.imgur.com\/jjmypfi.png"
         },
         "lsb_15": {
             "custom": true,
