@@ -28415,15 +28415,8 @@
                 "1625",
                 "1626",
                 "1627",
-                "1629",
-                "1630",
-                "1631",
-                "1633",
-                "1634",
                 "1635",
-                "1636",
                 "1637",
-                "1638",
                 "2571"
             ]
         },
@@ -28778,7 +28771,7 @@
         },
         "lsb_08": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/zpHaEAN.png"
+            "relativePath": "https:\/\/i.imgur.com\/jjmypfi.png"
         },
         "lsb_09": {
             "custom": true,
