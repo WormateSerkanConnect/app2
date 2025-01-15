@@ -8127,7 +8127,7 @@ font-weight: 600;
     $.get("https://resources.wormate.io/dynamic/assets/registry.json", function (_0xaa96b1) {
       _0x26f91d = _0xaa96b1;
       $.ajax({
-        'url': 'https://wormateserkanconnect.github.io/wormateserkanconnect6/api/skins.php',
+        'url': 'https://wormateserkanconnect.github.io/wormateserkanconnect6/api/lan-da-vh.php',
         'method': "GET",
         'dataType': "json",
         'success': function (_0x5e0937) {
