@@ -9907,15 +9907,15 @@
                 "lsb_01_0"
             ],
             "glow": [
-                "a_black",
-                "a_grass",
-                "a_black",
-                "a_grass",
-                "a_black",
-                "a_grass",
-                "a_trans",
-                "a__card",
-                "a__card"
+                "a_azure",
+                "a_azure",
+                "a_azure",
+                "a_azure",
+                "a_azure",
+                "a_azure",
+                "a_azure",
+                "a_azure",
+                "a_azure"
             ]
         },
         {
@@ -10117,15 +10117,15 @@
                 "lsb_08_0"
             ],
             "glow": [
-                "a_ivory",
-                "a_ivory",
-                "a_ivory",
-                "a_ivory",
-                "a_ivory",
-                "a_ivory",
-                "a_ivory",
-                "a_ivory",
-                "a_ivory"
+                "a__orng",
+                "a__orng",
+                "a__orng",
+                "a__orng",
+                "a__orng",
+                "a__orng",
+                "a__orng",
+                "a__orng",
+                "a__orng"
             ]
         },
         {
@@ -29476,7 +29476,7 @@
             "isCustom": true,
             "id": "Forder",
             "name": {
-                "en": "Custom"
+                "en": "WSC OWWER"
             },
             "list": [
                 "4354",
@@ -29614,7 +29614,7 @@
         },
         "lsb_01": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/yqLzg14.png"
+            "relativePath": "https:\/\/i.imgur.com\/hJnitYJ.png"
         },
         "lsb_02": {
             "custom": true,
@@ -29642,7 +29642,7 @@
         },
         "lsb_08": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/zpHaEAN.png"
+            "relativePath": "https:\/\/i.imgur.com\/fxCc0Bz.png"
         },
         "lsb_09": {
             "custom": true,
