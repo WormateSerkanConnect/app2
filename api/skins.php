@@ -27863,7 +27863,7 @@
         }
     ],
     "skinGroupArrayDict": [
-        {
+      {
             "isCustom": true,
             "id": "noel",
             "img": "vip.png",
@@ -27919,6 +27919,18 @@
                 "1526",
                 "1527",
                 "1528"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "noel",
+            "img": "v4.png",
+            "name": {
+                "en": "noel"
+            },
+            "list": [
+                "2958",
+                
             ]
         },
         {
