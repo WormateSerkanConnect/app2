@@ -18498,6 +18498,684 @@
                 "a_white"
             ]
         },
+        {
+            "id": 2470,
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "25ypg_01_8",
+                "25ypg_01_7",
+                "25ypg_01_6",
+                "25ypg_01_5",
+                "25ypg_01_4",
+                "25ypg_01_3",
+                "25ypg_01_2",
+                "25ypg_01_1",
+                "25ypg_01_0"
+            ],
+            "glow": [
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white"
+            ]
+        },
+        {
+            "id": 2471,
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "25ypg_02_8",
+                "25ypg_02_7",
+                "25ypg_02_6",
+                "25ypg_02_5",
+                "25ypg_02_4",
+                "25ypg_02_3",
+                "25ypg_02_2",
+                "25ypg_02_1",
+                "25ypg_02_0"
+            ],
+            "glow": [
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw"
+            ]
+        },
+        {
+            "id": 2472,
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "25ypg_03_8",
+                "25ypg_03_7",
+                "25ypg_03_6",
+                "25ypg_03_5",
+                "25ypg_03_4",
+                "25ypg_03_3",
+                "25ypg_03_2",
+                "25ypg_03_1",
+                "25ypg_03_0"
+            ],
+            "glow": [
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white"
+            ]
+        },
+        {
+            "id": 2473,
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "25ypg_04_8",
+                "25ypg_04_7",
+                "25ypg_04_6",
+                "25ypg_04_5",
+                "25ypg_04_4",
+                "25ypg_04_3",
+                "25ypg_04_2",
+                "25ypg_04_1",
+                "25ypg_04_0"
+            ],
+            "glow": [
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death"
+            ]
+        },
+        {
+            "id": 2474,
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "25ypg_05_8",
+                "25ypg_05_7",
+                "25ypg_05_6",
+                "25ypg_05_5",
+                "25ypg_05_4",
+                "25ypg_05_3",
+                "25ypg_05_2",
+                "25ypg_05_1",
+                "25ypg_05_0"
+            ],
+            "glow": [
+                "a__ruby",
+                "a_death",
+                "a__ruby",
+                "a_death",
+                "a__ruby",
+                "a_death",
+                "a__ruby",
+                "a_death",
+                "a__ruby"
+            ]
+        },
+        {
+            "id": 2475,
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "25ypg_06_8",
+                "25ypg_06_7",
+                "25ypg_06_6",
+                "25ypg_06_5",
+                "25ypg_06_4",
+                "25ypg_06_3",
+                "25ypg_06_2",
+                "25ypg_06_1",
+                "25ypg_06_0"
+            ],
+            "glow": [
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white"
+            ]
+        },
+        {
+            "id": 2476,
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "25ypg_07_8",
+                "25ypg_07_7",
+                "25ypg_07_6",
+                "25ypg_07_5",
+                "25ypg_07_4",
+                "25ypg_07_3",
+                "25ypg_07_2",
+                "25ypg_07_1",
+                "25ypg_07_0"
+            ],
+            "glow": [
+                "a__ruby",
+                "a__ruby",
+                "a__ruby",
+                "a__ruby",
+                "a__ruby",
+                "a__ruby",
+                "a__ruby",
+                "a__ruby",
+                "a__ruby"
+            ]
+        },
+        {
+            "id": 2477,
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "25ypg_08_8",
+                "25ypg_08_7",
+                "25ypg_08_6",
+                "25ypg_08_5",
+                "25ypg_08_4",
+                "25ypg_08_3",
+                "25ypg_08_2",
+                "25ypg_08_1",
+                "25ypg_08_0"
+            ],
+            "glow": [
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white"
+            ]
+        },
+        {
+            "id": 2478,
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "25ypg_09_8",
+                "25ypg_09_7",
+                "25ypg_09_6",
+                "25ypg_09_5",
+                "25ypg_09_4",
+                "25ypg_09_3",
+                "25ypg_09_2",
+                "25ypg_09_1",
+                "25ypg_09_0"
+            ],
+            "glow": [
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw"
+            ]
+        },
+        {
+            "id": 2479,
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "25ypg_10_8",
+                "25ypg_10_7",
+                "25ypg_10_6",
+                "25ypg_10_5",
+                "25ypg_10_4",
+                "25ypg_10_3",
+                "25ypg_10_2",
+                "25ypg_10_1",
+                "25ypg_10_0"
+            ],
+            "glow": [
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white"
+            ]
+        },
+        {
+            "id": 2480,
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "25ypg_11_8",
+                "25ypg_11_7",
+                "25ypg_11_6",
+                "25ypg_11_5",
+                "25ypg_11_4",
+                "25ypg_11_3",
+                "25ypg_11_2",
+                "25ypg_11_1",
+                "25ypg_11_0"
+            ],
+            "glow": [
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white"
+            ]
+        },
+        {
+            "id": 2481,
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "25ypg_12_8",
+                "25ypg_12_7",
+                "25ypg_12_6",
+                "25ypg_12_5",
+                "25ypg_12_4",
+                "25ypg_12_3",
+                "25ypg_12_2",
+                "25ypg_12_1",
+                "25ypg_12_0"
+            ],
+            "glow": [
+                "a_white",
+                "a__yllw",
+                "a_white",
+                "a__yllw",
+                "a_white",
+                "a__yllw",
+                "a_white",
+                "a__yllw",
+                "a_white"
+            ]
+        },
+        {
+            "id": 2482,
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "25ypg_13_8",
+                "25ypg_13_7",
+                "25ypg_13_6",
+                "25ypg_13_5",
+                "25ypg_13_4",
+                "25ypg_13_3",
+                "25ypg_13_2",
+                "25ypg_13_1",
+                "25ypg_13_0"
+            ],
+            "glow": [
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white"
+            ]
+        },
+        {
+            "id": 2483,
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "25ypg_14_8",
+                "25ypg_14_7",
+                "25ypg_14_6",
+                "25ypg_14_5",
+                "25ypg_14_4",
+                "25ypg_14_3",
+                "25ypg_14_2",
+                "25ypg_14_1",
+                "25ypg_14_0"
+            ],
+            "glow": [
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw"
+            ]
+        },
+        {
+            "id": 2484,
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "25ypg_15_8",
+                "25ypg_15_7",
+                "25ypg_15_6",
+                "25ypg_15_5",
+                "25ypg_15_4",
+                "25ypg_15_3",
+                "25ypg_15_2",
+                "25ypg_15_1",
+                "25ypg_15_0"
+            ],
+            "glow": [
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw"
+            ]
+        },
+        {
+            "id": 2485,
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "25ypg_16_8",
+                "25ypg_16_7",
+                "25ypg_16_6",
+                "25ypg_16_5",
+                "25ypg_16_4",
+                "25ypg_16_3",
+                "25ypg_16_2",
+                "25ypg_16_1",
+                "25ypg_16_0"
+            ],
+            "glow": [
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white"
+            ]
+        },
+        {
+            "id": 2486,
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "25ypg_17_8",
+                "25ypg_17_7",
+                "25ypg_17_6",
+                "25ypg_17_5",
+                "25ypg_17_4",
+                "25ypg_17_3",
+                "25ypg_17_2",
+                "25ypg_17_1",
+                "25ypg_17_0"
+            ],
+            "glow": [
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white"
+            ]
+        },
+        {
+            "id": 2487,
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "25ypg_18_8",
+                "25ypg_18_7",
+                "25ypg_18_6",
+                "25ypg_18_5",
+                "25ypg_18_4",
+                "25ypg_18_3",
+                "25ypg_18_2",
+                "25ypg_18_1",
+                "25ypg_18_0"
+            ],
+            "glow": [
+                "a__ruby",
+                "a_white",
+                "a__ruby",
+                "a_white",
+                "a__ruby",
+                "a_white",
+                "a__ruby",
+                "a_white",
+                "a__ruby"
+            ]
+        },
+        {
+            "id": 2488,
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "25ypg_19_8",
+                "25ypg_19_7",
+                "25ypg_19_6",
+                "25ypg_19_5",
+                "25ypg_19_4",
+                "25ypg_19_3",
+                "25ypg_19_2",
+                "25ypg_19_1",
+                "25ypg_19_0"
+            ],
+            "glow": [
+                "a__yllw",
+                "a_death",
+                "a__yllw",
+                "a_death",
+                "a__yllw",
+                "a_death",
+                "a__yllw",
+                "a_death",
+                "a_death"
+            ]
+        },
+        {
+            "id": 2489,
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "25ypg_20_8",
+                "25ypg_20_7",
+                "25ypg_20_6",
+                "25ypg_20_5",
+                "25ypg_20_4",
+                "25ypg_20_3",
+                "25ypg_20_2",
+                "25ypg_20_1",
+                "25ypg_20_0"
+            ],
+            "glow": [
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white"
+            ]
+        },
+        {
+            "id": 2490,
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "25ypg_21_8",
+                "25ypg_21_7",
+                "25ypg_21_6",
+                "25ypg_21_5",
+                "25ypg_21_4",
+                "25ypg_21_3",
+                "25ypg_21_2",
+                "25ypg_21_1",
+                "25ypg_21_0"
+            ],
+            "glow": [
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw"
+            ]
+        },
+        {
+            "id": 2491,
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "25ypg_22_8",
+                "25ypg_22_7",
+                "25ypg_22_6",
+                "25ypg_22_5",
+                "25ypg_22_4",
+                "25ypg_22_3",
+                "25ypg_22_2",
+                "25ypg_22_1",
+                "25ypg_22_0"
+            ],
+            "glow": [
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white"
+            ]
+        },
+        {
+            "id": 2492,
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "25ypg_23_8",
+                "25ypg_23_7",
+                "25ypg_23_6",
+                "25ypg_23_5",
+                "25ypg_23_4",
+                "25ypg_23_3",
+                "25ypg_23_2",
+                "25ypg_23_1",
+                "25ypg_23_0"
+            ],
             "glow": [
                 "a_white",
                 "a_white",
@@ -28460,10 +29138,15 @@
                 "1625",
                 "1626",
                 "1627",
+                "1629",
+                "1630",
                 "1631",
+                "1633",
+                "1634",
                 "1635",
+                "1636",
                 "1637",
-                "2571"
+                "1638"
             ]
         },
         {
@@ -28783,6 +29466,7 @@
                 "2961",
                 "2962",
                 "2963",
+                "2964",
                 "2965",
                 "2966",
                 "2967"
@@ -28792,10 +29476,18 @@
             "isCustom": true,
             "id": "Forder",
             "name": {
-                "en": "Seko⚡V4"
+                "en": "Custom"
             },
             "list": [
-                "2964"
+                "4354",
+                "4353",
+                "4352",
+                "4351",
+                "4350",
+                "4349",
+                "4348",
+                "4347",
+                "4346"
             ]
         }
     ],
@@ -28814,7 +29506,7 @@
         },
         "effendi_01": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/jjmypfi.png"
+            "relativePath": "https:\/\/i.imgur.com\/idALE2D.png"
         },
         "effendi_02": {
             "custom": true,
