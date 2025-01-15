@@ -27923,18 +27923,6 @@
         },
         {
             "isCustom": true,
-            "id": "noel",
-            "img": "v4.png",
-            "name": {
-                "en": "noel"
-            },
-            "list": [
-                "2958",
-                
-            ]
-        },
-        {
-            "isCustom": true,
             "id": "Vi\u1ec7t Nam Me",
             "img": "viet_nam_me.png",
             "name": {
