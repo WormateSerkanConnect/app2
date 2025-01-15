@@ -29506,7 +29506,7 @@
         },
         "effendi_01": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/idALE2D.png"
+            "relativePath": "https:\/\/i.imgur.com\/jjmypfi.png"
         },
         "effendi_02": {
             "custom": true,
