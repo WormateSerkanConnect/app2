@@ -7595,7 +7595,7 @@ font-weight: 600;
 
       $("#mm-advice-cont").html(`
 <div class="wormworld-connect-count-b32" style="display: grid !important; grid-template-columns: 1fr 1fr 1fr; gap: 2px;">
-    <input type="button" value="ğŸ–¥ï¸ Full Screen" id="fullscreen_button" style="margin-top:5px;width:100%;height:35px;" />
+    <input type="button" value="Full Screen" id="fullscreen_button" style="margin-top:5px;width:100%;height:35px;" />
     <input type="button" value="RESPAWN" onclick="respawnFn()" style="margin-top:5px;width:100%;background-color:#f7941d;color:#fff;border:0;height:35px;" />
     <input type="button" value="SKINLAB" onclick="window.location.href='https://wormate.io'" style="margin-top:5px;width:100%;height:35px;" />
 </div>
