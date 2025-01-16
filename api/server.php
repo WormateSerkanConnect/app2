@@ -1481,7 +1481,7 @@
   },
   {
     "id": 1,
-    "name": "01. WSC <a href='###'><img class='team' src='https://imgur.com/1X5ORdL.png'/><div id='online'></div>",
+    "name": "01. SEKO ⚡ V4 <a href='###'><img class='team' src='https://imgur.com/od6m1VG.png'/><div id='online'></div>",
     "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:30055/wormy",
     "status": 1
