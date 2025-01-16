@@ -18744,6 +18744,18 @@
         }
     ],
     "skinGroupArrayDict": [
+       {
+            "isCustom": true,
+            "id": "2025",
+            "img": "v4.png",
+            "name": {
+                "en": "2025"
+            },
+            "list": [
+                "1012",
+                "1013"
+            ]
+        },
         {
             "isCustom": true,
             "id": "2025",
