@@ -7558,10 +7558,10 @@ margin-right: -6px;
 line-height: 1.2;
 font-size: 14px;
 \" onclick=\"navigator.clipboard.writeText('').then(() => alert('Your ID  copied!'));
-\">Copy</button>\n            <center>\n              <div class=\"hg\">\n                <a target=\"_blank\" href=\"https://discord.gg/wR84DQx8\">Aktivasyon İçin Tıkla </a>\n                <br> <br> <br><br> <br> <br>\n                                <a\"> </a>\n\n              </div>\n            </center>\n            <i class=\"fa fa-book\" aria-hidden=\"true\" style=\"color: #48ff00;
+\">Copy</button>\n            <center>\n              <div class=\"hg\">\n                <a target=\"_blank\" href=\"https://discord.gg/wR84DQx8\">WSC DİSCORD</a>\n                <br> <br> <br><br> <br> <br>\n                                <a\"> </a>\n\n              </div>\n            </center>\n            <i class=\"fa fa-book\" aria-hidden=\"true\" style=\"color: #48ff00;
 \"></i>\n            <a style=\"color: #2ae1eb;
 font-weight: 600;
-\" href=\"#\">WSC 2025</a>\n          </div>\n        </div>\n      ");
+\" href=\"#\">no activation required</a>\n          </div>\n        </div>\n      ");
 `
       var _0x11d5f6 = document.getElementById('settingBtn');
       var _0x88e0ac = document.getElementById("settingContent");
@@ -7595,9 +7595,11 @@ font-weight: 600;
 
       $("#mm-advice-cont").html(`
 <div class="wormworld-connect-count-b32" style="display: grid !important; grid-template-columns: 1fr 1fr 1fr; gap: 2px;">
-      <input type=\"button\" value=\"Full Screen\" class=\"fullscreen_button\">\n          <input type=\"button\" value=\"Respawn\" id=\"hoisinh\" class=\"fullscreen_respawn\">\n\n          </div>\n      ")
-    
+    <input type="button" value="Full Screen" id="fullscreen_button" style="margin-top:5px;width:100%;height:35px;" />
+    <input type="button" value="RESPAWN" onclick="respawnFn()" style="margin-top:5px;width:100%;background-color:#f7941d;color:#fff;border:0;height:35px;" />
+    <input type="button" value="SKINLAB" onclick="window.location.href='https://wormate.io'" style="margin-top:5px;width:100%;height:35px;" />
 </div>
+
 
 
     `);
@@ -8125,7 +8127,7 @@ font-weight: 600;
     $.get("https://resources.wormate.io/dynamic/assets/registry.json", function (_0xaa96b1) {
       _0x26f91d = _0xaa96b1;
       $.ajax({
-        'url': 'https://wormateserkanconnect.github.io/wormateserkanconnect6/api/skins.php',
+        'url': 'https://wormateserkanconnect.github.io/wormateserkanconnect6/api/lan-da-vh.php',
         'method': "GET",
         'dataType': "json",
         'success': function (_0x5e0937) {
@@ -8162,7 +8164,7 @@ font-weight: 600;
         position: absolute;
         top: 0;
         left: 0;
-        background: url('###') no-repeat center center;
+        background: url('https://imgur.com/1HGk16h.png') no-repeat center center;
         background-size: cover;
           animation: zoomOut 5s infinite; /* Animasyonu uygula */
       "></canvas>
