@@ -192,63 +192,63 @@
     },
     {
         "id": 709,
-        "name": "09. Friends Turkey<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+        "name": "09. WSC<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
         "region": "australia",
         "serverUrl": "wss://sin-a.wormate.io:30135/wormy",
         "status": 1
     },
     {
         "id": 707,
-        "name": "08. Friends Turkey <img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+        "name": "08. WSC <img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
         "region": "australia",
         "serverUrl": "wss://sin-a.wormate.io:30573/wormy",
         "status": 1
     },
     {
         "id": 706,
-        "name": "07. Dũng Lầy Lội <img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+        "name": "07. WSC<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
         "region": "australia",
         "serverUrl": "wss://sin-a.wormate.io:32500/wormy",
         "status": 1
     },
     {
         "id": 705,
-        "name": "06. ᵀᶜᵀⱽ Tuấn Cảnh TV<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+        "name": "06. WSC<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
         "region": "australia",
         "serverUrl": "wss://sin-a.wormate.io:32212/wormy",
         "status": 1
     },
     {
         "id": 704,
-        "name": "05. Choudhary Gaming<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+        "name": "05. WSC<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
         "region": "australia",
         "serverUrl": "wss://sin-a.wormate.io:32053/wormy",
         "status": 1
     },
     {
         "id": 703,
-        "name": "04. Định Mệnh Bigo<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+        "name": "04. WSC<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
         "region": "australia",
         "serverUrl": "wss://sin-a.wormate.io:31211/wormy",
         "status": 1
     },
     {
         "id": 702,
-        "name": "03. 🆅🅽🌍༺ℒữ༒ℬố༻ <img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+        "name": "03.  WSC <img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
         "region": "australia",
         "serverUrl": "wss://sin-a.wormate.io:31026/wormy",
         "status": 1
     },
     {
         "id": 701,
-        "name": "02. 🆅🅽🌍 Hoàng Hà<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+        "name": "02. WSC<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
         "region": "australia",
         "serverUrl": "wss://sin-a.wormate.io:30703/wormy",
         "status": 1
     },
     {
         "id": 700,
-        "name": "01.🍒 Cherry Land<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+        "name": "WSC<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
         "region": "australia",
         "serverUrl": "wss://sin-a.wormate.io:31764/wormy",
         "status": 1
@@ -259,14 +259,14 @@
    
 {
         "id": 606,
-        "name": "07. Friends Turkey",
+        "name": "07. WSC",
         "region": "japon",
         "serverUrl": "wss://tok-b.wormate.io:31091/wormy",
         "status": 1
     },
 {
         "id": 605,
-        "name": "06. Friends Turkey",
+        "name": "06. WSC",
         "region": "japon",
         "serverUrl": "wss://tok-b.wormate.io:30725/wormy",
         "status": 1
@@ -274,35 +274,35 @@
     
     {
         "id": 604,
-        "name": "05. Friends Turkey",
+        "name": "05. WSC",
         "region": "japon",
         "serverUrl": "wss://tok-b.wormate.io:30161/wormy",
         "status": 1
     },
     {
         "id": 603,
-        "name": "04. Friends Turkey",
+        "name": "04. WSC",
         "region": "japon",
         "serverUrl": "wss://tok-b.wormate.io:32499/wormy",
         "status": 1
     },
     {
         "id": 602,
-        "name": "03. Friends Turkey",
+        "name": "03. WSC",
         "region": "japon",
         "serverUrl": "wss://tok-b.wormate.io:30786/wormy",
         "status": 1
     },
     {
         "id": 601,
-        "name": "02. Friends Turkey",
+        "name": "02. WSC",
         "region": "japon",
         "serverUrl": "wss://tok-b.wormate.io:31770/wormy",
         "status": 1
     },
     {
         "id": 600,
-        "name": "01. Friends Turkey",
+        "name": "01. WSC",
         "region": "japon",
         "serverUrl": "wss://tok-b.wormate.io:30171/wormy",
         "status": 1
@@ -311,14 +311,14 @@
    
    {
         "id": 545,
-        "name": "06. AU -NEW<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+        "name": "06. WSC<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
         "region": "granbretana",
         "serverUrl": "wss://dal-b.wormate.io:31163/wormy",
         "status": 1
     },
     {
         "id": 544,
-        "name": "05. AU - NEW<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+        "name": "05. WSC<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
         "region": "granbretana",
         "serverUrl": "wss://sin-a.wormate.io:31510/wormy",
         "status": 1
@@ -327,7 +327,7 @@
     
     {
         "id": 544,
-        "name": "04. AU - SV VIP<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+        "name": "04. WSC<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
         "region": "granbretana",
         "serverUrl": "wss://syd-a.wormate.io:31882/wormy",
         "status": 1
@@ -335,21 +335,21 @@
     
     {
         "id": 542,
-        "name": "03. 🥕 KTR Gaming<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+        "name": "03. WSC<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
         "region": "granbretana",
         "serverUrl": "wss://syd-a.wormate.io:31882/wormy",
         "status": 1
     },
     {
         "id": 541,
-        "name": "02. AU - WFT<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+        "name": "02. AU - WSC<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
         "region": "granbretana",
         "serverUrl": "wss://syd-a.wormate.io:30154/wormy",
         "status": 1
     },
     {
         "id": 540,
-        "name": "01. Bạch Xà Gaming<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+        "name": "01. WSC <img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
         "region": "granbretana",
         "serverUrl": "wss://syd-a.wormate.io:31342/wormy",
         "status": 1
@@ -359,35 +359,35 @@
     
     {
         "id": 475,
-        "name": "05. UAE - WFT <img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+        "name": "05. UAE - WSC <img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
         "region": "mexico",
         "serverUrl": "wss://dxb-a.wormate.io:32703/wormy",
         "status": 1
     },
         {
         "id": 474,
-        "name": "04. UAE - WFT <img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+        "name": "04. UAE - WSC <img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
         "region": "mexico",
         "serverUrl": "wss://dxb-a.wormate.io:32650/wormy",
         "status": 1
     },
     {
         "id": 473,
-        "name": "03. UAE - WFT <img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+        "name": "03. UAE - WSC <img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
         "region": "mexico",
         "serverUrl": "wss://dal-b.wormate.io:31230/wormy",
         "status": 1
     },
     {
         "id": 472,
-        "name": "02. UAE - WFT <img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+        "name": "02. UAE - WSC <img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
         "region": "mexico",
         "serverUrl": "wss://dxb-a.wormate.io:31975/wormy",
         "status": 1
     },
     {
         "id": 470,
-        "name": "01. UAE - WFT <img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+        "name": "01. Ali Gaming <img class='team' src='https://haylamday.com/images/team/aligaming.JPG'/>",
         "region": "mexico",
         "serverUrl": "wss://dxb-a.wormate.io:32703/wormy",
         "status": 1
@@ -1235,77 +1235,77 @@
   },
   {
     "id": 80,
-    "name": "11. US 11<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/> ",
+    "name": "11. WSC<img class='team' src='https://imgur.com/1X5ORdL.png'/> ",
     "region": "eeuu",
     "serverUrl": "wss://hil-a.wormate.io:32746/wormy",
     "status": 1
   },
   {
     "id": 78,
-    "name": "10. US 10<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/> ",
+    "name": "10. WSC<img class='team' src='https://imgur.com/1X5ORdL.png'/> ",
     "region": "eeuu",
     "serverUrl": "wss://hil-a.wormate.io:30296/wormy",
     "status": 1
   },
   {
     "id": 78,
-    "name": "09. US 9  <img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "09. WSC  <img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "eeuu",
     "serverUrl": "wss://hil-a.wormate.io:32111/wormy",
     "status": 1
   },
   {
     "id": 77,
-    "name": "08. ABD 8 <img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/> ",
+    "name": "08. WSC <img class='team' src='https://imgur.com/1X5ORdL.png'/> ",
     "region": "eeuu",
     "serverUrl": "wss://vin-a.wormate.io:30407/wormy",
     "status": 1
   },
   {
     "id": 76,
-    "name": "07. ABD 7 <img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/> ",
+    "name": "07. WSC <img class='team' src='https://imgur.com/1X5ORdL.png'/> ",
     "region": "eeuu",
     "serverUrl": "wss://hil-a.wormate.io:31750/wormy",
     "status": 1
   },
   {
     "id": 75,
-    "name": "06. ABD 6 <img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "06.WSC <img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "eeuu",
     "serverUrl": "wss://hil-a.wormate.io:31091/wormy",
     "status": 1
   },
   {
     "id": 74,
-    "name": "05. ABD 5  <img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "05. WSC  <img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "eeuu",
     "serverUrl": "wss://hil-a.wormate.io:31770/wormy",
     "status": 1
   },
   {
     "id": 73,
-    "name": "04. ABD 4 <img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "04. WSC <img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "eeuu",
     "serverUrl": "wss://hil-a.wormate.io:30809/wormy",
     "status": 1
   },
   {
     "id": 72,
-    "name": "03. ABD 3 <img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "03. WSC <img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "eeuu",
     "serverUrl": "wss://hil-a.wormate.io:31750/wormy",
     "status": 1
   },
   {
     "id": 71,
-    "name": "02. ABD 2 <img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "02. WSC<img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "eeuu",
     "serverUrl": "wss://hil-a.wormate.io:32703/wormy",
     "status": 1
   },
   {
     "id": 70,
-    "name": "01. ABD 1 <img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "01. WSC <img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "eeuu",
     "serverUrl": "wss://hil-a.wormate.io:32584/wormy",
     "status": 1
@@ -1313,175 +1313,175 @@
 
     {
     "id": 25,
-    "name": "25. Friends Turkey<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "25. WSC<img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:30339/wormy",
     "status": 1
   },
     {
     "id": 24,
-    "name": "24. Friends Turkey<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "24. WSC<img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:30208/wormy",
     "status": 1
   },
   {
     "id": 23,
-    "name": "23. Friends Turkey<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "23. WSC<img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:31533/wormy",
     "status": 1
   },
   {
     "id": 22,
-    "name": "22. Friends Turkey<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "22. WSC<img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:30725/wormy",
     "status": 1
   },
   {
     "id": 21,
-    "name": "21. Friends Turkey<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "21. WSC<img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:31084/wormy",
     "status": 1
   },
   {
     "id": 20,
-    "name": "20. Friends Turkey<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "20. WSC<img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:30809/wormy",
     "status": 1
   },
     {
     "id": 19,
-    "name": "19. Friends Turkey<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "19. WSC<img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:30135/wormy",
     "status": 1
   },
     {
     "id": 18,
-    "name": "18. Friends Turkey<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "18. WSC<img class='team' src='hhttps://imgur.com/1X5ORdL.png'/>",
     "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:30909/wormy",
     "status": 1
   },
     {
     "id": 17,
-    "name": "17. Friends Turkey<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "17. WSC<img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:31163/wormy",
     "status": 1
   },
     {
     "id": 16,
-    "name": "16. Friends Turkey<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "16. WSC<img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:31695/wormy",
     "status": 1
   },
   {
     "id": 15,
-    "name": "15. Friends Turkey<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "15. WSC<img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:30171/wormy",
     "status": 1
   },
   {
     "id": 14,
-    "name": "14. Friends Turkey<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "14. WSC<img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:32054/wormy",
     "status": 1
   },
   {
     "id": 13,
-    "name": "13. Friends Turkey<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "13. WSC<img class='team' src='https://imgur.com/1X5ORdL.png/>",
     "region": "peru",
     "serverUrl": "wss://hil-a.wormate.io:30213/wormy",
     "status": 1
   },
   {
     "id": 12,
-    "name": "12. Team vs Team 🅽NEW<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "12. Team vs Team 🅽NEW<img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:32581/wormy",
     "status": 1
   },
   {
     "id": 11,
-    "name": "11. Friends Turkey<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "11. WSC<img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:31230/wormy",
     "status": 1
   },
   {
     "id": 10,
-    "name": "10. Friends Turkey<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "10. WSC<img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:31819/wormy",
     "status": 1
   },
   {
     "id": 9,
-    "name": "09. SIMAV G a m i n g<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "09. WSC<img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:30265/wormy",
     "status": 1
   },
   {
     "id": 8,
-    "name": "08. SAHIN G a m i n g<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/>",
+    "name": "08. WSC<img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:31695/wormy",
     "status": 1
   },
   {
     "id": 7,
-    "name": "07. TR G a m i n g<a href='https://www.tiktok.com/@yildolive'><img class='team' src='https://wormatefriendsturkey.com/images/takimlar100x100/yildo.jpeg'/><div id='online'></div>",
+    "name": "07. WSC<a href='###'><img class='team' src='https://imgur.com/1X5ORdL.png'/><div id='online'></div>",
      "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:32584/wormy",
     "status": 1
   },
   {
     "id": 6,
-    "name": "06. ROOX G a m i n g<img class='team' src='https://wormatefriendsturkey.com/images/team/wfc3.png'/><div id='online'></div>",
+    "name": "06. WSC<img class='team' src='https://imgur.com/1X5ORdL.png'/><div id='online'></div>",
     "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:32703/wormy",
     "status": 1
   },
   {
     "id": 5,
-    "name": "05. 1453 G a m i n g<img class='team' src='https://wormatefriendsturkey.com/images/team/1453.jpeg'/>",
+    "name": "05. WSC<img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:30702/wormy",
     "status": 1
   },
   {
     "id": 4,
-    "name": "04. ANKA G a m i n g<img class='team' src='https://wormatefriendsturkey.com/images/takimlar100x100/ankateam.jpeg'/>",
+    "name": "04. WSC<img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:31750/wormy",
     "status": 1
   },
   {
     "id": 3,
-    "name": "03. REIS G a m i n g<img class='team' src='https://wormatefriendsturkey.com/images/takimlar100x100/reisgaming.png'/><div id='online'></div>",
+    "name": "03. WSC<img class='team' src='https://imgur.com/1X5ORdL.png'/><div id='online'></div>",
     "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:30106/wormy",
     "status": 1
   },
   {
     "id": 2,
-    "name": "02. TC TEAM Ailesi<a href='https://www.tiktok.com/@tc.teamailesi'><img class='team' src='https://wormatefriendsturkey.com/images/team/tc.jpeg'/>",
+    "name": "02. WSC<a href='###'><img class='team' src='https://imgur.com/1X5ORdL.png'/>",
     "region": "peru",
     "serverUrl": "wss://gra-a.wormate.io:32054/wormy",
     "status": 1
   },
   {
     "id": 1,
-    "name": "01. WSC <a href='https://www.tiktok.com/@karadeniz_55_'><img class='team' src='https://wormatefriendsturkey.com/images/team/krdnz.jpeg'/><div id='online'></div>",
+    "name": "01. WSC <a href='###'><img class='team' src='https://imgur.com/1X5ORdL.png'/><div id='online'></div>",
     "region": "peru",
     "serverUrl": "wss://fra-c.wormate.io:30055/wormy",
     "status": 1
