@@ -14,121 +14,6 @@ html {
   margin:0;
   overflow:hidden;
 }
-
-
-
-
-
-
-/* ØªÙ†Ø³ÙŠÙ‚ Ø§Ù„Ø­Ø§ÙˆÙŠØ© Ø§Ù„Ø±Ø¦ÙŠØ³ÙŠØ© */
-.settings-lineZoom {
-  display: flex;
-  align-items: center;
-  margin-bottom: 8px;
-  background-color: #fff;
-  padding: 8px;
-  border-radius: 5px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* ØªÙ†Ø³ÙŠÙ‚ ØªØ³Ù…ÙŠØ© Ø§Ù„ØµÙˆØª */
-.settings-labelZoom {
-  font-size: 16px;
-  color: #333;
-  margin-right: 10px;
-  display: flex;
-  align-items: center;
-}
-
-/* ØªØºÙŠÙŠØ± Ù„ÙˆÙ† Ø£ÙŠÙ‚ÙˆÙ†Ø© Ø§Ù„Ø¥Ø¹Ø¯Ø§Ø¯Ø§Øª */
-.settings-labelZoom i {
-  margin-right: 5px;
-  font-size: 18px;
-}
-
-/* ØªÙ†Ø³ÙŠÙ‚ Ø²Ø± Ø§Ù„ØªØ¨Ø¯ÙŠÙ„ (Ù…ÙØªØ§Ø­ Ø§Ù„ØµÙˆØª) */
-.settings-switchZoom {
-  width: 50px;
-  height: 25px;
-  position: relative;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border-radius: 40px;
-  background-color: #ddd;
-  cursor: pointer;
-}
-
-.settings-switchZoom:checked {
-  background-color: #0d7aef;
-}
-
-.settings-switchZoom:checked::before {
-  left: 25px;
-}
-
-.settings-switchZoom::before {
-  content: "";
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  width: 21px;
-  height: 21px;
-  border-radius: 50%;
-  background-color: white;
-  transition: left 0.3s;
-}
-
-/* ØªÙ†Ø³ÙŠÙ‚ Ø§Ù„Ù‚Ø§Ø¦Ù…Ø© Ø§Ù„Ù…Ù†Ø³Ø¯Ù„Ø© */
-.sound-settings {
-  margin-top: 15px;
-}
-
-/* ØªÙ†Ø³ÙŠÙ‚ Ø§Ù„Ù‚Ø§Ø¦Ù…Ø© Ø§Ù„Ù…Ù†Ø³Ø¯Ù„Ø© (Ø§Ù„Ù€ select) */
-#sound-selector {
-  width: 80px;
-  padding: 3px;
-  font-size: 14px;
-  border-radius: 5px;
-  border: 1px solid #ddd;
-  background-color: #fff;
-  color: #333;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  transition: border-color 0.3s;
-}
-
-/* ØªØ£Ø«ÙŠØ± Ø¹Ù†Ø¯ Ø§Ù„ØªÙ…Ø±ÙŠØ± ÙÙˆÙ‚ Ø§Ù„Ù‚Ø§Ø¦Ù…Ø© Ø§Ù„Ù…Ù†Ø³Ø¯Ù„Ø© */
-#sound-selector:hover {
-  border-color: #0d7aef;
-}
-
-/* ØªÙ†Ø³ÙŠÙ‚ Ø®ÙŠØ§Ø±Ø§Øª Ø§Ù„Ù‚Ø§Ø¦Ù…Ø© */
-#sound-selector option {
-  padding: 10px;
-  background-color: #fff;
-  color: #333;
-  border: none;
-  transition: background-color 0.3s;
-}
-
-/* ØªØºÙŠÙŠØ± Ù„ÙˆÙ† Ø§Ù„Ø®Ù„ÙÙŠØ© Ø¹Ù†Ø¯ Ø§Ù„ØªÙ…Ø±ÙŠØ± ÙÙˆÙ‚ Ø§Ù„Ø®ÙŠØ§Ø± */
-#sound-selector option:hover {
-  background-color: #f0f8ff;
-}
-
-/* Ø§Ù„ØªØ£Ø«ÙŠØ± Ø¹Ù†Ø¯ Ø§Ù„ØªÙ…Ø±ÙŠØ± Ø¹Ù„Ù‰ Ø§Ù„Ø®ÙŠØ§Ø±Ø§Øª ÙÙŠ Ø§Ù„Ù‚Ø§Ø¦Ù…Ø© */
-#sound-selector option:active {
-  background-color: #e0f0ff;
-}
-
-
-
-
-
-
-
-
 body {display:block !important;}
 #1eaom01c3pxu9wd3 {
   width:100%;
@@ -399,18 +284,6 @@ body {display:block !important;}
   height:50px;
   border-radius:5px;
 }
-
-
-#mm-player-avatar {
-  border-radius: 25px !important;
-  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5),
-      0 0 20px rgba(255, 255, 255, 0.2);
-  outline-color: rgba(255, 255, 255, 0) !important;
-  outline-offset: 15px !important;
-}
-
-
-
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-top #mm-player-info #mm-player-username {
   position:absolute;
   text-shadow: 0 0 0 #ff006a, 0 0 0.5em #ff00bc, 0 0 0.4em #ff00d4;
@@ -450,11 +323,6 @@ body {display:block !important;}
   font-size:12px;
   text-align:center;
 }
-
-
-
-
-
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-top #mm-player-info #mm-player-level {
   position:absolute;
   right:-10px;
@@ -540,15 +408,13 @@ body {display:block !important;}
   left:30px;
 }
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-left .description-text {
-  border-radius:5px;
-  background:rgba(0,0,0,.25);
-  height:320px;
-  margin:30px 0;
-  overflow:scroll;
-  padding:2px 5px;
-  box-sizing:border-box;
-  color:rgba(255,255,255,.8);
-  box-shadow: 0 0 10px rgb(221 14 186);
+  border-radius: 5px;
+    background: rgba(0, 0, 0, .25);
+    height: 320px;
+    margin: 30px 0;
+    overflow: scroll;
+    padding: 2px 5px;
+    box-sizing: border-box;
 }
 
 .title-wormate-friends-connect {
@@ -579,7 +445,6 @@ body {display:block !important;}
 }
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-left .description-text p {
   text-align:justify;
-  color:rgba(255,255,255,.8);
 }
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-left .description-text b {
   text-decoration:underline;
@@ -769,6 +634,7 @@ body {display:block !important;}
   text-shadow:0 0 1px #000;
   cursor:pointer;
   transition:background-color .5s ease;
+  display:none;
 }
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont .mm-params #mm-params-game-mode:hover {
   box-shadow:0 1px 1px 0 rgba(0,0,0,.5);
@@ -880,8 +746,8 @@ body {display:block !important;}
   line-height:20px;
   vertical-align:middle;
 }
-#game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont #mm-advice-cont .mm-advice span:before {content:"ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬â„¢ ";}
-#game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont #mm-advice-cont .mm-advice span:after {content:" ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬â„¢";}
+#game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont #mm-advice-cont .mm-advice span:before {content:"Ã¢â‚¬â€™ ";}
+#game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont #mm-advice-cont .mm-advice span:after {content:" Ã¢â‚¬â€™";}
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-menu-cont #mm-advice-cont:first-child {display:block;}
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-middle #mm-loading {
   display:none;
@@ -940,11 +806,11 @@ body {display:block !important;}
   border-radius:8px;
 }
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-right {
-  position:absolute;
-  height:100%;
-  width:270px;
-  right:30px;
-  box-shadow: 0 0 10px rgb(221 14 186);
+  position: absolute;
+    height: 100%;
+    width: 270px;
+    right: 30px;
+    border-radius: 5px;
 }
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-right #loa831pibur0w4gv {
   height:340px;
@@ -1089,8 +955,10 @@ body {display:block !important;}
 #game-wrap #game-cont #stretch-box #popup-view {
   display:none;
   color:#fff;
+  top:25px;
 }
 #game-wrap #game-cont #stretch-box #popup-view .stretch-container {
+    box-shadow: 0px 0px 15px 10px #cdff00;
   background:rgba(47,46,68,.4);
   border-radius:5px;
   overflow:hidden;
@@ -3205,30 +3073,29 @@ body {display:block !important;}
   height:2px;
 }
 #markup-wrap #markup-footer {
-  box-shadow:0 0 20px rgba(0,0,0,.25);
-  background:rgba(0,0,0,.25);
+  
   position:fixed;
   left:0;
   right:0;
   bottom:0;
   width:100%;
-  height:22px;
   text-align:center;
   vertical-align:middle;
-  font-size:14px;
-  color:#dadada;
+  font-size:15px;
+  color:#dadada;    z-index: 9999;
 }
 #markup-wrap #markup-footer .link {
   cursor:pointer;
   font-size:inherit;
   background-color:transparent;
   border:0;
-  color:#fff;
+  color: #0a8135e8;
+  font-weight: 600;
   text-decoration:none;
   margin:0 5px;
 }
 #markup-wrap #markup-footer .link:hover {
-  color:#fff;
+  color:#f50c40e8;
   text-decoration:underline;
 }
 #markup-wrap #markup-footer .lang-menu {
@@ -3242,7 +3109,8 @@ body {display:block !important;}
 #markup-wrap #markup-footer .lang-menu .lang-button {
   font-size:14px;
   background:rgba(255,255,255,.5);
-  color:#fff;
+  color: #255707;
+    font-weight: 600;
   border:none;
   cursor:pointer;
   border-radius:4px 4px 0 0;
@@ -3325,7 +3193,7 @@ body {display:block !important;}
 }
 .selectSala:hover {
     background: #ff0000;
-    color: #1e05459c;
+    color: #00ff21;
     box-shadow: 0 0 3px #1e05459c, 0 0 5px #1e05459c, 0 0 10px #1e05459c, 0 0 15px #1e05459c, 0 0 20px #1e05459c, 0 0 35px #1e05459c, 0 0 30px #1e05459c;
     outline-color: rgba(255, 255, 255, 0) !important;
   outline-offset: 15px !important;
@@ -3442,52 +3310,31 @@ top: 0%;
 #zoom-percentage{color: #fff;
     font-size: 11px;display:none;}
 
-/* ØªÙ†Ø³ÙŠÙ‚ Ø§Ù„Ø­Ø§ÙˆÙŠØ© Ø§Ù„Ø®Ø§ØµØ© Ø¨Ø§Ù„ØªÙƒØ¨ÙŠØ± */
 #zoom-container {
+
+    top: 30px;
+    transform: translateY(-50%);
     position: absolute;
-    top: 20px;  /* Ø§Ù„Ù…Ø³Ø§ÙØ© Ù…Ù† Ø£Ø¹Ù„Ù‰ Ø§Ù„ØµÙØ­Ø© */
-    right: 20px; /* Ø§Ù„Ù…Ø³Ø§ÙØ© Ù…Ù† Ø§Ù„Ø¬Ù‡Ø© Ø§Ù„ÙŠÙ…Ù†Ù‰ */
+    line-height: 0;
     display: flex;
-    flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.5); /* Ø®Ù„ÙÙŠØ© Ø´ÙØ§ÙØ© */
-    padding: 10px;
-    border-radius: 5px;
+    padding: 0px;
+    justify-content: space-evenly;
+    right: 244px;
 }
 
-/* ØªÙ†Ø³ÙŠÙ‚ Ø²Ø± Ø§Ù„ØªÙƒØ¨ÙŠØ± */
-#zoom-in {
-    font-size: 24px;
-    color: white;
-    background-color: green;
-    padding: 10px;
+#zoom-in, #zoom-out {
     margin: 5px;
     text-align: center;
-    cursor: pointer;
-    border-radius: 3px;
-    transition: background-color 0.3s ease;
-}
-
-/* ØªØºÙŠÙŠØ± Ø§Ù„Ù„ÙˆÙ† Ø¹Ù†Ø¯ Ø§Ù„Ù…Ø±ÙˆØ± Ø¹Ù„Ù‰ Ø²Ø± Ø§Ù„ØªÙƒØ¨ÙŠØ± */
-#zoom-in:hover {
-    background-color: darkgreen;
-}
-
-/* ØªÙ†Ø³ÙŠÙ‚ Ø²Ø± Ø§Ù„ØªØµØºÙŠØ± */
-#zoom-out {
-    font-size: 24px;
-    color: white;
-    background-color: red;
-    padding: 10px;
-    margin: 5px;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 3px;
-    transition: background-color 0.3s ease;
-}
-
-/* ØªØºÙŠÙŠØ± Ø§Ù„Ù„ÙˆÙ† Ø¹Ù†Ø¯ Ø§Ù„Ù…Ø±ÙˆØ± Ø¹Ù„Ù‰ Ø²Ø± Ø§Ù„ØªØµØºÙŠØ± */
-#zoom-out:hover {
-    background-color: darkred;
+    background-color: #000;
+    color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 1;
+    justify-content: center;
 }
 
 
@@ -3503,8 +3350,7 @@ top: 0%;
         #settingBtn img {
             height: 20px;
             width: 20px;  
-          outline: none;
-
+            
         }
 
 
@@ -3533,7 +3379,7 @@ font-weight: bold;
 .flag {
     display: block;
     margin: 6px 0;
-   background-image: url(https://i.imgur.com/oEICJp7.png);
+   background-image: url(https://imgur.com/2ObE5tn.png);
     background-repeat: no-repeat;
     background-size: 135px 120px;
 }
@@ -3727,7 +3573,7 @@ width: 40px;
     height: 35px;
     text-align: center;
     border: none;
-    margin-top: 65px;
+    margin-top: 3px;
     background-image: url(https://i.imgur.com/XNBRhaD.png);
     background-size: 100% 100%;
 }
@@ -3838,9 +3684,8 @@ button:hover{
 
 .bao-list1 {margin: 0px 23px 0px 23px;font-size: 15px;} 
 
-.list1{color: #ffff05;border-bottom: #fff solid 0px;}
+.list1{color: #fff000;border-bottom: #fff solid 1px;}
 .list1 a{color: #09c6f3;font-weight: 600;}
-.list1{text-align: center;}
 
 .list2 {
     font-size: 14px;
@@ -3858,13 +3703,13 @@ button:hover{
    width: 210px;
     line-height: 1.6;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 13px;
     text-shadow: 0 0 0 #ff006a, 0 0 0.5em #ff00bc, 0 0 0.4em #ff00d4;
     text-align: center;
     /* background: linear-gradient(#8f22ff, #35b3a2); */
     position: absolute;
-    left: 25px;
-    top: -6px;
+    left: 70px;
+    top: 25px;
 }
 
 #final-replay {position: absolute;
@@ -3900,22 +3745,14 @@ button:hover{
     margin-bottom: 90px;
     object-fit: fill;
 } 
-/* Status indicator for server status */
-#online {
-  background-color: #4dff00;  /* Green by default for online */
-  width: 12px;
-  height: 12px;
-  border-radius: 50%; /* Ensures it's a circle */
-  margin-top: 4px;
-  margin-right: 5px;
-  float: right;
-}
-
-/* Add a class for the offline status (red circle) */
-.offline {
-  background-color: #ff4d4d; /* Red for offline */
-}
-
+#online, #hoat-dong{
+    background: #60ff00;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    margin-top: 4px;
+    margin-right: 5px;
+    float: right;}  
     
  .fullscreen_button ,.fullscreen_respawn, .fullscreen_contact {
  font-family: vuonghiep;
@@ -3986,13 +3823,13 @@ button:hover{
 .settings-container {
     display: flex;
     flex-direction: column;
-    gap: 10px; /* KhoÃ¡ÂºÂ£ng cÃƒÂ¡ch giÃ¡Â»Â¯a cÃƒÂ¡c hÃƒÂ ng */
+    gap: 10px; /* Khoáº£ng cÃ¡ch giá»¯a cÃ¡c hÃ ng */
 }
 
 .settings-row {
     display: flex;
-    gap: 10px; /* KhoÃ¡ÂºÂ£ng cÃƒÂ¡ch giÃ¡Â»Â¯a cÃƒÂ¡c phÃ¡ÂºÂ§n tÃ¡Â»Â­ trong mÃ¡Â»â„¢t hÃƒÂ ng */
-    flex-wrap: wrap; /* Ã„ÂÃ¡ÂºÂ£m bÃ¡ÂºÂ£o cÃƒÂ¡c phÃ¡ÂºÂ§n tÃ¡Â»Â­ sÃ¡ÂºÂ½ tÃ¡Â»Â± Ã„â€˜Ã¡Â»â„¢ng xuÃ¡Â»â€˜ng dÃƒÂ²ng nÃ¡ÂºÂ¿u khÃƒÂ´ng Ã„â€˜Ã¡Â»Â§ chÃ¡Â»â€” */
+    gap: 10px; /* Khoáº£ng cÃ¡ch giá»¯a cÃ¡c pháº§n tá»­ trong má»™t hÃ ng */
+    flex-wrap: wrap; /* Äáº£m báº£o cÃ¡c pháº§n tá»­ sáº½ tá»± Ä‘á»™ng xuá»‘ng dÃ²ng náº¿u khÃ´ng Ä‘á»§ chá»— */
 }
 
 
@@ -4113,22 +3950,22 @@ input[type="color"]::-moz-color-swatch {
 }
 
 #titleSetings {
-  font-size: 1.5em; /* Aumenta el tamaÃƒÆ’Ã‚Â±o del texto */
+  font-size: 1.5em; /* Aumenta el tamaÃƒÂ±o del texto */
   padding: 8px 12px; /* Aumenta el espacio interior */
-  border-radius: 8px; /* Aumenta el radio del borde para hacerlo mÃƒÆ’Ã‚Â¡s suave */
+  border-radius: 8px; /* Aumenta el radio del borde para hacerlo mÃƒÂ¡s suave */
   text-align: center; /* Centra el texto horizontalmente */
-  font-weight: bold; /* Hace que el texto sea mÃƒÆ’Ã‚Â¡s fuerte */
+  font-weight: bold; /* Hace que el texto sea mÃƒÂ¡s fuerte */
   color: #fff; /* Cambia el color del texto a blanco */
 }
 
-#mm-params-game-mode,
+
 #unl6wj4czdl84o9b,
 #final-share-fb {
   display: none !important;
 }
 #game-wrap{
-  background-image: url(https://image-0.uhdpaper.com/wallpaper/sports-car-mountains-retrowave-synthwave-4k-wallpaper-uhdpaper.com-233@0@k.jpg);
-  background-repeat: repeat;
+  background-image: url(https://imgur.com/COWNSv0.png);
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -4177,7 +4014,7 @@ input[type="color"]::-moz-color-swatch {
 
 
 #mm-player-level{
-  background: url(https://wormate.io/images/level-star.svg) !important;
+  background: url(https://i.imgur.com/tCsCXZt.png) !important;
   background-size: 80px !important;
   line-height: 80px !important;
   width: 78px !important;
@@ -4229,34 +4066,7 @@ input[type="color"]::-moz-color-swatch {
   animation-fill-mode: forwards;
 }
 
-#ping {
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-    
-    /* Optional styling to make it visually appealing */
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    font-family: monospace;
-    font-size: 14px;
-    z-index: 1000; /* Ensures it stays on top of other elements */
-    
-    /* Optional smooth transition for ping changes */
-    transition: color 0.3s ease;
+.description-text, #loa831pibur0w4gv {
+    border: 1px solid #ffe1ff;
+    box-shadow: 0px 0px 15px 10px #cdff00;
 }
-
-/* Optional: Color change based on ping */
-#ping.high-ping {
-    color: red;
-}
-
-#ping.medium-ping {
-    color: yellow;
-}
-
-#ping.low-ping {
-    color: green;
-}
-
