@@ -776,7 +776,7 @@
     },
     {
         "id": 200,
-        "name": "01. M E V O R E I S<a href='https://www.tiktok.com/@mevoreis'><img class='team' src='https://www.wormatefriendsturkey.com/images/yayinci/mevo_tiktok.png'/><div id='online'></div>",
+        "name": "01. BabaPro31😈<a href='###'><img class='team' src='https://wormateserkanconnect.github.io/wormateserkanconnect6/images/31.png'/><div id='online'></div>",
         "region": "francia",
         "serverUrl": "wss://gra-a.wormate.io:31038/wormy",
         "status": 1
