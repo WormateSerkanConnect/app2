@@ -15311,15 +15311,15 @@
                 "kurdishflag_14_0"
             ],
             "glow": [
-                "a__yllw",
-                "a__yllw",
-                "a__yllw",
-                "a_grass",
-                "a__ruby",
-                "a_grass",
-                "a__yllw",
-                "a__yllw",
-                "a__yllw"
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white"
             ]
         },
         {
@@ -18107,15 +18107,15 @@
                 "europaplayers_04_0"
             ],
             "glow": [
-                "a_trans",
-                "a_trans",
-                "a_trans",
-                "a_trans",
-                "a_trans",
-                "a_trans",
-                "a_trans",
-                "a_trans",
-                "a_trans"
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white"
             ]
         },
         {
@@ -28871,28 +28871,15 @@
         },
         {
             "isCustom": true,
-            "id": "M3 CLAN",
-            "img": "M3-CLAN.png",
+            "id": "Kurdish Flag",
+            "img": "v4.png",
             "name": {
-                "en": "M3 CLAN"
+                "en": "Kurdish Flag"
             },
             "list": [
-                "2133",
-                "2120",
-                "2121",
-                "2122",
-                "2123",
-                "2124",
-                "2125",
-                "2126",
-                "2127",
-                "2128",
-                "2129",
-                "2130",
-                "2131",
-                "2132"
-            ]
-        },
+                "2277",
+                "1633",
+                "1622",
         {
             "isCustom": false,
             "id": "VƯƠNG HIỆP SKINS",
@@ -29072,72 +29059,6 @@
                 "1756",
                 "1757",
                 "3400"
-            ]
-        },
-        {
-            "isCustom": true,
-            "id": "Abu Faris",
-            "img": "abufaris.png",
-            "name": {
-                "en": "Abu Faris"
-            },
-            "list": [
-                "2800",
-                "2801",
-                "2802",
-                "2803",
-                "2804",
-                "2805",
-                "2806",
-                "2807",
-                "2808",
-                "2809",
-                "2810",
-                "2811",
-                "2812",
-                "2813",
-                "2814",
-                "2815",
-                "2816"
-            ]
-        },
-        {
-            "isCustom": true,
-            "id": "KURDISTAN 75",
-            "img": "kurdistan75.png",
-            "name": {
-                "en": "KURDISTAN 75"
-            },
-            "list": [
-                "2570",
-                "2571",
-                "2572",
-                "2573",
-                "2574",
-                "2575",
-                "2576",
-                "2577",
-                "2578",
-                "2579",
-                "2580",
-                "2581",
-                "2582",
-                "2583",
-                "2584",
-                "2585",
-                "2586",
-                "2587",
-                "2588",
-                "2589",
-                "2590",
-                "2591",
-                "2592",
-                "2593",
-                "2594",
-                "2595",
-                "2596",
-                "3222",
-                "2597"
             ]
         },
         {
@@ -29323,62 +29244,6 @@
         },
         {
             "isCustom": true,
-            "id": "VNXX GAMING",
-            "img": "vnxx.png",
-            "name": {
-                "en": "VNXX GAMING"
-            },
-            "list": [
-                "2850",
-                "2851",
-                "2852",
-                "2853",
-                "2854",
-                "2855",
-                "2856",
-                "2857",
-                "2858",
-                "2859",
-                "2860",
-                "2861",
-                "2862",
-                "2863",
-                "2864",
-                "2865",
-                "2866",
-                "2867",
-                "2868",
-                "2869",
-                "2870",
-                "2871",
-                "3486"
-            ]
-        },
-        {
-            "isCustom": true,
-            "id": "Kiss The Rain",
-            "img": "ktr.png",
-            "name": {
-                "en": "Kiss The Rain"
-            },
-            "list": [
-                "3220",
-                "3219",
-                "3218",
-                "3216",
-                "3210",
-                "3211",
-                "3212",
-                "3213",
-                "3214",
-                "3215",
-                "3217",
-                "3221",
-                "3222"
-            ]
-        },
-        {
-            "isCustom": true,
             "id": "Linspecturdz",
             "img": "Linspecturdz.png",
             "name": {
@@ -29406,26 +29271,8 @@
         },
         {
             "isCustom": true,
-            "id": "NSND",
-            "img": "nsnd.png",
-            "name": {
-                "en": "NSND"
-            },
-            "list": [
-                "2220",
-                "2221",
-                "2222",
-                "2223",
-                "2224",
-                "2225",
-                "2226",
-                "2227"
-            ]
-        },
-        {
-            "isCustom": true,
             "id": "EFFENDI",
-            "img": "effendi.png",
+            "img": "wfc.png",
             "name": {
                 "en": "EFFENDI"
             },
@@ -29450,7 +29297,7 @@
         {
             "isCustom": true,
             "id": "Alexandra",
-            "img": "Alexandra.jpg",
+            "img": "wfc.png",
             "name": {
                 "en": "Alexandra"
             },
@@ -29477,7 +29324,7 @@
         {
             "isCustom": true,
             "id": "noel",
-            "img": "vip.png",
+            "img": "wfc.png",
             "name": {
                 "en": "noel"
             },
@@ -29512,33 +29359,6 @@
                 "3233",
                 "3234",
                 "3236"
-            ]
-        },
-        {
-            "isCustom": true,
-            "id": "Kurdish Flag",
-            "img": "kurdish-flag.png",
-            "name": {
-                "en": "Kurdish Flag"
-            },
-            "list": [
-                "1620",
-                "1621",
-                "1622",
-                "1623",
-                "1624",
-                "1625",
-                "1626",
-                "1627",
-                "1629",
-                "1630",
-                "1631",
-                "1633",
-                "1634",
-                "1635",
-                "1636",
-                "1637",
-                "1638"
             ]
         },
         {
@@ -29585,42 +29405,6 @@
                 "2385",
                 "2386",
                 "2422"
-            ]
-        },
-        {
-            "isCustom": true,
-            "id": "EUROPA PLAYER SKINS",
-            "img": "europaplayers.png",
-            "name": {
-                "en": "EUROPA PLAYER SKINS"
-            },
-            "list": [
-                "2270",
-                "2271",
-                "2272",
-                "2273",
-                "2274",
-                "2275",
-                "2276",
-                "3071",
-                "2320",
-                "2321",
-                "2277"
-            ]
-        },
-        {
-            "isCustom": true,
-            "id": "c3",
-            "img": "c3.jpg",
-            "name": {
-                "en": "c3"
-            },
-            "list": [
-                "1437",
-                "1438",
-                "1439",
-                "1440",
-                "1441"
             ]
         },
         {
@@ -30584,7 +30368,7 @@
         },
         "kurdishflag_14": {
             "custom": true,
-            "relativePath": "https:\/\/lh3.googleusercontent.com\/d\/1-bB8XiksmP8DLDOnBXbXuFHYuumlyPLP"
+            "relativePath": "https:\/\/i.imgur.com\/vZY5JpW.png"
         },
         "kurdishflag_15": {
             "custom": true,
@@ -30956,7 +30740,7 @@
         },
         "europaplayers_04": {
             "custom": true,
-            "relativePath": "https:\/\/lh3.googleusercontent.com\/d\/1-f4g81G61FpKTGu8pQ7A8lBRHu675c9E"
+            "relativePath": "https:\/\/i.imgur.com\/jRiUZKx.png"
         },
         "europaplayers_05": {
             "custom": true,
@@ -30972,7 +30756,7 @@
         },
         "europaplayers_08": {
             "custom": true,
-            "relativePath": "https:\/\/lh3.googleusercontent.com\/d\/1ltJG_zP3dek5bgc3B5DH06jlQuy08UDU"
+            "relativePath": "https:\/\/i.imgur.com\/p6SY3p4.png"
         },
         "kurdistan75_01": {
             "custom": true,
