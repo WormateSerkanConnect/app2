@@ -486,7 +486,7 @@
     },
     {
         "id": 401,
-        "name": "02. Lithuania",
+        "name": "02. Lithuania<img class='team' src='https://imgur.com/sfkYrJG.png'/>",
         "region": "canada",
         "serverUrl": "wss://vin-a.wormate.io:31211/wormy",
         "status": 1
@@ -769,7 +769,7 @@
     },
     {
         "id": 201,
-        "name": "02. 52 BUZ<a href='https://www.tiktok.com/@52buz'><img class='team' src='https://www.wormatefriendsturkey.com/images/yayinci/52buz_tiktok.jpeg'/>",
+        "name": "02. S N N 6 7<a href='###'><img class='team' src=https://imgur.com/sfkYrJG.png''/>",
         "region": "francia",
         "serverUrl": "wss://gra-a.wormate.io:32054/wormy",
         "status": 1
