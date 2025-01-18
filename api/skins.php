@@ -22221,7 +22221,7 @@
         },
         "hat_192": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/hat\/hat_192.png"
+            "relativePath": "https:\/\/i.imgur.com\/LC5i8lG.png"
         },
         "hat_193": {
             "custom": true,
