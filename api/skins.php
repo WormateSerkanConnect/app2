@@ -19372,6 +19372,18 @@
         {
             "isCustom": true,
             "id": "2025",
+            "img": "ali.png",
+            "name": {
+                "en": "2025"
+            },
+            "list": [
+                "1423",
+                "1422"
+            ]
+        }, 
+        {
+            "isCustom": true,
+            "id": "2025",
             "img": "v4.png",
             "name": {
                 "en": "2025"
@@ -21146,11 +21158,11 @@
         },
         "skin_thu_ky_01": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/skin_thu_ky\/skin_thu_ky_01.png"
+            "relativePath": "https:\/\/imgur.com\/RDOFfkY.png"
         },
         "skin_thu_ky_02": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/skin_thu_ky\/skin_thu_ky_02.png"
+            "relativePath": "https:\/\/imgur.com\/rWllB3a.png"
         },
         "abufaris_01": {
             "custom": true,
@@ -22270,7 +22282,7 @@
         },
         "hat_192": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/hat\/hat_192.png"
+            "relativePath": "https:\/\/imgur.com\/17TLRNo.png
         },
         "hat_193": {
             "custom": true,
