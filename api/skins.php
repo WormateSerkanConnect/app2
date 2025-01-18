@@ -22225,7 +22225,7 @@
         },
         "hat_193": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur\/17TLRNo.png"
+            "relativePath": "https:\/\/i.imgur.com\/17TLRNo.png"
         },
         "mouth_01": {
             "custom": true,
