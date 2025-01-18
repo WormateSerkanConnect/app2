@@ -19369,7 +19369,7 @@
         }
     ],
     "skinGroupArrayDict": [
-{
+       {
             "isCustom": true,
             "id": "2025",
             "img": "v4.png",
