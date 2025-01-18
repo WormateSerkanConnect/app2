@@ -1200,6 +1200,9 @@
         ],
         [
             959
+        ],
+        [
+            960
         ]
     ],
     "eyesVariantArray": [
@@ -4604,6 +4607,21 @@
             "prime": "c_white",
             "batdau": "2025-01-18 00:44:57",
             "ketthuc": "2025-01-21 00:44:57"
+        },
+        "960": {
+            "id": 960,
+            "base": [
+                {
+                    "region": "hat_960"
+                }
+            ],
+            "guest": false,
+            "price": 0,
+            "priceBefore": 0,
+            "nonbuyable": false,
+            "prime": "c_white",
+            "batdau": "2025-01-18 23:49:29",
+            "ketthuc": "2025-01-21 23:49:29"
         }
     },
     "eyesDict": {
@@ -19048,134 +19066,6 @@
             ]
         },
         {
-            "id": 1433,
-            "createdAt": "2025-01-15 00:22:05",
-            "expiresAt": "2025-01-18 00:22:05",
-            "guest": false,
-            "nonbuyable": true,
-            "price": 0,
-            "priceBefore": 0,
-            "prime": "c__yllw",
-            "base": [
-                "frost_763_8",
-                "frost_763_7",
-                "frost_763_6",
-                "frost_763_5",
-                "frost_763_4",
-                "frost_763_3",
-                "frost_763_2",
-                "frost_763_1",
-                "frost_763_0"
-            ],
-            "glow": [
-                "a_azure",
-                "a_azure",
-                "a_azure",
-                "a_azure",
-                "a_azure",
-                "a_azure",
-                "a_azure",
-                "a_azure",
-                "a_azure"
-            ]
-        },
-        {
-            "id": 1436,
-            "createdAt": "2025-01-15 01:37:59",
-            "expiresAt": "2025-01-18 01:37:59",
-            "guest": false,
-            "nonbuyable": true,
-            "price": 0,
-            "priceBefore": 0,
-            "prime": "c__yllw",
-            "base": [
-                "storm_122_8",
-                "storm_122_7",
-                "storm_122_6",
-                "storm_122_5",
-                "storm_122_4",
-                "storm_122_3",
-                "storm_122_2",
-                "storm_122_1",
-                "storm_122_0"
-            ],
-            "glow": [
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death"
-            ]
-        },
-        {
-            "id": 1453,
-            "createdAt": "2025-01-15 01:38:26",
-            "expiresAt": "2025-01-18 01:38:26",
-            "guest": false,
-            "nonbuyable": true,
-            "price": 0,
-            "priceBefore": 0,
-            "prime": "c__yllw",
-            "base": [
-                "frost_726_8",
-                "frost_726_7",
-                "frost_726_6",
-                "frost_726_5",
-                "frost_726_4",
-                "frost_726_3",
-                "frost_726_2",
-                "frost_726_1",
-                "frost_726_0"
-            ],
-            "glow": [
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death"
-            ]
-        },
-        {
-            "id": 1454,
-            "createdAt": "2025-01-15 08:43:31",
-            "expiresAt": "2025-01-18 08:43:31",
-            "guest": false,
-            "nonbuyable": true,
-            "price": 0,
-            "priceBefore": 0,
-            "prime": "c__yllw",
-            "base": [
-                "phoenix_237_8",
-                "phoenix_237_7",
-                "phoenix_237_6",
-                "phoenix_237_5",
-                "phoenix_237_4",
-                "phoenix_237_3",
-                "phoenix_237_2",
-                "phoenix_237_1",
-                "phoenix_237_0"
-            ],
-            "glow": [
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death"
-            ]
-        },
-        {
             "id": 1446,
             "createdAt": "2025-01-16 08:37:36",
             "expiresAt": "2025-01-19 08:37:36",
@@ -19378,7 +19268,20 @@
             },
             "list": [
                 "1013",
-                "1285"
+               
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "2025",
+            "img": "ali.png",
+            "name": {
+                "en": "2025"
+            },
+            "list": [
+                "1423",
+                "1422" 
+               
             ]
         },
         {
@@ -19389,8 +19292,15 @@
                 "en": "2025"
             },
             "list": [
-                "1422",
-                "1423"
+                "1429",
+                "1428",
+                "1427",
+                "1426",
+                "1425",
+                "1424",
+                "1335",
+                "1270",
+                "1140"
             ]
         },
         {
@@ -19578,6 +19488,34 @@
         },
         {
             "isCustom": true,
+            "id": "V\u01af\u01a0NG HI\u1ec6P SKINS",
+            "img": "vth.png",
+            "name": {
+                "en": "V\u01af\u01a0NG HI\u1ec6P SKINS"
+            },
+            "list": [
+                "1301",
+                "1302",
+                "1303",
+                "1304",
+                "1305",
+                "1306",
+                "1307",
+                "1308",
+                "1309",
+                "1310",
+                "1311",
+                "1312",
+                "1313",
+                "1314",
+                "1315",
+                "1316",
+                "1317",
+                "1318"
+            ]
+        },
+        {
+            "isCustom": true,
             "id": "summer",
             "img": "summer.png",
             "name": {
@@ -19608,6 +19546,18 @@
                 "1250",
                 "1251",
                 "1252"
+            ]
+        },
+        {
+            "isCustom": true,
+            "id": "TH\u01af K\u00dd BIGO",
+            "img": "ali.png",
+            "name": {
+                "en": "TH\u01af K\u00dd BIGO"
+            },
+            "list": [
+                "1422",
+                "1423"
             ]
         },
         {
@@ -19911,7 +19861,7 @@
         },
         "lsb_14": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/4X67Lh4.png"
+            "relativePath": "https:\/\/i.imgur.com\/p4b06AG.png"
         },
         "lsb_15": {
             "custom": true,
@@ -19951,7 +19901,7 @@
         },
         "skin_vnxx_07": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/Dg1fShi.png"
+            "relativePath": "https:\/\/i.imgur.com\/xS5qMM4.png"
         },
         "skin_vnxx_08": {
             "custom": true,
@@ -21143,7 +21093,7 @@
         },
         "skin_thu_ky_02": {
             "custom": true,
-            "relativePath": "https:\/\/imgur.com\/rWllB3a.png"
+            "relativePath": "https:\/\/i.imgur.com\/rWllB3a.png"
         },
         "abufaris_01": {
             "custom": true,
@@ -22263,11 +22213,11 @@
         },
         "hat_192": {
             "custom": true,
-            "relativePath": "https:\/\/imgur.com\/17TLRNo.png
+            "relativePath": "https:\/\/haylamday.com\/images\/texture\/hat\/hat_192.png"
         },
         "hat_193": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/azhCD36.png"
+            "relativePath": "https:\/\/i.imgur.com\/17TLRNo.png"
         },
         "mouth_01": {
             "custom": true,
@@ -22699,7 +22649,7 @@
         },
         "eyes_84": {
             "custom": true,
-            "relativePath": "https:\/\/imgur.com\/SHJTm6H.png"
+            "relativePath": "https:\/\/haylamday.com\/images\/texture\/eyes\/eyes_84.png"
         },
         "hat_931": {
             "custom": true,
@@ -22895,30 +22845,6 @@
             "createdAt": "2025-01-12 15:57:16",
             "expiresAt": "2035-12-26 15:57:16"
         },
-        "frost_763": {
-            "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/VLWApuW.png",
-            "createdAt": "2025-01-15 00:22:05",
-            "expiresAt": "2025-01-18 00:22:05"
-        },
-        "storm_122": {
-            "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/9W3ewN6.png",
-            "createdAt": "2025-01-15 01:37:59",
-            "expiresAt": "2025-01-18 01:37:59"
-        },
-        "frost_726": {
-            "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/M9q9Ovd.png",
-            "createdAt": "2025-01-15 01:38:26",
-            "expiresAt": "2025-01-18 01:38:26"
-        },
-        "phoenix_237": {
-            "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/fDdj8JB.png",
-            "createdAt": "2025-01-15 08:43:31",
-            "expiresAt": "2025-01-18 08:43:31"
-        },
         "moon_655": {
             "custom": true,
             "relativePath": "https:\/\/i.imgur.com\/hRvO8iV.png",
@@ -22966,6 +22892,12 @@
             "relativePath": "https:\/\/i.imgur.com\/Zo2X38w.png",
             "createdAt": "2025-01-18 02:35:46",
             "expiresAt": "2025-01-21 02:35:46"
+        },
+        "hat_960": {
+            "custom": true,
+            "relativePath": "https:\/\/i.imgur.com\/Z2mxQEY.png",
+            "batdau": "2025-01-18 23:49:29",
+            "ketthuc": "2025-01-21 23:49:29"
         }
     },
     "colorDict": {
@@ -55264,330 +55196,6 @@
             "createdAt": "2025-01-12 15:57:16",
             "expiresAt": "2035-12-26 15:57:16"
         },
-        "frost_763_0": {
-            "texture": "frost_763",
-            "h": 170,
-            "w": 170,
-            "x": 0,
-            "y": 0,
-            "createdAt": "2025-01-15 00:22:05",
-            "expiresAt": "2025-01-18 00:22:05"
-        },
-        "frost_763_1": {
-            "texture": "frost_763",
-            "h": 170,
-            "w": 170,
-            "x": 175,
-            "y": 0,
-            "createdAt": "2025-01-15 00:22:05",
-            "expiresAt": "2025-01-18 00:22:05"
-        },
-        "frost_763_2": {
-            "texture": "frost_763",
-            "h": 170,
-            "w": 170,
-            "x": 350,
-            "y": 0,
-            "createdAt": "2025-01-15 00:22:05",
-            "expiresAt": "2025-01-18 00:22:05"
-        },
-        "frost_763_3": {
-            "texture": "frost_763",
-            "h": 170,
-            "w": 170,
-            "x": 525,
-            "y": 0,
-            "createdAt": "2025-01-15 00:22:05",
-            "expiresAt": "2025-01-18 00:22:05"
-        },
-        "frost_763_4": {
-            "texture": "frost_763",
-            "h": 170,
-            "w": 170,
-            "x": 700,
-            "y": 0,
-            "createdAt": "2025-01-15 00:22:05",
-            "expiresAt": "2025-01-18 00:22:05"
-        },
-        "frost_763_5": {
-            "texture": "frost_763",
-            "h": 170,
-            "w": 170,
-            "x": 875,
-            "y": 0,
-            "createdAt": "2025-01-15 00:22:05",
-            "expiresAt": "2025-01-18 00:22:05"
-        },
-        "frost_763_6": {
-            "texture": "frost_763",
-            "h": 170,
-            "w": 170,
-            "x": 1050,
-            "y": 0,
-            "createdAt": "2025-01-15 00:22:05",
-            "expiresAt": "2025-01-18 00:22:05"
-        },
-        "frost_763_7": {
-            "texture": "frost_763",
-            "h": 170,
-            "w": 170,
-            "x": 1225,
-            "y": 0,
-            "createdAt": "2025-01-15 00:22:05",
-            "expiresAt": "2025-01-18 00:22:05"
-        },
-        "frost_763_8": {
-            "texture": "frost_763",
-            "h": 170,
-            "w": 170,
-            "x": 1400,
-            "y": 0,
-            "createdAt": "2025-01-15 00:22:05",
-            "expiresAt": "2025-01-18 00:22:05"
-        },
-        "storm_122_0": {
-            "texture": "storm_122",
-            "h": 170,
-            "w": 170,
-            "x": 0,
-            "y": 0,
-            "createdAt": "2025-01-15 01:37:59",
-            "expiresAt": "2025-01-18 01:37:59"
-        },
-        "storm_122_1": {
-            "texture": "storm_122",
-            "h": 170,
-            "w": 170,
-            "x": 175,
-            "y": 0,
-            "createdAt": "2025-01-15 01:37:59",
-            "expiresAt": "2025-01-18 01:37:59"
-        },
-        "storm_122_2": {
-            "texture": "storm_122",
-            "h": 170,
-            "w": 170,
-            "x": 350,
-            "y": 0,
-            "createdAt": "2025-01-15 01:37:59",
-            "expiresAt": "2025-01-18 01:37:59"
-        },
-        "storm_122_3": {
-            "texture": "storm_122",
-            "h": 170,
-            "w": 170,
-            "x": 525,
-            "y": 0,
-            "createdAt": "2025-01-15 01:37:59",
-            "expiresAt": "2025-01-18 01:37:59"
-        },
-        "storm_122_4": {
-            "texture": "storm_122",
-            "h": 170,
-            "w": 170,
-            "x": 700,
-            "y": 0,
-            "createdAt": "2025-01-15 01:37:59",
-            "expiresAt": "2025-01-18 01:37:59"
-        },
-        "storm_122_5": {
-            "texture": "storm_122",
-            "h": 170,
-            "w": 170,
-            "x": 875,
-            "y": 0,
-            "createdAt": "2025-01-15 01:37:59",
-            "expiresAt": "2025-01-18 01:37:59"
-        },
-        "storm_122_6": {
-            "texture": "storm_122",
-            "h": 170,
-            "w": 170,
-            "x": 1050,
-            "y": 0,
-            "createdAt": "2025-01-15 01:37:59",
-            "expiresAt": "2025-01-18 01:37:59"
-        },
-        "storm_122_7": {
-            "texture": "storm_122",
-            "h": 170,
-            "w": 170,
-            "x": 1225,
-            "y": 0,
-            "createdAt": "2025-01-15 01:37:59",
-            "expiresAt": "2025-01-18 01:37:59"
-        },
-        "storm_122_8": {
-            "texture": "storm_122",
-            "h": 170,
-            "w": 170,
-            "x": 1400,
-            "y": 0,
-            "createdAt": "2025-01-15 01:37:59",
-            "expiresAt": "2025-01-18 01:37:59"
-        },
-        "frost_726_0": {
-            "texture": "frost_726",
-            "h": 170,
-            "w": 170,
-            "x": 0,
-            "y": 0,
-            "createdAt": "2025-01-15 01:38:26",
-            "expiresAt": "2025-01-18 01:38:26"
-        },
-        "frost_726_1": {
-            "texture": "frost_726",
-            "h": 170,
-            "w": 170,
-            "x": 175,
-            "y": 0,
-            "createdAt": "2025-01-15 01:38:26",
-            "expiresAt": "2025-01-18 01:38:26"
-        },
-        "frost_726_2": {
-            "texture": "frost_726",
-            "h": 170,
-            "w": 170,
-            "x": 350,
-            "y": 0,
-            "createdAt": "2025-01-15 01:38:26",
-            "expiresAt": "2025-01-18 01:38:26"
-        },
-        "frost_726_3": {
-            "texture": "frost_726",
-            "h": 170,
-            "w": 170,
-            "x": 525,
-            "y": 0,
-            "createdAt": "2025-01-15 01:38:26",
-            "expiresAt": "2025-01-18 01:38:26"
-        },
-        "frost_726_4": {
-            "texture": "frost_726",
-            "h": 170,
-            "w": 170,
-            "x": 700,
-            "y": 0,
-            "createdAt": "2025-01-15 01:38:26",
-            "expiresAt": "2025-01-18 01:38:26"
-        },
-        "frost_726_5": {
-            "texture": "frost_726",
-            "h": 170,
-            "w": 170,
-            "x": 875,
-            "y": 0,
-            "createdAt": "2025-01-15 01:38:26",
-            "expiresAt": "2025-01-18 01:38:26"
-        },
-        "frost_726_6": {
-            "texture": "frost_726",
-            "h": 170,
-            "w": 170,
-            "x": 1050,
-            "y": 0,
-            "createdAt": "2025-01-15 01:38:26",
-            "expiresAt": "2025-01-18 01:38:26"
-        },
-        "frost_726_7": {
-            "texture": "frost_726",
-            "h": 170,
-            "w": 170,
-            "x": 1225,
-            "y": 0,
-            "createdAt": "2025-01-15 01:38:26",
-            "expiresAt": "2025-01-18 01:38:26"
-        },
-        "frost_726_8": {
-            "texture": "frost_726",
-            "h": 170,
-            "w": 170,
-            "x": 1400,
-            "y": 0,
-            "createdAt": "2025-01-15 01:38:26",
-            "expiresAt": "2025-01-18 01:38:26"
-        },
-        "phoenix_237_0": {
-            "texture": "phoenix_237",
-            "h": 170,
-            "w": 170,
-            "x": 0,
-            "y": 0,
-            "createdAt": "2025-01-15 08:43:31",
-            "expiresAt": "2025-01-18 08:43:31"
-        },
-        "phoenix_237_1": {
-            "texture": "phoenix_237",
-            "h": 170,
-            "w": 170,
-            "x": 175,
-            "y": 0,
-            "createdAt": "2025-01-15 08:43:31",
-            "expiresAt": "2025-01-18 08:43:31"
-        },
-        "phoenix_237_2": {
-            "texture": "phoenix_237",
-            "h": 170,
-            "w": 170,
-            "x": 350,
-            "y": 0,
-            "createdAt": "2025-01-15 08:43:31",
-            "expiresAt": "2025-01-18 08:43:31"
-        },
-        "phoenix_237_3": {
-            "texture": "phoenix_237",
-            "h": 170,
-            "w": 170,
-            "x": 525,
-            "y": 0,
-            "createdAt": "2025-01-15 08:43:31",
-            "expiresAt": "2025-01-18 08:43:31"
-        },
-        "phoenix_237_4": {
-            "texture": "phoenix_237",
-            "h": 170,
-            "w": 170,
-            "x": 700,
-            "y": 0,
-            "createdAt": "2025-01-15 08:43:31",
-            "expiresAt": "2025-01-18 08:43:31"
-        },
-        "phoenix_237_5": {
-            "texture": "phoenix_237",
-            "h": 170,
-            "w": 170,
-            "x": 875,
-            "y": 0,
-            "createdAt": "2025-01-15 08:43:31",
-            "expiresAt": "2025-01-18 08:43:31"
-        },
-        "phoenix_237_6": {
-            "texture": "phoenix_237",
-            "h": 170,
-            "w": 170,
-            "x": 1050,
-            "y": 0,
-            "createdAt": "2025-01-15 08:43:31",
-            "expiresAt": "2025-01-18 08:43:31"
-        },
-        "phoenix_237_7": {
-            "texture": "phoenix_237",
-            "h": 170,
-            "w": 170,
-            "x": 1225,
-            "y": 0,
-            "createdAt": "2025-01-15 08:43:31",
-            "expiresAt": "2025-01-18 08:43:31"
-        },
-        "phoenix_237_8": {
-            "texture": "phoenix_237",
-            "h": 170,
-            "w": 170,
-            "x": 1400,
-            "y": 0,
-            "createdAt": "2025-01-15 08:43:31",
-            "expiresAt": "2025-01-18 08:43:31"
-        },
         "moon_655_0": {
             "texture": "moon_655",
             "h": 170,
@@ -56099,6 +55707,19 @@
             "y": 0,
             "createdAt": "2025-01-18 02:35:46",
             "expiresAt": "2025-01-21 02:35:46"
+        },
+        "hat_960": {
+            "texture": "hat_960",
+            "x": 0,
+            "y": 0,
+            "w": 400,
+            "h": 250,
+            "px": 1,
+            "py": 64,
+            "pw": 128,
+            "ph": 128,
+            "batdau": "2025-01-18 23:49:29",
+            "ketthuc": "2025-01-21 23:49:29"
         }
     }
 }
