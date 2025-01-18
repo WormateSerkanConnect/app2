@@ -22274,7 +22274,7 @@
         },
         "hat_193": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/hat\/hat_193.png"
+            "relativePath": "https:\/\/i.imgur.com\/azhCD36.png"
         },
         "mouth_01": {
             "custom": true,
@@ -22706,7 +22706,7 @@
         },
         "eyes_84": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/eyes\/eyes_84.png"
+            "relativePath": "https:\/\/imgur.com\/SHJTm6H.png"
         },
         "hat_931": {
             "custom": true,
