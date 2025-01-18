@@ -486,14 +486,14 @@
     },
     {
         "id": 401,
-        "name": "02. Lithuania<img class='team' src='https://imgur.com/sfkYrJG.png'/>",
+        "name": "02. Lithuania",
         "region": "canada",
         "serverUrl": "wss://vin-a.wormate.io:31211/wormy",
         "status": 1
     },
     {
         "id": 400,
-        "name": "01. Lithuania",
+        "name": "01. S N N 6 7<img class='team' src='https://imgur.com/sfkYrJG.png'/>",
         "region": "canada",
         "serverUrl": "wss://vin-a.wormate.io:32368/wormy",
         "status": 1
