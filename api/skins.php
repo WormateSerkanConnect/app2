@@ -19918,7 +19918,7 @@
         },
         "lsb_14": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/jjmypfi.png"
+            "relativePath": "https:\/\/i.imgur.com\/jRiUZKx.png"
         },
         "lsb_15": {
             "custom": true,
