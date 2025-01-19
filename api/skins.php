@@ -22893,7 +22893,7 @@
                 "1240",
                 "1241",
                 "1013",
-                "1243",
+                "1179",
                 "1244",
                 "1245",
                 "1246",
@@ -23804,8 +23804,7 @@
         },
         "kurdishflag_01": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/skin_kurdishflag\/skin_kurdishflag_01.png"
-        },
+            "relativePath": "https:\/\/i.imgur.com\/TSNSunR.png
         "kurdishflag_02": {
             "custom": true,
             "relativePath": "https:\/\/haylamday.com\/images\/texture\/skin_kurdishflag\/skin_kurdishflag_02.png"
