@@ -1,7 +1,7 @@
 {
     "revision": 80000,
     "visibleSkin": [
-   1000,
+        1000,
         1001,
         1002,
         1003,
@@ -610,7 +610,7 @@
         1597,
         1598,
         1599,
-        1600 
+        1600
     ],
     "hatVariantArray": [
         [
@@ -13672,7 +13672,7 @@
         {
             "id": 1199,
             "guest": false,
-            "nonbuyable": true,
+            "nonbuyable": false,
             "price": 0,
             "priceBefore": 0,
             "prime": "c__yllw",
@@ -14618,15 +14618,15 @@
                 "nsnd_01_0"
             ],
             "glow": [
-                "a_white",
-                "a_white",
-                "a_white",
-                "a_white",
-                "a_white",
-                "a_white",
-                "a_white",
-                "a_white",
-                "a_white"
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death"
             ]
         },
         {
@@ -14648,15 +14648,15 @@
                 "nsnd_02_0"
             ],
             "glow": [
-                "a__yllw",
-                "a__yllw",
-                "a__yllw",
-                "a__yllw",
-                "a__yllw",
-                "a__yllw",
-                "a__yllw",
-                "a__yllw",
-                "a__yllw"
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_grass",
+                "a_death",
+                "a_death",
+                "a__ruby",
+                "a_death",
+                "a_death"
             ]
         },
         {
@@ -19256,6 +19256,454 @@
                 "a_blood",
                 "a__ruby"
             ]
+        },
+        {
+            "id": 1432,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00",
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "galaxy_920_8",
+                "galaxy_920_7",
+                "galaxy_920_6",
+                "galaxy_920_5",
+                "galaxy_920_4",
+                "galaxy_920_3",
+                "galaxy_920_2",
+                "galaxy_920_1",
+                "galaxy_920_0"
+            ],
+            "glow": [
+                "a_white",
+                "a_death",
+                "a__card",
+                "a_white",
+                "a_death",
+                "a__card",
+                "a_white",
+                "a_death",
+                "a__card"
+            ]
+        },
+        {
+            "id": 1433,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00",
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "galaxy_Skin_664_8",
+                "galaxy_Skin_664_7",
+                "galaxy_Skin_664_6",
+                "galaxy_Skin_664_5",
+                "galaxy_Skin_664_4",
+                "galaxy_Skin_664_3",
+                "galaxy_Skin_664_2",
+                "galaxy_Skin_664_1",
+                "galaxy_Skin_664_0"
+            ],
+            "glow": [
+                "a_white",
+                "a_death",
+                "a__card",
+                "a_white",
+                "a_death",
+                "a__card",
+                "a_white",
+                "a_death",
+                "a__card"
+            ]
+        },
+        {
+            "id": 1436,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00",
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "ice_Skin_782_8",
+                "ice_Skin_782_7",
+                "ice_Skin_782_6",
+                "ice_Skin_782_5",
+                "ice_Skin_782_4",
+                "ice_Skin_782_3",
+                "ice_Skin_782_2",
+                "ice_Skin_782_1",
+                "ice_Skin_782_0"
+            ],
+            "glow": [
+                "a_white",
+                "a_death",
+                "a__card",
+                "a_white",
+                "a_death",
+                "a__card",
+                "a_white",
+                "a_death",
+                "a__card"
+            ]
+        },
+        {
+            "id": 1451,
+            "createdAt": "2025-01-19 06:35:55",
+            "expiresAt": "2025-01-22 06:35:55",
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "dragon_433_8",
+                "dragon_433_7",
+                "dragon_433_6",
+                "dragon_433_5",
+                "dragon_433_4",
+                "dragon_433_3",
+                "dragon_433_2",
+                "dragon_433_1",
+                "dragon_433_0"
+            ],
+            "glow": [
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death"
+            ]
+        },
+        {
+            "id": 1452,
+            "createdAt": "2025-01-19 17:16:41",
+            "expiresAt": "2025-01-22 17:16:41",
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "sun_939_8",
+                "sun_939_7",
+                "sun_939_6",
+                "sun_939_5",
+                "sun_939_4",
+                "sun_939_3",
+                "sun_939_2",
+                "sun_939_1",
+                "sun_939_0"
+            ],
+            "glow": [
+                "a__cyan",
+                "a__cyan",
+                "a__dsky",
+                "a__dsky",
+                "a__dsky",
+                "a__cyan",
+                "a__cyan",
+                "a__dsky",
+                "a__dsky"
+            ]
+        },
+        {
+            "id": 1453,
+            "createdAt": "2025-01-19 20:01:34",
+            "expiresAt": "2025-01-22 20:01:34",
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "fire_755_8",
+                "fire_755_7",
+                "fire_755_6",
+                "fire_755_5",
+                "fire_755_4",
+                "fire_755_3",
+                "fire_755_2",
+                "fire_755_1",
+                "fire_755_0"
+            ],
+            "glow": [
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death"
+            ]
+        },
+        {
+            "id": 1454,
+            "createdAt": "2025-01-19 20:01:52",
+            "expiresAt": "2025-01-22 20:01:52",
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "shadow_984_8",
+                "shadow_984_7",
+                "shadow_984_6",
+                "shadow_984_5",
+                "shadow_984_4",
+                "shadow_984_3",
+                "shadow_984_2",
+                "shadow_984_1",
+                "shadow_984_0"
+            ],
+            "glow": [
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death"
+            ]
+        },
+        {
+            "id": 1455,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02",
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "slaze_99_8",
+                "slaze_99_7",
+                "slaze_99_6",
+                "slaze_99_5",
+                "slaze_99_4",
+                "slaze_99_3",
+                "slaze_99_2",
+                "slaze_99_1",
+                "slaze_99_0"
+            ],
+            "glow": [
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death"
+            ]
+        },
+        {
+            "id": 1456,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02",
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "dragon_Skin_197_8",
+                "dragon_Skin_197_7",
+                "dragon_Skin_197_6",
+                "dragon_Skin_197_5",
+                "dragon_Skin_197_4",
+                "dragon_Skin_197_3",
+                "dragon_Skin_197_2",
+                "dragon_Skin_197_1",
+                "dragon_Skin_197_0"
+            ],
+            "glow": [
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death"
+            ]
+        },
+        {
+            "id": 1457,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02",
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "ice_Skin_814_8",
+                "ice_Skin_814_7",
+                "ice_Skin_814_6",
+                "ice_Skin_814_5",
+                "ice_Skin_814_4",
+                "ice_Skin_814_3",
+                "ice_Skin_814_2",
+                "ice_Skin_814_1",
+                "ice_Skin_814_0"
+            ],
+            "glow": [
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death"
+            ]
+        },
+        {
+            "id": 1458,
+            "createdAt": "2025-01-19 20:09:02",
+            "expiresAt": "2025-01-22 20:09:02",
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "fire_759_8",
+                "fire_759_7",
+                "fire_759_6",
+                "fire_759_5",
+                "fire_759_4",
+                "fire_759_3",
+                "fire_759_2",
+                "fire_759_1",
+                "fire_759_0"
+            ],
+            "glow": [
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death"
+            ]
+        },
+        {
+            "id": 1459,
+            "createdAt": "2025-01-19 20:09:08",
+            "expiresAt": "2025-01-22 20:09:08",
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "galaxy_211_8",
+                "galaxy_211_7",
+                "galaxy_211_6",
+                "galaxy_211_5",
+                "galaxy_211_4",
+                "galaxy_211_3",
+                "galaxy_211_2",
+                "galaxy_211_1",
+                "galaxy_211_0"
+            ],
+            "glow": [
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death"
+            ]
+        },
+        {
+            "id": 1460,
+            "createdAt": "2025-01-19 20:12:27",
+            "expiresAt": "2025-01-22 20:12:27",
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "frost_899_8",
+                "frost_899_7",
+                "frost_899_6",
+                "frost_899_5",
+                "frost_899_4",
+                "frost_899_3",
+                "frost_899_2",
+                "frost_899_1",
+                "frost_899_0"
+            ],
+            "glow": [
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death"
+            ]
+        },
+        {
+            "id": 1461,
+            "createdAt": "2025-01-19 20:12:34",
+            "expiresAt": "2025-01-22 20:12:34",
+            "guest": false,
+            "nonbuyable": true,
+            "price": 0,
+            "priceBefore": 0,
+            "prime": "c__yllw",
+            "base": [
+                "fire_68_8",
+                "fire_68_7",
+                "fire_68_6",
+                "fire_68_5",
+                "fire_68_4",
+                "fire_68_3",
+                "fire_68_2",
+                "fire_68_1",
+                "fire_68_0"
+            ],
+            "glow": [
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death"
+            ]
         }
     ],
     "skinGroupArrayDict": [
@@ -19531,10 +19979,10 @@
                 "en": "NSND"
             },
             "list": [
-                "1240",
-                "1241",
-                "1013",
                 "1179",
+                "1199",
+                "1242",
+                "1243",
                 "1244",
                 "1245",
                 "1246",
@@ -19672,6 +20120,7 @@
                 "1010",
                 "1011",
                 "1012",
+                "1013",
                 "1014",
                 "1015",
                 "1016"
@@ -19853,7 +20302,7 @@
         },
         "lsb_14": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/8pfFUOO.png"
+            "relativePath": "https:\/\/i.imgur.com\/yD3eY0R.png"
         },
         "lsb_15": {
             "custom": true,
@@ -20446,6 +20895,7 @@
         "kurdishflag_01": {
             "custom": true,
             "relativePath": "https:\/\/i.imgur.com\/TSNSunR.png
+        },
         "kurdishflag_02": {
             "custom": true,
             "relativePath": "https:\/\/haylamday.com\/images\/texture\/skin_kurdishflag\/skin_kurdishflag_02.png"
@@ -20864,7 +21314,7 @@
         },
         "25ypg_01": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/S5rYkaP.png"
+            "relativePath": "https:\/\/i.imgur.com\/Dg1fShi.png"
         },
         "25ypg_02": {
             "custom": true,
@@ -20988,11 +21438,11 @@
         },
         "nsnd_01": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/p4b06AG.png"
+            "relativePath": "https:\/\/haylamday.com\/images\/texture\/skin_nsnd\/skin_nsnd_01.png"
         },
         "nsnd_02": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/Dg1fShi.png"
+            "relativePath": "https:\/\/haylamday.com\/images\/texture\/skin_nsnd\/skin_nsnd_02.png"
         },
         "nsnd_03": {
             "custom": true,
@@ -21080,11 +21530,11 @@
         },
         "skin_thu_ky_01": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/bqNccRu.png"
+            "relativePath": "https:\/\/i.imgur.com\/nDq2jIM.png"
         },
         "skin_thu_ky_02": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/rWllB3a.png"
+            "relativePath": "https:\/\/i.imgur.com\/WllB3a.png"
         },
         "abufaris_01": {
             "custom": true,
@@ -22196,7 +22646,7 @@
         },
         "hat_190": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/1VCrlPi.png"
+            "relativePath": "https:\/\/haylamday.com\/images\/texture\/hat\/hat_190.png"
         },
         "hat_191": {
             "custom": true,
@@ -22204,16 +22654,12 @@
         },
         "hat_192": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/LC5i8lG.png"
+            "relativePath": "https:\/\/haylamday.com\/images\/texture\/hat\/hat_192.png"
         },
         "hat_193": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/17TLRNo.png"
-         },
-        "hat_194": {
-            "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/UcDAJ5Q.png" 
-         },
+            "relativePath": "https:\/\/haylamday.com\/images\/texture\/hat\/hat_193.png"
+        },
         "mouth_01": {
             "custom": true,
             "relativePath": "https:\/\/haylamday.com\/images\/texture\/mouth\/mouth_01.png"
@@ -22640,11 +23086,11 @@
         },
         "eyes_83": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/t8xTAem.png"
+            "relativePath": "https:\/\/haylamday.com\/images\/texture\/eyes\/eyes_83.png"
         },
         "eyes_84": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/SHJTm6H.png"
+            "relativePath": "https:\/\/haylamday.com\/images\/texture\/eyes\/eyes_84.png"
         },
         "hat_931": {
             "custom": true,
@@ -22893,6 +23339,90 @@
             "relativePath": "https:\/\/i.imgur.com\/Z2mxQEY.png",
             "batdau": "2025-01-18 23:49:29",
             "ketthuc": "2025-01-21 23:49:29"
+        },
+        "galaxy_920": {
+            "custom": true,
+            "relativePath": "https:\/\/i.imgur.com\/HKfYHsJ.png",
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "galaxy_skin_664": {
+            "custom": true,
+            "relativePath": "https:\/\/i.imgur.com\/HKfYHsJ.png",
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "ice_skin_782": {
+            "custom": true,
+            "relativePath": "https:\/\/i.imgur.com\/HKfYHsJ.png",
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "dragon_433": {
+            "custom": true,
+            "relativePath": "https:\/\/i.imgur.com\/YgTb1du.png",
+            "createdAt": "2025-01-19 06:35:55",
+            "expiresAt": "2025-01-22 06:35:55"
+        },
+        "sun_939": {
+            "custom": true,
+            "relativePath": "https:\/\/i.imgur.com\/FWM50e0.png",
+            "createdAt": "2025-01-19 17:16:41",
+            "expiresAt": "2025-01-22 17:16:41"
+        },
+        "fire_755": {
+            "custom": true,
+            "relativePath": "https:\/\/i.imgur.com\/GPdqUTq.png",
+            "createdAt": "2025-01-19 20:01:34",
+            "expiresAt": "2025-01-22 20:01:34"
+        },
+        "shadow_984": {
+            "custom": true,
+            "relativePath": "https:\/\/i.imgur.com\/IUbK9rv.png",
+            "createdAt": "2025-01-19 20:01:52",
+            "expiresAt": "2025-01-22 20:01:52"
+        },
+        "slaze_99": {
+            "custom": true,
+            "relativePath": "https:\/\/i.imgur.com\/AHdlR84.png",
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "dragon_skin_197": {
+            "custom": true,
+            "relativePath": "https:\/\/i.imgur.com\/AHdlR84.png",
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "ice_skin_814": {
+            "custom": true,
+            "relativePath": "https:\/\/i.imgur.com\/AHdlR84.png",
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "fire_759": {
+            "custom": true,
+            "relativePath": "https:\/\/i.imgur.com\/bN7dyhE.png",
+            "createdAt": "2025-01-19 20:09:02",
+            "expiresAt": "2025-01-22 20:09:02"
+        },
+        "galaxy_211": {
+            "custom": true,
+            "relativePath": "https:\/\/i.imgur.com\/SEW4Dq8.png",
+            "createdAt": "2025-01-19 20:09:08",
+            "expiresAt": "2025-01-22 20:09:08"
+        },
+        "frost_899": {
+            "custom": true,
+            "relativePath": "https:\/\/i.imgur.com\/EqKxJHd.png",
+            "createdAt": "2025-01-19 20:12:27",
+            "expiresAt": "2025-01-22 20:12:27"
+        },
+        "fire_68": {
+            "custom": true,
+            "relativePath": "https:\/\/i.imgur.com\/N9JFfLZ.png",
+            "createdAt": "2025-01-19 20:12:34",
+            "expiresAt": "2025-01-22 20:12:34"
         }
     },
     "colorDict": {
@@ -55715,6 +56245,1140 @@
             "ph": 128,
             "batdau": "2025-01-18 23:49:29",
             "ketthuc": "2025-01-21 23:49:29"
+        },
+        "galaxy_920_0": {
+            "texture": "galaxy_920",
+            "h": 170,
+            "w": 170,
+            "x": 0,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "galaxy_920_1": {
+            "texture": "galaxy_920",
+            "h": 170,
+            "w": 170,
+            "x": 175,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "galaxy_920_2": {
+            "texture": "galaxy_920",
+            "h": 170,
+            "w": 170,
+            "x": 350,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "galaxy_920_3": {
+            "texture": "galaxy_920",
+            "h": 170,
+            "w": 170,
+            "x": 525,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "galaxy_920_4": {
+            "texture": "galaxy_920",
+            "h": 170,
+            "w": 170,
+            "x": 700,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "galaxy_920_5": {
+            "texture": "galaxy_920",
+            "h": 170,
+            "w": 170,
+            "x": 875,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "galaxy_920_6": {
+            "texture": "galaxy_920",
+            "h": 170,
+            "w": 170,
+            "x": 1050,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "galaxy_920_7": {
+            "texture": "galaxy_920",
+            "h": 170,
+            "w": 170,
+            "x": 1225,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "galaxy_920_8": {
+            "texture": "galaxy_920",
+            "h": 170,
+            "w": 170,
+            "x": 1400,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "galaxy_skin_664_0": {
+            "texture": "galaxy_skin_664",
+            "h": 170,
+            "w": 170,
+            "x": 0,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "galaxy_skin_664_1": {
+            "texture": "galaxy_skin_664",
+            "h": 170,
+            "w": 170,
+            "x": 175,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "galaxy_skin_664_2": {
+            "texture": "galaxy_skin_664",
+            "h": 170,
+            "w": 170,
+            "x": 350,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "galaxy_skin_664_3": {
+            "texture": "galaxy_skin_664",
+            "h": 170,
+            "w": 170,
+            "x": 525,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "galaxy_skin_664_4": {
+            "texture": "galaxy_skin_664",
+            "h": 170,
+            "w": 170,
+            "x": 700,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "galaxy_skin_664_5": {
+            "texture": "galaxy_skin_664",
+            "h": 170,
+            "w": 170,
+            "x": 875,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "galaxy_skin_664_6": {
+            "texture": "galaxy_skin_664",
+            "h": 170,
+            "w": 170,
+            "x": 1050,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "galaxy_skin_664_7": {
+            "texture": "galaxy_skin_664",
+            "h": 170,
+            "w": 170,
+            "x": 1225,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "galaxy_skin_664_8": {
+            "texture": "galaxy_skin_664",
+            "h": 170,
+            "w": 170,
+            "x": 1400,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "ice_skin_782_0": {
+            "texture": "ice_skin_782",
+            "h": 170,
+            "w": 170,
+            "x": 0,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "ice_skin_782_1": {
+            "texture": "ice_skin_782",
+            "h": 170,
+            "w": 170,
+            "x": 175,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "ice_skin_782_2": {
+            "texture": "ice_skin_782",
+            "h": 170,
+            "w": 170,
+            "x": 350,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "ice_skin_782_3": {
+            "texture": "ice_skin_782",
+            "h": 170,
+            "w": 170,
+            "x": 525,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "ice_skin_782_4": {
+            "texture": "ice_skin_782",
+            "h": 170,
+            "w": 170,
+            "x": 700,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "ice_skin_782_5": {
+            "texture": "ice_skin_782",
+            "h": 170,
+            "w": 170,
+            "x": 875,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "ice_skin_782_6": {
+            "texture": "ice_skin_782",
+            "h": 170,
+            "w": 170,
+            "x": 1050,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "ice_skin_782_7": {
+            "texture": "ice_skin_782",
+            "h": 170,
+            "w": 170,
+            "x": 1225,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "ice_skin_782_8": {
+            "texture": "ice_skin_782",
+            "h": 170,
+            "w": 170,
+            "x": 1400,
+            "y": 0,
+            "createdAt": "2025-01-19 02:43:00",
+            "expiresAt": "2025-01-22 02:43:00"
+        },
+        "dragon_433_0": {
+            "texture": "dragon_433",
+            "h": 170,
+            "w": 170,
+            "x": 0,
+            "y": 0,
+            "createdAt": "2025-01-19 06:35:55",
+            "expiresAt": "2025-01-22 06:35:55"
+        },
+        "dragon_433_1": {
+            "texture": "dragon_433",
+            "h": 170,
+            "w": 170,
+            "x": 175,
+            "y": 0,
+            "createdAt": "2025-01-19 06:35:55",
+            "expiresAt": "2025-01-22 06:35:55"
+        },
+        "dragon_433_2": {
+            "texture": "dragon_433",
+            "h": 170,
+            "w": 170,
+            "x": 350,
+            "y": 0,
+            "createdAt": "2025-01-19 06:35:55",
+            "expiresAt": "2025-01-22 06:35:55"
+        },
+        "dragon_433_3": {
+            "texture": "dragon_433",
+            "h": 170,
+            "w": 170,
+            "x": 525,
+            "y": 0,
+            "createdAt": "2025-01-19 06:35:55",
+            "expiresAt": "2025-01-22 06:35:55"
+        },
+        "dragon_433_4": {
+            "texture": "dragon_433",
+            "h": 170,
+            "w": 170,
+            "x": 700,
+            "y": 0,
+            "createdAt": "2025-01-19 06:35:55",
+            "expiresAt": "2025-01-22 06:35:55"
+        },
+        "dragon_433_5": {
+            "texture": "dragon_433",
+            "h": 170,
+            "w": 170,
+            "x": 875,
+            "y": 0,
+            "createdAt": "2025-01-19 06:35:55",
+            "expiresAt": "2025-01-22 06:35:55"
+        },
+        "dragon_433_6": {
+            "texture": "dragon_433",
+            "h": 170,
+            "w": 170,
+            "x": 1050,
+            "y": 0,
+            "createdAt": "2025-01-19 06:35:55",
+            "expiresAt": "2025-01-22 06:35:55"
+        },
+        "dragon_433_7": {
+            "texture": "dragon_433",
+            "h": 170,
+            "w": 170,
+            "x": 1225,
+            "y": 0,
+            "createdAt": "2025-01-19 06:35:55",
+            "expiresAt": "2025-01-22 06:35:55"
+        },
+        "dragon_433_8": {
+            "texture": "dragon_433",
+            "h": 170,
+            "w": 170,
+            "x": 1400,
+            "y": 0,
+            "createdAt": "2025-01-19 06:35:55",
+            "expiresAt": "2025-01-22 06:35:55"
+        },
+        "sun_939_0": {
+            "texture": "sun_939",
+            "h": 170,
+            "w": 170,
+            "x": 0,
+            "y": 0,
+            "createdAt": "2025-01-19 17:16:41",
+            "expiresAt": "2025-01-22 17:16:41"
+        },
+        "sun_939_1": {
+            "texture": "sun_939",
+            "h": 170,
+            "w": 170,
+            "x": 175,
+            "y": 0,
+            "createdAt": "2025-01-19 17:16:41",
+            "expiresAt": "2025-01-22 17:16:41"
+        },
+        "sun_939_2": {
+            "texture": "sun_939",
+            "h": 170,
+            "w": 170,
+            "x": 350,
+            "y": 0,
+            "createdAt": "2025-01-19 17:16:41",
+            "expiresAt": "2025-01-22 17:16:41"
+        },
+        "sun_939_3": {
+            "texture": "sun_939",
+            "h": 170,
+            "w": 170,
+            "x": 525,
+            "y": 0,
+            "createdAt": "2025-01-19 17:16:41",
+            "expiresAt": "2025-01-22 17:16:41"
+        },
+        "sun_939_4": {
+            "texture": "sun_939",
+            "h": 170,
+            "w": 170,
+            "x": 700,
+            "y": 0,
+            "createdAt": "2025-01-19 17:16:41",
+            "expiresAt": "2025-01-22 17:16:41"
+        },
+        "sun_939_5": {
+            "texture": "sun_939",
+            "h": 170,
+            "w": 170,
+            "x": 875,
+            "y": 0,
+            "createdAt": "2025-01-19 17:16:41",
+            "expiresAt": "2025-01-22 17:16:41"
+        },
+        "sun_939_6": {
+            "texture": "sun_939",
+            "h": 170,
+            "w": 170,
+            "x": 1050,
+            "y": 0,
+            "createdAt": "2025-01-19 17:16:41",
+            "expiresAt": "2025-01-22 17:16:41"
+        },
+        "sun_939_7": {
+            "texture": "sun_939",
+            "h": 170,
+            "w": 170,
+            "x": 1225,
+            "y": 0,
+            "createdAt": "2025-01-19 17:16:41",
+            "expiresAt": "2025-01-22 17:16:41"
+        },
+        "sun_939_8": {
+            "texture": "sun_939",
+            "h": 170,
+            "w": 170,
+            "x": 1400,
+            "y": 0,
+            "createdAt": "2025-01-19 17:16:41",
+            "expiresAt": "2025-01-22 17:16:41"
+        },
+        "fire_755_0": {
+            "texture": "fire_755",
+            "h": 170,
+            "w": 170,
+            "x": 0,
+            "y": 0,
+            "createdAt": "2025-01-19 20:01:34",
+            "expiresAt": "2025-01-22 20:01:34"
+        },
+        "fire_755_1": {
+            "texture": "fire_755",
+            "h": 170,
+            "w": 170,
+            "x": 175,
+            "y": 0,
+            "createdAt": "2025-01-19 20:01:34",
+            "expiresAt": "2025-01-22 20:01:34"
+        },
+        "fire_755_2": {
+            "texture": "fire_755",
+            "h": 170,
+            "w": 170,
+            "x": 350,
+            "y": 0,
+            "createdAt": "2025-01-19 20:01:34",
+            "expiresAt": "2025-01-22 20:01:34"
+        },
+        "fire_755_3": {
+            "texture": "fire_755",
+            "h": 170,
+            "w": 170,
+            "x": 525,
+            "y": 0,
+            "createdAt": "2025-01-19 20:01:34",
+            "expiresAt": "2025-01-22 20:01:34"
+        },
+        "fire_755_4": {
+            "texture": "fire_755",
+            "h": 170,
+            "w": 170,
+            "x": 700,
+            "y": 0,
+            "createdAt": "2025-01-19 20:01:34",
+            "expiresAt": "2025-01-22 20:01:34"
+        },
+        "fire_755_5": {
+            "texture": "fire_755",
+            "h": 170,
+            "w": 170,
+            "x": 875,
+            "y": 0,
+            "createdAt": "2025-01-19 20:01:34",
+            "expiresAt": "2025-01-22 20:01:34"
+        },
+        "fire_755_6": {
+            "texture": "fire_755",
+            "h": 170,
+            "w": 170,
+            "x": 1050,
+            "y": 0,
+            "createdAt": "2025-01-19 20:01:34",
+            "expiresAt": "2025-01-22 20:01:34"
+        },
+        "fire_755_7": {
+            "texture": "fire_755",
+            "h": 170,
+            "w": 170,
+            "x": 1225,
+            "y": 0,
+            "createdAt": "2025-01-19 20:01:34",
+            "expiresAt": "2025-01-22 20:01:34"
+        },
+        "fire_755_8": {
+            "texture": "fire_755",
+            "h": 170,
+            "w": 170,
+            "x": 1400,
+            "y": 0,
+            "createdAt": "2025-01-19 20:01:34",
+            "expiresAt": "2025-01-22 20:01:34"
+        },
+        "shadow_984_0": {
+            "texture": "shadow_984",
+            "h": 170,
+            "w": 170,
+            "x": 0,
+            "y": 0,
+            "createdAt": "2025-01-19 20:01:52",
+            "expiresAt": "2025-01-22 20:01:52"
+        },
+        "shadow_984_1": {
+            "texture": "shadow_984",
+            "h": 170,
+            "w": 170,
+            "x": 175,
+            "y": 0,
+            "createdAt": "2025-01-19 20:01:52",
+            "expiresAt": "2025-01-22 20:01:52"
+        },
+        "shadow_984_2": {
+            "texture": "shadow_984",
+            "h": 170,
+            "w": 170,
+            "x": 350,
+            "y": 0,
+            "createdAt": "2025-01-19 20:01:52",
+            "expiresAt": "2025-01-22 20:01:52"
+        },
+        "shadow_984_3": {
+            "texture": "shadow_984",
+            "h": 170,
+            "w": 170,
+            "x": 525,
+            "y": 0,
+            "createdAt": "2025-01-19 20:01:52",
+            "expiresAt": "2025-01-22 20:01:52"
+        },
+        "shadow_984_4": {
+            "texture": "shadow_984",
+            "h": 170,
+            "w": 170,
+            "x": 700,
+            "y": 0,
+            "createdAt": "2025-01-19 20:01:52",
+            "expiresAt": "2025-01-22 20:01:52"
+        },
+        "shadow_984_5": {
+            "texture": "shadow_984",
+            "h": 170,
+            "w": 170,
+            "x": 875,
+            "y": 0,
+            "createdAt": "2025-01-19 20:01:52",
+            "expiresAt": "2025-01-22 20:01:52"
+        },
+        "shadow_984_6": {
+            "texture": "shadow_984",
+            "h": 170,
+            "w": 170,
+            "x": 1050,
+            "y": 0,
+            "createdAt": "2025-01-19 20:01:52",
+            "expiresAt": "2025-01-22 20:01:52"
+        },
+        "shadow_984_7": {
+            "texture": "shadow_984",
+            "h": 170,
+            "w": 170,
+            "x": 1225,
+            "y": 0,
+            "createdAt": "2025-01-19 20:01:52",
+            "expiresAt": "2025-01-22 20:01:52"
+        },
+        "shadow_984_8": {
+            "texture": "shadow_984",
+            "h": 170,
+            "w": 170,
+            "x": 1400,
+            "y": 0,
+            "createdAt": "2025-01-19 20:01:52",
+            "expiresAt": "2025-01-22 20:01:52"
+        },
+        "slaze_99_0": {
+            "texture": "slaze_99",
+            "h": 170,
+            "w": 170,
+            "x": 0,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "slaze_99_1": {
+            "texture": "slaze_99",
+            "h": 170,
+            "w": 170,
+            "x": 175,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "slaze_99_2": {
+            "texture": "slaze_99",
+            "h": 170,
+            "w": 170,
+            "x": 350,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "slaze_99_3": {
+            "texture": "slaze_99",
+            "h": 170,
+            "w": 170,
+            "x": 525,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "slaze_99_4": {
+            "texture": "slaze_99",
+            "h": 170,
+            "w": 170,
+            "x": 700,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "slaze_99_5": {
+            "texture": "slaze_99",
+            "h": 170,
+            "w": 170,
+            "x": 875,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "slaze_99_6": {
+            "texture": "slaze_99",
+            "h": 170,
+            "w": 170,
+            "x": 1050,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "slaze_99_7": {
+            "texture": "slaze_99",
+            "h": 170,
+            "w": 170,
+            "x": 1225,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "slaze_99_8": {
+            "texture": "slaze_99",
+            "h": 170,
+            "w": 170,
+            "x": 1400,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "dragon_skin_197_0": {
+            "texture": "dragon_skin_197",
+            "h": 170,
+            "w": 170,
+            "x": 0,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "dragon_skin_197_1": {
+            "texture": "dragon_skin_197",
+            "h": 170,
+            "w": 170,
+            "x": 175,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "dragon_skin_197_2": {
+            "texture": "dragon_skin_197",
+            "h": 170,
+            "w": 170,
+            "x": 350,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "dragon_skin_197_3": {
+            "texture": "dragon_skin_197",
+            "h": 170,
+            "w": 170,
+            "x": 525,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "dragon_skin_197_4": {
+            "texture": "dragon_skin_197",
+            "h": 170,
+            "w": 170,
+            "x": 700,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "dragon_skin_197_5": {
+            "texture": "dragon_skin_197",
+            "h": 170,
+            "w": 170,
+            "x": 875,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "dragon_skin_197_6": {
+            "texture": "dragon_skin_197",
+            "h": 170,
+            "w": 170,
+            "x": 1050,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "dragon_skin_197_7": {
+            "texture": "dragon_skin_197",
+            "h": 170,
+            "w": 170,
+            "x": 1225,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "dragon_skin_197_8": {
+            "texture": "dragon_skin_197",
+            "h": 170,
+            "w": 170,
+            "x": 1400,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "ice_skin_814_0": {
+            "texture": "ice_skin_814",
+            "h": 170,
+            "w": 170,
+            "x": 0,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "ice_skin_814_1": {
+            "texture": "ice_skin_814",
+            "h": 170,
+            "w": 170,
+            "x": 175,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "ice_skin_814_2": {
+            "texture": "ice_skin_814",
+            "h": 170,
+            "w": 170,
+            "x": 350,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "ice_skin_814_3": {
+            "texture": "ice_skin_814",
+            "h": 170,
+            "w": 170,
+            "x": 525,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "ice_skin_814_4": {
+            "texture": "ice_skin_814",
+            "h": 170,
+            "w": 170,
+            "x": 700,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "ice_skin_814_5": {
+            "texture": "ice_skin_814",
+            "h": 170,
+            "w": 170,
+            "x": 875,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "ice_skin_814_6": {
+            "texture": "ice_skin_814",
+            "h": 170,
+            "w": 170,
+            "x": 1050,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "ice_skin_814_7": {
+            "texture": "ice_skin_814",
+            "h": 170,
+            "w": 170,
+            "x": 1225,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "ice_skin_814_8": {
+            "texture": "ice_skin_814",
+            "h": 170,
+            "w": 170,
+            "x": 1400,
+            "y": 0,
+            "createdAt": "2025-01-19 20:02:02",
+            "expiresAt": "2025-01-22 20:02:02"
+        },
+        "fire_759_0": {
+            "texture": "fire_759",
+            "h": 170,
+            "w": 170,
+            "x": 0,
+            "y": 0,
+            "createdAt": "2025-01-19 20:09:02",
+            "expiresAt": "2025-01-22 20:09:02"
+        },
+        "fire_759_1": {
+            "texture": "fire_759",
+            "h": 170,
+            "w": 170,
+            "x": 175,
+            "y": 0,
+            "createdAt": "2025-01-19 20:09:02",
+            "expiresAt": "2025-01-22 20:09:02"
+        },
+        "fire_759_2": {
+            "texture": "fire_759",
+            "h": 170,
+            "w": 170,
+            "x": 350,
+            "y": 0,
+            "createdAt": "2025-01-19 20:09:02",
+            "expiresAt": "2025-01-22 20:09:02"
+        },
+        "fire_759_3": {
+            "texture": "fire_759",
+            "h": 170,
+            "w": 170,
+            "x": 525,
+            "y": 0,
+            "createdAt": "2025-01-19 20:09:02",
+            "expiresAt": "2025-01-22 20:09:02"
+        },
+        "fire_759_4": {
+            "texture": "fire_759",
+            "h": 170,
+            "w": 170,
+            "x": 700,
+            "y": 0,
+            "createdAt": "2025-01-19 20:09:02",
+            "expiresAt": "2025-01-22 20:09:02"
+        },
+        "fire_759_5": {
+            "texture": "fire_759",
+            "h": 170,
+            "w": 170,
+            "x": 875,
+            "y": 0,
+            "createdAt": "2025-01-19 20:09:02",
+            "expiresAt": "2025-01-22 20:09:02"
+        },
+        "fire_759_6": {
+            "texture": "fire_759",
+            "h": 170,
+            "w": 170,
+            "x": 1050,
+            "y": 0,
+            "createdAt": "2025-01-19 20:09:02",
+            "expiresAt": "2025-01-22 20:09:02"
+        },
+        "fire_759_7": {
+            "texture": "fire_759",
+            "h": 170,
+            "w": 170,
+            "x": 1225,
+            "y": 0,
+            "createdAt": "2025-01-19 20:09:02",
+            "expiresAt": "2025-01-22 20:09:02"
+        },
+        "fire_759_8": {
+            "texture": "fire_759",
+            "h": 170,
+            "w": 170,
+            "x": 1400,
+            "y": 0,
+            "createdAt": "2025-01-19 20:09:02",
+            "expiresAt": "2025-01-22 20:09:02"
+        },
+        "galaxy_211_0": {
+            "texture": "galaxy_211",
+            "h": 170,
+            "w": 170,
+            "x": 0,
+            "y": 0,
+            "createdAt": "2025-01-19 20:09:08",
+            "expiresAt": "2025-01-22 20:09:08"
+        },
+        "galaxy_211_1": {
+            "texture": "galaxy_211",
+            "h": 170,
+            "w": 170,
+            "x": 175,
+            "y": 0,
+            "createdAt": "2025-01-19 20:09:08",
+            "expiresAt": "2025-01-22 20:09:08"
+        },
+        "galaxy_211_2": {
+            "texture": "galaxy_211",
+            "h": 170,
+            "w": 170,
+            "x": 350,
+            "y": 0,
+            "createdAt": "2025-01-19 20:09:08",
+            "expiresAt": "2025-01-22 20:09:08"
+        },
+        "galaxy_211_3": {
+            "texture": "galaxy_211",
+            "h": 170,
+            "w": 170,
+            "x": 525,
+            "y": 0,
+            "createdAt": "2025-01-19 20:09:08",
+            "expiresAt": "2025-01-22 20:09:08"
+        },
+        "galaxy_211_4": {
+            "texture": "galaxy_211",
+            "h": 170,
+            "w": 170,
+            "x": 700,
+            "y": 0,
+            "createdAt": "2025-01-19 20:09:08",
+            "expiresAt": "2025-01-22 20:09:08"
+        },
+        "galaxy_211_5": {
+            "texture": "galaxy_211",
+            "h": 170,
+            "w": 170,
+            "x": 875,
+            "y": 0,
+            "createdAt": "2025-01-19 20:09:08",
+            "expiresAt": "2025-01-22 20:09:08"
+        },
+        "galaxy_211_6": {
+            "texture": "galaxy_211",
+            "h": 170,
+            "w": 170,
+            "x": 1050,
+            "y": 0,
+            "createdAt": "2025-01-19 20:09:08",
+            "expiresAt": "2025-01-22 20:09:08"
+        },
+        "galaxy_211_7": {
+            "texture": "galaxy_211",
+            "h": 170,
+            "w": 170,
+            "x": 1225,
+            "y": 0,
+            "createdAt": "2025-01-19 20:09:08",
+            "expiresAt": "2025-01-22 20:09:08"
+        },
+        "galaxy_211_8": {
+            "texture": "galaxy_211",
+            "h": 170,
+            "w": 170,
+            "x": 1400,
+            "y": 0,
+            "createdAt": "2025-01-19 20:09:08",
+            "expiresAt": "2025-01-22 20:09:08"
+        },
+        "frost_899_0": {
+            "texture": "frost_899",
+            "h": 170,
+            "w": 170,
+            "x": 0,
+            "y": 0,
+            "createdAt": "2025-01-19 20:12:27",
+            "expiresAt": "2025-01-22 20:12:27"
+        },
+        "frost_899_1": {
+            "texture": "frost_899",
+            "h": 170,
+            "w": 170,
+            "x": 175,
+            "y": 0,
+            "createdAt": "2025-01-19 20:12:27",
+            "expiresAt": "2025-01-22 20:12:27"
+        },
+        "frost_899_2": {
+            "texture": "frost_899",
+            "h": 170,
+            "w": 170,
+            "x": 350,
+            "y": 0,
+            "createdAt": "2025-01-19 20:12:27",
+            "expiresAt": "2025-01-22 20:12:27"
+        },
+        "frost_899_3": {
+            "texture": "frost_899",
+            "h": 170,
+            "w": 170,
+            "x": 525,
+            "y": 0,
+            "createdAt": "2025-01-19 20:12:27",
+            "expiresAt": "2025-01-22 20:12:27"
+        },
+        "frost_899_4": {
+            "texture": "frost_899",
+            "h": 170,
+            "w": 170,
+            "x": 700,
+            "y": 0,
+            "createdAt": "2025-01-19 20:12:27",
+            "expiresAt": "2025-01-22 20:12:27"
+        },
+        "frost_899_5": {
+            "texture": "frost_899",
+            "h": 170,
+            "w": 170,
+            "x": 875,
+            "y": 0,
+            "createdAt": "2025-01-19 20:12:27",
+            "expiresAt": "2025-01-22 20:12:27"
+        },
+        "frost_899_6": {
+            "texture": "frost_899",
+            "h": 170,
+            "w": 170,
+            "x": 1050,
+            "y": 0,
+            "createdAt": "2025-01-19 20:12:27",
+            "expiresAt": "2025-01-22 20:12:27"
+        },
+        "frost_899_7": {
+            "texture": "frost_899",
+            "h": 170,
+            "w": 170,
+            "x": 1225,
+            "y": 0,
+            "createdAt": "2025-01-19 20:12:27",
+            "expiresAt": "2025-01-22 20:12:27"
+        },
+        "frost_899_8": {
+            "texture": "frost_899",
+            "h": 170,
+            "w": 170,
+            "x": 1400,
+            "y": 0,
+            "createdAt": "2025-01-19 20:12:27",
+            "expiresAt": "2025-01-22 20:12:27"
+        },
+        "fire_68_0": {
+            "texture": "fire_68",
+            "h": 170,
+            "w": 170,
+            "x": 0,
+            "y": 0,
+            "createdAt": "2025-01-19 20:12:34",
+            "expiresAt": "2025-01-22 20:12:34"
+        },
+        "fire_68_1": {
+            "texture": "fire_68",
+            "h": 170,
+            "w": 170,
+            "x": 175,
+            "y": 0,
+            "createdAt": "2025-01-19 20:12:34",
+            "expiresAt": "2025-01-22 20:12:34"
+        },
+        "fire_68_2": {
+            "texture": "fire_68",
+            "h": 170,
+            "w": 170,
+            "x": 350,
+            "y": 0,
+            "createdAt": "2025-01-19 20:12:34",
+            "expiresAt": "2025-01-22 20:12:34"
+        },
+        "fire_68_3": {
+            "texture": "fire_68",
+            "h": 170,
+            "w": 170,
+            "x": 525,
+            "y": 0,
+            "createdAt": "2025-01-19 20:12:34",
+            "expiresAt": "2025-01-22 20:12:34"
+        },
+        "fire_68_4": {
+            "texture": "fire_68",
+            "h": 170,
+            "w": 170,
+            "x": 700,
+            "y": 0,
+            "createdAt": "2025-01-19 20:12:34",
+            "expiresAt": "2025-01-22 20:12:34"
+        },
+        "fire_68_5": {
+            "texture": "fire_68",
+            "h": 170,
+            "w": 170,
+            "x": 875,
+            "y": 0,
+            "createdAt": "2025-01-19 20:12:34",
+            "expiresAt": "2025-01-22 20:12:34"
+        },
+        "fire_68_6": {
+            "texture": "fire_68",
+            "h": 170,
+            "w": 170,
+            "x": 1050,
+            "y": 0,
+            "createdAt": "2025-01-19 20:12:34",
+            "expiresAt": "2025-01-22 20:12:34"
+        },
+        "fire_68_7": {
+            "texture": "fire_68",
+            "h": 170,
+            "w": 170,
+            "x": 1225,
+            "y": 0,
+            "createdAt": "2025-01-19 20:12:34",
+            "expiresAt": "2025-01-22 20:12:34"
+        },
+        "fire_68_8": {
+            "texture": "fire_68",
+            "h": 170,
+            "w": 170,
+            "x": 1400,
+            "y": 0,
+            "createdAt": "2025-01-19 20:12:34",
+            "expiresAt": "2025-01-22 20:12:34"
         }
     }
 }
