@@ -22213,7 +22213,7 @@
         },
         "hat_190": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/hat\/hat_190.png"
+            "relativePath": "https:\/\/i.imgur.com\/1VCrlPi.png"
         },
         "hat_191": {
             "custom": true,
@@ -22653,11 +22653,11 @@
         },
         "eyes_83": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/eyes\/eyes_83.png"
+            "relativePath": "https:\/\/i.imgur.com\/t8xTAem.png"
         },
         "eyes_84": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/eyes\/eyes_84.png"
+            "relativePath": "https:\/\/i.imgur.com\/SHJTm6H.png"
         },
         "hat_931": {
             "custom": true,
