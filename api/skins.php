@@ -1196,9 +1196,6 @@
             952
         ],
         [
-            958
-        ],
-        [
             959
         ],
         [
@@ -4577,21 +4574,6 @@
             "priceBefore": 0,
             "nonbuyable": false,
             "prime": "c_white"
-        },
-        "958": {
-            "id": 958,
-            "base": [
-                {
-                    "region": "hat_958"
-                }
-            ],
-            "guest": false,
-            "price": 0,
-            "priceBefore": 0,
-            "nonbuyable": false,
-            "prime": "c_white",
-            "batdau": "2025-01-16 08:38:05",
-            "ketthuc": "2025-01-19 08:38:05"
         },
         "959": {
             "id": 959,
@@ -13672,7 +13654,7 @@
         {
             "id": 1199,
             "guest": false,
-            "nonbuyable": false,
+            "nonbuyable": true,
             "price": 0,
             "priceBefore": 0,
             "prime": "c__yllw",
@@ -14648,15 +14630,15 @@
                 "nsnd_02_0"
             ],
             "glow": [
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_grass",
-                "a_death",
-                "a_death",
-                "a__ruby",
-                "a_death",
-                "a_death"
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw"
             ]
         },
         {
@@ -19066,38 +19048,6 @@
             ]
         },
         {
-            "id": 1446,
-            "createdAt": "2025-01-16 08:37:36",
-            "expiresAt": "2025-01-19 08:37:36",
-            "guest": false,
-            "nonbuyable": true,
-            "price": 0,
-            "priceBefore": 0,
-            "prime": "c__yllw",
-            "base": [
-                "moon_655_8",
-                "moon_655_7",
-                "moon_655_6",
-                "moon_655_5",
-                "moon_655_4",
-                "moon_655_3",
-                "moon_655_2",
-                "moon_655_1",
-                "moon_655_0"
-            ],
-            "glow": [
-                "a_white",
-                "a_white",
-                "a_white",
-                "a_white",
-                "a_white",
-                "a_white",
-                "a__card",
-                "a__card",
-                "a__card"
-            ]
-        },
-        {
             "id": 1447,
             "createdAt": "2025-01-17 00:13:10",
             "expiresAt": "2025-01-20 00:13:10",
@@ -19418,102 +19368,6 @@
             ]
         },
         {
-            "id": 1453,
-            "createdAt": "2025-01-19 20:01:34",
-            "expiresAt": "2025-01-22 20:01:34",
-            "guest": false,
-            "nonbuyable": true,
-            "price": 0,
-            "priceBefore": 0,
-            "prime": "c__yllw",
-            "base": [
-                "fire_755_8",
-                "fire_755_7",
-                "fire_755_6",
-                "fire_755_5",
-                "fire_755_4",
-                "fire_755_3",
-                "fire_755_2",
-                "fire_755_1",
-                "fire_755_0"
-            ],
-            "glow": [
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death"
-            ]
-        },
-        {
-            "id": 1454,
-            "createdAt": "2025-01-19 20:01:52",
-            "expiresAt": "2025-01-22 20:01:52",
-            "guest": false,
-            "nonbuyable": true,
-            "price": 0,
-            "priceBefore": 0,
-            "prime": "c__yllw",
-            "base": [
-                "shadow_984_8",
-                "shadow_984_7",
-                "shadow_984_6",
-                "shadow_984_5",
-                "shadow_984_4",
-                "shadow_984_3",
-                "shadow_984_2",
-                "shadow_984_1",
-                "shadow_984_0"
-            ],
-            "glow": [
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death"
-            ]
-        },
-        {
-            "id": 1455,
-            "createdAt": "2025-01-19 20:02:02",
-            "expiresAt": "2025-01-22 20:02:02",
-            "guest": false,
-            "nonbuyable": true,
-            "price": 0,
-            "priceBefore": 0,
-            "prime": "c__yllw",
-            "base": [
-                "slaze_99_8",
-                "slaze_99_7",
-                "slaze_99_6",
-                "slaze_99_5",
-                "slaze_99_4",
-                "slaze_99_3",
-                "slaze_99_2",
-                "slaze_99_1",
-                "slaze_99_0"
-            ],
-            "glow": [
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death"
-            ]
-        },
-        {
             "id": 1456,
             "createdAt": "2025-01-19 20:02:02",
             "expiresAt": "2025-01-22 20:02:02",
@@ -19564,134 +19418,6 @@
                 "ice_Skin_814_2",
                 "ice_Skin_814_1",
                 "ice_Skin_814_0"
-            ],
-            "glow": [
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death"
-            ]
-        },
-        {
-            "id": 1458,
-            "createdAt": "2025-01-19 20:09:02",
-            "expiresAt": "2025-01-22 20:09:02",
-            "guest": false,
-            "nonbuyable": true,
-            "price": 0,
-            "priceBefore": 0,
-            "prime": "c__yllw",
-            "base": [
-                "fire_759_8",
-                "fire_759_7",
-                "fire_759_6",
-                "fire_759_5",
-                "fire_759_4",
-                "fire_759_3",
-                "fire_759_2",
-                "fire_759_1",
-                "fire_759_0"
-            ],
-            "glow": [
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death"
-            ]
-        },
-        {
-            "id": 1459,
-            "createdAt": "2025-01-19 20:09:08",
-            "expiresAt": "2025-01-22 20:09:08",
-            "guest": false,
-            "nonbuyable": true,
-            "price": 0,
-            "priceBefore": 0,
-            "prime": "c__yllw",
-            "base": [
-                "galaxy_211_8",
-                "galaxy_211_7",
-                "galaxy_211_6",
-                "galaxy_211_5",
-                "galaxy_211_4",
-                "galaxy_211_3",
-                "galaxy_211_2",
-                "galaxy_211_1",
-                "galaxy_211_0"
-            ],
-            "glow": [
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death"
-            ]
-        },
-        {
-            "id": 1460,
-            "createdAt": "2025-01-19 20:12:27",
-            "expiresAt": "2025-01-22 20:12:27",
-            "guest": false,
-            "nonbuyable": true,
-            "price": 0,
-            "priceBefore": 0,
-            "prime": "c__yllw",
-            "base": [
-                "frost_899_8",
-                "frost_899_7",
-                "frost_899_6",
-                "frost_899_5",
-                "frost_899_4",
-                "frost_899_3",
-                "frost_899_2",
-                "frost_899_1",
-                "frost_899_0"
-            ],
-            "glow": [
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death"
-            ]
-        },
-        {
-            "id": 1461,
-            "createdAt": "2025-01-19 20:12:34",
-            "expiresAt": "2025-01-22 20:12:34",
-            "guest": false,
-            "nonbuyable": true,
-            "price": 0,
-            "priceBefore": 0,
-            "prime": "c__yllw",
-            "base": [
-                "fire_68_8",
-                "fire_68_7",
-                "fire_68_6",
-                "fire_68_5",
-                "fire_68_4",
-                "fire_68_3",
-                "fire_68_2",
-                "fire_68_1",
-                "fire_68_0"
             ],
             "glow": [
                 "a_death",
@@ -19979,8 +19705,8 @@
                 "en": "NSND"
             },
             "list": [
-                "1179",
-                "1199",
+                "1240",
+                "1241",
                 "1242",
                 "1243",
                 "1244",
@@ -20894,7 +20620,7 @@
         },
         "kurdishflag_01": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/TSNSunR.png
+            "relativePath": "https:\/\/haylamday.com\/images\/texture\/skin_kurdishflag\/skin_kurdishflag_01.png"
         },
         "kurdishflag_02": {
             "custom": true,
@@ -21314,7 +21040,7 @@
         },
         "25ypg_01": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/Dg1fShi.png"
+            "relativePath": "https:\/\/i.imgur.com\/S5rYkaP.png"
         },
         "25ypg_02": {
             "custom": true,
@@ -21438,11 +21164,11 @@
         },
         "nsnd_01": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/skin_nsnd\/skin_nsnd_01.png"
+            "relativePath": "https:\/\/i.imgur.com\/TSNSunR.png"
         },
         "nsnd_02": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/skin_nsnd\/skin_nsnd_02.png"
+            "relativePath": "https:\/\/i.imgur.com\/Dg1fShi.png"
         },
         "nsnd_03": {
             "custom": true,
@@ -21530,11 +21256,11 @@
         },
         "skin_thu_ky_01": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/nDq2jIM.png"
+            "relativePath": "https:\/\/i.imgur.com\/bqNccRu.png"
         },
         "skin_thu_ky_02": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/WllB3a.png"
+            "relativePath": "https:\/\/i.imgur.com\/rWllB3a.png"
         },
         "abufaris_01": {
             "custom": true,
@@ -22650,15 +22376,15 @@
         },
         "hat_191": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/hat\/hat_191.png"
+            "relativePath": "https:\/\/i.imgur.com\/1SPKBcB.png"
         },
         "hat_192": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/hat\/hat_192.png"
+            "relativePath": "https:\/\/i.imgur.com/LC5i8lG.png"
         },
         "hat_193": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/hat\/hat_193.png"
+            "relativePath": "https:\/\/i.imgur.com\/1VCrlPi.png"
         },
         "mouth_01": {
             "custom": true,
@@ -23286,18 +23012,6 @@
             "createdAt": "2025-01-12 15:57:16",
             "expiresAt": "2035-12-26 15:57:16"
         },
-        "moon_655": {
-            "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/hRvO8iV.png",
-            "createdAt": "2025-01-16 08:37:36",
-            "expiresAt": "2025-01-19 08:37:36"
-        },
-        "hat_958": {
-            "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/IwIAsci.png",
-            "batdau": "2025-01-16 08:38:05",
-            "ketthuc": "2025-01-19 08:38:05"
-        },
         "dragon_329": {
             "custom": true,
             "relativePath": "https:\/\/i.imgur.com\/yqZbQqD.png",
@@ -23370,24 +23084,6 @@
             "createdAt": "2025-01-19 17:16:41",
             "expiresAt": "2025-01-22 17:16:41"
         },
-        "fire_755": {
-            "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/GPdqUTq.png",
-            "createdAt": "2025-01-19 20:01:34",
-            "expiresAt": "2025-01-22 20:01:34"
-        },
-        "shadow_984": {
-            "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/IUbK9rv.png",
-            "createdAt": "2025-01-19 20:01:52",
-            "expiresAt": "2025-01-22 20:01:52"
-        },
-        "slaze_99": {
-            "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/AHdlR84.png",
-            "createdAt": "2025-01-19 20:02:02",
-            "expiresAt": "2025-01-22 20:02:02"
-        },
         "dragon_skin_197": {
             "custom": true,
             "relativePath": "https:\/\/i.imgur.com\/AHdlR84.png",
@@ -23399,30 +23095,6 @@
             "relativePath": "https:\/\/i.imgur.com\/AHdlR84.png",
             "createdAt": "2025-01-19 20:02:02",
             "expiresAt": "2025-01-22 20:02:02"
-        },
-        "fire_759": {
-            "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/bN7dyhE.png",
-            "createdAt": "2025-01-19 20:09:02",
-            "expiresAt": "2025-01-22 20:09:02"
-        },
-        "galaxy_211": {
-            "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/SEW4Dq8.png",
-            "createdAt": "2025-01-19 20:09:08",
-            "expiresAt": "2025-01-22 20:09:08"
-        },
-        "frost_899": {
-            "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/EqKxJHd.png",
-            "createdAt": "2025-01-19 20:12:27",
-            "expiresAt": "2025-01-22 20:12:27"
-        },
-        "fire_68": {
-            "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/N9JFfLZ.png",
-            "createdAt": "2025-01-19 20:12:34",
-            "expiresAt": "2025-01-22 20:12:34"
         }
     },
     "colorDict": {
@@ -55721,100 +55393,6 @@
             "createdAt": "2025-01-12 15:57:16",
             "expiresAt": "2035-12-26 15:57:16"
         },
-        "moon_655_0": {
-            "texture": "moon_655",
-            "h": 170,
-            "w": 170,
-            "x": 0,
-            "y": 0,
-            "createdAt": "2025-01-16 08:37:36",
-            "expiresAt": "2025-01-19 08:37:36"
-        },
-        "moon_655_1": {
-            "texture": "moon_655",
-            "h": 170,
-            "w": 170,
-            "x": 175,
-            "y": 0,
-            "createdAt": "2025-01-16 08:37:36",
-            "expiresAt": "2025-01-19 08:37:36"
-        },
-        "moon_655_2": {
-            "texture": "moon_655",
-            "h": 170,
-            "w": 170,
-            "x": 350,
-            "y": 0,
-            "createdAt": "2025-01-16 08:37:36",
-            "expiresAt": "2025-01-19 08:37:36"
-        },
-        "moon_655_3": {
-            "texture": "moon_655",
-            "h": 170,
-            "w": 170,
-            "x": 525,
-            "y": 0,
-            "createdAt": "2025-01-16 08:37:36",
-            "expiresAt": "2025-01-19 08:37:36"
-        },
-        "moon_655_4": {
-            "texture": "moon_655",
-            "h": 170,
-            "w": 170,
-            "x": 700,
-            "y": 0,
-            "createdAt": "2025-01-16 08:37:36",
-            "expiresAt": "2025-01-19 08:37:36"
-        },
-        "moon_655_5": {
-            "texture": "moon_655",
-            "h": 170,
-            "w": 170,
-            "x": 875,
-            "y": 0,
-            "createdAt": "2025-01-16 08:37:36",
-            "expiresAt": "2025-01-19 08:37:36"
-        },
-        "moon_655_6": {
-            "texture": "moon_655",
-            "h": 170,
-            "w": 170,
-            "x": 1050,
-            "y": 0,
-            "createdAt": "2025-01-16 08:37:36",
-            "expiresAt": "2025-01-19 08:37:36"
-        },
-        "moon_655_7": {
-            "texture": "moon_655",
-            "h": 170,
-            "w": 170,
-            "x": 1225,
-            "y": 0,
-            "createdAt": "2025-01-16 08:37:36",
-            "expiresAt": "2025-01-19 08:37:36"
-        },
-        "moon_655_8": {
-            "texture": "moon_655",
-            "h": 170,
-            "w": 170,
-            "x": 1400,
-            "y": 0,
-            "createdAt": "2025-01-16 08:37:36",
-            "expiresAt": "2025-01-19 08:37:36"
-        },
-        "hat_958": {
-            "texture": "hat_958",
-            "x": 0,
-            "y": 0,
-            "w": 400,
-            "h": 250,
-            "px": 1,
-            "py": 64,
-            "pw": 128,
-            "ph": 128,
-            "batdau": "2025-01-16 08:38:05",
-            "ketthuc": "2025-01-19 08:38:05"
-        },
         "dragon_329_0": {
             "texture": "dragon_329",
             "h": 170,
@@ -56651,249 +56229,6 @@
             "createdAt": "2025-01-19 17:16:41",
             "expiresAt": "2025-01-22 17:16:41"
         },
-        "fire_755_0": {
-            "texture": "fire_755",
-            "h": 170,
-            "w": 170,
-            "x": 0,
-            "y": 0,
-            "createdAt": "2025-01-19 20:01:34",
-            "expiresAt": "2025-01-22 20:01:34"
-        },
-        "fire_755_1": {
-            "texture": "fire_755",
-            "h": 170,
-            "w": 170,
-            "x": 175,
-            "y": 0,
-            "createdAt": "2025-01-19 20:01:34",
-            "expiresAt": "2025-01-22 20:01:34"
-        },
-        "fire_755_2": {
-            "texture": "fire_755",
-            "h": 170,
-            "w": 170,
-            "x": 350,
-            "y": 0,
-            "createdAt": "2025-01-19 20:01:34",
-            "expiresAt": "2025-01-22 20:01:34"
-        },
-        "fire_755_3": {
-            "texture": "fire_755",
-            "h": 170,
-            "w": 170,
-            "x": 525,
-            "y": 0,
-            "createdAt": "2025-01-19 20:01:34",
-            "expiresAt": "2025-01-22 20:01:34"
-        },
-        "fire_755_4": {
-            "texture": "fire_755",
-            "h": 170,
-            "w": 170,
-            "x": 700,
-            "y": 0,
-            "createdAt": "2025-01-19 20:01:34",
-            "expiresAt": "2025-01-22 20:01:34"
-        },
-        "fire_755_5": {
-            "texture": "fire_755",
-            "h": 170,
-            "w": 170,
-            "x": 875,
-            "y": 0,
-            "createdAt": "2025-01-19 20:01:34",
-            "expiresAt": "2025-01-22 20:01:34"
-        },
-        "fire_755_6": {
-            "texture": "fire_755",
-            "h": 170,
-            "w": 170,
-            "x": 1050,
-            "y": 0,
-            "createdAt": "2025-01-19 20:01:34",
-            "expiresAt": "2025-01-22 20:01:34"
-        },
-        "fire_755_7": {
-            "texture": "fire_755",
-            "h": 170,
-            "w": 170,
-            "x": 1225,
-            "y": 0,
-            "createdAt": "2025-01-19 20:01:34",
-            "expiresAt": "2025-01-22 20:01:34"
-        },
-        "fire_755_8": {
-            "texture": "fire_755",
-            "h": 170,
-            "w": 170,
-            "x": 1400,
-            "y": 0,
-            "createdAt": "2025-01-19 20:01:34",
-            "expiresAt": "2025-01-22 20:01:34"
-        },
-        "shadow_984_0": {
-            "texture": "shadow_984",
-            "h": 170,
-            "w": 170,
-            "x": 0,
-            "y": 0,
-            "createdAt": "2025-01-19 20:01:52",
-            "expiresAt": "2025-01-22 20:01:52"
-        },
-        "shadow_984_1": {
-            "texture": "shadow_984",
-            "h": 170,
-            "w": 170,
-            "x": 175,
-            "y": 0,
-            "createdAt": "2025-01-19 20:01:52",
-            "expiresAt": "2025-01-22 20:01:52"
-        },
-        "shadow_984_2": {
-            "texture": "shadow_984",
-            "h": 170,
-            "w": 170,
-            "x": 350,
-            "y": 0,
-            "createdAt": "2025-01-19 20:01:52",
-            "expiresAt": "2025-01-22 20:01:52"
-        },
-        "shadow_984_3": {
-            "texture": "shadow_984",
-            "h": 170,
-            "w": 170,
-            "x": 525,
-            "y": 0,
-            "createdAt": "2025-01-19 20:01:52",
-            "expiresAt": "2025-01-22 20:01:52"
-        },
-        "shadow_984_4": {
-            "texture": "shadow_984",
-            "h": 170,
-            "w": 170,
-            "x": 700,
-            "y": 0,
-            "createdAt": "2025-01-19 20:01:52",
-            "expiresAt": "2025-01-22 20:01:52"
-        },
-        "shadow_984_5": {
-            "texture": "shadow_984",
-            "h": 170,
-            "w": 170,
-            "x": 875,
-            "y": 0,
-            "createdAt": "2025-01-19 20:01:52",
-            "expiresAt": "2025-01-22 20:01:52"
-        },
-        "shadow_984_6": {
-            "texture": "shadow_984",
-            "h": 170,
-            "w": 170,
-            "x": 1050,
-            "y": 0,
-            "createdAt": "2025-01-19 20:01:52",
-            "expiresAt": "2025-01-22 20:01:52"
-        },
-        "shadow_984_7": {
-            "texture": "shadow_984",
-            "h": 170,
-            "w": 170,
-            "x": 1225,
-            "y": 0,
-            "createdAt": "2025-01-19 20:01:52",
-            "expiresAt": "2025-01-22 20:01:52"
-        },
-        "shadow_984_8": {
-            "texture": "shadow_984",
-            "h": 170,
-            "w": 170,
-            "x": 1400,
-            "y": 0,
-            "createdAt": "2025-01-19 20:01:52",
-            "expiresAt": "2025-01-22 20:01:52"
-        },
-        "slaze_99_0": {
-            "texture": "slaze_99",
-            "h": 170,
-            "w": 170,
-            "x": 0,
-            "y": 0,
-            "createdAt": "2025-01-19 20:02:02",
-            "expiresAt": "2025-01-22 20:02:02"
-        },
-        "slaze_99_1": {
-            "texture": "slaze_99",
-            "h": 170,
-            "w": 170,
-            "x": 175,
-            "y": 0,
-            "createdAt": "2025-01-19 20:02:02",
-            "expiresAt": "2025-01-22 20:02:02"
-        },
-        "slaze_99_2": {
-            "texture": "slaze_99",
-            "h": 170,
-            "w": 170,
-            "x": 350,
-            "y": 0,
-            "createdAt": "2025-01-19 20:02:02",
-            "expiresAt": "2025-01-22 20:02:02"
-        },
-        "slaze_99_3": {
-            "texture": "slaze_99",
-            "h": 170,
-            "w": 170,
-            "x": 525,
-            "y": 0,
-            "createdAt": "2025-01-19 20:02:02",
-            "expiresAt": "2025-01-22 20:02:02"
-        },
-        "slaze_99_4": {
-            "texture": "slaze_99",
-            "h": 170,
-            "w": 170,
-            "x": 700,
-            "y": 0,
-            "createdAt": "2025-01-19 20:02:02",
-            "expiresAt": "2025-01-22 20:02:02"
-        },
-        "slaze_99_5": {
-            "texture": "slaze_99",
-            "h": 170,
-            "w": 170,
-            "x": 875,
-            "y": 0,
-            "createdAt": "2025-01-19 20:02:02",
-            "expiresAt": "2025-01-22 20:02:02"
-        },
-        "slaze_99_6": {
-            "texture": "slaze_99",
-            "h": 170,
-            "w": 170,
-            "x": 1050,
-            "y": 0,
-            "createdAt": "2025-01-19 20:02:02",
-            "expiresAt": "2025-01-22 20:02:02"
-        },
-        "slaze_99_7": {
-            "texture": "slaze_99",
-            "h": 170,
-            "w": 170,
-            "x": 1225,
-            "y": 0,
-            "createdAt": "2025-01-19 20:02:02",
-            "expiresAt": "2025-01-22 20:02:02"
-        },
-        "slaze_99_8": {
-            "texture": "slaze_99",
-            "h": 170,
-            "w": 170,
-            "x": 1400,
-            "y": 0,
-            "createdAt": "2025-01-19 20:02:02",
-            "expiresAt": "2025-01-22 20:02:02"
-        },
         "dragon_skin_197_0": {
             "texture": "dragon_skin_197",
             "h": 170,
@@ -57055,330 +56390,6 @@
             "y": 0,
             "createdAt": "2025-01-19 20:02:02",
             "expiresAt": "2025-01-22 20:02:02"
-        },
-        "fire_759_0": {
-            "texture": "fire_759",
-            "h": 170,
-            "w": 170,
-            "x": 0,
-            "y": 0,
-            "createdAt": "2025-01-19 20:09:02",
-            "expiresAt": "2025-01-22 20:09:02"
-        },
-        "fire_759_1": {
-            "texture": "fire_759",
-            "h": 170,
-            "w": 170,
-            "x": 175,
-            "y": 0,
-            "createdAt": "2025-01-19 20:09:02",
-            "expiresAt": "2025-01-22 20:09:02"
-        },
-        "fire_759_2": {
-            "texture": "fire_759",
-            "h": 170,
-            "w": 170,
-            "x": 350,
-            "y": 0,
-            "createdAt": "2025-01-19 20:09:02",
-            "expiresAt": "2025-01-22 20:09:02"
-        },
-        "fire_759_3": {
-            "texture": "fire_759",
-            "h": 170,
-            "w": 170,
-            "x": 525,
-            "y": 0,
-            "createdAt": "2025-01-19 20:09:02",
-            "expiresAt": "2025-01-22 20:09:02"
-        },
-        "fire_759_4": {
-            "texture": "fire_759",
-            "h": 170,
-            "w": 170,
-            "x": 700,
-            "y": 0,
-            "createdAt": "2025-01-19 20:09:02",
-            "expiresAt": "2025-01-22 20:09:02"
-        },
-        "fire_759_5": {
-            "texture": "fire_759",
-            "h": 170,
-            "w": 170,
-            "x": 875,
-            "y": 0,
-            "createdAt": "2025-01-19 20:09:02",
-            "expiresAt": "2025-01-22 20:09:02"
-        },
-        "fire_759_6": {
-            "texture": "fire_759",
-            "h": 170,
-            "w": 170,
-            "x": 1050,
-            "y": 0,
-            "createdAt": "2025-01-19 20:09:02",
-            "expiresAt": "2025-01-22 20:09:02"
-        },
-        "fire_759_7": {
-            "texture": "fire_759",
-            "h": 170,
-            "w": 170,
-            "x": 1225,
-            "y": 0,
-            "createdAt": "2025-01-19 20:09:02",
-            "expiresAt": "2025-01-22 20:09:02"
-        },
-        "fire_759_8": {
-            "texture": "fire_759",
-            "h": 170,
-            "w": 170,
-            "x": 1400,
-            "y": 0,
-            "createdAt": "2025-01-19 20:09:02",
-            "expiresAt": "2025-01-22 20:09:02"
-        },
-        "galaxy_211_0": {
-            "texture": "galaxy_211",
-            "h": 170,
-            "w": 170,
-            "x": 0,
-            "y": 0,
-            "createdAt": "2025-01-19 20:09:08",
-            "expiresAt": "2025-01-22 20:09:08"
-        },
-        "galaxy_211_1": {
-            "texture": "galaxy_211",
-            "h": 170,
-            "w": 170,
-            "x": 175,
-            "y": 0,
-            "createdAt": "2025-01-19 20:09:08",
-            "expiresAt": "2025-01-22 20:09:08"
-        },
-        "galaxy_211_2": {
-            "texture": "galaxy_211",
-            "h": 170,
-            "w": 170,
-            "x": 350,
-            "y": 0,
-            "createdAt": "2025-01-19 20:09:08",
-            "expiresAt": "2025-01-22 20:09:08"
-        },
-        "galaxy_211_3": {
-            "texture": "galaxy_211",
-            "h": 170,
-            "w": 170,
-            "x": 525,
-            "y": 0,
-            "createdAt": "2025-01-19 20:09:08",
-            "expiresAt": "2025-01-22 20:09:08"
-        },
-        "galaxy_211_4": {
-            "texture": "galaxy_211",
-            "h": 170,
-            "w": 170,
-            "x": 700,
-            "y": 0,
-            "createdAt": "2025-01-19 20:09:08",
-            "expiresAt": "2025-01-22 20:09:08"
-        },
-        "galaxy_211_5": {
-            "texture": "galaxy_211",
-            "h": 170,
-            "w": 170,
-            "x": 875,
-            "y": 0,
-            "createdAt": "2025-01-19 20:09:08",
-            "expiresAt": "2025-01-22 20:09:08"
-        },
-        "galaxy_211_6": {
-            "texture": "galaxy_211",
-            "h": 170,
-            "w": 170,
-            "x": 1050,
-            "y": 0,
-            "createdAt": "2025-01-19 20:09:08",
-            "expiresAt": "2025-01-22 20:09:08"
-        },
-        "galaxy_211_7": {
-            "texture": "galaxy_211",
-            "h": 170,
-            "w": 170,
-            "x": 1225,
-            "y": 0,
-            "createdAt": "2025-01-19 20:09:08",
-            "expiresAt": "2025-01-22 20:09:08"
-        },
-        "galaxy_211_8": {
-            "texture": "galaxy_211",
-            "h": 170,
-            "w": 170,
-            "x": 1400,
-            "y": 0,
-            "createdAt": "2025-01-19 20:09:08",
-            "expiresAt": "2025-01-22 20:09:08"
-        },
-        "frost_899_0": {
-            "texture": "frost_899",
-            "h": 170,
-            "w": 170,
-            "x": 0,
-            "y": 0,
-            "createdAt": "2025-01-19 20:12:27",
-            "expiresAt": "2025-01-22 20:12:27"
-        },
-        "frost_899_1": {
-            "texture": "frost_899",
-            "h": 170,
-            "w": 170,
-            "x": 175,
-            "y": 0,
-            "createdAt": "2025-01-19 20:12:27",
-            "expiresAt": "2025-01-22 20:12:27"
-        },
-        "frost_899_2": {
-            "texture": "frost_899",
-            "h": 170,
-            "w": 170,
-            "x": 350,
-            "y": 0,
-            "createdAt": "2025-01-19 20:12:27",
-            "expiresAt": "2025-01-22 20:12:27"
-        },
-        "frost_899_3": {
-            "texture": "frost_899",
-            "h": 170,
-            "w": 170,
-            "x": 525,
-            "y": 0,
-            "createdAt": "2025-01-19 20:12:27",
-            "expiresAt": "2025-01-22 20:12:27"
-        },
-        "frost_899_4": {
-            "texture": "frost_899",
-            "h": 170,
-            "w": 170,
-            "x": 700,
-            "y": 0,
-            "createdAt": "2025-01-19 20:12:27",
-            "expiresAt": "2025-01-22 20:12:27"
-        },
-        "frost_899_5": {
-            "texture": "frost_899",
-            "h": 170,
-            "w": 170,
-            "x": 875,
-            "y": 0,
-            "createdAt": "2025-01-19 20:12:27",
-            "expiresAt": "2025-01-22 20:12:27"
-        },
-        "frost_899_6": {
-            "texture": "frost_899",
-            "h": 170,
-            "w": 170,
-            "x": 1050,
-            "y": 0,
-            "createdAt": "2025-01-19 20:12:27",
-            "expiresAt": "2025-01-22 20:12:27"
-        },
-        "frost_899_7": {
-            "texture": "frost_899",
-            "h": 170,
-            "w": 170,
-            "x": 1225,
-            "y": 0,
-            "createdAt": "2025-01-19 20:12:27",
-            "expiresAt": "2025-01-22 20:12:27"
-        },
-        "frost_899_8": {
-            "texture": "frost_899",
-            "h": 170,
-            "w": 170,
-            "x": 1400,
-            "y": 0,
-            "createdAt": "2025-01-19 20:12:27",
-            "expiresAt": "2025-01-22 20:12:27"
-        },
-        "fire_68_0": {
-            "texture": "fire_68",
-            "h": 170,
-            "w": 170,
-            "x": 0,
-            "y": 0,
-            "createdAt": "2025-01-19 20:12:34",
-            "expiresAt": "2025-01-22 20:12:34"
-        },
-        "fire_68_1": {
-            "texture": "fire_68",
-            "h": 170,
-            "w": 170,
-            "x": 175,
-            "y": 0,
-            "createdAt": "2025-01-19 20:12:34",
-            "expiresAt": "2025-01-22 20:12:34"
-        },
-        "fire_68_2": {
-            "texture": "fire_68",
-            "h": 170,
-            "w": 170,
-            "x": 350,
-            "y": 0,
-            "createdAt": "2025-01-19 20:12:34",
-            "expiresAt": "2025-01-22 20:12:34"
-        },
-        "fire_68_3": {
-            "texture": "fire_68",
-            "h": 170,
-            "w": 170,
-            "x": 525,
-            "y": 0,
-            "createdAt": "2025-01-19 20:12:34",
-            "expiresAt": "2025-01-22 20:12:34"
-        },
-        "fire_68_4": {
-            "texture": "fire_68",
-            "h": 170,
-            "w": 170,
-            "x": 700,
-            "y": 0,
-            "createdAt": "2025-01-19 20:12:34",
-            "expiresAt": "2025-01-22 20:12:34"
-        },
-        "fire_68_5": {
-            "texture": "fire_68",
-            "h": 170,
-            "w": 170,
-            "x": 875,
-            "y": 0,
-            "createdAt": "2025-01-19 20:12:34",
-            "expiresAt": "2025-01-22 20:12:34"
-        },
-        "fire_68_6": {
-            "texture": "fire_68",
-            "h": 170,
-            "w": 170,
-            "x": 1050,
-            "y": 0,
-            "createdAt": "2025-01-19 20:12:34",
-            "expiresAt": "2025-01-22 20:12:34"
-        },
-        "fire_68_7": {
-            "texture": "fire_68",
-            "h": 170,
-            "w": 170,
-            "x": 1225,
-            "y": 0,
-            "createdAt": "2025-01-19 20:12:34",
-            "expiresAt": "2025-01-22 20:12:34"
-        },
-        "fire_68_8": {
-            "texture": "fire_68",
-            "h": 170,
-            "w": 170,
-            "x": 1400,
-            "y": 0,
-            "createdAt": "2025-01-19 20:12:34",
-            "expiresAt": "2025-01-22 20:12:34"
         }
     }
 }
