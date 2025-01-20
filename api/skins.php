@@ -22812,11 +22812,11 @@
         },
         "eyes_83": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/eyes\/eyes_83.png"
+            "relativePath": "https:\/\/i.imgur.com\/SHJTm6H.png"
         },
         "eyes_84": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/eyes\/eyes_84.png"
+            "relativePath": "https:\/\/i.imgur.com\/t8xTAem.png"
         },
         "hat_931": {
             "custom": true,
