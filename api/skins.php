@@ -14584,7 +14584,7 @@
         {
             "id": 1240,
             "guest": false,
-            "nonbuyable": false,
+            "nonbuyable": true,
             "price": 0,
             "priceBefore": 0,
             "prime": "c__yllw",
