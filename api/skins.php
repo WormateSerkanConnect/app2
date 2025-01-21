@@ -21176,7 +21176,7 @@
         },
         "nsnd_04": {
             "custom": true,
-            "relativePath": "https:\/\/wormatefriendsglobal.com\/images\/texture\/skin_ayyildiz\/skin_simav.png
+            "relativePath": "https:\/\/wormatefriendsglobal.com\/images\/texture\/skin_ayyildiz\/skin_simav.png"
         },
         "nsnd_05": {
             "custom": true,
