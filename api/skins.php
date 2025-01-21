@@ -21176,7 +21176,7 @@
         },
         "nsnd_04": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/skin_nsnd\/skin_nsnd_04.png"
+            "relativePath": "https:\/\/i.imgur.com\/D0ho4Ju.png"
         },
         "nsnd_05": {
             "custom": true,
