@@ -22816,7 +22816,7 @@
         },
         "eyes_84": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/t8xTAem.png"
+            "relativePath": "https:\/\/i.imgur.com\/DfqilMn.png"
         },
         "hat_931": {
             "custom": true,
