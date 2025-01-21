@@ -22380,7 +22380,7 @@
         },
         "hat_192": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com/LC5i8lG.png"
+            "relativePath": "https:\/\/i.imgur.com/n4ddN0n.png"
         },
         "hat_193": {
             "custom": true,
