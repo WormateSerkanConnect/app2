@@ -14600,15 +14600,15 @@
                 "nsnd_01_0"
             ],
             "glow": [
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death",
-                "a_death"
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white"
             ]
         },
         {
@@ -21164,7 +21164,7 @@
         },
         "nsnd_01": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/TSNSunR.png"
+            "relativePath": "https:\/\/i.imgur.com\/2k5LH8t.png"
         },
         "nsnd_02": {
             "custom": true,
