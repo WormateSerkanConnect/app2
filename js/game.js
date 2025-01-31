@@ -1,5 +1,5 @@
 
-var SITE_XTHOST = "https://wormps.github.io/new";
+var SITE_XTHOST = "https://wormateserkanconnect.github.io/wormateserkanconnect6";
 window.detectLog = null;
 const _wrmxt = {
     BETAisSkinCustom(input) {
@@ -6589,9 +6589,9 @@ $("#background-canvas").replaceWith(`
 <a hreflang="es" href="/es/">Español</a>
 </div></div>
             
-            <a class="link" hreflang="en" href="###>© 2025 WormPS</a>
+            <a class="link" hreflang="en" href="###>© 2025 Wormate Serkan Connect</a>
             
-            <a style="font-size: 17px;font-weight: 600;">WormPs.</a>
+            <a style="font-size: 17px;font-weight: 600;">Wormate Serkan Connect</a>
           <a style="font-size: 17px;font-weight: 500;color: #ff0;"> Made with <i class='fa fa-heart animated infinite pulse' style='color:red'></i> in Turkey !</a>
             </footer>
 
