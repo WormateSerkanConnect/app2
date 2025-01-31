@@ -19701,7 +19701,7 @@
         {
             "isCustom": true,
             "id": "NSND",
-            "img": "v4.png",
+            "img": "seko.png",
             "name": {
                 "en": "NSND"
             },
