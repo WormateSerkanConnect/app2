@@ -5623,7 +5623,7 @@ else {
             
         <div onclick="openPopup()"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:yellow;font-size: 25px;"> </i> Settings</div>
                 <div id="popup" class="popup">
-        <div class="phdr1"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:yellow;font-size: 25px;"></i> WSC Settings </div>
+        <div class="phdr1"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:yellow;font-size: 25px;"></i> Worps Settings </div>
         <button class="close-button" onclick="closePopup()">Close</button>
         
                     <div id="kich-hoat">
