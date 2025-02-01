@@ -14720,15 +14720,15 @@
                 "nsnd_05_0"
             ],
             "glow": [
-                "a__yllw",
-                "a__yllw",
-                "a__yllw",
-                "a__yllw",
-                "a__yllw",
-                "a__yllw",
-                "a__yllw",
-                "a__yllw",
-                "a__yllw"
+                "a_death",
+                "a_death",
+                "a_white",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death",
+                "a_death"
             ]
         },
         {
@@ -14750,15 +14750,15 @@
                 "nsnd_06_0"
             ],
             "glow": [
-                "a_death",
-                "a__ruby",
-                "a_death",
-                "a_grass",
-                "a_death",
-                "a__ruby",
-                "a_death",
-                "a_grass",
-                "a_death"
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white"
             ]
         },
         {
@@ -21180,11 +21180,11 @@
         },
         "nsnd_05": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/N7Ydno4.png"
+            "relativePath": "https:\/\/i.imgur.com\/mibRtLl.png"
         },
         "nsnd_06": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/skin_nsnd\/skin_nsnd_06.png"
+            "relativePath": "https:\/\/i.imgur.com\/9rUNznE.png"
         },
         "nsnd_07": {
             "custom": true,
