@@ -3978,7 +3978,7 @@ height: 70px;
    
 text-shadow: 0 0 0 #ff0, 0 0 0.5em #ff0, 0 0 0.4em #ff0;
    
-font-size: 1.2em !important;
+font-size: medium;
    
 text-align: center;
    
@@ -3996,7 +3996,7 @@ background-repeat: no-repeat;
    
 width: 270px;
    
-line-height: 3.3;
+line-height: 4.0;
 }
 
 .description-text-hiep {margin: 0px 15px 0px 15px;}
