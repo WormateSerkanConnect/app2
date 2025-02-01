@@ -14720,15 +14720,15 @@
                 "nsnd_05_0"
             ],
             "glow": [
-                "a_death",
-                "a__prpl",
-                "a_death",
-                "a__prpl",
-                "a_death",
-                "a__prpl",
-                "a_death",
-                "a__prpl",
-                "a_death"
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw",
+                "a__yllw"
             ]
         },
         {
@@ -21180,7 +21180,7 @@
         },
         "nsnd_05": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/skin_nsnd\/skin_nsnd_05.png"
+            "relativePath": "https:\/\/i.imgur.com\/N7Ydno4.png"
         },
         "nsnd_06": {
             "custom": true,
