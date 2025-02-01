@@ -5825,7 +5825,7 @@ https://youtube.com/@panda-tik?si=-9zprUAOVGknj1Fb" target="_blank" style="margi
 
             $('.description-text').replaceWith(`
   <div class="description-text">
-  <div id="title">WORMATE SERKAN CONNECT</div>
+  <div id="title">‎‎‎ㅤ</div>
   <div class="description-text-hiep">
   <ul style="margin-top: 5px;" class="ui-tabs-nav">
     <li class="ui-tabs-tab ui-tab ui-tab-inactive0 ui-tab-active" style="margin: -5px">
@@ -6025,7 +6025,7 @@ https://youtube.com/@panda-tik?si=-9zprUAOVGknj1Fb" target="_blank" style="margi
               
               <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
               <div style="margin: 0;" id="loa831pibur0w4gv">
-              <div class="label" id="titleSetings">Notification</div>
+              <div class="label" id="titleSetings">ㅤ</div>
                 
                  <div class="bao-list1">
                 <div class="list1"><i class="fa fa-book" aria-hidden="true" style="color:48ff00;"></i>
