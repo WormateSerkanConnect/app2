@@ -5815,12 +5815,20 @@ else {
             $('.mm-merchant').replaceWith('');
 
 
-            $('.description-text').replaceWith(`
+              $('.description-text').replaceWith(`
   <div class="description-text">
-  <div id="title">Wormate Friends</div>
-  <div class="description-text-hiep">
-  <ul style="margin-top: 5px;" class="ui-tabs-nav">
-    <li class="ui-tabs-tab ui-tab ui-tab-inactive0 ui-tab-active" style="margin: -5px">
+            <div id="title"></div>
+            <div class="description-text-test">
+                <ul style="margin-top: 5px;" class="ui-tabs-nav">
+                    <li class="ui-tabs-tab ui-tab ui-tab-inactive0 ui-tab-active" style="margin: -5px">
+                        <a href="javascript:void(0);" onclick="changeServer('peru')"> 
+                            <span class="flag br" value="https://i.imgur.com/OtgNl1Z.png">
+<div class="title-wormate-yildo-flag" style="position: absolute; top: 0; z-index: 1; width: 92%; margin-left: -2px;">
+    <img src="https://i.imgur.com/9McvcPK.png" width="20" align="center" alt="">Worm Seko
+</div>
+                            </span> 
+                        </a>
+                    </li>
       <a> <span class="flag br" value="https://i.imgur.com/dixYLjk.png"></span> </a>
     </li>
     <li class="ui-tabs-tab ui-tab ui-tab-inactive1" style="margin: -5px">
