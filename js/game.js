@@ -5815,7 +5815,7 @@ else {
             $('.mm-merchant').replaceWith('');
 
 
-              $('.description-text').replaceWith(`
+                  $('.description-text').replaceWith(`
   <div class="description-text">
             <div id="title"></div>
             <div class="description-text-test">
@@ -5829,8 +5829,6 @@ else {
                             </span> 
                         </a>
                     </li>
-      <a> <span class="flag br" value="https://i.imgur.com/dixYLjk.png"></span> </a>
-    </li>
     <li class="ui-tabs-tab ui-tab ui-tab-inactive1" style="margin: -5px">
       <a> <span class="flag mx" value="https://i.imgur.com/JMAvuFN.png"></span> </a>
     </li>
@@ -5877,7 +5875,6 @@ else {
             
              
                     `);
-
 
 
             $(".ui-tab").on("click", account);
