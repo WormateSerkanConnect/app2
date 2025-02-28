@@ -3645,16 +3645,15 @@ width: 40px;
     position: absolute;
     height: 40px;
     top: 0;
-    left: 0;
-    width: 40px;
-    border: 0;
-    outline: none;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 30px;
-    background-image: url(https://i.imgur.com/S4YaTSG.png);
-    
+    left: 544px;
+    /* width: 40px; */
+    /* border: 0; */
+    /* outline: none; */
+    /* background-color: transparent; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: 30px; */
+    /* background-image: url(https://i.imgur.com/S4YaTSG.png); */
 }
 
 
