@@ -4769,6 +4769,19 @@
             "prime": "c_white"
         }
     },
+      "385": {
+            "id": 385,
+            "base": [
+                {
+                    "region": "eyes_85"
+                }
+            ],
+            "guest": false,
+            "price": 0,
+            "priceBefore": 0,
+            "nonbuyable": false,
+            "prime": "c_white"
+    },
     "skinArrayDict": [
         {
             "id": 1222,
@@ -21053,6 +21066,9 @@
             "custom": true,
             "relativePath": "https:\/\/haylamday.com\/images\/texture\/eyes\/eyes_84.png"
         },
+        "eyes_85": {
+            "custom": true,
+            "relativePath": "https:\/\/i.imgur.com\/U23CCw0.png"
         "hat_933": {
             "custom": true,
             "relativePath": "https:\/\/i.imgur.com\/FgPnFLs.png"
@@ -22553,6 +22569,17 @@
         },
         "eyes_84": {
             "texture": "eyes_84",
+            "x": 0,
+            "y": 0,
+            "w": 400,
+            "h": 250,
+            "px": 1,
+            "py": 64,
+            "pw": 128,
+            "ph": 128
+        },
+        "eyes_85": {
+            "texture": "eyes_85",
             "x": 0,
             "y": 0,
             "w": 400,
