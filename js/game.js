@@ -5703,16 +5703,6 @@ else {
     </tbody>
 </table>
 
-<div class="list2"><i class="fa fa-pencil-square-o" style="color: #ce00ff; font-size: 17px;"></i> Keys <a href="/">Q</a> : Automatically turns around in one place. (Quay Đầu Vòng Tròn 1 Chỗ)</div>
-                    <div class="list2"><i class="fa fa-pencil-square-o" style="color: #ce00ff; font-size: 17px;"></i> Keys <a href="/">R </a> : Quick Revive (Hồi Sinh Nhanh)</div>
-                    
-                    <div class="list2"><i class="fa fa-pencil-square-o" style="color: #ce00ff; font-size: 17px;"></i> Note : This setting is only for activated members . Thank you !</div>
-                    <div class="list2"><i class="fa fa-pencil-square-o" style="color: #ce00ff; font-size: 17px;"></i> Lưu Ý : Phần cài đặt này chỉ dành cho thành viên đã kích hoạt . Xin cảm ơn !</div>
-                    <center><div class="hg"><a target="_blank" href="https://thanhtoan.vuonghiep.com/">Activated (Kích Hoạt)</a></div></center>
-
-           
-        </div>`);
-
            $("#loa831pibur0w4gv").replaceWith(`
            
            <div style="margin: 0;" id="loa831pibur0w4gv">
