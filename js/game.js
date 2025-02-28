@@ -5823,7 +5823,7 @@ else {
                     <li class="ui-tabs-tab ui-tab ui-tab-inactive0 ui-tab-active" style="margin: -5px">
                         <a href="javascript:void(0);" onclick="changeServer('peru')"> 
                             <span class="flag br" value="https://i.imgur.com/OtgNl1Z.png">
-<div class="title-wormate-SEKO-flag" style=style="position: absolute;top: 0;z-index: 1;width: 92%;background: white;margin-left: -2px;font-size: large;text-align: center;color: red;border-radius: 6px;">
+<div class="title-wormate-SEKO-flag" style=position: absolute; top: 0; z-index: 1; width: 92%; margin-left: -2px;">
     <img src="https://i.imgur.com/9McvcPK.png" width="20" align="center" alt="">Worm Seko
 </div>
                             </span> 
