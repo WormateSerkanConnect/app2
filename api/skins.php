@@ -12287,15 +12287,15 @@
                 "25ypg_02_0"
             ],
             "glow": [
-                "a__yllw",
-                "a__yllw",
-                "a__yllw",
-                "a__yllw",
-                "a__yllw",
-                "a__yllw",
-                "a__yllw",
-                "a__yllw",
-                "a__yllw"
+                "a_trans",
+                "a_trans",
+                "a_trans",
+                "a_trans",
+                "a_trans",
+                "a_trans",
+                "a_trans",
+                "a_trans",
+                "a_trans"
             ]
         },
         {
