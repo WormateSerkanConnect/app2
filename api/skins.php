@@ -20723,7 +20723,7 @@
         },
         "eyes_02": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/eyes\/eyes_02.png"
+            "relativePath": "https:\/\/i.imgur.com\/U23CCw0.png"
         },
         "eyes_03": {
             "custom": true,
