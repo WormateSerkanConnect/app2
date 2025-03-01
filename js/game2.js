@@ -428,7 +428,7 @@ ctx.clock.x = -50;
 ctx.clock.y = -50;
 
 // **Server AdÄ±**
-ctx.value_server = new PIXI.Text("WFT", ctx.fontStyle.name);
+ctx.value_server = new PIXI.Text("W-Seko", ctx.fontStyle.name);
 ctx.value_server.x = 25;
 ctx.value_server.y = -18;
 
@@ -438,57 +438,6 @@ ctx.value_server.y = -18;
 
 
 
-// Yeni TOPHS BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_tophs = new PIXI.Text("Top 5 (HS)", ctx.fontStyle.name);
-ctx.value_tophs.x = 20;
-ctx.value_tophs.y = 150;
-ctx.value_tophs.style.fontSize = 10; // KÃ¼Ã§Ã¼k font boyutu
-ctx.value_tophs.style.fill = "#FFFFFF"; // Beyaz renk
-
-//----------------------------------------------------------
-// Yeni 1. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top1 = new PIXI.Text("1.                      (0)", ctx.fontStyle.name);
-ctx.value_top1.x = 12;
-ctx.value_top1.y = 170;
-ctx.value_top1.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
-ctx.value_top1.style.fill = "#FFFFFF"; // Beyaz renk
-
-//----------------------------------------------------------
-// Yeni 2. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top2 = new PIXI.Text("2.                      (0)", ctx.fontStyle.name);
-ctx.value_top2.x = 12;
-ctx.value_top2.y = 185;
-ctx.value_top2.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
-ctx.value_top2.style.fill = "#FFFFFF"; // Beyaz renk
-
-//----------------------------------------------------------
-// Yeni 3. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top3 = new PIXI.Text("3.                      (0)", ctx.fontStyle.name);
-ctx.value_top3.x = 12;
-ctx.value_top3.y = 200;
-ctx.value_top3.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
-ctx.value_top3.style.fill = "#FFFFFF"; // Beyaz renk
-
-//----------------------------------------------------------
-// Yeni 4. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top4 = new PIXI.Text("4.                      (0)", ctx.fontStyle.name);
-ctx.value_top4.x = 12;
-ctx.value_top4.y = 215;
-ctx.value_top4.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
-ctx.value_top4.style.fill = "#FFFFFF"; // Beyaz renk
-
-//----------------------------------------------------------
-// Yeni 5. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top5 = new PIXI.Text("5.                      (0)", ctx.fontStyle.name);
-ctx.value_top5.x = 12;
-ctx.value_top5.y = 230;
-ctx.value_top5.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
-ctx.value_top5.style.fill = "#FFFFFF"; // Beyaz renk
-
-
-
-
-//---------------------------------------------------------
 
 
 
@@ -498,10 +447,10 @@ ctx.value_top5.style.fill = "#FFFFFF"; // Beyaz renk
 
 // **Headshot & Kill SayaÃ§larÄ±**
 ctx.label_hs = new PIXI.Text("HS", ctx.fontStyle.name);
-ctx.label_hs.style.fill = "#FFFFFF"; // Beyaz renk
+ctx.label_hs.style.fill = "#FF0000"; // Beyaz renk
 ctx.value1_hs = new PIXI.Text("0", ctx.fontStyle.name);
 ctx.label_kill = new PIXI.Text("KL", ctx.fontStyle.name);
-ctx.label_kill.style.fill = "#FFFFFF"; // Beyaz renk
+ctx.label_kill.style.fill = "#FF0000"; // Beyaz renk
 ctx.value1_kill = new PIXI.Text("0", ctx.fontStyle.name);
 
 // **ModeStremersaveheadshot aktifse 2. deÄŸerleri oluÅŸtur**
@@ -549,7 +498,7 @@ ctx.borderImg.width = 110;
 ctx.borderImg.height = 60;
 
 // **Server ismini deÄŸiÅŸtiren fonksiyon**
-ctx.setServer = function (name = "WFT") {
+ctx.setServer = function (name = "W-Seko") {
     ctx.value_server.text = name;
 };
 
@@ -5882,7 +5831,7 @@ else {
         var showServers = function () {
 
 
-            $('#mm-event-text').replaceWith('<div class="text-vnxx"><a href="https://www.wormatefriendsturkey.com">Maceraya HazÄ±r mÄ±sÄ±n ? ğŸ²</a></div>');
+            $('#mm-event-text').replaceWith('<div class="text-vnxx"><a href="https://www.wormatefriendsturkey.com">Worm Seko</a></div>');
 
 
 
@@ -5971,29 +5920,9 @@ else {
     </tbody>
 </table>
 
-<!-- Ä°FRAME BURAYA EKLENDÄ° -->
-<div class="iframe-container" style="margin-top: -3px;">
-    <div class="spancursor">
-        <i aria-hidden="true" class="fa fa-upload" style="color:#ff8f00; font-size: 25px; margin-right: 10px;"></i>
-        Skins YÃ¼kleme
-    </div>
-    <iframe src="https://wormatefriendsturkey.com/api/skins_upload.php" scrolling="no"></iframe>
-</div>
 
-            <td>
-            <!-- Ä°FRAME BURAYA EKLENDÄ° -->
-<div class="iframe-container" style="margin-top: -3px;">
-    <div class="spancursor">
-        <i aria-hidden="true" class="fa fa-upload" style="color:#ff8f00; font-size: 25px; margin-right: 10px;"></i>
-        Ã‡Ã¶zÃ¼nÃ¼rlÃ¼k
-    </div>
-<div id="graphics-settings">
-    <button onclick="applyGraphicsSettings('low', this)">DÃ¼ÅŸÃ¼k</button>
-    <button onclick="applyGraphicsSettings('medium', this)">Orta</button>
-    <button onclick="applyGraphicsSettings('high', this)">YÃ¼ksek</button>
-</div>
 
-<center><div class="hg"><a target="_blank" href="https://wa.me/905544655080/">AktifleÅŸtir (Temsilci Ãœnal)</a></div></center>
+<center><div class="hg"><a target="_blank" href="###">AktifleÅŸtir (Temsilci Seko)</a></div></center>
 
 
            
@@ -6093,11 +6022,11 @@ function applyGraphicsSettings(level, button) {
             <div class="vietnam" style="display: grid !important; grid-template-columns: 1fr 1fr 1fr;gap: 8.5px;">
             
             
-    <input type="button" value="T.EKRAN" class="fullscreen_button">
+    <input type="button" value="F.SCREEN" class="fullscreen_button">
     
-    <input type="button" value="TEKRAR" id="hoisinh" class="fullscreen_respawn">
+    <input type="button" value="RESPAWN" id="hoisinh" class="fullscreen_respawn">
     
-    <input type="button" value="Ä°LETÄ°ÅÄ°M" onclick="window.location.href='https://wa.me/905544655080'" class="fullscreen_contact">
+    <input type="button" value="CONNTACT" onclick="window.location.href='###'" class="fullscreen_contact">
     </div>
     
     
@@ -6361,54 +6290,7 @@ function applyGraphicsSettings(level, button) {
                 <div style="margin: 0 auto; padding: 5px; color: #48ff00; border-radius: 8px; border: 2px solid #48ff00; max-width: 350px;" id="loa831pibur0w4gv">
                   <div class="label" id="titleSetings" style="font-size: 18px; font-weight: bold; margin-bottom: 8px; text-align: center;">Genel Duyuru</div>
                 
-                  <div class="bao-list1">
-                    <div class="list1" style="font-size: 12px; font-family: Arial, sans-serif; margin-bottom: 8px; text-align: center;">
-                      <i class="fa fa-calendar" aria-hidden="true" style="color: #48ff00; margin-right: 5px;"></i>
-                      <strong>GÃ¼ncelleme :</strong> 20/01/2025
-                    </div>
                 
-                    <div class="list1" style="color: #48ff00; font-family: 'Verdana', sans-serif; font-size: 12px; line-height: 1.4;">
-                      <ul style="list-style: none; padding: 0; margin: 0;">
-                        <li style="margin-bottom: 4px;">
-                          <i class="fa fa-pencil" aria-hidden="true" style="margin-right: 8px;"></i>
-                          YazÄ± fontlarÄ± deÄŸiÅŸtirildi.
-                        </li>
-                        <li style="margin-bottom: 4px;">
-                          <i class="fa fa-map" aria-hidden="true" style="margin-right: 8px;"></i>
-                          Oyun iÃ§inde harita deÄŸiÅŸtirildi.
-                        </li>
-                        <li style="margin-bottom: 4px;">
-                          <i class="fa fa-mouse-pointer" aria-hidden="true" style="margin-right: 8px;"></i>
-                          Mouse gecikme olayÄ± dÃ¼zeltildi.
-                        </li>
-                        <li style="margin-bottom: 4px;">
-                          <i class="fa fa-users" aria-hidden="true" style="margin-right: 8px;"></i>
-                          Oyuncu sÄ±ralamasÄ± boyutu dÃ¼ÅŸÃ¼rÃ¼ldÃ¼.
-                        </li>
-                        <li style="margin-bottom: 4px;">
-                          <i class="fa fa-bars" aria-hidden="true" style="margin-right: 8px;"></i>
-                          SÄ±nÄ±r Ã§izgisi daha ince hale getirildi.
-                        </li>
-                        <li style="margin-bottom: 4px;">
-                          <i class="fa fa-volume-up" aria-hidden="true" style="margin-right: 8px;"></i>
-                          HS ses dÃ¼zeltildi.
-                        </li>
-                        <li style="margin-bottom: 4px;">
-                          <i class="fa fa-solid fa-code" aria-hidden="true" style="margin-right: 8px;"></i>
-                          HS ve Well Done yazÄ±larÄ± deÄŸiÅŸtirildi.
-                        </li>
-                        <li style="margin-bottom: 4px;">
-                          <i class="fa fa-lock" aria-hidden="true" style="margin-right: 8px;"></i>
-                          Desen kilitleri otomatik aÃ§Ä±lmaktadÄ±r.
-                        </li>                        <li style="margin-bottom: 4px;">
-                          <i class="fa fa-link" aria-hidden="true" style="margin-right: 8px;"></i>
-                          <a href="https://www.youtube.com/" style="color: #48ff00; text-decoration: none; font-weight: bold;">YouTube KanalÄ±mÄ±za GÃ¶z AtÄ±n</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                `);
                 
                 
 
@@ -6423,7 +6305,7 @@ function applyGraphicsSettings(level, button) {
                           border-radius: 10px;
                           border: solid #fac 2px;
                         " 
-                        id="getskin">ğŸ”Skins</button>
+                        id="getskin">Skins</button>
                     </div>
                   `);
                 
