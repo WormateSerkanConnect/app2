@@ -3,6 +3,9 @@
 
 ::-webkit-scrollbar {display:none;}
 * {font-family:vuonghiep;margin-top: 0px;}
+
+div {
+}
 body,
 html {
   background-color:#333;
@@ -411,13 +414,24 @@ body {display:block !important;}
   left:30px;
 }
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-left .description-text {
+  /* border-radius: 5px; */
+  background: rgba(0, 0, 0, .25);
+  height: 320px;
+  margin: 30px 0;
+  overflow: scroll;
+  padding: 2px 5px;
+  /* box-sizing: border-box; */
+  margin: 0;
+  height: 310px;
+  background-image: linear-gradient(#22ffcd, #cb5dc5);
+  font-weight: bold;
+  border-color: #ffffff;
+  color: #fff;
   border-radius: 5px;
-    background: rgba(0, 0, 0, .25);
-    height: 320px;
-    margin: 30px 0;
-    overflow: scroll;
-    padding: 2px 5px;
-    box-sizing: border-box;
+  margin-top: 40px;
+  border: 1px solid;
+  width: 100%;
+  box-sizing: content-box;
 }
 
 .title-wormate-friends-connect {
@@ -432,15 +446,34 @@ body {display:block !important;}
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-left .description-text:nth-child(n+2) {display:none;}
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-left .description-text * {font-size: 13px;/* background: transparent; *//* position: absolute; *//* top: 0; *//* z-index: 1; *//* width: 92%; *//* background: white; *//* margin-left: -2px; *//* font-size: large; *//* text-align: center; *//* color: red; *//* border-radius: 6px; */}
 
+img {
+}
+
+.title-wormate-SEKO-flag {
+    height: 37px;
+    background-image: linear-gradient(#a9938c, #000000);
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    position: absolute;
+    z-index: 5;
+    font-size: 19px !important;
+    width: 105%;
+    text-align: center;
+}
+
 .title-wormate-SEKO-flag {
     "position: absolute; top: 0; z-index: 1; width: 92%; margin-left: -2px;";
-    color: red;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    font-weight: bold;
-    font-size: 17px !important;
-    padding: 5px;
-    border-radius: 6px;
+    /* color: red; */
+    /* background-color: rgb(255, 255, 255); */
+    /* text-align: center; */
+    /* font-weight: bold; */
+    /* font-size: 33px !important; */
+    padding: -5px;
+    /* border-radius: 6px; */
+    /* height: 35px; */
+    width: -18px;
 }
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-left .description-text h1,
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-left .description-text h2,
@@ -832,7 +865,27 @@ body {display:block !important;}
   background:rgba(0,0,0,.25);
   border-radius:5px;
   overflow:hidden;
+  border-radius: 5px; */
+  background: rgba(0, 0, 0, .25);
+  height: 320px;
+  margin: 30px 0;
+  overflow: scroll;
+  padding: 2px 5px;
+  /* box-sizing: border-box; */
+  margin: 0;
+  height: 310px;
+  background-image: linear-gradient(#22ffcd, #cb5dc5);
+  font-weight: bold;
+  border-color: #ffffff;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 40px;
+  border: 1px solid;
+  width: 100%;
+  box-sizing: content-bo;
 }
+
+div#loa831pibur0w4gv {}
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-right #loa831pibur0w4gv .label {
   height:30px;
   line-height:30px;
@@ -944,7 +997,7 @@ body {display:block !important;}
   background-color:#a4d070;
 }
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-store:focus {outline:none;}
-#game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-store * {/* vertical-align:middle; *//* text-align: center; */}
+#game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-store * {vertical-align:middle;text-align: center;background: linear-gradient(353deg, #22ffcd, #cb5dc5);}
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom .mm-merchant-cont {
   position:absolute;
   top:-15px;
@@ -972,7 +1025,7 @@ body {display:block !important;}
   top:25px;
 }
 #game-wrap #game-cont #stretch-box #popup-view .stretch-container {
-    box-shadow: 0px 0px 15px 10px #00ccff;
+    /* box-shadow: 0px 0px 15px 10px #00ccff; */
     background:rgba(47,46,68,.4);
     border-radius:5px;
     overflow:hidden;
@@ -3687,9 +3740,9 @@ width: 40px;
     height: 35px;
     text-align: center;
     border: none;
-    margin-top: 68px;
+    margin-top: 6px;
     background-image: url(https://i.imgur.com/XNBRhaD.png);
-    background-size: 100% 100%;
+    background-size: 101% 100%;
 }
 
 
@@ -3871,14 +3924,15 @@ button:hover{
  .fullscreen_button ,.fullscreen_respawn, .fullscreen_contact {
  font-family: vuonghiep;
  margin-top: 2px;
-    width: 100%;
-    height: 35px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #e90c0c;
-    border: #3e9f1d 1px solid;
-    background-image: linear-gradient(#f8f6fb, rgb(58 161 8));
-    border-radius: 5px;}   
+ width: 100%;
+ height: 35px;
+ font-size: 16px;
+ font-weight: 600;
+ color: #ffffff;
+ border: #3e9f1d 1px solid;
+ background-image: linear-gradient(#22ffcd, #cb5dc5);
+ border-radius: 5px;
+ }   
     
   
 
