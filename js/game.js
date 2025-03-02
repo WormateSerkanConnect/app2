@@ -5703,6 +5703,18 @@ else {
     </tbody>
 </table>
 
+     <!-- Ä°FRAME BURAYA EKLENDÄ° -->
+<div class="iframe-container" style="margin-top: -3px;">
+    <div class="spancursor">
+        <i aria-hidden="true" class="fa fa-mouse-pointer" style="color:#ff8f00; font-size: 25px; margin-right: 10px;"></i>
+        Ã‡Ã¶zÃ¼nÃ¼rlÃ¼k
+    </div>
+<div id="graphics-settings">
+    <button onclick="applyGraphicsSettings('low', this)">Low</button>
+    <button onclick="applyGraphicsSettings('medium', this)">Meidum</button>
+    <button onclick="applyGraphicsSettings('high', this)">High</button>
+</div>
+
 <center><div class="hg"><a target="_blank" href="https://thanhtoan.vuonghiep.com/">Activated (Seko)</a></div></center>
 
            
