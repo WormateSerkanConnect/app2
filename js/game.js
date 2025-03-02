@@ -1938,7 +1938,7 @@ sound.play();
     
     };
 
-    var backgroundSprite_1 = error(i18n("index.game.floating.headshot"), true);
+       var backgroundSprite_1 = error("HeAdShot 🔥 ! ", true);
 
     this.addChild(backgroundSprite_1);
     this.Pe.push(backgroundSprite_1);
@@ -1952,7 +1952,7 @@ sound.play();
 }
 
 else {
-                        var backgroundSprite_1 = error(i18n("index.game.floating.wellDone"), false);
+                          var backgroundSprite_1 = error("Well Done !🔪", false);
                         this.addChild(backgroundSprite_1);
                         this.Pe.push(backgroundSprite_1);
                         if (backgroundSprite_1) {
