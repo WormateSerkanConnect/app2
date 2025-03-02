@@ -432,17 +432,6 @@ body {display:block !important;}
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-left .description-text:nth-child(n+2) {display:none;}
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-left .description-text * {font-size: 13px;/* background: transparent; *//* position: absolute; *//* top: 0; *//* z-index: 1; *//* width: 92%; *//* background: white; *//* margin-left: -2px; *//* font-size: large; *//* text-align: center; *//* color: red; *//* border-radius: 6px; */}
 
-.title-wormate-yildo-flag {
-    "position: absolute; top: 0; z-index: 1; width: 92%; margin-left: -2px;";
-    color: red;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    font-weight: bold;
-    font-size: 17px !important;
-    padding: 5px;
-    border-radius: 6px;
-}
-
 .title-wormate-SEKO-flag {
     "position: absolute; top: 0; z-index: 1; width: 92%; margin-left: -2px;";
     color: red;
@@ -3807,7 +3796,7 @@ button:hover{
 .hg a{color:#fff;text-decoration: none;line-height: 2;}
  
 
-.bao-list1 {margin: 0px 23px 0px 23px;font-size: 15px;background: url(https://imgur.com/9McvcPK.png);background-size: 274px;background-repeat: no-repeat;margin-top: 10px;margin-left: 8px;} 
+.bao-list1 {margin: 0px 23px 0px 23px;font-size: 15px;} 
 
 .list1{color: #fff000;border-bottom: #fff solid 1px;}
 .list1 a{color: #09c6f3;font-weight: 600;}
@@ -3871,13 +3860,14 @@ button:hover{
     object-fit: fill;
 } 
 #online, #hoat-dong{
-    background: #60ff00;
+    background: #60ff000a;
     width: 12px;
     height: 12px;
     border-radius: 12px;
     margin-top: 4px;
     margin-right: 5px;
-    float: right;}  
+    float: right;
+    }  
     
  .fullscreen_button ,.fullscreen_respawn, .fullscreen_contact {
  font-family: vuonghiep;
