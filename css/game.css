@@ -997,7 +997,10 @@ div#loa831pibur0w4gv {}
   background-color:#a4d070;
 }
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-store:focus {outline:none;}
-#game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-store * {vertical-align:middle;text-align: center;background: linear-gradient(353deg, #22ffcd, #cb5dc5);}
+#game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom #mm-bottom-buttons #mm-store * {vertical-align:middle;text-align: center;/* background: linear-gradient(353deg, #22ffcd, #cb5dc5); */}
+
+div {
+}
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom .mm-merchant-cont {
   position:absolute;
   top:-15px;
