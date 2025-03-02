@@ -236,7 +236,7 @@ const ctx = {
         }),
         amarillo: new PIXI.TextStyle({
             align: "center",
-            fill: "#FFFF00",
+            fill: "#FFAA00",
             fontSize: 10,
             lineJoin: "round",
             stroke: "#FAA845",
@@ -297,7 +297,7 @@ ctx.clock.y = -50;
 
 
 /*server name */
-ctx.value_server = new PIXI.Text("WFC", ctx.fontStyle.name);
+ctx.value_server = new PIXI.Text("W-SEKO", ctx.fontStyle.name);
 ctx.value_server.x = 25;
 ctx.value_server.y = -18;
 
