@@ -6932,15 +6932,4 @@ isValidHotkey = function (e) {
 
 
 
-console.log("Core 2022 THEO Update 2023");
-
-
-window.onload = function () {
-    var canvas = document.getElementById("game-canvas");
-    if (canvas) {
-        canvas.width = 1280;  // Canvas genişliğini 1280px yap
-        canvas.height = 720;  // Canvas yüksekliğini 720px yap
-    }
-};
- console.log("Seko Update");
-
+console.log("Seko Update 2025");
