@@ -1001,6 +1001,9 @@ div#loa831pibur0w4gv {}
 
 div {
 }
+
+div {
+}
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-bottom .mm-merchant-cont {
   position:absolute;
   top:-15px;
@@ -3847,6 +3850,7 @@ button:hover{
     padding: 6px;
     text-align: center;
     height: 30px;
+    margin-left: 100px;
     font-size: 14px;
 }
 .hg a{color:#fff;text-decoration: none;line-height: 2;}
@@ -4214,8 +4218,9 @@ input[type="color"]::-moz-color-swatch {
 .column-right,
 #mm-coins-box {
     
-  animation: derechaiz 2s ease-in-out 1;
-  animation-fill-mode: forwards;
+/* animation: derechaiz 2s ease-in-out 1; */
+    
+animation-fill-mode: forwards;
 }
 @keyframes izquierdade {
   0% {
@@ -4232,7 +4237,7 @@ input[type="color"]::-moz-color-swatch {
 .het-han,
 #mm-player-info
 {
-  animation: izquierdade 2s ease-in-out 1;
+  /* animation: izquierdade 2s ease-in-out 1; */
   animation-fill-mode: forwards;
 }
 
