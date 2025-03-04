@@ -1,9 +1,20 @@
+@font-face {
+    font-family: PTSans;
+    src: url(https://app2.wormateturkiye.com/public/fonts/PTSans-Regular.eot);
+    src: url(https://app2.wormateturkiye.com/public/fonts/PTSans-Regular.eot?#iefix) format("embedded-opentype"),
+        url(https://app2.wormateturkiye.com/public/fonts/PTSans-Regular.woff) format("woff"),
+        url(https://app2.wormateturkiye.com/public/fonts/PTSans-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
 
-@import url("https://haylamday.com/css/font.css");
+::-webkit-scrollbar {
+    display: none;
+}
 
-::-webkit-scrollbar {display:none;}
-* {font-family:vuonghiep;margin-top: 0px;}
-
+* {
+    font-family: PTSans, sans-serif;
+}
 div {
 }
 body,
@@ -458,7 +469,7 @@ img {
     border: 1px solid black;
     position: absolute;
     z-index: 5;
-    font-size: 19px !important;
+    font-size: 22px !important;
     width: 105%;
     text-align: center;
 }
