@@ -10,7 +10,7 @@
             "status": 1,
             "Client_VisibleSkin": "1200",
             "Client_VisibleSkin1": "1199",
-            "Client_VisibleSkin2": "0000",
+            "Client_VisibleSkin2": "1201",
             "Client_VisibleSkin3": "0000",
             "Client_VisibleSkin4": "0000",
             "Client_VisibleSkin5": "0000",
