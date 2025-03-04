@@ -195,7 +195,7 @@ const ctx = {
             fontSize: 12,
             lineJoin: "round",
             stroke: "#EFFA45",
-            fontFamily: "vuonghiep",
+            fontFamily: "PTSans, sans-serif",
             fontWeight: "bold"
 
         }),
@@ -218,7 +218,7 @@ const ctx = {
             stroke: "#C7C7C7",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "vuonghiep",
+            fontFamily: "PTSans, sans-serif",
             fontWeight: "bold",
             wordWrap: true
         }),
@@ -230,7 +230,7 @@ const ctx = {
             stroke: "#C7C7C7",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "vuonghiep",
+            fontFamily: "PTSans, sans-serif",
             fontWeight: "bold",
             wordWrap: true
         }),
@@ -242,7 +242,7 @@ const ctx = {
             stroke: "#C7C7C7",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "vuonghiep",
+            fontFamily: "PTSans, sans-serif",
             fontWeight: "bold",
             wordWrap: true
         }),
@@ -254,7 +254,7 @@ const ctx = {
             stroke: "#C7C7C7",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "vuonghiep",
+            fontFamily: "PTSans, sans-serif",
             fontWeight: "bold",
             wordWrap: true
         }),
@@ -268,7 +268,7 @@ const ctx = {
             stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "vuonghiep",
+            fontFamily: "PTSans, sans-serif",
             fontWeight: "bold",
             wordWrap: true
         }),
@@ -282,7 +282,7 @@ const ctx = {
             strokeThickness: 1,
             whiteSpace: "normal",
             fontWeight: "bold",
-            fontFamily: "vuonghiep",
+            fontFamily: "PTSans, sans-serif",
             wordWrap: true
         }),
     }
@@ -1988,7 +1988,7 @@ else {
                     return extend(POGL.fc, function (p1__3354_SHARP_, yColor, i, canCreateDiscussions, n, isSlidingUp, s) {
                         POGL.fc.call(this, p1__3354_SHARP_, {
                             fill: yColor,
-                            fontFamily: "vuonghiep",
+                            fontFamily: "PTSans, sans-serif",
                             fontSize: 36
                         });
                         this.anchor.set(.5);
@@ -2446,7 +2446,7 @@ else {
                         var extendedObject = extend(POGL.Zb, function () {
                             POGL.Zb.call(this);
                             this.eg = new POGL.fc("", {
-                                fontFamily: "vuonghiep",
+                                fontFamily: "PTSans, sans-serif",
                                 fontSize: 11,
                                 fill: "white",
                                 fontWeight: "bold"
@@ -2455,7 +2455,7 @@ else {
                             this.eg.position.x = -5;
                             this.addChild(this.eg);
                             this.fg = new POGL.fc("", {
-                                fontFamily: "vuonghiep",
+                                fontFamily: "PTSans, sans-serif",
                                 fontSize: 11,
                                 fill: "white",
                                 fontWeight: "bold"
@@ -2465,7 +2465,7 @@ else {
                             this.fg.position.x = 4;
                             this.addChild(this.fg);
                             this.gg = new POGL.fc("", {
-                                fontFamily: "vuonghiep",
+                                fontFamily: "PTSans, sans-serif",
                                 fontSize: 11,
                                 fill: "white",
                                 fontWeight: "bold"
