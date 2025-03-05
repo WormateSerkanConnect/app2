@@ -259,7 +259,7 @@ const ctx = {
         anheadshot: new PIXI.TextStyle({
             align: "center",
             fill: "#FFF",
-            fontSize: 0,
+            fontSize: 15,
             lineJoin: "round",
             strokeThickness: 1,
             whiteSpace: "normal",
@@ -271,7 +271,7 @@ const ctx = {
         keysColor: new PIXI.TextStyle({
             align: "center",
             fill: "#fff009",
-            fontSize: 10,
+            fontSize: 15,
             lineJoin: "round",
             stroke: "#fff009",
             strokeThickness: 1,
