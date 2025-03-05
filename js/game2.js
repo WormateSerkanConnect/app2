@@ -195,8 +195,8 @@ const ctx = {
             fontSize: 12,
             lineJoin: "round",
             stroke: "#EFFA45",
-            fontFamily: "PTSans, sans-serif",
-            fontWeight: "bold"
+            fontFamily: "Arial",
+            fontWeight: "0"
 
         }),
         blanco: new PIXI.TextStyle({
@@ -218,8 +218,8 @@ const ctx = {
             stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "PTSans, sans-serif",
-            fontWeight: "bold",
+            fontFamily: "Arial",
+            fontWeight: "0",
             wordWrap: true
         }),
         morado1: new PIXI.TextStyle({
@@ -230,8 +230,8 @@ const ctx = {
             stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "PTSans, sans-serif",
-            fontWeight: "bold",
+            fontFamily: "Arial",
+            fontWeight: "0",
             wordWrap: true
         }),
         amarillo: new PIXI.TextStyle({
@@ -242,8 +242,8 @@ const ctx = {
             stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "PTSans, sans-serif",
-            fontWeight: "bold",
+            fontFamily: "Arial",
+            fontWeight: "0",
             wordWrap: true
         }),
         amarillo1: new PIXI.TextStyle({
@@ -254,8 +254,8 @@ const ctx = {
             stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "PTSans, sans-serif",
-            fontWeight: "bold",
+            fontFamily: "Arial",
+            fontWeight: "0",
             wordWrap: true
         }),
         
@@ -268,8 +268,8 @@ const ctx = {
             stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "PTSans, sans-serif",
-            fontWeight: "bold",
+            fontFamily: "Arial",
+            fontWeight: "0",
             wordWrap: true
         }),
         
@@ -281,8 +281,8 @@ const ctx = {
             stroke: "#fff009",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontWeight: "bold",
-            fontFamily: "PTSans, sans-serif",
+            fontWeight: "0",
+            fontFamily: "Arial",
             wordWrap: true
         }),
     }
