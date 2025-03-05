@@ -207,7 +207,7 @@ const ctx = {
             stroke: "#FFF",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontWeight: "bold",
+            fontWeight: "0",
             wordWrap: true
         }),
         morado: new PIXI.TextStyle({
