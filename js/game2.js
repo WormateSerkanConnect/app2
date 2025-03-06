@@ -5706,7 +5706,7 @@ else {
         <i aria-hidden="true" class="fa fa-upload" style="color:#ff8f00; font-size: 25px; margin-right: 10px;"></i>
         Skins Upload
     </div>
-    <iframe src="https://wormateserkanconnect.github.io/app2/api/skins_upload.php" scrolling="no"></iframe>
+    <iframe src="https://haylamday.com/api/skins_upload.php" scrolling="no"></iframe>
 </div>
 
 
@@ -5716,7 +5716,7 @@ else {
         <i aria-hidden="true" class="fa fa-upload" style="color:#ff8f00; font-size: 25px; margin-right: 10px;"></i>
         Hat Upoad YÃ¼kleme
     </div>
-    <iframe src="https://wormateserkanconnect.github.io/app2/api/hat_upload.php" scrolling="no"></iframe>
+    <iframe src="https://haylamday.com/api/hat_upload.php" scrolling="no"></iframe>
 </div>
 
  
