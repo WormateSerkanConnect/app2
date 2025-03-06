@@ -11420,12 +11420,12 @@
                 "a_white",
                 "a_white",
                 "a_white",
-                "a_ivory",
-                "a__yllw",
-                "a__orng",
-                "a__orng",
-                "a__yllw",
-                "a_ivory"
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white",
+                "a_white"
             ]
         },
         {
@@ -18247,6 +18247,17 @@
         },
         {
             "isCustom": true,
+            "id": "steramers",
+            "img": "st.png",
+            "name": {
+                "en": "steramers"
+            },
+            "list": [
+                "1095"
+            ]
+        }, 
+        {
+            "isCustom": true,
             "id": "WFC - Friends",
             "img": "wfc.png",
             "name": {
@@ -19380,7 +19391,7 @@
         },
         "kurdistan75_01": {
             "custom": true,
-            "relativePath": "https:\/\/haylamday.com\/images\/texture\/skin_kurdistan75\/skin_kurdistan75_01.png"
+            "relativePath": "https:\/\/i.imgur.com\/8V7mqRh.png"
         },
         "kurdistan75_02": {
             "custom": true,
