@@ -5814,7 +5814,7 @@ else {
                 <ul style="margin-top: 5px;" class="ui-tabs-nav">
                     <li class="ui-tabs-tab ui-tab ui-tab-inactive0 ui-tab-active" style="margin: -5px">
                         <a href="javascript:void(0);" onclick="changeServer('peru')"> 
-                            <span class="flag br" value="https://i.imgur.com/OtgNl1Z.png">
+                            <span class="flag br" value="https://i.imgur.com/KE9354e.png">
 <div class="title-wormate-SEKO-flag" style="position: absolute; top: 0; z-index: 7; width: 104%; margin-left: -9px;">
     <img src="https://i.imgur.com/9McvcPK.png" width="20" align="center" alt="">Worm Seko
 </div>
@@ -5822,7 +5822,7 @@ else {
                         </a>
                     </li>
     <li class="ui-tabs-tab ui-tab ui-tab-inactive1" style="margin: -5px">
-      <a> <span class="flag mx" value="https://i.imgur.com/JMAvuFN.png"></span> </a>
+      <a> <span class="flag mx" value="https://i.imgur.com/Bs6X9dX.png"></span> </a>
     </li>
     <li class="ui-tabs-tab ui-tab ui-tab-inactive2" style="margin: -5px">
       <a> <span class="flag us" value="https://i.imgur.com/Jb2FF0y.png"></span> </a>
@@ -5834,7 +5834,7 @@ else {
       <a> <span class="flag de" value="https://i.imgur.com/VgCH8iy.png"></span> </a>
     </li>
     <li class="ui-tabs-tab ui-tab ui-tab-inactive5" style="margin: -5px">
-      <a> <span class="flag fr" value="https://i.imgur.com/QuEjBr0.png"></span> </a>
+      <a> <span class="flag fr" value="https://i.imgur.com/dEMqfaP.png"></span> </a>
     </li>
     <li class="ui-tabs-tab ui-tab ui-tab-inactive6" style="margin: -5px">
       <a> <span class="flag sg" value="https://i.imgur.com/ErLcgXP.png"></span> </a>
@@ -5843,7 +5843,7 @@ else {
       <a> <span class="flag jp" value="https://i.imgur.com/P2rYk1k.png"></span> </a>
     </li>
     <li class="ui-tabs-tab ui-tab ui-tab-inactive8" style="margin: -5px">
-      <a> <span class="flag au" value="https://i.imgur.com/12e0wp4.png"></span> </a>
+      <a> <span class="flag au" value="https://i.imgur.com/z4e82fQ.png"></span> </a>
     </li>
     <li class="ui-tabs-tab ui-tab ui-tab-inactive9" style="margin: -5px">
       <a> <span class="flag gb" value="https://i.imgur.com/8pQY6RW.png"></span> </a>
