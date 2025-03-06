@@ -80,11 +80,11 @@
         {
             "id": 5,
             "cliente_NOMBRE": "Raza Gaming",
-            "cliente_ID": "gg_11659630008418964298",
+            "cliente_ID": "gg_116596300084189642986",
             "Client_KeyAccecs": "XTPRIVATESKIN",
             "cliente_DateExpired": "2025-12-30",
             "status": 1,
-            "Client_VisibleSkin": "0000",
+            "Client_VisibleSkin": "1095",
             "Client_VisibleSkin1": "0000",
             "Client_VisibleSkin2": "0000",
             "Client_VisibleSkin3": "0000",
