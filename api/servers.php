@@ -171,7 +171,7 @@
         },
         {
             "id": 470,
-            "name": "01.\ud83d\udd34 YT Nona Milano<img class='team' src='https://i.imgur.com/RQTKt8G.jpeg'/> <div id='online'></div>",
+            "name": "01.Raza Gaming <img class='team' src='https://i.imgur.com/BrDnD9K.png'/> <div id='online'></div>",
             "region": "mexico",
             "serverUrl": "wss://dxb-a.wormate.io:32703/wormy",
             "status": 1
