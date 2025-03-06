@@ -143,7 +143,7 @@
         },
         {
             "id": 540,
-            "name": "01.\ud83d\udd34 YT Nona Milano<img class='team' src='https://i.imgur.com/RQTKt8G.jpeg'/><div id='hoat-dong'></div>",
+            "name": "01.Raza Gaming<img class='team' src='https://i.imgur.com/BrDnD9K.png'/><div id='hoat-dong'></div>",
             "region": "granbretana",
             "serverUrl": "wss://syd-a.wormate.io:31342/wormy",
             "status": 1
