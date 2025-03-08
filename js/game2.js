@@ -195,7 +195,7 @@ const ctx = {
             fontSize: 12,
             lineJoin: "round",
             stroke: "#EFFA45",
-            fontFamily: "vuonghiep",
+            fontFamily: "PTSans, sans-serif",
             fontWeight: "bold"
 
         }),
@@ -218,7 +218,7 @@ const ctx = {
             stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "vuonghiep",
+            fontFamily: "PTSans, sans-serif",
             fontWeight: "bold",
             wordWrap: true
         }),
@@ -230,7 +230,7 @@ const ctx = {
             stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "vuonghiep",
+            fontFamily: "PTSans, sans-serif",
             fontWeight: "bold",
             wordWrap: true
         }),
@@ -242,7 +242,7 @@ const ctx = {
             stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "vuonghiep",
+            fontFamily: "PTSans, sans-serif",
             fontWeight: "bold",
             wordWrap: true
         }),
@@ -254,7 +254,7 @@ const ctx = {
             stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "vuonghiep",
+            fontFamily: "PTSans, sans-serif",
             fontWeight: "bold",
             wordWrap: true
         }),
@@ -268,7 +268,7 @@ const ctx = {
             stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "vuonghiep",
+            fontFamily: "PTSans, sans-serif",
             fontWeight: "bold",
             wordWrap: true
         }),
@@ -282,12 +282,12 @@ const ctx = {
             strokeThickness: 1,
             whiteSpace: "normal",
             fontWeight: "bold",
-            fontFamily: "vuonghiep",
+            fontFamily: "PTSans, sans-serif",
             wordWrap: true
         }),
     }
 };
-ctx.clock = PIXI.Sprite.fromImage("https://i.imgur.com/v6szE9c.png");
+ctx.clock = PIXI.Sprite.fromImage("https://asserts.wormworld.io/images/clock.png");
 ctx.clock.width = 100;
 ctx.clock.height = 100;
 ctx.clock.x = -50;
