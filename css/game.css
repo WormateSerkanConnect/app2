@@ -147,7 +147,7 @@ body {display:block !important;}
   right:0;
   bottom:0;
   left:0;
-  background: url(https://i.imgur.com/BcsgiEi.png);
+  background: url(https://i.imgur.com/pWLFzxg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -434,7 +434,7 @@ body {display:block !important;}
   /* box-sizing: border-box; */
   margin: 0;
   height: 310px;
-  background-image: linear-gradient(#22ffcd, #cb5dc5);
+  /* background-image: linear-gradient(#22ffcd, #cb5dc5); */
   font-weight: bold;
   border-color: #ffffff;
   color: #fff;
@@ -455,23 +455,25 @@ body {display:block !important;}
     border-radius: 6px;
 }
 #game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-left .description-text:nth-child(n+2) {display:none;}
-#game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-left .description-text * {font-size: 13px;/* background: transparent; *//* position: absolute; *//* top: 0; *//* z-index: 1; *//* width: 92%; *//* background: white; *//* margin-left: -2px; *//* font-size: large; *//* text-align: center; *//* color: red; *//* border-radius: 6px; */}
+#game-wrap #game-cont #stretch-box #main-menu-view #mm-line-center .column-left .description-text * {font-size: 15px;/* background: transparent; *//* position: absolute; *//* top: 0; *//* z-index: 1; *//* width: 92%; *//* background: white; *//* margin-left: -2px; *//* font-size: large; *//* text-align: center; *//* color: red; *//* border-radius: 6px; */}
 
 img {
 }
 
 .title-wormate-SEKO-flag {
     height: 37px;
-    background-image: linear-gradient(#a9938c, #000000);
+    /* background-image: linear-gradient(#a9938c, #000000); */
     font-weight: bold;
-    color: white;
+    color: #ff0000;
     border-radius: 5px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     position: absolute;
     z-index: 5;
     font-size: 22px !important;
-    width: 105%;
+    width: 109%;
+    background: white;
     text-align: center;
+    font-size: 136px;
 }
 
 .title-wormate-SEKO-flag {
@@ -882,10 +884,10 @@ img {
   margin: 30px 0;
   overflow: scroll;
   padding: 2px 5px;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   margin: 0;
   height: 310px;
-  background-image: linear-gradient(#22ffcd, #cb5dc5);
+  /* background-image: linear-gradient(#22ffcd, #cb5dc5); */
   font-weight: bold;
   border-color: #ffffff;
   color: #fff;
@@ -3947,7 +3949,7 @@ button:hover{
  font-weight: 600;
  color: #ffffff;
  border: #3e9f1d 1px solid;
- background-image: linear-gradient(#22ffcd, #cb5dc5);
+ background-image: linear-gradient(#00ff2a, #00fff9);
  border-radius: 5px;
  font-family: PTSans, sans-serif;
  }
@@ -4258,5 +4260,5 @@ animation-fill-mode: forwards;
 
 .description-text, #loa831pibur0w4gv {
     border: 1px solid #ffe1ff;
-    box-shadow: 0px 0px 15px 10px #00ccff;
+    box-shadow: 0px 0px 15px 10px #bcff00;
 }
