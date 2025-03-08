@@ -195,8 +195,8 @@ const ctx = {
             fontSize: 12,
             lineJoin: "round",
             stroke: "#EFFA45",
-            fontFamily: "Arial",
-            fontWeight: "0"
+            fontFamily: "vuonghiep",
+            fontWeight: "bold"
 
         }),
         blanco: new PIXI.TextStyle({
@@ -207,51 +207,55 @@ const ctx = {
             stroke: "#FFF",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontWeight: "0",
+            fontWeight: "bold",
             wordWrap: true
         }),
         morado: new PIXI.TextStyle({
             align: "center",
-            fill: "#FFFFFF",
-            fontSize: 15,
+            fill: "#FFFF00",
+            fontSize: 10,
             lineJoin: "round",
+            stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "Arial",
-            fontWeight: "0",
+            fontFamily: "vuonghiep",
+            fontWeight: "bold",
             wordWrap: true
         }),
         morado1: new PIXI.TextStyle({
             align: "center",
-            fill: "#FFFFFF",
-            fontSize: 15,
+            fill: "#FFF",
+            fontSize: 10,
             lineJoin: "round",
+            stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "Arial",
-            fontWeight: "0",
+            fontFamily: "vuonghiep",
+            fontWeight: "bold",
             wordWrap: true
         }),
         amarillo: new PIXI.TextStyle({
             align: "center",
-            fill: "#FFFFFF",
-            fontSize: 15,
+            fill: "#FFFF00",
+            fontSize: 10,
             lineJoin: "round",
+            stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "Arial",
-            fontWeight: "0",
+            fontFamily: "vuonghiep",
+            fontWeight: "bold",
             wordWrap: true
         }),
         amarillo1: new PIXI.TextStyle({
             align: "center",
-            fill: "#FFFFFF",
-            fontSize: 15,
+            fill: "#FFF",
+            fontSize: 10,
             lineJoin: "round",
+            stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "Arial",
-            fontWeight: "0",
+            fontFamily: "vuonghiep",
+            fontWeight: "bold",
             wordWrap: true
         }),
         
@@ -259,25 +263,26 @@ const ctx = {
         anheadshot: new PIXI.TextStyle({
             align: "center",
             fill: "#FFF",
-            fontSize: 15,
+            fontSize: 0,
             lineJoin: "round",
+            stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "Arial",
-            fontWeight: "0",
+            fontFamily: "vuonghiep",
+            fontWeight: "bold",
             wordWrap: true
         }),
         
         keysColor: new PIXI.TextStyle({
             align: "center",
             fill: "#fff009",
-            fontSize: 15,
+            fontSize: 10,
             lineJoin: "round",
             stroke: "#fff009",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontWeight: "0",
-            fontFamily: "Arial",
+            fontWeight: "bold",
+            fontFamily: "vuonghiep",
             wordWrap: true
         }),
     }
@@ -2241,7 +2246,7 @@ else {
                         circle.drawCircle(0, 0, this.Kf);
                         circle.endFill();
                         //circle.lineStyle(2, 0x00ff21);
-                        circle.lineStyle(2, 0xffb300);
+                        circle.lineStyle(2, 0x0dff00;
                         circle.drawCircle(0, 0, this.Kf);
                         circle.moveTo(0, -this.Kf);
                         circle.lineTo(0, +this.Kf);
