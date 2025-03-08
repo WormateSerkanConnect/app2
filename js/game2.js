@@ -2246,7 +2246,7 @@ else {
                         circle.drawCircle(0, 0, this.Kf);
                         circle.endFill();
                         //circle.lineStyle(2, 0x00ff21);
-                        circle.lineStyle(2, 0x0dff00;
+                        circle.lineStyle(2, 0xFFD900;
                         circle.drawCircle(0, 0, this.Kf);
                         circle.moveTo(0, -this.Kf);
                         circle.lineTo(0, +this.Kf);
