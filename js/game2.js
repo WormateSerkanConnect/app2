@@ -213,7 +213,7 @@ const ctx = {
         morado: new PIXI.TextStyle({
             align: "center",
             fill: "#B37400",
-            fontSize: 10,
+            fontSize: 8,
             lineJoin: "round",
             stroke: "#B37400",
             strokeThickness: 1,
@@ -225,7 +225,7 @@ const ctx = {
         morado1: new PIXI.TextStyle({
             align: "center",
             fill: "#FFFFFF",
-            fontSize: 10,
+            fontSize: 7,
             lineJoin: "round",
             stroke: "#FFFFFF",
             strokeThickness: 1,
@@ -237,7 +237,7 @@ const ctx = {
         amarillo: new PIXI.TextStyle({
             align: "center",
             fill: "#B37400",
-            fontSize: 10,
+            fontSize: 8,
             lineJoin: "round",
             stroke: "#8C5400",
             strokeThickness: 1,
@@ -249,7 +249,7 @@ const ctx = {
         amarillo1: new PIXI.TextStyle({
             align: "center",
             fill: "#FFFFFF",
-            fontSize: 10,
+            fontSize: 7,
             lineJoin: "round",
             stroke: "#FFFFFF",
             strokeThickness: 1,
