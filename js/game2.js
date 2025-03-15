@@ -215,10 +215,10 @@ const ctx = {
             fill: "#FFFF00",
             fontSize: 10,
             lineJoin: "round",
-            stroke: "#FAA845",
+            stroke: "#8C5400",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "PTSans, sans-serif",
+            fontFamily: "sans-serif",
             fontWeight: "bold",
             wordWrap: true
         }),
@@ -227,11 +227,11 @@ const ctx = {
             fill: "#FFF",
             fontSize: 10,
             lineJoin: "round",
-            stroke: "#FAA845",
+            stroke: "#8C5400",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "PTSans, sans-serif",
-            fontWeight: "bold",
+            fontFamily: "sans-serif",
+            fontWeight: "0",
             wordWrap: true
         }),
         amarillo: new PIXI.TextStyle({
@@ -239,11 +239,11 @@ const ctx = {
             fill: "#FFFF00",
             fontSize: 10,
             lineJoin: "round",
-            stroke: "#FAA845",
+            stroke: "#8C5400",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "PTSans, sans-serif",
-            fontWeight: "bold",
+            fontFamily: "sans-serif",
+            fontWeight: "0",
             wordWrap: true
         }),
         amarillo1: new PIXI.TextStyle({
@@ -251,11 +251,11 @@ const ctx = {
             fill: "#FFF",
             fontSize: 10,
             lineJoin: "round",
-            stroke: "#FAA845",
+            stroke: "#8C5400",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "PTSans, sans-serif",
-            fontWeight: "bold",
+            fontFamily: "sans-serif",
+            fontWeight: "0",
             wordWrap: true
         }),
         
@@ -265,11 +265,11 @@ const ctx = {
             fill: "#FFF",
             fontSize: 0,
             lineJoin: "round",
-            stroke: "#FAA845",
+            stroke: "#8C5400",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "PTSans, sans-serif",
-            fontWeight: "bold",
+            fontFamily: "sans-serif",
+            fontWeight: "0",
             wordWrap: true
         }),
         
