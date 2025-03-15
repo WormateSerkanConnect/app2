@@ -262,7 +262,7 @@ const ctx = {
         
         anheadshot: new PIXI.TextStyle({
             align: "center",
-            fill: "#8C5400,
+            fill: "#8C5400",
             fontSize: 0,
             lineJoin: "round",
             stroke: "#8C5400",
