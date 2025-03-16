@@ -4634,10 +4634,10 @@ else {
                        
                         
                          $("#final-continue").html(`
-                         <div id="final-continue1">Devam(Ana Sayfa)</div>
+                         <div id="final-continue1">Continue(Home)</div>
                          `);
                          
-                       $("#final-continue").after("<div id='final-replay'>Tekrar BaÅŸla !</div>");
+                          $("#final-continue").after("<div id='final-replay'>Replay</div>");
                          
                          
                         
