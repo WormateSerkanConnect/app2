@@ -363,7 +363,6 @@ ctx.label_kill = new PIXI.Text("KL", ctx.fontStyle.morado);
 ctx.value1_kill = new PIXI.Text("0", ctx.fontStyle.morado);
 
 
-
 if(theoKzObjects.ModeStremersaveheadshot){
                   ctx.value2_hs = new PIXI.Text("", ctx.fontStyle.amarillo1);  
 ctx.value2_kill = new PIXI.Text("", ctx.fontStyle.morado1);      
