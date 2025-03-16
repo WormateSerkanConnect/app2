@@ -247,7 +247,7 @@ const ctx = {
             fontSize: 12,
             lineJoin: "round",
             stroke: "#EFFA45",
-            fontFamily: "PTSans, sans-serif",
+            fontFamily: "wftyildofont",
             fontWeight: "bold"
 
         }),
@@ -264,64 +264,64 @@ const ctx = {
         }),
         morado: new PIXI.TextStyle({
             align: "center",
-            fill: "#B37400",
-            fontSize: 8,
+            fill: "#FFFF00",
+            fontSize: 10,
             lineJoin: "round",
-            stroke: "#B37400",
+            stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "sans-serif",
-            fontWeight: "0",
+            fontFamily: "wftyildofont",
+            fontWeight: "bold",
             wordWrap: true
         }),
         morado1: new PIXI.TextStyle({
             align: "center",
-            fill: "#FFFFFF",
-            fontSize: 7,
+            fill: "#FFF",
+            fontSize: 10,
             lineJoin: "round",
-            stroke: "#FFFFFF",
+            stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "sans-serif",
-            fontWeight: "0",
+            fontFamily: "wftyildofont",
+            fontWeight: "bold",
             wordWrap: true
         }),
         amarillo: new PIXI.TextStyle({
             align: "center",
-            fill: "#B37400",
-            fontSize: 8,
+            fill: "#FFFF00",
+            fontSize: 10,
             lineJoin: "round",
-            stroke: "#8C5400",
+            stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "sans-serif",
-            fontWeight: "0",
+            fontFamily: "wftyildofont",
+            fontWeight: "bold",
             wordWrap: true
         }),
         amarillo1: new PIXI.TextStyle({
             align: "center",
-            fill: "#FFFFFF",
-            fontSize: 7,
+            fill: "#FFF",
+            fontSize: 10,
             lineJoin: "round",
-            stroke: "#FFFFFF",
+            stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "sans-serif",
-            fontWeight: "0",
+            fontFamily: "wftyildofont",
+            fontWeight: "bold",
             wordWrap: true
         }),
         
         
         anheadshot: new PIXI.TextStyle({
             align: "center",
-            fill: "#8C5400",
+            fill: "#FFF",
             fontSize: 0,
             lineJoin: "round",
-            stroke: "#8C5400",
+            stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "sans-serif",
-            fontWeight: "0",
+            fontFamily: "wftyildofont",
+            fontWeight: "bold",
             wordWrap: true
         }),
         
@@ -334,24 +334,83 @@ const ctx = {
             strokeThickness: 1,
             whiteSpace: "normal",
             fontWeight: "bold",
-            fontFamily: "PTSans, sans-serif",
+            fontFamily: "wftyildofont",
             wordWrap: true
         }),
     }
 };
-ctx.clock = PIXI.Sprite.fromImage("https://asserts.wormworld.io/images/clock.png");
+
+// Saat gÃ¶rÃ¼ntÃ¼sÃ¼nÃ¼ ekleyelim
+ctx.clock = PIXI.Sprite.from("https://i.imgur.com/v6szE9c.png");
 ctx.clock.width = 100;
 ctx.clock.height = 100;
 ctx.clock.x = -50;
 ctx.clock.y = -50;
 
-
-
-
-/*server name */
-ctx.value_server = new PIXI.Text("W-SEKO", ctx.fontStyle.name);
+// **Server AdÄ±**
+ctx.value_server = new PIXI.Text("WFT", ctx.fontStyle.name);
 ctx.value_server.x = 25;
 ctx.value_server.y = -18;
+
+
+
+//---------------------------------------------------------
+
+
+
+// Yeni TOPHS BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
+ctx.value_tophs = new PIXI.Text("--HIGH SCORE--", ctx.fontStyle.name);
+ctx.value_tophs.x = 20;
+ctx.value_tophs.y = 150;
+ctx.value_tophs.style.fontSize = 10; // KÃ¼Ã§Ã¼k font boyutu
+ctx.value_tophs.style.fill = "#FFFFFF"; // Beyaz renk
+
+//----------------------------------------------------------
+// Yeni 1. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
+ctx.value_top1 = new PIXI.Text("1. UNALğŸ’«Tâ˜ª áµ€á´±á´¬á´¹ (94.48M)", ctx.fontStyle.name);
+ctx.value_top1.x = 12;
+ctx.value_top1.y = 170;
+ctx.value_top1.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
+ctx.value_top1.style.fill = "#FFFFFF"; // Beyaz renk
+
+//----------------------------------------------------------
+// Yeni 2. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
+ctx.value_top2 = new PIXI.Text("2. LIVE ğŸ›‘ MUHTAR (42.54M)", ctx.fontStyle.name);
+ctx.value_top2.x = 12;
+ctx.value_top2.y = 185;
+ctx.value_top2.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
+ctx.value_top2.style.fill = "#FFFFFF"; // Beyaz renk
+
+//----------------------------------------------------------
+// Yeni 3. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
+ctx.value_top3 = new PIXI.Text("3. YT ğŸ›‘ LIVE 52 BUZ (38.91M)", ctx.fontStyle.name);
+ctx.value_top3.x = 12;
+ctx.value_top3.y = 200;
+ctx.value_top3.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
+ctx.value_top3.style.fill = "#FFFFFF"; // Beyaz renk
+
+//----------------------------------------------------------
+// Yeni 4. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
+ctx.value_top4 = new PIXI.Text("4. ARZU.GAMINGğŸ’«Tâ˜ª áµ€á´±á´¬á´¹ (31.20M)", ctx.fontStyle.name);
+ctx.value_top4.x = 12;
+ctx.value_top4.y = 215;
+ctx.value_top4.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
+ctx.value_top4.style.fill = "#FFFFFF"; // Beyaz renk
+
+//----------------------------------------------------------
+// Yeni 5. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
+ctx.value_top5 = new PIXI.Text("5. â˜¾â˜†KRDNZâ˜¾â˜† (16.34M)", ctx.fontStyle.name);
+ctx.value_top5.x = 12;
+ctx.value_top5.y = 230;
+ctx.value_top5.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
+ctx.value_top5.style.fill = "#FFFFFF"; // Beyaz renk
+
+
+
+
+//---------------------------------------------------------
+
+
 
 
 
