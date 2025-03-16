@@ -237,6 +237,7 @@ loadServers();
     
 
 
+
 $(".store-view-cont").append('<div id="idReplaceSkin"></div>');
 var StoreSkinID = $("#idReplaceSkin");
 const ctx = {
@@ -246,7 +247,7 @@ const ctx = {
             fontSize: 12,
             lineJoin: "round",
             stroke: "#EFFA45",
-            fontFamily: "PTSans, sans-serif",
+            fontFamily: "sans-serif",
             fontWeight: "bold"
 
         }),
@@ -263,64 +264,64 @@ const ctx = {
         }),
         morado: new PIXI.TextStyle({
             align: "center",
-            fill: "#B37400",
-            fontSize: 8,
+            fill: "#FFFF00",
+            fontSize: 10,
             lineJoin: "round",
-            stroke: "#B37400",
+            stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
             fontFamily: "sans-serif",
-            fontWeight: "0",
+            fontWeight: "bold",
             wordWrap: true
         }),
         morado1: new PIXI.TextStyle({
             align: "center",
-            fill: "#FFFFFF",
-            fontSize: 7,
+            fill: "#FFF",
+            fontSize: 10,
             lineJoin: "round",
-            stroke: "#FFFFFF",
+            stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
             fontFamily: "sans-serif",
-            fontWeight: "0",
+            fontWeight: "bold",
             wordWrap: true
         }),
         amarillo: new PIXI.TextStyle({
             align: "center",
-            fill: "#B37400",
-            fontSize: 8,
+            fill: "#FFFF00",
+            fontSize: 10,
             lineJoin: "round",
-            stroke: "#8C5400",
+            stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
             fontFamily: "sans-serif",
-            fontWeight: "0",
+            fontWeight: "bold",
             wordWrap: true
         }),
         amarillo1: new PIXI.TextStyle({
             align: "center",
-            fill: "#FFFFFF",
-            fontSize: 7,
+            fill: "#FFF",
+            fontSize: 10,
             lineJoin: "round",
-            stroke: "#FFFFFF",
+            stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
             fontFamily: "sans-serif",
-            fontWeight: "0",
+            fontWeight: "bold",
             wordWrap: true
         }),
         
         
         anheadshot: new PIXI.TextStyle({
             align: "center",
-            fill: "#8C5400",
+            fill: "#FFF",
             fontSize: 0,
             lineJoin: "round",
-            stroke: "#8C5400",
+            stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
             fontFamily: "sans-serif",
-            fontWeight: "0",
+            fontWeight: "bold",
             wordWrap: true
         }),
         
@@ -333,13 +334,13 @@ const ctx = {
             strokeThickness: 1,
             whiteSpace: "normal",
             fontWeight: "bold",
-            fontFamily: "PTSans, sans-serif",
+            fontFamily: "sans-serif",
             wordWrap: true
         }),
     }
 };
 // Saat gÃ¶rÃ¼ntÃ¼sÃ¼nÃ¼ ekleyelim
-ctx.clock = PIXI.Sprite.from("https://asserts.wormworld.io/images/clock.png");
+ctx.clock = PIXI.Sprite.from("https://haylamday.com/css/img/clock.png");
 ctx.clock.width = 100;
 ctx.clock.height = 100;
 ctx.clock.x = -50;
