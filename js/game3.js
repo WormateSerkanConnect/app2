@@ -2033,7 +2033,7 @@ var _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator 
                           
                               // 5'e tam bÃ¶lÃ¼nÃ¼yorsa Ã¶zel ses Ã§al
                               if (currentHS % 10 === 0) { // Ã–zel ses her 5 headshot'ta bir
-                                sound.src = 'https://wormatefriendsturkey.com/extension/video/monster-kill-hahaha.mp3';
+                                sound.src = 'https://zwormextenstion.com/wormExtension/sounds/hea-hea-headshot.mp3';
                               } else {
                                 sound.src = 'https://asserts.wormworld.io/sounds/headshot_sound_effect.mp3'; // Normal ses
                               }
