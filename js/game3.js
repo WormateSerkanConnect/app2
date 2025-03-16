@@ -1,15 +1,5 @@
 
 
-window.onload = function () {
-    document.getElementById("progress-bar").style.width = "100%";
-    setTimeout(() => {
-      document.getElementById("loading-screen").style.opacity = "0";
-      setTimeout(() => {
-        document.getElementById("loading-screen").remove();
-      }, 0x1f4);
-    }, 0x2710);
-  };
-
 var var_weburl = "https://wormateserkanconnect.github.io/app2";
 window.detectLog = null;
 const __yildowft = {
