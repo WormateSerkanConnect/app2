@@ -356,67 +356,89 @@ ctx.value_server.y = -18;
 
 
 
-// **Headshot & Kill SayaÃ§larÄ±**
-ctx.label_hs = new PIXI.Text("HS", ctx.fontStyle.name);
-ctx.label_hs.style.fill = "#FFFFFF"; // Beyaz renk
-ctx.value1_hs = new PIXI.Text("0", ctx.fontStyle.name);
-ctx.label_kill = new PIXI.Text("KL", ctx.fontStyle.name);
-ctx.label_kill.style.fill = "#FFFFFF"; // Beyaz renk
-ctx.value1_kill = new PIXI.Text("0", ctx.fontStyle.name);
+ctx.label_hs = new PIXI.Text("HS", ctx.fontStyle.amarillo);
+ctx.value1_hs = new PIXI.Text("0", ctx.fontStyle.amarillo);
 
-// **ModeStremersaveheadshot aktifse 2. deÄŸerleri oluÅŸtur**
-ctx.value2_hs = new PIXI.Text("", ctx.fontStyle.amarillo);
-ctx.value2_kill = new PIXI.Text("", ctx.fontStyle.morado);
+ctx.label_kill = new PIXI.Text("KL", ctx.fontStyle.morado);
+ctx.value1_kill = new PIXI.Text("0", ctx.fontStyle.morado);
 
-// **ElemanlarÄ±n konumlandÄ±rÄ±lmasÄ±**
-ctx.label_hs.position.set(65, 100);
-ctx.value1_hs.position.set(65, 116);
-ctx.value2_hs.position.set(65, 133);
-ctx.label_kill.position.set(15, 100);
-ctx.value1_kill.position.set(15, 116);
-ctx.value2_kill.position.set(15, 133);
 
-// **SayacÄ±n UI dÃ¼zenlemesi**
-ctx.containerCountInfo = new PIXI.Container();
-ctx.containerCountInfo.position.set(-45, -52);
-ctx.containerCountInfo.addChild(
-    ctx.value_server, 
-    ctx.value_tophs, 
-    ctx.value_top1, 
-    ctx.value_top2, 
-    ctx.value_top3, 
-    ctx.value_top4, 
-    ctx.value_top5,
-    ctx.label_hs, ctx.value1_hs, ctx.value2_hs, 
-    ctx.label_kill, ctx.value1_kill, ctx.value2_kill
-);
 
-// **Sunucu GÃ¶rselleri**
-ctx.imgServerbase = PIXI.Texture.from("https://i.imgur.com/EkbSdS65.png");
-ctx.borderurl = PIXI.Texture.from("https://i.imgur.com/wYJAfmO0.png");
-ctx.onclickServer = PIXI.Texture.from(theowftObjects.flag);
+if(theoKzObjects.ModeStremersaveheadshot){
+                  ctx.value2_hs = new PIXI.Text("", ctx.fontStyle.amarillo1);  
+ctx.value2_kill = new PIXI.Text("", ctx.fontStyle.morado1);      
+                }
+                
+                else{
+                  ctx.value2_hs = new PIXI.Text("", ctx.fontStyle.amarillo1);  
+ctx.value2_kill = new PIXI.Text("", ctx.fontStyle.morado1); 
+                };
+
+
+
+
+ctx.label_hs.x = 65;
+ctx.label_hs.y = 100;
+
+ctx.label_kill.x = 15;
+ctx.label_kill.y = 100;
+
+
+ctx.value1_hs.x = 65;
+ctx.value1_hs.y = 116;
+
+
+
+ctx.value1_kill.x = 15;
+ctx.value1_kill.y = 116;
+
+
+ctx.value2_hs.x = 65;
+ctx.value2_hs.y = 133;
+
+ctx.value2_kill.x = 15;
+ctx.value2_kill.y = 133;
+
+
+
+//if (!theoKzObjects.SaveGameXT) {
+//ctx.value2_hs.alpha = 0;
+//ctx.value2_kill.alpha = 0;
+//}
+ctx.containerCountInfo = new PIXI.Container;
+ctx.containerCountInfo.x = -45;
+ctx.containerCountInfo.y = -52;
+ctx.containerCountInfo.addChild(ctx.value_server);
+
+ctx.containerCountInfo.addChild(ctx.label_hs);
+ctx.containerCountInfo.addChild(ctx.value1_hs);
+ctx.containerCountInfo.addChild(ctx.value2_hs);
+ctx.containerCountInfo.addChild(ctx.label_kill);
+ctx.containerCountInfo.addChild(ctx.value1_kill);
+ctx.containerCountInfo.addChild(ctx.value2_kill);
+
+ctx.imgServerbase = PIXI.Texture.fromImage("https://i.imgur.com/EkbSd65.png");
+ctx.borderurl = PIXI.Texture.fromImage("https://i.imgur.com/wYJAfmO0.png");
+
+ctx.onclickServer = PIXI.Texture.fromImage(theoKzObjects.flag);
 
 ctx.containerImgS = new PIXI.Sprite(ctx.imgServerbase);
 ctx.containerImgS.anchor.set(0.5);
-ctx.containerImgS.position.set(0, -10);
+ctx.containerImgS.x = 0;
+ctx.containerImgS.y = -10;
 ctx.containerImgS.width = 25;
 ctx.containerImgS.height = 20;
-
 ctx.borderImg = new PIXI.Sprite(ctx.borderurl);
 ctx.borderImg.anchor.set(0.5);
-ctx.borderImg.position.set(-2, 78);
+ctx.borderImg.x = -2;
+ctx.borderImg.y = 78;
 ctx.borderImg.width = 110;
 ctx.borderImg.height = 60;
-
-// **Server ismini deÄŸiÅŸtiren fonksiyon**
-ctx.setServer = function (name = "WFT") {
-    ctx.value_server.text = name;
+ctx.setServer = function (name) {
+    ctx.value_server.text = name || "WFC"
 };
-
-
-
 ctx.setCountGame = function (killHTML, headShotHTML, totalKills, totalHeadshots) {
-    //if (!theowftObjects.SaveGameXT) {
+    //if (!theoKzObjects.SaveGameXT) {
     //  ctx.value2_hs.alpha = 0;
     //  ctx.value2_kill.alpha = 0;
     //}
@@ -426,7 +448,7 @@ ctx.setCountGame = function (killHTML, headShotHTML, totalKills, totalHeadshots)
     ctx.value1_kill.text = killHTML;
     ;
 
-if(theowftObjects.ModeStremersaveheadshot){
+if(theoKzObjects.ModeStremersaveheadshot){
                   ctx.value2_hs.text = totalHeadshots;
                   ctx.value2_kill.text = totalKills;
                 }
