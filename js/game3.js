@@ -339,25 +339,40 @@ const ctx = {
         }),
     }
 };
-
-// Saat gÃ¶rÃ¼ntÃ¼sÃ¼nÃ¼ ekleyelim
-ctx.clock = PIXI.Sprite.from("https://asserts.wormworld.io/images/clock.png");
+ctx.clock = PIXI.Sprite.fromImage("https://asserts.wormworld.io/images/clock.png");
 ctx.clock.width = 100;
 ctx.clock.height = 100;
 ctx.clock.x = -50;
 ctx.clock.y = -50;
 
-// **Server AdÄ±**
+
+
+
+/*server name */
 ctx.value_server = new PIXI.Text("W-SEKO", ctx.fontStyle.name);
 ctx.value_server.x = 25;
 ctx.value_server.y = -18;
 
 
 
-//---------------------------------------------------------
+
+ctx.label_hs = new PIXI.Text("HS", ctx.fontStyle.amarillo);
+ctx.value1_hs = new PIXI.Text("0", ctx.fontStyle.amarillo);
+
+ctx.label_kill = new PIXI.Text("KL", ctx.fontStyle.morado);
+ctx.value1_kill = new PIXI.Text("0", ctx.fontStyle.morado);
 
 
 
+if(theoKzObjects.ModeStremersaveheadshot){
+                  ctx.value2_hs = new PIXI.Text("", ctx.fontStyle.amarillo1);  
+ctx.value2_kill = new PIXI.Text("", ctx.fontStyle.morado1);      
+                }
+                
+                else{
+                  ctx.value2_hs = new PIXI.Text("", ctx.fontStyle.amarillo1);  
+ctx.value2_kill = new PIXI.Text("", ctx.fontStyle.morado1); 
+                };
 
 
 
