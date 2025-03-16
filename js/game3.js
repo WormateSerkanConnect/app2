@@ -247,7 +247,7 @@ const ctx = {
             fontSize: 12,
             lineJoin: "round",
             stroke: "#EFFA45",
-            fontFamily: "sans-serif",
+            fontFamily: "PTSans, sans-serif",
             fontWeight: "bold"
 
         }),
@@ -264,64 +264,64 @@ const ctx = {
         }),
         morado: new PIXI.TextStyle({
             align: "center",
-            fill: "#FFFF00",
-            fontSize: 10,
+            fill: "#B37400",
+            fontSize: 8,
             lineJoin: "round",
-            stroke: "#FAA845",
+            stroke: "#B37400",
             strokeThickness: 1,
             whiteSpace: "normal",
             fontFamily: "sans-serif",
-            fontWeight: "bold",
+            fontWeight: "0",
             wordWrap: true
         }),
         morado1: new PIXI.TextStyle({
             align: "center",
-            fill: "#FFF",
-            fontSize: 10,
+            fill: "#FFFFFF",
+            fontSize: 7,
             lineJoin: "round",
-            stroke: "#FAA845",
+            stroke: "#FFFFFF",
             strokeThickness: 1,
             whiteSpace: "normal",
             fontFamily: "sans-serif",
-            fontWeight: "bold",
+            fontWeight: "0",
             wordWrap: true
         }),
         amarillo: new PIXI.TextStyle({
             align: "center",
-            fill: "#FFFF00",
-            fontSize: 10,
+            fill: "#B37400",
+            fontSize: 8,
             lineJoin: "round",
-            stroke: "#FAA845",
+            stroke: "#8C5400",
             strokeThickness: 1,
             whiteSpace: "normal",
             fontFamily: "sans-serif",
-            fontWeight: "bold",
+            fontWeight: "0",
             wordWrap: true
         }),
         amarillo1: new PIXI.TextStyle({
             align: "center",
-            fill: "#FFF",
-            fontSize: 10,
+            fill: "#FFFFFF",
+            fontSize: 7,
             lineJoin: "round",
-            stroke: "#FAA845",
+            stroke: "#FFFFFF",
             strokeThickness: 1,
             whiteSpace: "normal",
             fontFamily: "sans-serif",
-            fontWeight: "bold",
+            fontWeight: "0",
             wordWrap: true
         }),
         
         
         anheadshot: new PIXI.TextStyle({
             align: "center",
-            fill: "#FFF",
+            fill: "#8C5400",
             fontSize: 0,
             lineJoin: "round",
-            stroke: "#FAA845",
+            stroke: "#8C5400",
             strokeThickness: 1,
             whiteSpace: "normal",
             fontFamily: "sans-serif",
-            fontWeight: "bold",
+            fontWeight: "0",
             wordWrap: true
         }),
         
@@ -334,11 +334,10 @@ const ctx = {
             strokeThickness: 1,
             whiteSpace: "normal",
             fontWeight: "bold",
-            fontFamily: "sans-serif",
+            fontFamily: "PTSans, sans-serif",
             wordWrap: true
         }),
-    }
-};
+    
 
 // Saat gÃ¶rÃ¼ntÃ¼sÃ¼nÃ¼ ekleyelim
 ctx.clock = PIXI.Sprite.from("https://asserts.wormworld.io/images/clock.png");
