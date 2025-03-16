@@ -237,7 +237,6 @@ loadServers();
     
 
 
-
 $(".store-view-cont").append('<div id="idReplaceSkin"></div>');
 var StoreSkinID = $("#idReplaceSkin");
 const ctx = {
@@ -337,8 +336,8 @@ const ctx = {
             fontFamily: "PTSans, sans-serif",
             wordWrap: true
         }),
-    
-
+    }
+};
 // Saat gÃ¶rÃ¼ntÃ¼sÃ¼nÃ¼ ekleyelim
 ctx.clock = PIXI.Sprite.from("https://asserts.wormworld.io/images/clock.png");
 ctx.clock.width = 100;
