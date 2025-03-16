@@ -417,12 +417,12 @@ ctx.value_top5.style.fill = "#FFFFFF"; // Beyaz renk
 
 
 // **Headshot & Kill SayaÃ§larÄ±**
-ctx.label_hs = new PIXI.Text("HS", ctx.fontStyle.name);
-ctx.label_hs.style.fill = "#FFFFFF"; // Beyaz renk
-ctx.value1_hs = new PIXI.Text("0", ctx.fontStyle.name);
-ctx.label_kill = new PIXI.Text("KL", ctx.fontStyle.name);
-ctx.label_kill.style.fill = "#FFFFFF"; // Beyaz renk
-ctx.value1_kill = new PIXI.Text("0", ctx.fontStyle.name);
+ctx.label_hs = new PIXI.Text("HS", ctx.fontStyle.amarillo);
+ctx.value1_hs = new PIXI.Text("0", ctx.fontStyle.amarillo);
+
+ctx.label_kill = new PIXI.Text("KL", ctx.fontStyle.morado);
+ctx.value1_kill = new PIXI.Text("0", ctx.fontStyle.morado);
+
 
 // **ModeStremersaveheadshot aktifse 2. deÄŸerleri oluÅŸtur**
 ctx.value2_hs = new PIXI.Text("", ctx.fontStyle.amarillo);
