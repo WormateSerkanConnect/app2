@@ -5818,7 +5818,7 @@ else {
                 
            ID : <input type="text" value="${theowftObjects.FB_UserID}" class="you-id" />
                 
-                <button class="you-id-copy" onclick="navigator.clipboard.writeText('${theowftObjects.FB_UserID}').then(()=> alert('You ID ${theowftObjects.FB_UserID}  kopyalandÄ±!'));">Kopyala</button>
+                <button class="you-id-copy" onclick="navigator.clipboard.writeText('${theowftObjects.FB_UserID}').then(()=> alert('You ID ${theowftObjects.FB_UserID}  Copied!'));">Copy</button>
                 </div>   
                 
                
@@ -5880,11 +5880,11 @@ else {
     <tbody>
         <tr>
             <td>
-            <div class="spancursor"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#ff8f00;font-size: 25px;"></i> Mouse SeÃ§enekleri</div>
+            <div class="spancursor"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#ff8f00;font-size: 25px;"></i> Select Cursor</div>
                     <div class="cursor-container"><div id="default-cursor-btn"><img style="margin-top: -45px; margin-right: 60px; float: right; width: 25px; height: 28px;" class="img" alt="Imgur-Upload" src="https://i.imgur.com/rI522o3.png"></div></div>
             </td>
             <td>
-            <div class="spancursor"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#ff8f00;font-size: 25px;"></i> Arka Plan SeÃ§enekleri</div>
+            <div class="spancursor"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#ff8f00;font-size: 25px;"></i> Select Background</div>
                     <div class="background-container"></div>
             </td>
         </tr>
@@ -6321,7 +6321,7 @@ function applyGraphicsSettings(level, button) {
                           border-radius: 10px;
                           border: solid #fac 2px;
                         " 
-                        id="getskin">ğŸ”Skins</button>
+                        id="getskin">🔐Skins</button>
                     </div>
                   `);
                 
