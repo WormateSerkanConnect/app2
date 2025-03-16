@@ -2048,7 +2048,7 @@ var _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator 
                           }       
 
 
-    var backgroundSprite_1 = error("Headshot ğŸ”¥ ", true);
+    var backgroundSprite_1 = error("HeAdShot 🔥 ! ", true);
     this.addChild(backgroundSprite_1);
     this.Pe.push(backgroundSprite_1);
 
@@ -2063,7 +2063,7 @@ var _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator 
 
 
 else {
-    var backgroundSprite_1 = error("ğŸŒŸ Well Done !", false);
+    var backgroundSprite_1 = error("Well Done !🔪", false);
                         this.addChild(backgroundSprite_1);
                         this.Pe.push(backgroundSprite_1);
                         if (backgroundSprite_1) {
@@ -2475,9 +2475,9 @@ else {
                             if (this >= 1e9) { // 1 milyar ve Ã¼zeri
                                 return (this / 1e9).toFixed(1) + "BğŸ©";
                             } else if (this >= 1e6) { // 1 milyon ve Ã¼zeri
-                                return (this / 1e6).toFixed(1) + "MğŸ§";
+                                return (this / 1e6).toFixed(1) + "M🎂";
                             } else if (this >= 1e3) { // 1.000 ve Ã¼zeri
-                                return (this / 1e3).toFixed(0) + "kğŸ¬";
+                                return (this / 1e3).toFixed(0) + "k🍬";
                             } else {
                                 return this.dotFormat();
                             }
@@ -5755,37 +5755,37 @@ else {
          <div id="zoom-in">+</div>
          </div>
         <div class="worm_3">x.<span id="zoom-percentage"></span></div>
-        <div class="worm_2">
-        <button id="settingBtn"><img src="https://i.imgur.com/bKAe6W9.png"/></button>
+        <<div class="worm_2">
+        <button id="settingBtn"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:white;font-size: 23px;"></i></button>
+        
         <div id="settingContent">
         
         
-        <div class="container1">
-                    <span class="settings_span">Solucan GÃ¶rÃ¼nÃ¼m: </span>
-                    <input id="smoothCamera" class="range" type="range" min="0.3" max="0.6" value="' + theowftObjects.smoothCamera + '" step="0.1" onmousemove="smoothCameraValue.value=value" />
+        <<div class="container1">
+                    <span class="settings_span">Spin-Fast: </span>
+                    <input id="smoothCamera" class="range" type="range" min="0.3" max="0.6" value="' + theoKzObjects.smoothCamera + '" step="0.1" onmousemove="smoothCameraValue.value=value" />
         </div>         
         
         <div class="container1">
-        <span class="settings_span">Ä°tem BoyutlarÄ±: </span>
-        <input id="PortionSize" class="range" type="range" min="1" max="6" value="' + theowftObjects.PortionSize + '" step="1" onmousemove="rangevalue1.value=value" />
+        <span class="settings_span">Power-ups-Size: </span>
+        <input id="PortionSize" class="range" type="range" min="1" max="6" value="' + theoKzObjects.PortionSize + '" step="1" onmousemove="rangevalue1.value=value" />
         </div>
         
       <div class="container1">
-      <span class="settings_span">Ä°tem AyarlarÄ± Ã‡emberi: </span>
-      <input id="PortionAura" class="range" type="range" min="1.2" max="3.2" value="' + theowftObjects.PortionAura + '" step="0.2" onmousemove="PortionAuravalue.value=value" />
+      <span class="settings_span">Power-ups-Aura: </span>
+      <input id="PortionAura" class="range" type="range" min="1.2" max="3.2" value="' + theoKzObjects.PortionAura + '" step="0.2" onmousemove="PortionAuravalue.value=value" />
       </div>
        
       <div class="container1">
-                    <span class="settings_span">MamalarÄ±n Boyutu: </span>
-                    <input id="FoodSize" class="range" type="range" min="0.5" max="3" value="' + theowftObjects.FoodSize + '" step="0.5" onmousemove="rangevalue2.value=value" />
+                    <span class="settings_span">Food-Size: </span>
+                    <input id="FoodSize" class="range" type="range" min="0.5" max="3" value="' + theoKzObjects.FoodSize + '" step="0.5" onmousemove="rangevalue2.value=value" />
                     </div>
                     <div class="container1">
-                    <span class="settings_span">Mama Efektleri: </span>
-                    <input id="FoodShadow" class="range" type="range" min="0.5" max="3" value="' + theowftObjects.FoodShadow + '" step="0.5" onmousemove="FoodShadowvalue.value=value" />
+                    <span class="settings_span">Food-Shadow: </span>
+                    <input id="FoodShadow" class="range" type="range" min="0.5" max="3" value="' + theoKzObjects.FoodShadow + '" step="0.5" onmousemove="FoodShadowvalue.value=value" />
                     </div>
     </div>
     </div>`;
-
 
         $('#game-view').append(htmlCont);
 
@@ -5829,21 +5829,21 @@ else {
         <tr>
             <td>
             <div class="settings-lineZoom">
-                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> Yetenekli Lut Topla :</span>
+                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> Ability EatingSpeed :</span>
                     <input class="settings-switchZoom" id="settings-Abilityzoom-switch" type="checkbox"/>
                     <label for="settings-Abilityzoom-switch"></label>
                     </div>
             </td>
             <td>
             <div class="settings-lineZoom">
-                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> YayÄ±ncÄ± Modu :</span>
+                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> Modo Streamer :</span>
                     <input class="settings-switchZoom" id="settings-stremingmode-switch" type="checkbox"/>
                     <label for="settings-stremingmode-switch"></label>
                     </div>
             </td>
             <td>
             <div class="settings-lineZoom">
-                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> Toplam HS-KL Kaydet : </span>
+                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> Total Kill : </span>
                     <input class="settings-switchZoom" id="settings-stremingmodesaveheadshot-switch" type="checkbox"/>
                     <label for="settings-stremingmodesaveheadshot-switch"></label>
                     </div>
@@ -5859,14 +5859,14 @@ else {
             </td>
             <td>
             <div class="settings-lineZoom">
-                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> Emoji Kapat :</span>
+                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> Off Emoj :</span>
                     <input class="settings-switchZoom" id="settings-stremingmodeemoj-switch" type="checkbox"/>
                     <label for="settings-stremingmodeemoj-switch"></label>
                     </div>
             </td>
             <td>
             <div class="settings-lineZoom">
-                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> Headshot sesini kapat :</span>
+                    <span class="settings-labelZoom"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color: #0d7aef; font-size: 22px;"></i> Off Sounds Headshot :</span>
                     <input class="settings-switchZoom" id="settings-stremingmodeheadshot-switch" type="checkbox"/>
                     <label for="settings-stremingmodeheadshot-switch"></label>
                     </div>
