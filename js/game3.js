@@ -5998,6 +5998,7 @@ function applyGraphicsSettings(level, button) {
                 localStorage.ComidaShadow = theowftObjects.FoodShadow;
             });
 
+
             $("#mm-advice-cont").html(`
             
             
@@ -6005,16 +6006,37 @@ function applyGraphicsSettings(level, button) {
             <div class="vietnam" style="display: grid !important; grid-template-columns: 1fr 1fr 1fr;gap: 8.5px;">
             
             
-    <input type="button" value="T.EKRAN" class="fullscreen_button">
-    
-    <input type="button" value="TEKRAR" id="hoisinh" class="fullscreen_respawn">
-    
-    <input type="button" value="Ä°LETÄ°ÅÄ°M" onclick="window.location.href='https://wa.me/905544655080'" class="fullscreen_contact">
-    </div>
+    <input type="button" value="F.SCREEN" class="fullscreen_button">
     
     
+    <input type="button" value="RESPAWN" id="hoisinh" class="fullscreen_respawn">
     
-    `);
+    <input type="button" value="CONTACT" onclick="window.location.href='https://api.whatsapp.com/send?phone=84924623650&text=Xin%20ch%C3%A0o!%20M%C3%ACnh%20%C4%91ang%20d%C3%B9ng%20Whatsapp'" class="fullscreen_contact">
+    </div> `);
+            
+            
+             $(".mm-merchant-cont").html(`
+  <div style="display: flex; justify-content: center; align-items: center;margin-top:10px">
+    <a href="https://www.youtube.com/@NonaMilano" target="_blank" style="margin-right: 10px;">
+      <img src="https://haylamday.com/images/hiep_img/nona.png" alt="nona" width="155">
+    </a>
+    <a href="https://thanhtoan.vuonghiep.com" target="_blank">
+      <img src="https://i.imgur.com/UptsCxV.png" alt="wfc" width="155">
+    </a>
+  </div>`);
+            $(document).ready(function () {
+                $(".fullscreen_button").on("click", function () {
+                    document.fullScreenElement && null !== document.fullScreenElement || !document.mozFullScreen && !document.webkitIsFullScreen ? document.documentElement.requestFullScreen ? document.documentElement.requestFullScreen() : document.documentElement.mozRequestFullScreen ? document.documentElement.mozRequestFullScreen() : document.documentElement.webkitRequestFullScreen && document.documentElement.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT) : document.cancelFullScreen ? document.cancelFullScreen() : document.mozCancelFullScreen ? document.mozCancelFullScreen() : document.webkitCancelFullScreen && document.webkitCancelFullScreen()
+                });
+            });
+
+            $("#hoisinh").click(function () {
+                    let _0x2de71d = hoisinhnhanh;
+                    if (_0x2de71d) {
+                        anApp.r.Hd();
+                        anApp.sa(_0x2de71d);
+                    }
+                });
             
             
 
@@ -6061,22 +6083,22 @@ function applyGraphicsSettings(level, button) {
             };
             
 
-            $('.description-text').replaceWith(`
+                  $('.description-text').replaceWith(`
   <div class="description-text">
             <div id="title"></div>
             <div class="description-text-test">
                 <ul style="margin-top: 5px;" class="ui-tabs-nav">
                     <li class="ui-tabs-tab ui-tab ui-tab-inactive0 ui-tab-active" style="margin: -5px">
                         <a href="javascript:void(0);" onclick="changeServer('peru')"> 
-                            <span class="flag br" value="https://i.imgur.com/OtgNl1Z.png">
-<div class="title-wormate-yildo-flag" style="position: absolute; top: 0; z-index: 1; width: 92%; margin-left: -2px;">
-    <img src="https://i.imgur.com/IIhj1yl.png" width="20" align="center" alt="">Wormate Friends Turkey
+                            <span class="flag br" value="https://i.imgur.com/KE9354e.png">
+<div class="title-wormate-SEKO-flag" style="position: absolute; top: 0; z-index: 7; width: 104%; margin-left: -9px;">
+    <img src="https://i.imgur.com/9McvcPK.png" width="20" align="center" alt="">Worm Seko
 </div>
                             </span> 
                         </a>
                     </li>
     <li class="ui-tabs-tab ui-tab ui-tab-inactive1" style="margin: -5px">
-      <a> <span class="flag mx" value="https://i.imgur.com/JMAvuFN.png"></span> </a>
+      <a> <span class="flag mx" value="https://i.imgur.com/Bs6X9dX.png"></span> </a>
     </li>
     <li class="ui-tabs-tab ui-tab ui-tab-inactive2" style="margin: -5px">
       <a> <span class="flag us" value="https://i.imgur.com/Jb2FF0y.png"></span> </a>
@@ -6088,7 +6110,7 @@ function applyGraphicsSettings(level, button) {
       <a> <span class="flag de" value="https://i.imgur.com/VgCH8iy.png"></span> </a>
     </li>
     <li class="ui-tabs-tab ui-tab ui-tab-inactive5" style="margin: -5px">
-      <a> <span class="flag fr" value="https://i.imgur.com/QuEjBr0.png"></span> </a>
+      <a> <span class="flag fr" value="https://i.imgur.com/dEMqfaP.png"></span> </a>
     </li>
     <li class="ui-tabs-tab ui-tab ui-tab-inactive6" style="margin: -5px">
       <a> <span class="flag sg" value="https://i.imgur.com/ErLcgXP.png"></span> </a>
@@ -6097,7 +6119,7 @@ function applyGraphicsSettings(level, button) {
       <a> <span class="flag jp" value="https://i.imgur.com/P2rYk1k.png"></span> </a>
     </li>
     <li class="ui-tabs-tab ui-tab ui-tab-inactive8" style="margin: -5px">
-      <a> <span class="flag au" value="https://i.imgur.com/12e0wp4.png"></span> </a>
+      <a> <span class="flag au" value="https://i.imgur.com/z4e82fQ.png"></span> </a>
     </li>
     <li class="ui-tabs-tab ui-tab ui-tab-inactive9" style="margin: -5px">
       <a> <span class="flag gb" value="https://i.imgur.com/8pQY6RW.png"></span> </a>
@@ -6281,7 +6303,7 @@ function applyGraphicsSettings(level, button) {
                 
                 
                     </div>
-                      <img src="https://i.imgur.com/ULMDeli.png" width="210" height="180" align="center" alt="">
+                      <img src="https://i.imgur.com/ULMDeli.png" width="259" height="208" align="center" alt="">
                   </div>
                 </div>
                 `);
