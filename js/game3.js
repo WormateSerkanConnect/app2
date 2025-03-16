@@ -340,7 +340,7 @@ const ctx = {
     }
 };
 // Saat gÃ¶rÃ¼ntÃ¼sÃ¼nÃ¼ ekleyelim
-ctx.clock = PIXI.Sprite.from("https://haylamday.com/css/img/clock.png");
+ctx.clock = PIXI.Sprite.from("https://i.imgur.com/v6szE9c.png");
 ctx.clock.width = 100;
 ctx.clock.height = 100;
 ctx.clock.x = -50;
