@@ -247,7 +247,7 @@ const ctx = {
             fontSize: 12,
             lineJoin: "round",
             stroke: "#EFFA45",
-            fontFamily: "wftyildofont",
+            fontFamily: "sans-serif",
             fontWeight: "bold"
 
         }),
@@ -270,7 +270,7 @@ const ctx = {
             stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "wftyildofont",
+            fontFamily: "sans-serif",
             fontWeight: "bold",
             wordWrap: true
         }),
@@ -282,7 +282,7 @@ const ctx = {
             stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "wftyildofont",
+            fontFamily: "sans-serif",
             fontWeight: "bold",
             wordWrap: true
         }),
@@ -294,7 +294,7 @@ const ctx = {
             stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "wftyildofont",
+            fontFamily: "sans-serif",
             fontWeight: "bold",
             wordWrap: true
         }),
@@ -306,7 +306,7 @@ const ctx = {
             stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "wftyildofont",
+            fontFamily: "sans-serif",
             fontWeight: "bold",
             wordWrap: true
         }),
@@ -320,7 +320,7 @@ const ctx = {
             stroke: "#FAA845",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "wftyildofont",
+            fontFamily: "sans-serif",
             fontWeight: "bold",
             wordWrap: true
         }),
@@ -334,7 +334,7 @@ const ctx = {
             strokeThickness: 1,
             whiteSpace: "normal",
             fontWeight: "bold",
-            fontFamily: "wftyildofont",
+            fontFamily: "sans-serif",
             wordWrap: true
         }),
     }
@@ -607,7 +607,7 @@ var _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator 
             "lineJoin": 'round',
             "whiteSpace": 'normal',
             "wordWrap": true,
-            "fontFamily": "wftyildofont",
+            "fontFamily": "sans-serif",
             "fontWeight": 'bold'
         });
         
@@ -2099,7 +2099,7 @@ else {
                     return extend(POGL.fc, function (p1__3354_SHARP_, yColor, i, canCreateDiscussions, n, isSlidingUp, s) {
                         POGL.fc.call(this, p1__3354_SHARP_, {
                             fill: yColor,
-                            fontFamily: "wftyildofont",
+                            fontFamily: "sans-serif",
                             fontSize: 36
                         });
                         this.anchor.set(.5);
@@ -2582,7 +2582,7 @@ else {
                         var extendedObject = extend(POGL.Zb, function () {
                             POGL.Zb.call(this);
                             this.eg = new POGL.fc("", {
-                                fontFamily: "wftyildofont",
+                                fontFamily: "sans-serif",
                                 fontSize: 8,
                                 fill: "white",
                                 fontWeight: "normal"
@@ -2591,7 +2591,7 @@ else {
                             this.eg.position.x = -5;
                             this.addChild(this.eg);
                             this.fg = new POGL.fc("", {
-                                fontFamily: "wftyildofont",
+                                fontFamily: "sans-serif",
                                 fontSize: 8,
                                 fill: "white",
                                 fontWeight: "normal"
@@ -2601,7 +2601,7 @@ else {
                             this.fg.position.x = 4;
                             this.addChild(this.fg);
                             this.gg = new POGL.fc("", {
-                                fontFamily: "wftyildofont",
+                                fontFamily: "sans-serif",
                                 fontSize: 8,
                                 fill: "white",
                                 fontWeight: "normal"
@@ -4010,7 +4010,7 @@ else {
                     this.Hb ? t || this.uj() : (null != this.pj && pixijs_removeFromParent(this.pj.Rf), null != this.qj && pixijs_removeFromParent(this.qj))
                 }, t.prototype.uj = function () {
                     var t = getApp();
-                    null == this.pj ? this.pj = new WormSpriteTree : pixijs_removeFromParent(this.pj.Rf), this.pj.hh(t.o.fb.af, t.p.Dc().ed(this.Mb.cg), t.p.Dc().dd(this.Mb.dg), t.p.Dc().fd(this.Mb.Bg), t.p.Dc().gd(this.Mb.Cg), t.p.Dc().hd(this.Mb.Dg), t.p.Dc().jd(this.Mb.Eg)), null == this.qj ? (this.qj = new WormLabelNode(""), this.qj.style.fontFamily = "wftyildofont", this.qj.anchor.set(.5)) : pixijs_removeFromParent(this.qj), this.qj.style.fontSize = 15, this.qj.style.fill = t.p.Dc().dd(this.Mb.dg)._c, this.qj.text = this.Mb.ad, this.oj.Qf(this.Mb.Lb, this.pj, this.qj)
+                    null == this.pj ? this.pj = new WormSpriteTree : pixijs_removeFromParent(this.pj.Rf), this.pj.hh(t.o.fb.af, t.p.Dc().ed(this.Mb.cg), t.p.Dc().dd(this.Mb.dg), t.p.Dc().fd(this.Mb.Bg), t.p.Dc().gd(this.Mb.Cg), t.p.Dc().hd(this.Mb.Dg), t.p.Dc().jd(this.Mb.Eg)), null == this.qj ? (this.qj = new WormLabelNode(""), this.qj.style.fontFamily = "sans-serif", this.qj.anchor.set(.5)) : pixijs_removeFromParent(this.qj), this.qj.style.fontSize = 15, this.qj.style.fill = t.p.Dc().dd(this.Mb.dg)._c, this.qj.text = this.Mb.ad, this.oj.Qf(this.Mb.Lb, this.pj, this.qj)
                 }, t.Config = function () {
                     function t() {
                         this.Lb = 0, this.cg = GameParams.TEAM_DEFAULT, this.dg = 0, this.Bg = 0, this.Cg = 0, this.Dg = 0, this.Eg = 0, this.ad = ""
