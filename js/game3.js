@@ -247,6 +247,7 @@ loadServers();
     
 
 
+
 $(".store-view-cont").append('<div id="idReplaceSkin"></div>');
 var StoreSkinID = $("#idReplaceSkin");
 const ctx = {
@@ -256,7 +257,7 @@ const ctx = {
             fontSize: 12,
             lineJoin: "round",
             stroke: "#EFFA45",
-            fontFamily: "wftyildofont",
+            fontFamily: "PTSans, sans-serif",
             fontWeight: "bold"
 
         }),
@@ -273,64 +274,64 @@ const ctx = {
         }),
         morado: new PIXI.TextStyle({
             align: "center",
-            fill: "#FFFF00",
-            fontSize: 10,
+            fill: "#B37400",
+            fontSize: 8,
             lineJoin: "round",
-            stroke: "#FAA845",
+            stroke: "#B37400",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "wftyildofont",
-            fontWeight: "bold",
+            fontFamily: "sans-serif",
+            fontWeight: "0",
             wordWrap: true
         }),
         morado1: new PIXI.TextStyle({
             align: "center",
-            fill: "#FFF",
-            fontSize: 10,
+            fill: "#FFFFFF",
+            fontSize: 7,
             lineJoin: "round",
-            stroke: "#FAA845",
+            stroke: "#FFFFFF",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "wftyildofont",
-            fontWeight: "bold",
+            fontFamily: "sans-serif",
+            fontWeight: "0",
             wordWrap: true
         }),
         amarillo: new PIXI.TextStyle({
             align: "center",
-            fill: "#FFFF00",
-            fontSize: 10,
+            fill: "#B37400",
+            fontSize: 8,
             lineJoin: "round",
-            stroke: "#FAA845",
+            stroke: "#8C5400",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "wftyildofont",
-            fontWeight: "bold",
+            fontFamily: "sans-serif",
+            fontWeight: "0",
             wordWrap: true
         }),
         amarillo1: new PIXI.TextStyle({
             align: "center",
-            fill: "#FFF",
-            fontSize: 10,
+            fill: "#FFFFFF",
+            fontSize: 7,
             lineJoin: "round",
-            stroke: "#FAA845",
+            stroke: "#FFFFFF",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "wftyildofont",
-            fontWeight: "bold",
+            fontFamily: "sans-serif",
+            fontWeight: "0",
             wordWrap: true
         }),
         
         
         anheadshot: new PIXI.TextStyle({
             align: "center",
-            fill: "#FFF",
+            fill: "#8C5400",
             fontSize: 0,
             lineJoin: "round",
-            stroke: "#FAA845",
+            stroke: "#8C5400",
             strokeThickness: 1,
             whiteSpace: "normal",
-            fontFamily: "wftyildofont",
-            fontWeight: "bold",
+            fontFamily: "sans-serif",
+            fontWeight: "0",
             wordWrap: true
         }),
         
@@ -343,77 +344,23 @@ const ctx = {
             strokeThickness: 1,
             whiteSpace: "normal",
             fontWeight: "bold",
-            fontFamily: "wftyildofont",
+            fontFamily: "PTSans, sans-serif",
             wordWrap: true
         }),
     }
 };
 
 // Saat gÃ¶rÃ¼ntÃ¼sÃ¼nÃ¼ ekleyelim
-ctx.clock = PIXI.Sprite.from("https://i.imgur.com/v6szE9c.png");
+ctx.clock = PIXI.Sprite.from("https://asserts.wormworld.io/images/clock.png");
 ctx.clock.width = 100;
 ctx.clock.height = 100;
 ctx.clock.x = -50;
 ctx.clock.y = -50;
 
 // **Server AdÄ±**
-ctx.value_server = new PIXI.Text("WFT", ctx.fontStyle.name);
+ctx.value_server = new PIXI.Text("W-SEKO", ctx.fontStyle.name);
 ctx.value_server.x = 25;
 ctx.value_server.y = -18;
-
-
-
-//---------------------------------------------------------
-
-
-
-// Yeni TOPHS BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_tophs = new PIXI.Text("--HIGH SCORE--", ctx.fontStyle.name);
-ctx.value_tophs.x = 20;
-ctx.value_tophs.y = 150;
-ctx.value_tophs.style.fontSize = 10; // KÃ¼Ã§Ã¼k font boyutu
-ctx.value_tophs.style.fill = "#FFFFFF"; // Beyaz renk
-
-//----------------------------------------------------------
-// Yeni 1. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top1 = new PIXI.Text("1. UNALğŸ’«Tâ˜ª áµ€á´±á´¬á´¹ (94.48M)", ctx.fontStyle.name);
-ctx.value_top1.x = 12;
-ctx.value_top1.y = 170;
-ctx.value_top1.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
-ctx.value_top1.style.fill = "#FFFFFF"; // Beyaz renk
-
-//----------------------------------------------------------
-// Yeni 2. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top2 = new PIXI.Text("2. LIVE ğŸ›‘ MUHTAR (42.54M)", ctx.fontStyle.name);
-ctx.value_top2.x = 12;
-ctx.value_top2.y = 185;
-ctx.value_top2.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
-ctx.value_top2.style.fill = "#FFFFFF"; // Beyaz renk
-
-//----------------------------------------------------------
-// Yeni 3. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top3 = new PIXI.Text("3. YT ğŸ›‘ LIVE 52 BUZ (38.91M)", ctx.fontStyle.name);
-ctx.value_top3.x = 12;
-ctx.value_top3.y = 200;
-ctx.value_top3.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
-ctx.value_top3.style.fill = "#FFFFFF"; // Beyaz renk
-
-//----------------------------------------------------------
-// Yeni 4. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top4 = new PIXI.Text("4. ARZU.GAMINGğŸ’«Tâ˜ª áµ€á´±á´¬á´¹ (31.20M)", ctx.fontStyle.name);
-ctx.value_top4.x = 12;
-ctx.value_top4.y = 215;
-ctx.value_top4.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
-ctx.value_top4.style.fill = "#FFFFFF"; // Beyaz renk
-
-//----------------------------------------------------------
-// Yeni 5. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top5 = new PIXI.Text("5. â˜¾â˜†KRDNZâ˜¾â˜† (16.34M)", ctx.fontStyle.name);
-ctx.value_top5.x = 12;
-ctx.value_top5.y = 230;
-ctx.value_top5.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
-ctx.value_top5.style.fill = "#FFFFFF"; // Beyaz renk
-
 
 
 
@@ -478,7 +425,7 @@ ctx.borderImg.width = 110;
 ctx.borderImg.height = 60;
 
 // **Server ismini deÄŸiÅŸtiren fonksiyon**
-ctx.setServer = function (name = "WFT") {
+ctx.setServer = function (name = "W-SEKO") {
     ctx.value_server.text = name;
 };
 
@@ -2368,7 +2315,7 @@ else {
                         circle.drawCircle(0, 0, this.Kf);
                         circle.endFill();
                         //circle.lineStyle(2, 0x00ff21);
-                        circle.lineStyle(1, 0xff0000);
+                        circle.lineStyle(2, 0xB37400);
                         circle.drawCircle(0, 0, this.Kf);
                         circle.moveTo(0, -this.Kf);
                         circle.lineTo(0, +this.Kf);
@@ -2379,10 +2326,10 @@ else {
                         this.Jf.zIndex = 2;
                         this.Jf.alpha = .9;
                         this.Jf.beginFill(0xff0000);
-                        this.Jf.drawCircle(0, 0, .08 * this.Kf);
+                        this.Jf.drawCircle(0, 0, .12 * this.Kf);
                         this.Jf.endFill();
                         this.Jf.lineStyle(1, "black");
-                        this.Jf.drawCircle(0, 0, .08 * this.Kf);
+                        this.Jf.drawCircle(0, 0, .12 * this.Kf);
                         this.Jf.endFill();
                         this.addChild(circle);
                         this.addChild(this.Sf);
@@ -5811,16 +5758,16 @@ else {
         var showServers = function () {
 
 
-            $('#mm-event-text').replaceWith('<div class="text-vnxx"><a href="https://www.wormatefriendsturkey.com">Åehr-i Ramazan</a></div>');
+            $('#mm-event-text').replaceWith('<div class="text-vnxx"><a href="###">Worm Seko 2025</a></div>');
 
 
 
             $('#mm-store').after(`<div id="mm-store" style="float: right;position: relative;margin-right: 10px;min-width: 140px;">
             <div style="margin: 0;" id="loa831pibur0w4gv">
             
-        <div onclick="openPopup()"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:yellow;font-size: 25px;"> </i> Ayarlar</div>
+        <div onclick="openPopup()"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:yellow;font-size: 25px;"> </i> Settings</div>
         <div id="popup" class="popup">
-        <div class="phdr1"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:yellow;font-size: 25px;"></i> Wormate Friends Ayarlar</div>
+        <div class="phdr1"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:yellow;font-size: 25px;"></i> Worm Seko Settings</div>
         <button class="close-button" onclick="closePopup()">Kapat</button>
         
                     <div id="kich-hoat">
@@ -6280,31 +6227,17 @@ function applyGraphicsSettings(level, button) {
 
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
                 <div style="margin: 0 auto; padding: 5px; color: #48ff00; border-radius: 8px; border: 2px solid #48ff00; max-width: 350px;" id="loa831pibur0w4gv">
-                  <div class="label" id="titleSetings" style="font-size: 18px; font-weight: bold; margin-bottom: 8px; text-align: center;">Genel Duyuru</div>
+                  <div class="label" id="titleSetings" style="font-size: 18px; font-weight: bold; margin-bottom: 8px; text-align: center;">Notification</div>
                 
                   <div class="bao-list1">
                     <div class="list1" style="font-size: 12px; font-family: Arial, sans-serif; margin-bottom: 8px; text-align: center;">
                       <i class="fa fa-calendar" aria-hidden="true" style="color: #48ff00; margin-right: 5px;"></i>
-                      <strong>GÃ¼ncelleme :</strong> 06/03/2025<br>
+                      <strong>Update :</strong> 06/03/2025<br>
                     </div>
                 
-                    <div class="list1" style="color: #48ff00; font-family: 'Verdana', sans-serif; font-size: 12px; line-height: 1.4;">
-                      <ul style="list-style: none; padding: 0; margin: 0;">
-                        <li style="margin-bottom: 4px;">
-                        <i class="fa fa-link" aria-hidden="true" style="margin-right: 8px;"></i>
-                        <a href="https://wormatefriendsturkey.com/highscore.html" style="color: #48ff00; text-decoration: none; font-weight: bold;"> HighScore List</a>
-                        </li> 
-                        <li style="margin-bottom: 4px;">
-                        <i class="fa fa-link" aria-hidden="true" style="margin-right: 8px;"></i>
-                        <a href="https://wormworld.io/skinlab/" style="color: #48ff00; text-decoration: none; font-weight: bold;"> SkinLab by WormWorld Â©</a>
-                        </li>                        
-                        <li style="margin-bottom: 4px;">
-                        <i class="fa fa-link" aria-hidden="true" style="margin-right: 8px;"></i>
-                        <a href="https://discord.gg/9ftyfcYU" style="color: #48ff00; text-decoration: none; font-weight: bold;">Discord KanalÄ±mÄ±za GÃ¶z AtÄ±n</a>
-                        </li>
-                      </ul>
+                
                     </div>
-                      <img src="https://wormatefriendsturkey.com/images/sait.png" width="210" height="180" align="center" alt="">
+                      <img src="https://i.imgur.com/ULMDeli.png" width="210" height="180" align="center" alt="">
                   </div>
                 </div>
                 `);
@@ -6987,7 +6920,7 @@ $('#default-cursor-btn').click(function () {
 $("#background-canvas").replaceWith(`
 
 
-    <canvas id="background-canvas" style="background-color: rgb(145, 73, 21); opacity: 0.65;"></canvas>
+    <canvas id="background-canvas" style="background-color: rgb(145 73 21 / 0%); opacity: 0.65;"></canvas>
     `);
    //Arka Plan kapattÄ±k.  //  <canvas id="background-canvas"></canvas>
  
