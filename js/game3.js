@@ -5812,7 +5812,7 @@ else {
         <div onclick="openPopup()"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:yellow;font-size: 25px;"> </i> Settings</div>
         <div id="popup" class="popup">
         <div class="phdr1"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:yellow;font-size: 25px;"></i> Worm Seko Settings</div>
-        <button class="close-button" onclick="closePopup()">Kapat</button>
+        <button class="close-button" onclick="closePopup()">Close</button>
         
                     <div id="kich-hoat">
                 
@@ -5896,8 +5896,8 @@ else {
             <!-- Ä°FRAME BURAYA EKLENDÄ° -->
 <div class="iframe-container" style="margin-top: -3px;">
     <div class="spancursor">
-        <i aria-hidden="true" class="fa fa-upload" style="color:#ff8f00; font-size: 25px; margin-right: 10px;"></i>
-        Ã‡Ã¶zÃ¼nÃ¼rlÃ¼k
+        <i aria-hidden="true" class="fa fa-cog fa-spin" style="color:#ff8f00; font-size: 25px; margin-right: 10px;"></i>
+        Resolution
     </div>
 <div id="graphics-settings">
     <button onclick="applyGraphicsSettings('low', this)">LOW</button>
