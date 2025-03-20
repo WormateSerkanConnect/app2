@@ -12317,15 +12317,15 @@
                 "25ypg_03_0"
             ],
             "glow": [
-                "a_white",
-                "a_white",
-                "a_white",
-                "a_white",
-                "a_white",
-                "a_white",
-                "a_white",
-                "a_white",
-                "a_white"
+                "a_azure",
+                "a_azure",
+                "a_azure",
+                "a_azure",
+                "a_azure",
+                "a_azure",
+                "a_azure",
+                "a_azure",
+                "a_azure"
             ]
         },
         {
@@ -18259,7 +18259,7 @@
         {
             "isCustom": true,
             "id": "WFC - Friends",
-            "img": "wfc.png",
+            "img": "wfctrio.png",
             "name": {
                 "en": "WFC - Friends"
             },
@@ -19577,7 +19577,7 @@
         },
         "25ypg_01": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/KlgGZIH.png"
+            "relativePath": "https:\/\/i.imgur.com\/RwajIjW.png"
         },
         "25ypg_02": {
             "custom": true,
@@ -19585,7 +19585,7 @@
         },
         "25ypg_03": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/0QSCgDC.png"
+            "relativePath": "https:\/\/i.imgur.com\/QXiSuu3.png"
         },
         "25ypg_04": {
             "custom": true,
@@ -21475,7 +21475,7 @@
         },
         "hat_951": {
             "custom": true,
-            "relativePath": "https:\/\/i.imgur.com\/moEwYJs.png",
+            "relativePath": "https:\/\/i.imgur.com\/ypbxVII.png",
             "batdau": "2029-02-27 03:03:21",
             "ketthuc": "2029-03-02 03:03:21"
         },
