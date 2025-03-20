@@ -193,10 +193,10 @@
         },
         {
             "id": 11,
-            "cliente_NOMBRE": "MAHMOUD",
-            "cliente_ID": "gg_100112240467616542939",
+            "cliente_NOMBRE": "skuba",
+            "cliente_ID": "gg_114367207896009727617",
             "Client_KeyAccecs": "XTPRIVATESKIN",
-            "cliente_DateExpired": "2025-04-30",
+            "cliente_DateExpired": "2025-12-30",
             "status": 1,
             "Client_VisibleSkin": "0000",
             "Client_VisibleSkin1": "0000",
