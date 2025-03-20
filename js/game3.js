@@ -347,7 +347,7 @@ ctx.clock.x = -50;
 ctx.clock.y = -50;
 
 // **Server AdÄ±**
-ctx.value_server = new PIXI.Text("W-SEKO", ctx.fontStyle.name);
+ctx.value_server = new PIXI.Text("WFTR.İO", ctx.fontStyle.name);
 ctx.value_server.x = 25;
 ctx.value_server.y = -18;
 
@@ -366,7 +366,7 @@ ctx.value_tophs.style.fill = "#FFFFFF"; // Beyaz renk
 
 //----------------------------------------------------------
 // Yeni 1. Oyuncu BaÅŸlÄ±ÄŸÄ±nÄ± Ekle
-ctx.value_top1 = new PIXI.Text("01. SEKO ( 10.M ) ", ctx.fontStyle.name);
+ctx.value_top1 = new PIXI.Text("01. PLATEN ( 10.M ) ", ctx.fontStyle.name);
 ctx.value_top1.x = 12;
 ctx.value_top1.y = 170;
 ctx.value_top1.style.fontSize = 8; // KÃ¼Ã§Ã¼k font boyutu
@@ -3738,7 +3738,7 @@ else {
                                 // If the new token is also expired, handle the error as needed
                                 autoLoginCount++;
                                 console.log("auto login attempt:", autoLoginCount);
-                                $("#login-view").html("<h2>Auto Login Google Wormate Friends Connect : " + autoLoginCount + "</h2>");
+                                $("#login-view").html("<h2>Auto Login Google Wormate Friends Türkiye.io : " + autoLoginCount + "</h2>");
                                 fetchNewToken();
                             } else {
                                 handleLoginResponse(opts);
@@ -5801,7 +5801,7 @@ else {
         var showServers = function () {
 
 
-            $('#mm-event-text').replaceWith('<div class="text-vnxx"><a href="###">Worm Seko 2025</a></div>');
+            $('#mm-event-text').replaceWith('<div class="text-vnxx"><a href="###">Ramadan Mubarak</a></div>');
 
 
 
@@ -5810,7 +5810,7 @@ else {
             
         <div onclick="openPopup()"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:yellow;font-size: 25px;"> </i> Settings</div>
         <div id="popup" class="popup">
-        <div class="phdr1"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:yellow;font-size: 25px;"></i> Worm Seko Settings</div>
+        <div class="phdr1"><i aria-hidden="true" class="fa fa-cog fa-spin" style="color:yellow;font-size: 25px;"></i> Player Settings</div>
         <button class="close-button" onclick="closePopup()">Close</button>
         
                     <div id="kich-hoat">
@@ -5904,7 +5904,7 @@ else {
     <button onclick="applyGraphicsSettings('high', this)">HİGHT</button>
 </div>
 
-<center><div class="hg"><a target="_blank" href="###">AktifleÅŸtir (Seko)</a></div></center>
+<center><div class="hg"><a target="_blank" href="###">Active (Platen)</a></div></center>
 
 
            
@@ -6091,7 +6091,7 @@ function applyGraphicsSettings(level, button) {
                         <a href="javascript:void(0);" onclick="changeServer('peru')"> 
                             <span class="flag br" value="https://i.imgur.com/KE9354e.png">
 <div class="title-wormate-SEKO-flag" style="position: absolute; top: 0; z-index: 7; width: 104%; margin-left: -9px;">
-    <img src="https://i.imgur.com/9McvcPK.png" width="20" align="center" alt="">Worm Seko
+    <img src="https://haylamday.com/images/hiep_img/logo.png" width="20" align="center" alt="">Wormate Friends Türkiye.io
 </div>
                             </span> 
                         </a>
@@ -6302,7 +6302,7 @@ function applyGraphicsSettings(level, button) {
                 
                 
                     </div>
-                      <img src="https://i.imgur.com/ULMDeli.png" width="259" height="208" align="center" alt="">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnab99rhKGuzw512Ex9ihSk-XTbUSehWbsbg&s" width="259" height="208" align="center" alt="">
                   </div>
                 </div>
                 `);
@@ -7014,10 +7014,10 @@ $("#background-canvas").replaceWith(`
 <a hreflang="es" href="/es/">EspaÃ±ol</a>
 </div></div>
             
-            <a class="link" hreflang="en" href="https://wormateserkanconnect.github.io/">Â© 2025 Worm Seko ©</a>
+            <a class="link" hreflang="en" href="https://wormateserkanconnect.github.io/"> © 2025 WormateFriendsTurkey.io ©</a>
             
             <a class="link" hreflang="en" href="https://skinlab.haylamday.com/">SkinLab by Wormate Friends Connect ©</a>
-          <a style="font-size: 17px;font-weight: 500;color: #ff0;"> Powered by Seko !</a>
+          <a style="font-size: 17px;font-weight: 500;color: #ff0;"> Powered by Platen !</a>
             </footer>
 
 
